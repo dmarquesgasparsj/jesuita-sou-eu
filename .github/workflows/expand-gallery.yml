@@ -1,0 +1,31 @@
+name: Preparar galeria de 40 figuras
+on:
+  push:
+    branches: [expand-gallery-40]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  prepare:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Preparar tratamento de imagens
+        run: npm install --no-save --package-lock=false sharp
+      - name: Importar os dez retratos e biografias
+        run: node scripts/import-ten-saints.cjs
+      - name: Atualizar recursos offline
+        run: node scripts/build-offline-manifest.cjs
+      - name: Verificar a aplicação
+        run: npm test
+      - name: Guardar a galeria verificada
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add dist scripts source-portraits package.json README.md INSTALAR.md PORTRAIT-SOURCES.md native/README.md
+          git commit -m 'Adicionar dez santos e beatos à galeria, com cinco línguas e modo offline'
+          git push origin HEAD:expand-gallery-40

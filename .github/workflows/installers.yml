@@ -1,0 +1,43 @@
+name: Compilar instalador Windows
+on:
+  push:
+    branches: [main]
+    paths: ['package.json', 'dist/**', 'native/windows/**', 'native/build.py', '.github/workflows/installers.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: windows-installer
+  cancel-in-progress: false
+jobs:
+  windows:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: native/windows/go.mod
+          cache: false
+      - name: Verificar aplicação
+        run: npm test
+      - name: Preparar NSIS e Pillow
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y nsis python3-pil
+      - name: Compilar instalador
+        run: python3 native/build.py --platform windows --output native/output
+      - name: Publicar versão
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERSION="$(node -p 'JSON.parse(require("fs").readFileSync("package.json")).version')"
+          cd native/output
+          sha256sum "O-jesuita-sou-eu-Setup-$VERSION.exe" > SHA256SUMS.txt
+          if ! gh release view "v$VERSION" >/dev/null 2>&1; then
+            gh release create "v$VERSION" --target "$GITHUB_SHA" --title "O jesuíta sou eu $VERSION — 40 santos e beatos" --notes-file ../../RELEASE-0.7.0.md
+          fi
+          gh release upload "v$VERSION" "O-jesuita-sou-eu-Setup-$VERSION.exe" SHA256SUMS.txt

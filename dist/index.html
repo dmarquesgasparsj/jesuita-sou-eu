@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#263d32">
+  <meta data-i18n-content="description" name="description" content="Uma fotografia, 30 histórias para descobrir. Encontra o teu sósia entre santos e beatos jesuítas e conhece a sua vida.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>O jesuíta sou eu — descobre o teu sósia</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/icon.svg">
+  <link rel="apple-touch-icon" href="./assets/icon-192.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./vendor/face-api.min.js" defer></script>
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#experiencia"><span data-i18n="skip">Saltar para a experiência</span></a>
+  <header class="site-header wrap">
+    <a class="brand" href="./" data-i18n-aria="homeLabel" aria-label="O jesuíta sou eu, início">
+      <img src="./assets/icon.svg" width="42" height="42" alt="">
+      <span data-i18n-html="brandHtml">O jesuíta <strong>sou eu.</strong></span>
+    </a>
+    <nav data-i18n-aria="navigation" aria-label="Navegação principal">
+      <a href="#galeria"><span data-i18n="galleryFaces">Os 30 rostos</span> <span aria-hidden="true">↗</span></a>
+      <button id="stand-open" class="quiet-button" type="button"><span data-i18n="prepareStand">Preparar o stand</span> <span class="status-dot" id="header-offline-dot" aria-hidden="true"></span></button>
+    </nav>
+    <div class="language-switch"><label for="language-select" data-i18n-aria="language" aria-label="Idioma"><svg viewBox="0 0 20 20" aria-hidden="true" fill="none"><circle cx="10" cy="10" r="7.5"/><ellipse cx="10" cy="10" rx="3.2" ry="7.5"/><path d="M2.7 7.5h14.6M2.7 12.5h14.6"/></svg><span class="sr-only" data-i18n="language">Idioma</span></label><select id="language-select" data-i18n-aria="language" aria-label="Idioma"><option value="pt" lang="pt-PT">Português</option><option value="es" lang="es">Español</option><option value="fr" lang="fr">Français</option><option value="en" lang="en">English</option><option value="ko" lang="ko">한국어</option></select></div>
+  </header>
+
+  <main>
+    <section class="hero wrap" id="experiencia" aria-labelledby="main-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="little-line"></span> <span data-i18n="heroEyebrow">30 rostos. 30 maneiras de servir.</span></p>
+        <h1 id="main-title" data-i18n-html="headlineHtml">O jesuíta<br>sou <em>eu.</em></h1>
+        <p class="hero-question"><span data-i18n="heroQuestion">Com que santo ou beato jesuíta te pareces?</span></p>
+        <p class="hero-description" data-i18n="heroDescription">Há histórias que começam com uma surpresa.<br class="desktop-break"> Tira uma fotografia e descobre um rosto<br class="desktop-break"> que te pode levar a conhecer uma vida.</p>
+        <ol class="journey" data-i18n-aria="howItWorks" aria-label="Como funciona">
+          <li><span>01</span> <span data-i18n="stepFrame">Enquadra</span></li><li><span>02</span> <span data-i18n="stepPhoto">Fotografa</span></li><li><span>03</span> <span data-i18n="stepDiscover">Descobre</span></li>
+        </ol>
+        <div class="hero-footnote"><span aria-hidden="true">✳</span><p data-i18n-html="heroNoteHtml">A semelhança é só o princípio.<br><strong>A história merece uma conversa.</strong></p></div>
+      </div>
+
+      <div class="photo-station" id="photo-station">
+        <div class="station-topline"><span><i class="small-dot" aria-hidden="true"></i> <span data-i18n="nextEncounter">O teu próximo encontro</span></span><span>01 / 03</span></div>
+        <div class="viewfinder" id="viewfinder">
+          <div class="welcome-art" id="welcome-art" aria-hidden="true"><div class="portrait-collage" id="portrait-collage"></div><span class="art-orbit"></span><span class="art-star">✳</span><span class="art-caption" data-i18n-html="artCaptionHtml">Talvez tenham<br>mais em comum<br>do que imaginas.</span></div>
+          <video id="camera" muted autoplay playsinline data-i18n-aria="cameraPreview" aria-label="Pré-visualização da câmara frontal" hidden></video>
+          <img id="photo-preview" data-i18n-alt="chosenPhoto" alt="A fotografia que escolheste" hidden>
+          <div class="face-guide" id="face-guide" hidden aria-hidden="true"><div class="guide-oval"></div><span><span data-i18n="faceGuide">O teu rosto, ao centro.</span></span></div>
+          <div class="countdown" id="countdown" hidden aria-live="assertive"></div>
+          <div class="processing-cover" id="processing-cover" hidden><span class="spinner" aria-hidden="true"></span><p id="processing-label" data-i18n="findingLookalike">A procurar o teu sósia…</p><small><span data-i18n="localComparison">A comparação acontece neste aparelho.</span></small></div>
+          <div class="viewfinder-badge" id="viewfinder-badge"><span aria-hidden="true">✦</span> <span data-i18n="photoDiscovery">Uma fotografia. Uma descoberta.</span></div>
+        </div>
+        <div class="station-controls">
+          <p class="station-message" id="station-message" data-i18n="welcomeMessage" role="status" aria-live="polite">Começa com uma fotografia tua.</p>
+          <button class="primary-button" id="camera-start" type="button"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M8 5.5 9.5 3h5L16 5.5h3.5A1.5 1.5 0 0 1 21 7v11a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 18V7a1.5 1.5 0 0 1 1.5-1.5H8Z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12.5" r="4" stroke="currentColor" stroke-width="1.5"/></svg><span><span data-i18n="openCamera">Abrir a câmara</span></span><span class="button-arrow" aria-hidden="true">↗</span></button>
+          <button class="primary-button" id="capture" type="button" hidden><span class="capture-dot" aria-hidden="true"></span> <span data-i18n="capture">Tirar fotografia</span> <span class="button-arrow" aria-hidden="true">→</span></button>
+          <button class="secondary-button" id="retry" type="button" hidden><span data-i18n="retryPhoto">Tentar outra fotografia</span></button>
+          <div class="alternative-actions"><button id="upload-button" class="text-button" type="button"><span data-i18n="choosePhoto">Escolher uma fotografia</span></button><button id="camera-flip" class="text-button" type="button" hidden><span data-i18n="flipCamera">Trocar de câmara</span></button><button id="camera-cancel" class="text-button" type="button" hidden><span data-i18n="cancel">Cancelar</span></button></div>
+          <input type="file" id="photo-file" accept="image/*" hidden>
+          <div id="camera-help" class="camera-help" hidden>
+            <p id="camera-help-status" data-i18n="cameraHelp" role="status">No Chrome ou Safari, permite a câmara nas definições do site. Também podes escolher uma fotografia.</p>
+            <div class="camera-help-actions"><a id="camera-open-separate" href="./" target="_blank" rel="noopener noreferrer" data-i18n="cameraOpenSeparate">Abrir o site à parte</a><button id="camera-copy-link" type="button" class="text-button" data-i18n="cameraCopyLink">Copiar ligação</button></div>
+            <input id="camera-link" type="text" readonly data-i18n-aria="cameraLinkLabel" aria-label="Ligação para abrir no navegador">
+          </div>
+          <p class="privacy-note"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 1.5 13 3.4V7c0 3-2 5.5-5 7-3-1.5-5-4-5-7V3.4L8 1.5Z" stroke="currentColor"/><path d="m5.7 7.6 1.5 1.5 3.1-3.4" stroke="currentColor"/></svg><span data-i18n="privacyNote">A tua fotografia fica neste aparelho e é apagada ao recomeçar.</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="results-section wrap" id="results" hidden aria-labelledby="result-title">
+      <div class="result-heading"><p class="eyebrow"><span data-i18n="resultEyebrow">O teu encontro de hoje</span></p><h2 id="result-title" data-i18n="resultTitle" tabindex="-1">Há um rosto próximo do teu.</h2><p><span data-i18n="resultDescription">Entre os retratos desta galeria, este foi o mais próximo.</span></p></div>
+      <div class="result-layout"><div class="photo-pair"><figure><img id="result-selfie" data-i18n-alt="yourPhoto" alt="A tua fotografia"><figcaption><span data-i18n="youToday">Tu, hoje.</span></figcaption></figure><span class="pair-symbol" aria-hidden="true">✳</span><figure><img id="result-portrait" alt=""><figcaption id="result-portrait-caption"></figcaption></figure></div><div class="result-story" id="result-story"></div></div>
+      <div class="other-matches"><p class="eyebrow"><span data-i18n="otherMatches">Outros dois rostos próximos</span></p><div id="other-matches"></div></div>
+      <div class="result-actions"><button class="primary-button" id="new-person" type="button"><span data-i18n="newPerson">Nova pessoa</span> <span aria-hidden="true">↗</span></button><p><span data-i18n="visualGame">Uma brincadeira de semelhança visual, a partir de retratos históricos.</span></p><p class="auto-reset-note" id="auto-reset-note" data-i18n="autoReset">Esta fotografia será apagada após 90 segundos de inatividade.</p></div>
+    </section>
+
+    <section class="gallery-section" id="galeria" aria-labelledby="gallery-title"><div class="wrap">
+      <div class="section-heading"><div><p class="eyebrow"><span data-i18n="galleryEyebrow">Uma pequena galeria. Grandes histórias.</span></p><h2 id="gallery-title" data-i18n="galleryTitle">Conhece os 30 rostos.</h2></div><p data-i18n-html="galleryDescriptionHtml">Peregrinos, estudantes, missionários.<br>Vidas diferentes, uma vontade de servir.</p></div>
+      <div class="gallery-grid" id="gallery-grid" aria-live="polite"><p><span data-i18n="galleryLoading">A preparar a galeria…</span></p></div>
+      <p class="gallery-note"><span data-i18n="galleryNote">30 santos e beatos jesuítas · Retratos com fontes e créditos disponíveis em cada ficha</span></p>
+    </div></section>
+  </main>
+
+  <footer class="wrap site-footer"><span class="footer-brand"><span data-i18n="brand">O jesuíta sou eu.</span></span><p data-i18n-html="footerHtml">Um rosto desperta a curiosidade.<br>Uma vida pode abrir um caminho.</p><button type="button" id="about-open" class="text-button"><span data-i18n="about">Sobre a experiência</span></button></footer>
+
+  <dialog id="biography-dialog" class="biography-dialog" data-i18n-aria="biographyDialogLabel" aria-label="História e retrato do santo ou beato"><button type="button" class="dialog-close" data-i18n-aria="closeBiography" aria-label="Fechar ficha">×</button><div id="biography-content"></div></dialog>
+  <dialog id="stand-dialog" class="stand-dialog"><button type="button" class="dialog-close" data-i18n-aria="closeStand" aria-label="Fechar preparação do stand">×</button><p class="eyebrow"><span data-i18n="beforeVisitors">Antes de receber as pessoas</span></p><h2><span data-i18n="standTitle">Preparar o stand.</span></h2><p class="dialog-intro"><span data-i18n="standIntro">Abre esta página com Internet no tablet que vais usar. Prepara os recursos e confirma o funcionamento antes do evento.</span></p><div class="readiness-list"><div><span><span data-i18n="statusGalleryLabel">Galeria de retratos</span></span><strong id="gallery-status" data-i18n="loading">A carregar</strong></div><div><span><span data-i18n="statusModelLabel">Comparação de rostos</span></span><strong id="model-status" data-i18n="notPrepared">Por preparar</strong></div><div><span><span data-i18n="statusOfflineLabel">Recursos para usar sem rede</span></span><strong id="offline-status" data-i18n="checking">A verificar</strong></div><div><span data-i18n="statusCameraLabel">Câmara</span><strong id="camera-status" data-i18n="notTested">Por experimentar</strong></div></div><p id="stand-summary" data-i18n="standInitial" class="stand-summary" role="status">A preparação é confirmada neste aparelho.</p><button type="button" class="primary-button" id="prepare-stand"><span id="prepare-label" data-i18n="prepareDevice">Preparar este aparelho</span> <span aria-hidden="true">↓</span></button><button type="button" class="secondary-button" id="demo-test"><span data-i18n="demoTest">Testar com um retrato da galeria</span></button><p class="stand-help"><span data-i18n="standTestHelp">Depois de preparado, desliga o Wi-Fi e os dados móveis, recarrega a página e faz uma fotografia. Repete o teste após bloquear e desbloquear o ecrã.</span></p><p class="stand-help"><span data-i18n="standStorageHelp">A fotografia e a comparação usam apenas a memória temporária. As imagens e os modelos da galeria ficam guardados para permitir o funcionamento sem rede.</span></p></dialog>
+  <dialog id="about-dialog" class="about-dialog"><button type="button" class="dialog-close" data-i18n-aria="closeAbout" aria-label="Fechar informação">×</button><p class="eyebrow"><span data-i18n="about">Sobre a experiência</span></p><h2><span data-i18n="aboutTitle">Um rosto é um começo.</span></h2><p><span data-i18n="aboutOne">Esta experiência compara a tua fotografia com 30 retratos de santos e beatos jesuítas. É uma proposta de descoberta e de conversa sobre as suas vidas.</span></p><p><span data-i18n="aboutTwo">O resultado depende dos traços representados em cada pintura, gravura, escultura ou fotografia histórica. Não é uma identificação da pessoa nem uma avaliação da sua personalidade, fé ou vocação.</span></p><p><span data-i18n="aboutThree">A fotografia é processada neste aparelho, não é enviada para um servidor e é apagada ao recomeçar ou após 90 segundos de inatividade no resultado. Não são pedidos nomes, contactos ou contas.</span></p><p><span data-i18n="aboutFour">O funcionamento no tablet do stand deve ser verificado antes do evento.</span></p><a class="source-link" href="https://www.jesuits.global/about-us/saints-and-blessed/" target="_blank" rel="noopener noreferrer"><span data-i18n="saintsLink">Conhecer os santos e beatos da Companhia de Jesus</span> ↗</a></dialog>
+  <canvas id="capture-canvas" hidden></canvas>
+  <noscript><p class="noscript"><span data-i18n="noScript">Ativa o JavaScript no navegador para usar a câmara e a comparação de rostos.</span></p></noscript>
+</body>
+</html>

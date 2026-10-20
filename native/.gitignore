@@ -1,0 +1,7 @@
+windows/web/
+build/
+output/
+*.jks
+*.p12
+*.keystore
+signing*.json

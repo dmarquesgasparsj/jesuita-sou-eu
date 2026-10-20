@@ -1,0 +1,1605 @@
+{
+  "inacio-loyola": {
+    "sources": [
+      "https://www.jesuits.global/spirituality/saint-ignatius/",
+      "https://jesuit.ie/who-are-the-jesuits/inspirational-jesuits/saint-ignatius-loyola/"
+    ],
+    "locales": {
+      "pt": {
+        "name": "Inácio de Loyola",
+        "theme": "Discernir o caminho",
+        "biography": [
+          "Inácio sonhava com uma vida de prestígio na corte. Ferido em Pamplona em 1521, leu sobre Jesus e os santos durante a convalescença. Essa experiência levou-o a repensar o seu futuro.",
+          "Desenvolveu os Exercícios Espirituais para ajudar outras pessoas a rezar e discernir. Com os seus companheiros, fundou a Companhia de Jesus em 1540, unindo a procura de Deus ao serviço dos outros."
+        ],
+        "question": "O que te ajuda a descobrir o próximo passo da tua vida?"
+      },
+      "es": {
+        "name": "Ignacio de Loyola",
+        "theme": "Discernir el camino",
+        "biography": [
+          "Ignacio soñaba con una vida de prestigio en la corte. Herido en Pamplona en 1521, leyó sobre Jesús y los santos durante su convalecencia. Aquella experiencia lo llevó a replantearse su futuro.",
+          "Desarrolló los Ejercicios Espirituales para ayudar a otras personas a rezar y discernir. Con sus compañeros, fundó la Compañía de Jesús en 1540, uniendo la búsqueda de Dios al servicio a los demás."
+        ],
+        "question": "¿Qué te ayuda a descubrir el siguiente paso de tu vida?"
+      },
+      "fr": {
+        "name": "Ignace de Loyola",
+        "theme": "Discerner son chemin",
+        "biography": [
+          "Ignace rêvait d’une vie prestigieuse à la cour. Blessé à Pampelune en 1521, il a lu la vie de Jésus et des saints pendant sa convalescence. Ces lectures ont transformé ses projets.",
+          "Il a élaboré les Exercices spirituels pour aider à prier et discerner. Avec ses compagnons, il a fondé la Compagnie de Jésus en 1540, unissant recherche de Dieu et service des autres."
+        ],
+        "question": "Qu’est-ce qui t’aide à découvrir la prochaine étape de ta vie ?"
+      },
+      "en": {
+        "name": "Ignatius of Loyola",
+        "theme": "Discerning your path",
+        "biography": [
+          "Ignatius dreamed of a prestigious life at court. Wounded at Pamplona in 1521, he read about Jesus and the saints while recovering. That experience led him to rethink the future he had imagined.",
+          "He developed the Spiritual Exercises to help others pray and discern. With his companions, he founded the Society of Jesus in 1540, bringing together the search for God and service to others."
+        ],
+        "question": "What helps you discover the next step in your life?"
+      },
+      "ko": {
+        "name": "로욜라의 이냐시오",
+        "theme": "삶의 길을 식별하기",
+        "biography": [
+          "이냐시오는 궁정에서 명예로운 삶을 살기를 꿈꾸었습니다. 1521년 팜플로나에서 다친 뒤 회복하는 동안 예수님과 성인들에 관한 책을 읽었습니다. 이 경험을 통해 자신이 꿈꾸던 미래를 다시 생각하게 되었습니다.",
+          "그는 다른 이들의 기도와 식별을 돕기 위해 『영신수련』을 발전시켰습니다. 1540년에는 동료들과 함께 예수회를 창립하여, 하느님을 찾는 삶과 이웃을 섬기는 삶을 하나로 이어 갔습니다."
+        ],
+        "question": "삶의 다음 걸음을 찾는 데 무엇이 도움이 되나요?"
+      }
+    }
+  },
+  "francisco-xavier": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/saint-francis-xavier/",
+      "https://www.jesuitsmidwest.org/stories/the-feast-of-st-francis-xavier-sj/"
+    ],
+    "locales": {
+      "pt": {
+        "name": "Francisco Xavier",
+        "theme": "Atravessar fronteiras",
+        "biography": [
+          "Francisco Xavier conheceu Inácio e Pedro Fabro enquanto estudava em Paris. O encontro com estes amigos transformou os seus projetos e levou-o a integrar o grupo que deu origem à Companhia de Jesus.",
+          "Partiu de Lisboa para a Índia em 1541 e chegou ao Japão em 1549. Anunciou o Evangelho, cuidou de doentes e procurou comunicar com pessoas de outras línguas, enfrentando viagens difíceis e muitos obstáculos."
+        ],
+        "question": "Que fronteira gostarias de atravessar para te aproximares dos outros?"
+      },
+      "es": {
+        "name": "Francisco Javier",
+        "theme": "Cruzar fronteras",
+        "biography": [
+          "Francisco Javier conoció a Ignacio y Pedro Fabro cuando estudiaba en París. La amistad con ellos transformó sus proyectos y lo llevó a formar parte del grupo que dio origen a la Compañía de Jesús.",
+          "Salió de Lisboa hacia la India en 1541 y llegó a Japón en 1549. Anunció el Evangelio, cuidó a enfermos y buscó comunicarse en otras lenguas, afrontando viajes difíciles y numerosos obstáculos."
+        ],
+        "question": "¿Qué frontera te gustaría cruzar para acercarte a los demás?"
+      },
+      "fr": {
+        "name": "François Xavier",
+        "theme": "Franchir les frontières",
+        "biography": [
+          "François Xavier a rencontré Ignace et Pierre Favre pendant ses études à Paris. Leur amitié a transformé ses projets et l’a conduit à rejoindre le groupe à l’origine de la Compagnie de Jésus.",
+          "Parti de Lisbonne pour l’Inde en 1541, il est arrivé au Japon en 1549. Il a annoncé l’Évangile, soigné des malades et cherché à communiquer dans d’autres langues, malgré les difficultés des voyages."
+        ],
+        "question": "Quelle frontière aimerais-tu franchir pour te rapprocher des autres ?"
+      },
+      "en": {
+        "name": "Francis Xavier",
+        "theme": "Crossing boundaries",
+        "biography": [
+          "Francis Xavier met Ignatius and Peter Faber while studying in Paris. Their friendship changed his plans and led him to join the group that would become the Society of Jesus.",
+          "He sailed from Lisbon for India in 1541 and reached Japan in 1549. He proclaimed the Gospel, cared for sick people and tried to communicate across languages, facing difficult journeys and many obstacles."
+        ],
+        "question": "What boundary would you like to cross to grow closer to others?"
+      },
+      "ko": {
+        "name": "프란치스코 하비에르",
+        "theme": "경계를 넘기",
+        "biography": [
+          "프란치스코 하비에르는 파리에서 공부하며 이냐시오와 베드로 파브르를 만났습니다. 이들과의 우정은 그의 인생 계획을 바꾸었고, 훗날 예수회를 창립하게 되는 동료들의 모임에 함께하도록 이끌었습니다.",
+          "1541년 리스본을 떠나 인도로 향했으며, 1549년에는 일본에 도착했습니다. 그는 험난한 여행과 여러 어려움 속에서도 복음을 전하고 병자들을 돌보며, 다른 언어를 쓰는 사람들과 소통하려고 노력했습니다."
+        ],
+        "question": "다른 이들에게 더 가까이 다가가기 위해 어떤 경계를 넘어 보고 싶나요?"
+      }
+    }
+  },
+  "pedro-fabro": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/saint-peter-faber/",
+      "https://www.jesuits.org/stories/st-peter-faber/"
+    ],
+    "locales": {
+      "pt": {
+        "name": "Pedro Fabro",
+        "theme": "Escutar e reconciliar",
+        "biography": [
+          "Pedro Fabro nasceu numa família camponesa da Saboia e foi estudar para Paris. Aí conheceu Francisco Xavier e Inácio de Loyola, tornando-se um dos primeiros companheiros na fundação da Companhia de Jesus.",
+          "Percorreu a Europa numa época de conflitos religiosos. Pela amizade, pela conversa e pelos Exercícios Espirituais, ajudou muitas pessoas a aprofundar a fé. Ficou conhecido pela delicadeza com que escutava e procurava a reconciliação."
+        ],
+        "question": "A quem podes oferecer uma conversa atenta esta semana?"
+      },
+      "es": {
+        "name": "Pedro Fabro",
+        "theme": "Escuchar y reconciliar",
+        "biography": [
+          "Pedro Fabro nació en una familia campesina de Saboya y fue a estudiar a París. Allí conoció a Francisco Javier e Ignacio de Loyola y fue uno de los primeros compañeros que fundaron la Compañía de Jesús.",
+          "Recorrió Europa entre conflictos religiosos. Mediante la amistad, la conversación y los Ejercicios Espirituales, ayudó a profundizar la fe. Se distinguió por su delicadeza al escuchar y buscar la reconciliación."
+        ],
+        "question": "¿A quién puedes ofrecer una conversación atenta esta semana?"
+      },
+      "fr": {
+        "name": "Pierre Favre",
+        "theme": "Écouter et réconcilier",
+        "biography": [
+          "Pierre Favre est né dans une famille paysanne de Savoie avant de partir étudier à Paris. Il y a rencontré François Xavier et Ignace de Loyola, devenant l’un des premiers compagnons fondateurs de la Compagnie de Jésus.",
+          "Il a parcouru une Europe déchirée par les conflits religieux. Par l’amitié, le dialogue et les Exercices spirituels, il aidait à approfondir la foi, écoutant avec délicatesse et recherchant la réconciliation."
+        ],
+        "question": "À qui peux-tu offrir une conversation attentive cette semaine ?"
+      },
+      "en": {
+        "name": "Peter Faber",
+        "theme": "Listening and reconciling",
+        "biography": [
+          "Peter Faber came from a farming family in Savoy and went to study in Paris. There he met Francis Xavier and Ignatius of Loyola, becoming one of the first companions who founded the Society of Jesus.",
+          "He travelled through Europe during religious conflict. Through friendship, conversation and the Spiritual Exercises, he helped people deepen their faith. He became known for listening gently and seeking reconciliation."
+        ],
+        "question": "Who could you give your full attention to in a conversation this week?"
+      },
+      "ko": {
+        "name": "베드로 파브르",
+        "theme": "경청하고 화해하기",
+        "biography": [
+          "베드로 파브르는 사보이아의 농가에서 태어나 파리로 유학을 갔습니다. 그곳에서 프란치스코 하비에르와 로욜라의 이냐시오를 만나, 예수회를 창립한 첫 동료들 가운데 한 사람이 되었습니다.",
+          "그는 종교적 갈등이 깊었던 유럽 곳곳을 다녔습니다. 우정과 대화, 영신수련을 통해 많은 이들이 신앙을 깊이하도록 도왔습니다. 온유하게 귀를 기울이고 화해를 추구하는 사람으로 알려졌습니다."
+        ],
+        "question": "이번 주에는 누구와 마음을 기울여 대화할 수 있을까요?"
+      }
+    }
+  },
+  "francisco-borja": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/saint-francis-borgia/",
+      "https://jesuit.ie/who-are-the-jesuits/inspirational-jesuits/saint-francis-borgia/"
+    ],
+    "locales": {
+      "pt": {
+        "name": "Francisco de Borja",
+        "theme": "Escolher com liberdade",
+        "biography": [
+          "Francisco de Borja foi duque de Gandía, vice-rei da Catalunha e pai de família. Depois de enviuvar, escolheu a vida jesuíta. Preparou o futuro dos filhos e renunciou aos seus títulos.",
+          "Como terceiro superior geral, apoiou a formação dos jesuítas, a criação de colégios e o crescimento das missões. A sua vida passou das responsabilidades da corte para uma nova forma de servir a Igreja."
+        ],
+        "question": "O que gostarias de colocar mais livremente ao serviço dos outros?"
+      },
+      "es": {
+        "name": "Francisco de Borja",
+        "theme": "Elegir con libertad",
+        "biography": [
+          "Francisco de Borja fue duque de Gandía, virrey de Cataluña y padre de familia. Tras enviudar, eligió la vida jesuita. Aseguró el futuro de sus hijos y renunció a sus títulos.",
+          "Como tercer superior general, apoyó la formación de los jesuitas, la creación de colegios y el desarrollo de las misiones. Pasó de las responsabilidades de la corte a otra forma de servir a la Iglesia."
+        ],
+        "question": "¿Qué te gustaría poner con más libertad al servicio de los demás?"
+      },
+      "fr": {
+        "name": "François de Borgia",
+        "theme": "Choisir librement",
+        "biography": [
+          "François de Borgia était duc de Gandia, vice-roi de Catalogne et père de famille. Devenu veuf, il a choisi la vie jésuite, assuré l’avenir de ses enfants et renoncé à ses titres.",
+          "Troisième supérieur général, il a soutenu la formation des jésuites, la création de collèges et le développement des missions. Il est passé des responsabilités de la cour à une autre manière de servir l’Église."
+        ],
+        "question": "Que voudrais-tu mettre plus librement au service des autres ?"
+      },
+      "en": {
+        "name": "Francis Borgia",
+        "theme": "Choosing freely",
+        "biography": [
+          "Francis Borgia was Duke of Gandía, Viceroy of Catalonia and a father. After his wife died, he chose Jesuit life, arranged for his children’s future and gave up his titles.",
+          "As its third superior general, he supported Jesuit formation, the founding of schools and the growth of missions. He moved from responsibilities at court to a new way of serving the Church."
+        ],
+        "question": "What would you like to place more freely at the service of others?"
+      },
+      "ko": {
+        "name": "프란치스코 보르지아",
+        "theme": "자유롭게 선택하기",
+        "biography": [
+          "프란치스코 보르지아는 간디아 공작이자 카탈루냐 총독이었으며 한 가정의 아버지였습니다. 아내가 세상을 떠난 뒤 예수회원의 삶을 선택했습니다. 자녀들의 앞날을 돌보고 자신의 작위를 내려놓았습니다.",
+          "예수회의 제3대 총장으로서 예수회원들의 양성과 학교 설립, 선교 활동의 성장을 도왔습니다. 궁정에서 책임을 맡았던 그의 삶은 교회를 섬기는 새로운 길로 이어졌습니다."
+        ],
+        "question": "다른 이들을 위해 무엇을 더 자유롭게 내어놓고 싶나요?"
+      }
+    }
+  },
+  "luis-gonzaga": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/saint-aloysius-gonzaga/",
+      "https://www.jesuits.org/stories/society-of-jesus-celebrates-the-feast-of-st-aloysius-gonzaga-sj/"
+    ],
+    "locales": {
+      "pt": {
+        "name": "Luís Gonzaga",
+        "theme": "Cuidar de quem precisa",
+        "biography": [
+          "Luís Gonzaga nasceu numa família nobre italiana, mas escolheu a vida religiosa em vez do futuro de poder e riqueza que lhe preparavam. Apesar da oposição inicial do pai, entrou na Companhia de Jesus.",
+          "Durante a peste de 1591, em Roma, ajudou a cuidar dos doentes. Acabou por adoecer e morreu com 23 anos, ainda estudante jesuíta. Hoje é reconhecido como padroeiro da juventude."
+        ],
+        "question": "De quem te sentes chamado a cuidar?"
+      },
+      "es": {
+        "name": "Luis Gonzaga",
+        "theme": "Cuidar de quienes lo necesitan",
+        "biography": [
+          "Luis Gonzaga nació en una familia noble italiana, pero eligió la vida religiosa en lugar del futuro de poder y riqueza que le preparaban. Pese a la oposición inicial de su padre, entró en la Compañía de Jesús.",
+          "Durante la peste de 1591, en Roma, cuidó a enfermos. Enfermó y murió con 23 años, todavía estudiante jesuita. Hoy se le reconoce como patrono de la juventud."
+        ],
+        "question": "¿A quién te sientes llamado a cuidar?"
+      },
+      "fr": {
+        "name": "Louis de Gonzague",
+        "theme": "Prendre soin des personnes qui en ont besoin",
+        "biography": [
+          "Issu d’une famille noble italienne, Louis de Gonzague a choisi la vie religieuse plutôt que l’avenir de pouvoir et de richesse prévu pour lui. Malgré l’opposition initiale de son père, il est entré dans la Compagnie de Jésus.",
+          "Pendant la peste de 1591, à Rome, il a soigné des malades. Tombé malade, il est mort à 23 ans, encore étudiant jésuite. Il est aujourd’hui le patron de la jeunesse."
+        ],
+        "question": "De qui te sens-tu appelé à prendre soin ?"
+      },
+      "en": {
+        "name": "Aloysius Gonzaga",
+        "theme": "Caring for those in need",
+        "biography": [
+          "Aloysius Gonzaga was born into an Italian noble family but chose religious life over the future of wealth and power planned for him. Despite his father’s initial opposition, he entered the Society of Jesus.",
+          "During the plague in Rome in 1591, he helped care for sick people. He fell ill and died at 23, still a Jesuit student. Today he is honoured as the patron saint of young people."
+        ],
+        "question": "Who do you feel called to care for?"
+      },
+      "ko": {
+        "name": "알로이시오 곤자가",
+        "theme": "도움이 필요한 이들을 돌보기",
+        "biography": [
+          "알로이시오 곤자가는 이탈리아 귀족 가문에서 태어났지만, 자신에게 예정된 권력과 부의 길 대신 수도 생활을 선택했습니다. 아버지는 처음에 반대했지만, 그는 예수회에 입회했습니다.",
+          "1591년 로마에 역병이 돌자 병자들을 돌보는 일에 나섰습니다. 그 자신도 병에 걸려, 아직 예수회에서 공부하던 스물세 살에 세상을 떠났습니다. 오늘날 청소년의 수호성인으로 공경받고 있습니다."
+        ],
+        "question": "누구를 돌보라는 부르심을 느끼나요?"
+      }
+    }
+  },
+  "estanislao-kostka": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/saint-stanislaus-kostka/",
+      "https://www.jesuit.org.sg/nov-stanislaus-kotska-sj/",
+      "https://maria.catholic.or.kr/sa_ho/list/view.asp?ctxtSaintID=1295&menugubun=saint"
+    ],
+    "locales": {
+      "pt": {
+        "name": "Estanislau Kostka",
+        "theme": "Dar espaço ao desejo",
+        "biography": [
+          "Nobre polaco, Estanislau conheceu os jesuítas enquanto estudava em Viena. Desejava entrar na Companhia de Jesus, mas a família opôs-se. Procurou orientação e viajou a pé até à Alemanha, onde encontrou Pedro Canísio.",
+          "Com o seu apoio, seguiu para Roma e começou o noviciado. Morreu em 1568, ainda adolescente, antes de completar um ano como jesuíta. A sua breve vida testemunha a coragem de seguir uma vocação."
+        ],
+        "question": "Que desejo bom merece que lhe dês uma oportunidade?"
+      },
+      "es": {
+        "name": "Estanislao de Kostka",
+        "theme": "Dar espacio al deseo",
+        "biography": [
+          "Noble polaco, Estanislao conoció a los jesuitas mientras estudiaba en Viena. Quería entrar en la Compañía de Jesús, pero su familia se opuso. Buscó orientación y caminó hasta Alemania, donde encontró a Pedro Canisio.",
+          "Con su apoyo, fue a Roma y comenzó el noviciado. Murió en 1568, aún adolescente, sin llegar a cumplir un año como jesuita. Su breve vida muestra la valentía de seguir una vocación."
+        ],
+        "question": "¿Qué buen deseo merece que le des una oportunidad?"
+      },
+      "fr": {
+        "name": "Stanislas Kostka",
+        "theme": "Faire place au désir",
+        "biography": [
+          "Jeune noble polonais, Stanislas découvrit les jésuites à Vienne. Il voulait entrer dans la Compagnie de Jésus, malgré l’opposition familiale. Cherchant conseil, il marcha jusqu’en Allemagne, où il rencontra Pierre Canisius.",
+          "Avec son soutien, il rejoignit Rome et commença son noviciat. Il mourut en 1568, encore adolescent, sans avoir passé un an chez les jésuites. Sa courte vie témoigne du courage de suivre une vocation."
+        ],
+        "question": "Quel beau désir mérite que tu lui donnes une chance ?"
+      },
+      "en": {
+        "name": "Stanislaus Kostka",
+        "theme": "Making room for desire",
+        "biography": [
+          "A young Polish nobleman, Stanislaus met the Jesuits while studying in Vienna. He wanted to join the Society of Jesus, despite his family’s opposition. Seeking guidance, he walked to Germany and met Peter Canisius.",
+          "With his support, he reached Rome and began his novitiate. He died in 1568, still a teenager, less than a year after joining the Jesuits. His short life shows the courage of following a vocation."
+        ],
+        "question": "What good desire deserves a chance in your life?"
+      },
+      "ko": {
+        "name": "스타니슬라오 코스트카",
+        "theme": "내 안의 소망에 귀 기울이기",
+        "biography": [
+          "폴란드 귀족 가문 출신인 스타니슬라오는 빈에서 공부하며 예수회를 알게 되었습니다. 예수회에 들어가고 싶었지만 가족은 반대했습니다. 그는 조언을 구하고자 독일까지 걸어가 베드로 가니시오를 만났습니다.",
+          "그의 도움으로 로마에 도착해 수련을 시작했지만, 1568년 아직 십 대의 나이에 세상을 떠났습니다. 예수회원으로 산 시간은 채 일 년도 되지 않았습니다. 짧은 생애였지만 자신의 성소를 따르는 용기를 보여 주었습니다."
+        ],
+        "question": "마음속의 어떤 좋은 소망에 기회를 주고 싶나요?"
+      }
+    }
+  },
+  "joao-berchmans": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/saint-john-berchmans/",
+      "https://www.jesuit.org.sg/nov-john-berchmans-sj/",
+      "https://saint.catholic.or.kr/gns_view.asp?ctxtsaintid=2086"
+    ],
+    "locales": {
+      "pt": {
+        "name": "João Berchmans",
+        "theme": "Encontrar Deus no quotidiano",
+        "biography": [
+          "João nasceu em Diest, na atual Bélgica, numa família de poucos recursos. Trabalhou para poder continuar a estudar e entrou na Companhia de Jesus em 1616, desejando ser padre.",
+          "Em Roma, dedicou-se à filosofia, à oração e à vida comunitária. Morreu em 1621, com 22 anos. Ficou conhecido pela alegria e pelo cuidado com que realizava as tarefas mais simples do dia a dia."
+        ],
+        "question": "Que gesto pequeno podes fazer hoje com mais amor?"
+      },
+      "es": {
+        "name": "Juan Berchmans",
+        "theme": "Encontrar a Dios en lo cotidiano",
+        "biography": [
+          "Juan nació en Diest, en la actual Bélgica, en una familia de pocos recursos. Trabajó para poder seguir estudiando y entró en la Compañía de Jesús en 1616, deseando ser sacerdote.",
+          "En Roma, se dedicó a la filosofía, la oración y la vida comunitaria. Murió en 1621, con 22 años. Destacó por la alegría y el esmero con que realizaba las tareas cotidianas más sencillas."
+        ],
+        "question": "¿Qué pequeño gesto puedes hacer hoy con más amor?"
+      },
+      "fr": {
+        "name": "Jean Berchmans",
+        "theme": "Trouver Dieu au quotidien",
+        "biography": [
+          "Jean naquit à Diest, dans l’actuelle Belgique, dans une famille modeste. Il travailla pour poursuivre ses études et entra dans la Compagnie de Jésus en 1616, avec le désir de devenir prêtre.",
+          "À Rome, il se consacra à la philosophie, à la prière et à la communauté. Mort en 1621, à 22 ans, il reste connu pour sa joie et son attention aux tâches quotidiennes."
+        ],
+        "question": "Quel petit geste peux-tu faire aujourd’hui avec plus d’amour ?"
+      },
+      "en": {
+        "name": "John Berchmans",
+        "theme": "Finding God in everyday life",
+        "biography": [
+          "John was born in Diest, in present-day Belgium, into a family with little money. He worked to continue his education and joined the Society of Jesus in 1616, hoping to become a priest.",
+          "In Rome, he devoted himself to philosophy, prayer and community life. He died in 1621, aged 22. He is remembered for the joy and care he brought to everyday tasks."
+        ],
+        "question": "What small gesture could you make with greater love today?"
+      },
+      "ko": {
+        "name": "요한 베르크만스",
+        "theme": "일상에서 하느님 만나기",
+        "biography": [
+          "요한은 오늘날 벨기에에 속한 디에스트의 넉넉하지 않은 가정에서 태어났습니다. 공부를 계속하기 위해 일을 했고, 사제가 되려는 소망을 품고 1616년 예수회에 들어갔습니다.",
+          "로마에서는 철학 공부와 기도, 공동체 생활에 힘썼습니다. 1621년 스물두 살에 세상을 떠났으며, 일상의 가장 작은 일도 기쁨과 정성으로 해낸 사람으로 기억됩니다."
+        ],
+        "question": "오늘 더 큰 사랑으로 할 수 있는 작은 일은 무엇인가요?"
+      }
+    }
+  },
+  "joao-brito": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/saint-john-de-brito/",
+      "https://www.lisboa2023.org/en/saint-john-de-brito",
+      "https://maria.catholic.or.kr/sa_ho/list/view.asp?ctxtSaintId=2066&menugubun=saint"
+    ],
+    "locales": {
+      "pt": {
+        "name": "João de Brito",
+        "theme": "Aproximar culturas",
+        "biography": [
+          "João nasceu em Lisboa e entrou na Companhia de Jesus aos quinze anos. Partiu para a Índia em 1673 e dedicou-se à missão no sul do país, aproximando-se das comunidades locais.",
+          "Adotou costumes e o modo de vida dos ascetas indianos para anunciar o Evangelho. Regressou à missão depois de uma visita a Portugal, apesar dos perigos. Foi morto em 1693 e canonizado em 1947."
+        ],
+        "question": "Como podes conhecer melhor a cultura de alguém que vive perto de ti?"
+      },
+      "es": {
+        "name": "Juan de Brito",
+        "theme": "Acercar culturas",
+        "biography": [
+          "Juan nació en Lisboa y entró en la Compañía de Jesús a los quince años. Partió hacia la India en 1673 y trabajó en el sur del país, acercándose a las comunidades locales.",
+          "Adoptó costumbres y la vida de los ascetas indios para anunciar el Evangelio. Tras visitar Portugal, regresó a la misión pese a los peligros. Murió mártir en 1693 y fue canonizado en 1947."
+        ],
+        "question": "¿Cómo puedes conocer mejor la cultura de alguien que vive cerca de ti?"
+      },
+      "fr": {
+        "name": "Jean de Brito",
+        "theme": "Rapprocher les cultures",
+        "biography": [
+          "Né à Lisbonne, Jean entra dans la Compagnie de Jésus à quinze ans. Parti en Inde en 1673, il se consacra aux communautés du sud du pays.",
+          "Pour annoncer l’Évangile, il adopta des coutumes locales et le mode de vie des ascètes indiens. Après un séjour au Portugal, il retrouva sa mission malgré les dangers. Martyrisé en 1693, il fut canonisé en 1947."
+        ],
+        "question": "Comment peux-tu mieux connaître la culture de quelqu’un qui vit près de toi ?"
+      },
+      "en": {
+        "name": "John de Brito",
+        "theme": "Bringing cultures closer",
+        "biography": [
+          "Born in Lisbon, John joined the Society of Jesus at fifteen. He sailed to India in 1673 and worked among communities in the south of the country.",
+          "To share the Gospel, he adopted local customs and the way of life of Indian ascetics. After visiting Portugal, he returned to his mission despite the dangers. Martyred in 1693, he was canonized in 1947."
+        ],
+        "question": "How could you learn more about the culture of someone who lives near you?"
+      },
+      "ko": {
+        "name": "요한 데 브리토",
+        "theme": "서로의 문화에 다가가기",
+        "biography": [
+          "리스본에서 태어난 요한은 열다섯 살에 예수회에 들어갔습니다. 1673년 인도로 떠나 남부 지역에서 선교하며 현지 공동체와 가까워졌습니다.",
+          "복음을 전하고자 현지 관습과 인도 수행자들의 생활 방식을 받아들였습니다. 포르투갈을 방문한 뒤에는 위험을 무릅쓰고 선교지로 돌아갔습니다. 1693년에 순교했으며, 1947년에 성인으로 선포되었습니다."
+        ],
+        "question": "가까이 사는 이웃의 문화를 어떻게 더 잘 알아갈 수 있을까요?"
+      }
+    }
+  },
+  "pedro-claver": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/saint-peter-claver/",
+      "https://www.jesuit.org.sg/sept-peter-claver-sj/",
+      "https://maria.catholic.or.kr/sa_ho/list/view.asp?ctxtSaintId=975&menugubun=saint"
+    ],
+    "locales": {
+      "pt": {
+        "name": "Pedro Claver",
+        "theme": "Caminhar com os excluídos",
+        "biography": [
+          "Natural da Catalunha, Pedro entrou na Companhia de Jesus e partiu para a atual Colômbia em 1610. Em Cartagena, encontrou um porto marcado pelo tráfico de pessoas escravizadas, trazidas de África.",
+          "Durante mais de trinta anos, levou alimentos aos navios, tratou feridas e acompanhou estas pessoas com a ajuda de intérpretes. A sua fé ganhou forma no cuidado concreto por quem era tratado sem dignidade."
+        ],
+        "question": "Quem fica esquecido à tua volta e precisa da tua presença?"
+      },
+      "es": {
+        "name": "Pedro Claver",
+        "theme": "Caminar con los excluidos",
+        "biography": [
+          "Nacido en Cataluña, Pedro entró en la Compañía de Jesús y partió hacia la actual Colombia en 1610. En Cartagena encontró un puerto marcado por el tráfico de personas esclavizadas, traídas de África.",
+          "Durante más de treinta años, llevó alimentos a los barcos, curó heridas y acompañó a estas personas con intérpretes. Su fe se expresó cuidando de quienes recibían un trato indigno."
+        ],
+        "question": "¿Quién queda olvidado a tu alrededor y necesita tu presencia?"
+      },
+      "fr": {
+        "name": "Pierre Claver",
+        "theme": "Marcher avec les exclus",
+        "biography": [
+          "Né en Catalogne, Pierre entra dans la Compagnie de Jésus et partit pour l’actuelle Colombie en 1610. À Carthagène, il découvrit un port marqué par la traite de personnes africaines réduites en esclavage.",
+          "Durant plus de trente ans, il apporta nourriture et soins aux navires, accompagné d’interprètes. Sa foi prit la forme d’une présence attentive auprès de personnes dont la dignité était bafouée."
+        ],
+        "question": "Qui reste oublié autour de toi et a besoin de ta présence ?"
+      },
+      "en": {
+        "name": "Peter Claver",
+        "theme": "Walking with the excluded",
+        "biography": [
+          "Born in Catalonia, Peter joined the Society of Jesus and sailed to present-day Colombia in 1610. In Cartagena, he encountered the trade in enslaved people brought from Africa.",
+          "For over thirty years, he brought food aboard ships, treated wounds and accompanied these people with interpreters’ help. His faith took shape in practical care for those whose dignity was being denied."
+        ],
+        "question": "Who is overlooked around you and needs your presence?"
+      },
+      "ko": {
+        "name": "베드로 클라베르",
+        "theme": "소외된 이들과 함께 걷기",
+        "biography": [
+          "카탈루냐 출신인 베드로는 예수회에 들어가 1610년 오늘날의 콜롬비아로 떠났습니다. 카르타헤나 항구에서 그는 아프리카에서 끌려와 노예로 팔리는 사람들의 현실을 마주했습니다.",
+          "삼십 년 넘게 배에 식량을 가져가고 상처를 치료했으며, 통역자들의 도움으로 그들 곁을 지켰습니다. 존엄성을 짓밟힌 이들을 구체적으로 돌보는 일이 그가 신앙을 살아가는 방식이 되었습니다."
+        ],
+        "question": "주변에서 잊힌 채 지내는 사람 가운데 당신의 동행이 필요한 사람은 누구인가요?"
+      }
+    }
+  },
+  "roberto-belarmino": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/saint-robert-bellarmine/",
+      "https://www.jesuit.org.sg/sept-robert-bellarmine-sj/",
+      "https://maria.catholic.or.kr/sa_ho/list/view.asp?ctxtSaintID=457&menugubun=saint"
+    ],
+    "locales": {
+      "pt": {
+        "name": "Roberto Belarmino",
+        "theme": "Procurar e compreender",
+        "biography": [
+          "Nascido em Itália, Roberto foi jesuíta, professor e teólogo numa época de fortes divisões entre cristãos. Ensinou em Lovaina e em Roma e escreveu obras para explicar e defender a fé católica.",
+          "Acompanhou espiritualmente Luís Gonzaga e tornou-se cardeal e arcebispo de Cápua. Mesmo com essas responsabilidades, procurou viver com simplicidade e ajudar os pobres. Uniu o estudo à oração e ao serviço da Igreja."
+        ],
+        "question": "Que pergunta sobre a fé gostarias de explorar com mais profundidade?"
+      },
+      "es": {
+        "name": "Roberto Belarmino",
+        "theme": "Buscar y comprender",
+        "biography": [
+          "Nacido en Italia, Roberto fue jesuita, profesor y teólogo en una época de profundas divisiones entre cristianos. Enseñó en Lovaina y Roma y escribió para explicar y defender la fe católica.",
+          "Acompañó espiritualmente a Luis Gonzaga y fue cardenal y arzobispo de Capua. Pese a sus responsabilidades, procuró vivir con sencillez y ayudar a los pobres. Unió el estudio, la oración y el servicio a la Iglesia."
+        ],
+        "question": "¿Qué pregunta sobre la fe te gustaría explorar con más profundidad?"
+      },
+      "fr": {
+        "name": "Robert Bellarmin",
+        "theme": "Chercher et comprendre",
+        "biography": [
+          "Né en Italie, Robert fut jésuite, professeur et théologien à une époque de fortes divisions entre chrétiens. Il enseigna à Louvain et à Rome, écrivant pour expliquer et défendre la foi catholique.",
+          "Il accompagna spirituellement Louis de Gonzague et devint cardinal et archevêque de Capoue. Malgré ses responsabilités, il chercha à vivre simplement et à aider les pauvres. Il associa l’étude, la prière et le service de l’Église."
+        ],
+        "question": "Quelle question sur la foi aimerais-tu approfondir ?"
+      },
+      "en": {
+        "name": "Robert Bellarmine",
+        "theme": "Seeking and understanding",
+        "biography": [
+          "Born in Italy, Robert was a Jesuit, teacher and theologian during deep divisions among Christians. He taught in Leuven and Rome and wrote to explain and defend the Catholic faith.",
+          "He spiritually guided Aloysius Gonzaga and became a cardinal and Archbishop of Capua. Despite his responsibilities, he sought simplicity and helped the poor. He combined scholarship with prayer and service to the Church."
+        ],
+        "question": "What question about faith would you like to explore more deeply?"
+      },
+      "ko": {
+        "name": "로베르토 벨라르미노",
+        "theme": "탐구하며 이해하기",
+        "biography": [
+          "이탈리아 출신인 로베르토는 그리스도인들 사이의 분열이 깊었던 시대를 살았던 예수회원이자 교수, 신학자였습니다. 뢰번과 로마에서 가르쳤고, 가톨릭 신앙을 설명하고 옹호하는 책들을 썼습니다.",
+          "알로이시오 곤자가의 영적 동반자였으며, 추기경과 카푸아의 대주교가 되었습니다. 큰 책임을 맡은 뒤에도 검소하게 살며 가난한 이들을 돕고자 했습니다. 공부와 기도, 교회를 위한 봉사를 함께 이어 갔습니다."
+        ],
+        "question": "신앙에 관한 어떤 질문을 더 깊이 탐구하고 싶나요?"
+      }
+    }
+  },
+  "pedro-canisio": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/saint-peter-canisius/",
+      "https://www.vatican.va/content/benedict-xvi/en/audiences/2011/documents/hf_ben-xvi_aud_20110209.html"
+    ],
+    "locales": {
+      "pt": {
+        "name": "Pedro Canísio",
+        "theme": "Comunicar com clareza",
+        "biography": [
+          "Pedro nasceu em Nimega, nos atuais Países Baixos, e estudou em Colónia. O encontro com Pedro Fabro e a experiência dos Exercícios Espirituais ajudaram-no a descobrir a sua vocação. Entrou na Companhia de Jesus em 1543, quando completou 22 anos.",
+          "Ensinou, pregou e ajudou a fundar colégios em várias cidades da Europa central. Escreveu catecismos adaptados a estudantes e crianças, procurando explicar a fé com clareza. Foi o primeiro provincial jesuíta da Alemanha e é reconhecido como Doutor da Igreja."
+        ],
+        "question": "Que ideia importante gostarias de aprender a explicar melhor?"
+      },
+      "es": {
+        "name": "Pedro Canisio",
+        "theme": "Comunicar con claridad",
+        "biography": [
+          "Pedro nació en Nimega, en los actuales Países Bajos, y estudió en Colonia. El encuentro con Pedro Fabro y la experiencia de los Ejercicios Espirituales le ayudaron a descubrir su vocación. Entró en la Compañía de Jesús en 1543, al cumplir 22 años.",
+          "Enseñó, predicó y ayudó a fundar colegios en distintas ciudades de Europa central. Escribió catecismos adaptados a estudiantes y niños, buscando explicar la fe con claridad. Fue el primer provincial jesuita de Alemania y es reconocido como Doctor de la Iglesia."
+        ],
+        "question": "¿Qué idea importante te gustaría aprender a explicar mejor?"
+      },
+      "fr": {
+        "name": "Pierre Canisius",
+        "theme": "Communiquer avec clarté",
+        "biography": [
+          "Pierre est né à Nimègue, dans les Pays-Bas actuels, et a étudié à Cologne. Sa rencontre avec Pierre Favre et les Exercices spirituels l’ont aidé à découvrir sa vocation. Il est entré dans la Compagnie de Jésus en 1543, le jour de ses 22 ans.",
+          "Il a enseigné, prêché et contribué à fonder des collèges en Europe centrale. Ses catéchismes, adaptés aux étudiants et aux enfants, cherchaient à expliquer clairement la foi. Premier provincial jésuite d’Allemagne, il est reconnu comme Docteur de l’Église."
+        ],
+        "question": "Quelle idée importante aimerais-tu apprendre à mieux expliquer ?"
+      },
+      "en": {
+        "name": "Peter Canisius",
+        "theme": "Communicating clearly",
+        "biography": [
+          "Peter was born in Nijmegen, in what is now the Netherlands, and studied in Cologne. Meeting Peter Faber and making the Spiritual Exercises helped him discover his vocation. He joined the Society of Jesus in 1543, on his twenty-second birthday.",
+          "He taught, preached and helped establish schools across central Europe. He wrote catechisms for students and children, seeking to explain faith clearly to different audiences. The first Jesuit provincial of Germany, he is honoured as a Doctor of the Church."
+        ],
+        "question": "What important idea would you like to learn to explain better?"
+      },
+      "ko": {
+        "name": "베드로 가니시오",
+        "theme": "명료하게 전하기",
+        "biography": [
+          "베드로는 오늘날 네덜란드의 네이메헌에서 태어나 쾰른에서 공부했습니다. 베드로 파브르와의 만남과 영신수련을 통해 자신의 성소를 발견했습니다. 1543년 스물두 번째 생일에 예수회에 입회했습니다.",
+          "중부 유럽 여러 도시에서 가르치고 설교하며 학교 설립을 도왔습니다. 학생과 어린이에게 신앙을 쉽게 전하려고 대상에 맞는 교리서를 썼습니다. 독일 예수회의 초대 관구장을 지냈으며, 교회 학자로 공경받고 있습니다."
+        ],
+        "question": "어떤 중요한 생각을 더 잘 설명하는 법을 배우고 싶나요?"
+      }
+    }
+  },
+  "afonso-rodrigues": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/saint-alphonsus-rodriguez/",
+      "https://www.jesuits.org/stories/society-of-jesus-celebrates-the-feast-of-st-alphonsus-rodriguez-sj/",
+      "https://www.jesuits.global/2020/10/30/brother-alphonsus-rodriguez-the-family-man-who-became-the-holy-porter/"
+    ],
+    "locales": {
+      "pt": {
+        "name": "Afonso Rodrigues",
+        "theme": "Acolher no dia a dia",
+        "biography": [
+          "Afonso nasceu em Segóvia e trabalhou no comércio da família. Casou e teve filhos, mas perdeu a mulher e os filhos, atravessando anos de grande sofrimento. Com ajuda espiritual, procurou um novo caminho e entrou na Companhia de Jesus como irmão em 1571.",
+          "No colégio de Montesión, em Palma de Maiorca, foi porteiro durante muitos anos. Acolhia visitantes, ajudava pessoas pobres e escutava quem precisava de conselho. A sua amizade com Pedro Claver encorajou o jovem jesuíta a partir para as missões na América."
+        ],
+        "question": "Como podes fazer alguém sentir-se bem-vindo hoje?"
+      },
+      "es": {
+        "name": "Alonso Rodríguez",
+        "theme": "Acoger cada día",
+        "biography": [
+          "Alonso nació en Segovia y trabajó en el negocio familiar. Se casó y tuvo hijos, pero perdió a su esposa y a sus hijos, atravesando años de profundo sufrimiento. Con acompañamiento espiritual buscó un nuevo camino y entró como hermano jesuita en 1571.",
+          "Fue portero durante muchos años en el colegio de Montesión, en Palma de Mallorca. Recibía visitas, ayudaba a personas pobres y escuchaba a quienes buscaban consejo. Su amistad con Pedro Claver animó al joven jesuita a partir hacia las misiones de América."
+        ],
+        "question": "¿Cómo puedes hacer que alguien se sienta bienvenido hoy?"
+      },
+      "fr": {
+        "name": "Alphonse Rodriguez",
+        "theme": "Accueillir au quotidien",
+        "biography": [
+          "Alphonse est né à Ségovie et travaillait dans le commerce familial. Marié et père de famille, il a perdu sa femme et ses enfants, traversant de profondes épreuves. Accompagné spirituellement, il a cherché un nouveau chemin et est devenu frère jésuite en 1571.",
+          "Au collège de Montesión, à Palma de Majorque, il a été portier pendant de nombreuses années. Il accueillait les visiteurs, aidait les pauvres et écoutait les personnes cherchant conseil. Son amitié avec Pierre Claver a encouragé ce jeune jésuite à partir en mission en Amérique."
+        ],
+        "question": "Comment peux-tu aider quelqu’un à se sentir accueilli aujourd’hui ?"
+      },
+      "en": {
+        "name": "Alphonsus Rodriguez",
+        "theme": "Welcoming others each day",
+        "biography": [
+          "Alphonsus was born in Segovia and worked in his family’s business. He married and had children, but lost his wife and children, enduring years of deep sorrow. With spiritual guidance, he sought a new path and became a Jesuit brother in 1571.",
+          "He spent many years as porter at Montesión College in Palma, Majorca. He welcomed visitors, helped poor people and listened to those seeking advice. His friendship with Peter Claver encouraged the younger Jesuit to leave for the missions in the Americas."
+        ],
+        "question": "How could you help someone feel welcome today?"
+      },
+      "ko": {
+        "name": "알폰소 로드리게스",
+        "theme": "일상에서 환대하기",
+        "biography": [
+          "알폰소는 세고비아에서 태어나 가족의 사업을 맡았습니다. 결혼하여 자녀를 두었지만 아내와 자녀들을 잃고 깊은 슬픔을 겪었습니다. 영적 동반의 도움으로 새로운 길을 찾았고, 1571년 예수회 수사가 되었습니다.",
+          "마요르카섬 팔마의 몬테시온 학교에서 오랫동안 문지기로 일했습니다. 방문객을 맞이하고 가난한 이들을 도우며 조언을 구하는 이들의 말을 들어 주었습니다. 젊은 예수회원 베드로 클라베르와 우정을 나누며 그가 아메리카 선교를 떠나도록 격려했습니다."
+        ],
+        "question": "오늘 누군가가 환영받는다고 느끼도록 어떻게 도울 수 있을까요?"
+      }
+    }
+  },
+  "joao-francisco-regis": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/saint-john-francis-regis/",
+      "https://www.jesuits.org/stories/society-of-jesus-celebrates-feast-of-st-john-francis-regis-sj/",
+      "https://www.jesuites.com/saint-jean-francois-regis/"
+    ],
+    "locales": {
+      "pt": {
+        "name": "João Francisco Régis",
+        "theme": "Ir ao encontro",
+        "biography": [
+          "João Francisco nasceu no sul de França e entrou nos jesuítas em 1616. Depois dos estudos e do ensino, dedicou-se às missões populares. Percorria a pé aldeias e montanhas, aproximando-se de comunidades que tinham sofrido com as guerras de religião.",
+          "Pregava com simplicidade, ensinava crianças, visitava prisões e reunia alimentos e roupa para pessoas pobres. Ajudou também mulheres a sair da prostituição e a encontrar trabalho. Morreu em Lalouvesc, em 1640, depois de adoecer durante uma missão no inverno."
+        ],
+        "question": "Quem vive perto de ti e pode precisar de mais atenção?"
+      },
+      "es": {
+        "name": "Juan Francisco Régis",
+        "theme": "Salir al encuentro",
+        "biography": [
+          "Juan Francisco nació en el sur de Francia y entró en los jesuitas en 1616. Tras estudiar y enseñar, se dedicó a las misiones populares. Caminaba por pueblos y montañas, acercándose a comunidades que habían sufrido las guerras de religión.",
+          "Predicaba con sencillez, enseñaba a los niños, visitaba cárceles y reunía comida y ropa para personas pobres. También ayudó a mujeres a salir de la prostitución y encontrar trabajo. Murió en Lalouvesc en 1640, tras enfermar durante una misión de invierno."
+        ],
+        "question": "¿Quién vive cerca de ti y puede necesitar más atención?"
+      },
+      "fr": {
+        "name": "Jean-François Régis",
+        "theme": "Aller à la rencontre",
+        "biography": [
+          "Jean-François est né dans le sud de la France et est entré chez les jésuites en 1616. Après les études et l’enseignement, il s’est consacré aux missions populaires. Il parcourait villages et montagnes à pied, rejoignant des communautés éprouvées par les guerres de Religion.",
+          "Il prêchait simplement, instruisait les enfants, visitait les prisons et rassemblait nourriture et vêtements pour les pauvres. Il aidait aussi des femmes à quitter la prostitution et à trouver du travail. Malade pendant une mission hivernale, il est mort à Lalouvesc en 1640."
+        ],
+        "question": "Qui vit près de toi et pourrait avoir besoin de plus d’attention ?"
+      },
+      "en": {
+        "name": "John Francis Regis",
+        "theme": "Going out to meet others",
+        "biography": [
+          "John Francis was born in southern France and joined the Jesuits in 1616. After studying and teaching, he devoted himself to parish missions. He walked through villages and mountain country, reaching communities that had suffered through the wars of religion.",
+          "He preached simply, taught children, visited prisons and gathered food and clothing for poor people. He also helped women leave prostitution and find other work. He died at Lalouvesc in 1640 after becoming ill during a mission in the winter."
+        ],
+        "question": "Who lives near you and might need more attention?"
+      },
+      "ko": {
+        "name": "장 프랑수아 레지스",
+        "theme": "먼저 찾아가기",
+        "biography": [
+          "장 프랑수아는 프랑스 남부에서 태어나 1616년 예수회에 입회했습니다. 공부하고 가르친 뒤에는 여러 본당을 찾아가는 선교에 힘썼습니다. 종교 전쟁으로 어려움을 겪은 공동체를 만나려고 마을과 산길을 걸어 다녔습니다.",
+          "쉬운 말로 설교하고 어린이를 가르쳤으며, 교도소를 방문하고 가난한 이들에게 음식과 옷을 마련해 주었습니다. 성매매에서 벗어나 다른 일자리를 찾으려는 여성들도 도왔습니다. 겨울 선교 중 병을 얻어 1640년 랄루베스크에서 세상을 떠났습니다."
+        ],
+        "question": "내 가까이에 살면서 더 많은 관심이 필요한 사람은 누구일까요?"
+      }
+    }
+  },
+  "francisco-jeronimo": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/saint-francis-jerome/",
+      "https://gesuiti.it/letture/francesco-de-geronimo-il-gesuita-povero-tra-i-poveri/"
+    ],
+    "locales": {
+      "pt": {
+        "name": "Francisco de Jerónimo",
+        "theme": "Servir a cidade",
+        "biography": [
+          "Francisco nasceu perto de Tarento, no sul de Itália, e era o mais velho de onze irmãos. Já era padre quando entrou na Companhia de Jesus, em 1670. A missão levou-o sobretudo a Nápoles, onde trabalhou durante cerca de quarenta anos.",
+          "Anunciava o Evangelho nas ruas e praças e acompanhava grupos de artesãos. Visitava pessoas doentes, presos e homens submetidos ao trabalho nas galés. A sua vida ligou a pregação ao cuidado concreto de pessoas que encontrava nas margens da cidade."
+        ],
+        "question": "Que necessidade da tua cidade te dá vontade de agir?"
+      },
+      "es": {
+        "name": "Francisco de Jerónimo",
+        "theme": "Servir a la ciudad",
+        "biography": [
+          "Francisco nació cerca de Tarento, en el sur de Italia, y era el mayor de once hermanos. Ya era sacerdote cuando entró en la Compañía de Jesús en 1670. Su misión se desarrolló principalmente en Nápoles, donde trabajó unos cuarenta años.",
+          "Anunciaba el Evangelio en calles y plazas y acompañaba a grupos de artesanos. Visitaba a enfermos, presos y hombres sometidos al trabajo en las galeras. Su vida unió la predicación con el cuidado concreto de personas marginadas de la ciudad."
+        ],
+        "question": "¿Qué necesidad de tu ciudad te mueve a actuar?"
+      },
+      "fr": {
+        "name": "François de Jérôme",
+        "theme": "Servir la ville",
+        "biography": [
+          "François est né près de Tarente, dans le sud de l’Italie, aîné de onze enfants. Déjà prêtre, il est entré dans la Compagnie de Jésus en 1670. Sa mission s’est déroulée surtout à Naples, où il a travaillé pendant environ quarante ans.",
+          "Il annonçait l’Évangile dans les rues et sur les places, et accompagnait des groupes d’artisans. Il visitait les malades, les prisonniers et les hommes contraints au travail sur les galères. Il unissait prédication et attention concrète aux personnes marginalisées de la ville."
+        ],
+        "question": "Quel besoin dans ta ville te donne envie d’agir ?"
+      },
+      "en": {
+        "name": "Francis Jerome",
+        "theme": "Serving the city",
+        "biography": [
+          "Francis was born near Taranto in southern Italy, the eldest of eleven children. He was already a priest when he entered the Society of Jesus in 1670. His mission took him mainly to Naples, where he worked for around forty years.",
+          "He preached the Gospel in streets and squares and accompanied groups of artisans. He visited sick people, prisoners and men forced to labour on the galleys. His life brought preaching together with practical care for people on the city’s margins."
+        ],
+        "question": "What need in your city makes you want to act?"
+      },
+      "ko": {
+        "name": "프란치스코 데 제로니모",
+        "theme": "도시를 위해 봉사하기",
+        "biography": [
+          "프란치스코는 이탈리아 남부 타란토 근처에서 열한 남매의 맏이로 태어났습니다. 이미 사제였던 그는 1670년 예수회에 입회했습니다. 이후 약 사십 년 동안 주로 나폴리에서 활동했습니다.",
+          "거리와 광장에서 복음을 전하고 장인들의 모임과 함께했습니다. 병자와 수감자, 갤리선에서 강제로 노역하던 사람들을 찾아갔습니다. 도시의 소외된 이들을 구체적으로 돌보며 복음 선포와 이웃 사랑을 하나로 이어 갔습니다."
+        ],
+        "question": "우리 도시의 어떤 어려움을 보면 행동하고 싶어지나요?"
+      }
+    }
+  },
+  "claudio-colombiere": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/saint-claude-la-colombiere/",
+      "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19920531_la-colombiere_en.html",
+      "https://www.jesuites.com/saint-claude-la-colombiere/"
+    ],
+    "locales": {
+      "pt": {
+        "name": "Cláudio de la Colombière",
+        "theme": "Escutar com confiança",
+        "biography": [
+          "Cláudio nasceu em França, estudou nos jesuítas e tornou-se professor e pregador. Em Paray-le-Monial, acompanhou espiritualmente Margarida Maria Alacoque. Escutou-a quando outros duvidavam dela e apoiou a sua missão de comunicar o amor de Cristo através da devoção ao Sagrado Coração.",
+          "Enviado para Londres como capelão da duquesa de Iorque, continuou a pregar sobre a confiança em Deus. Foi preso num ambiente de hostilidade contra os católicos e regressou a França com a saúde debilitada. Morreu em 1682, com 41 anos."
+        ],
+        "question": "Com quem podes falar com confiança sobre o que trazes no coração?"
+      },
+      "es": {
+        "name": "Claudio de la Colombière",
+        "theme": "Escuchar con confianza",
+        "biography": [
+          "Claudio nació en Francia, estudió con los jesuitas y se convirtió en profesor y predicador. En Paray-le-Monial acompañó espiritualmente a Margarita María Alacoque. La escuchó cuando otros dudaban de ella y apoyó su misión de comunicar el amor de Cristo mediante la devoción al Sagrado Corazón.",
+          "Enviado a Londres como capellán de la duquesa de York, siguió predicando sobre la confianza en Dios. Fue encarcelado en un ambiente de hostilidad contra los católicos y regresó a Francia con la salud debilitada. Murió en 1682, a los 41 años."
+        ],
+        "question": "¿Con quién puedes hablar con confianza de lo que llevas en el corazón?"
+      },
+      "fr": {
+        "name": "Claude La Colombière",
+        "theme": "Écouter avec confiance",
+        "biography": [
+          "Claude est né en France, a étudié chez les jésuites et est devenu enseignant et prédicateur. À Paray-le-Monial, il a accompagné spirituellement Marguerite-Marie Alacoque. Il l’a écoutée malgré les doutes de son entourage et a soutenu sa mission de faire connaître l’amour du Christ à travers la dévotion au Sacré-Cœur.",
+          "Envoyé à Londres comme aumônier de la duchesse d’York, il a continué à prêcher la confiance en Dieu. Emprisonné dans un climat d’hostilité envers les catholiques, il est revenu en France avec une santé fragilisée. Il est mort en 1682, à 41 ans."
+        ],
+        "question": "Avec qui peux-tu parler en confiance de ce que tu portes dans le cœur ?"
+      },
+      "en": {
+        "name": "Claude La Colombière",
+        "theme": "Listening with trust",
+        "biography": [
+          "Claude was born in France, studied with the Jesuits and became a teacher and preacher. At Paray-le-Monial, he offered spiritual guidance to Margaret Mary Alacoque. He listened when others doubted her and supported her mission to share Christ’s love through devotion to the Sacred Heart.",
+          "Sent to London as chaplain to the Duchess of York, he continued preaching about trust in God. He was imprisoned amid hostility towards Catholics and returned to France with damaged health. He died in 1682 at the age of forty-one."
+        ],
+        "question": "Who can you trust to talk with about what is in your heart?"
+      },
+      "ko": {
+        "name": "클로드 라 콜롱비에르",
+        "theme": "신뢰하며 귀 기울이기",
+        "biography": [
+          "클로드는 프랑스에서 태어나 예수회 학교에서 공부했고, 교사이자 설교자가 되었습니다. 파레르모니알에서는 마르가리타 마리아 알라코크의 영적 동반자가 되었습니다. 주변 사람들이 그녀를 의심할 때에도 귀를 기울였고, 예수 성심 신심을 통해 그리스도의 사랑을 전하는 사명을 지지했습니다.",
+          "요크 공작 부인의 담당 사제로 런던에 파견된 뒤에도 하느님에 대한 신뢰를 전했습니다. 가톨릭 신자들을 적대하던 상황에서 투옥되었고, 건강이 나빠진 채 프랑스로 돌아왔습니다. 1682년 마흔한 살에 세상을 떠났습니다."
+        ],
+        "question": "마음속 이야기를 믿고 털어놓을 수 있는 사람은 누구인가요?"
+      }
+    }
+  },
+  "jose-pignatelli": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/saint-joseph-pignatelli/",
+      "https://www.jesuits.org/stories/what-joseph-pignatelli-sj-teaches-us-about-living-in-isolation/"
+    ],
+    "locales": {
+      "pt": {
+        "name": "José Pignatelli",
+        "theme": "Manter os laços",
+        "biography": [
+          "José nasceu numa família nobre de Saragoça, mas escolheu ser jesuíta, ensinar e acompanhar pessoas presas. Quando os jesuítas foram expulsos de Espanha, em 1767, poderia ter usado os seus privilégios para ficar. Preferiu partir para o exílio com os companheiros.",
+          "Depois da supressão da Companhia de Jesus, em 1773, manteve contacto com jesuítas dispersos e ajudou os que passavam dificuldades. Mais tarde, voltou a acolher e formar novos membros em Itália. Morreu em 1811, antes da restauração geral da Companhia."
+        ],
+        "question": "Que laço gostarias de cuidar quando a vida se torna difícil?"
+      },
+      "es": {
+        "name": "José Pignatelli",
+        "theme": "Mantener los vínculos",
+        "biography": [
+          "José nació en una familia noble de Zaragoza, pero eligió ser jesuita, enseñar y acompañar a presos. Cuando los jesuitas fueron expulsados de España en 1767, podía haber usado sus privilegios para quedarse. Prefirió marcharse al exilio junto a sus compañeros.",
+          "Tras la supresión de la Compañía de Jesús en 1773, mantuvo el contacto con jesuitas dispersos y ayudó a quienes pasaban dificultades. Más tarde volvió a acoger y formar nuevos miembros en Italia. Murió en 1811, antes de la restauración general de la Compañía."
+        ],
+        "question": "¿Qué vínculo te gustaría cuidar cuando la vida se vuelve difícil?"
+      },
+      "fr": {
+        "name": "Joseph Pignatelli",
+        "theme": "Entretenir les liens",
+        "biography": [
+          "Joseph est né dans une famille noble de Saragosse, mais a choisi la vie jésuite, l’enseignement et l’accompagnement des prisonniers. Lors de l’expulsion des jésuites d’Espagne en 1767, ses privilèges auraient pu lui permettre de rester. Il a préféré l’exil avec ses compagnons.",
+          "Après la suppression de la Compagnie de Jésus en 1773, il a gardé contact avec les jésuites dispersés et soutenu ceux en difficulté. Plus tard, il a accueilli et formé de nouveaux membres en Italie. Il est mort en 1811, avant la restauration générale de la Compagnie."
+        ],
+        "question": "Quel lien aimerais-tu entretenir quand la vie devient difficile ?"
+      },
+      "en": {
+        "name": "Joseph Pignatelli",
+        "theme": "Keeping bonds alive",
+        "biography": [
+          "Joseph was born into a noble family in Zaragoza but chose Jesuit life, teaching and care for prisoners. When the Jesuits were expelled from Spain in 1767, his privileges could have allowed him to stay. He chose exile alongside his companions.",
+          "After the Society of Jesus was suppressed in 1773, he kept in touch with scattered Jesuits and supported those in difficulty. Later, he welcomed and trained new members in Italy. He died in 1811, before the Society’s restoration throughout the Church."
+        ],
+        "question": "What relationship would you like to nurture when life becomes difficult?"
+      },
+      "ko": {
+        "name": "요셉 피냐텔리",
+        "theme": "관계의 끈 이어 가기",
+        "biography": [
+          "요셉은 사라고사의 귀족 가문에서 태어났지만 예수회원이 되어 학생을 가르치고 수감자들을 돌보았습니다. 1767년 예수회원들이 스페인에서 추방될 때 가문의 특권으로 남을 수도 있었습니다. 그러나 동료들과 함께 망명길에 올랐습니다.",
+          "1773년 예수회가 해산된 뒤에도 흩어진 회원들과 연락하며 어려움에 처한 이들을 도왔습니다. 나중에는 이탈리아에서 새 회원들을 맞아들이고 양성했습니다. 예수회가 교회 전체에서 복구되기 전인 1811년에 세상을 떠났습니다."
+        ],
+        "question": "삶이 어려워질 때 어떤 관계를 소중히 가꾸고 싶나요?"
+      }
+    }
+  },
+  "andre-bobola": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/saint-andrew-bobola/",
+      "https://jezuici.pl/2014/05/jutro-uroczystosc-sw-andrzeja-boboli-sj/",
+      "https://www.rakowiecka.jezuici.pl/sanktuarium-11413/sanktuarium-11413/historia-statut-daty-11436"
+    ],
+    "locales": {
+      "pt": {
+        "name": "André Bobola",
+        "theme": "Permanecer fiel",
+        "biography": [
+          "André nasceu na Polónia e entrou na Companhia de Jesus em Vilnius, em 1611. Foi professor, pregador e missionário em territórios hoje pertencentes à Polónia, Lituânia e Bielorrússia. Com grupos de leigos, acompanhou presos, ensinou crianças e ajudou durante epidemias.",
+          "Viveu numa região atravessada por guerras e conflitos entre católicos e ortodoxos. Em 1657, foi capturado por cossacos e morto depois de recusar abandonar a fé católica. Canonizado em 1938, a sua memória convida hoje a procurar fidelidade, paz e reconciliação."
+        ],
+        "question": "O que te ajuda a manter a esperança em momentos de tensão?"
+      },
+      "es": {
+        "name": "Andrés Bobola",
+        "theme": "Permanecer fiel",
+        "biography": [
+          "Andrés nació en Polonia y entró en la Compañía de Jesús en Vilna en 1611. Fue profesor, predicador y misionero en territorios hoy pertenecientes a Polonia, Lituania y Bielorrusia. Con grupos de laicos acompañó a presos, enseñó a niños y ayudó durante epidemias.",
+          "Vivió en una región marcada por guerras y conflictos entre católicos y ortodoxos. En 1657 fue capturado por cosacos y asesinado tras negarse a abandonar la fe católica. Canonizado en 1938, su memoria invita hoy a buscar fidelidad, paz y reconciliación."
+        ],
+        "question": "¿Qué te ayuda a mantener la esperanza en momentos de tensión?"
+      },
+      "fr": {
+        "name": "André Bobola",
+        "theme": "Rester fidèle",
+        "biography": [
+          "André est né en Pologne et est entré dans la Compagnie de Jésus à Vilnius en 1611. Enseignant, prédicateur et missionnaire, il a travaillé sur les territoires actuels de la Pologne, de la Lituanie et de la Biélorussie. Avec des laïcs, il aidait prisonniers, enfants et victimes d’épidémies.",
+          "Il vivait dans une région marquée par les guerres et les conflits entre catholiques et orthodoxes. Capturé par des cosaques en 1657, il a été tué après avoir refusé d’abandonner la foi catholique. Canonisé en 1938, sa mémoire invite aujourd’hui à rechercher fidélité, paix et réconciliation."
+        ],
+        "question": "Qu’est-ce qui t’aide à garder l’espérance dans les moments de tension ?"
+      },
+      "en": {
+        "name": "Andrew Bobola",
+        "theme": "Remaining faithful",
+        "biography": [
+          "Andrew was born in Poland and entered the Society of Jesus in Vilnius in 1611. He taught, preached and served as a missionary in present-day Poland, Lithuania and Belarus. With groups of laypeople, he supported prisoners, taught children and helped during epidemics.",
+          "He lived in a region torn by wars and conflict between Catholics and Orthodox Christians. Captured by Cossacks in 1657, he was killed after refusing to abandon his Catholic faith. Canonised in 1938, his memory invites a commitment to faithfulness, peace and reconciliation today."
+        ],
+        "question": "What helps you hold on to hope in moments of tension?"
+      },
+      "ko": {
+        "name": "안드레아 보볼라",
+        "theme": "충실함을 지키기",
+        "biography": [
+          "안드레아는 폴란드에서 태어나 1611년 빌뉴스에서 예수회에 입회했습니다. 오늘날 폴란드와 리투아니아, 벨라루스에 속하는 지역에서 교사와 설교자, 선교사로 활동했습니다. 평신도들과 함께 수감자를 돌보고 어린이를 가르쳤으며, 전염병이 돌 때에도 이웃을 도왔습니다.",
+          "그가 살던 지역은 전쟁과 가톨릭 신자와 정교회 신자 사이의 갈등을 겪었습니다. 1657년 코사크인들에게 붙잡힌 그는 가톨릭 신앙을 버리기를 거부한 뒤 살해되었습니다. 1938년 시성된 그의 삶은 오늘날 충실함과 평화, 화해를 생각하게 합니다."
+        ],
+        "question": "긴장과 갈등 속에서도 희망을 지키는 데 무엇이 도움이 되나요?"
+      }
+    }
+  },
+  "isaac-jogues": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/saint-isaac-jogues/",
+      "https://www.jesuits.org/stories/society-of-jesus-in-the-u-s-celebrates-the-feast-of-the-north-american-martyrs/"
+    ],
+    "locales": {
+      "pt": {
+        "name": "Isaac Jogues",
+        "theme": "Recomeçar com coragem",
+        "biography": [
+          "Isaac nasceu em Orleães, em França, e entrou nos jesuítas aos dezassete anos. Em 1636, partiu para a América do Norte, onde trabalhou com comunidades indígenas e aprendeu a língua dos Wendat, também conhecidos como Hurões. As viagens faziam-se por rios e florestas.",
+          "Foi capturado em 1642, num contexto de guerra entre povos indígenas e de alianças coloniais, e sofreu graves ferimentos. Depois de escapar e regressar a França, voltou à missão. Foi morto em 1646 e canonizado com os mártires norte-americanos em 1930."
+        ],
+        "question": "Que passo para te aproximares de alguém te pede coragem?"
+      },
+      "es": {
+        "name": "Isaac Jogues",
+        "theme": "Volver a empezar con valentía",
+        "biography": [
+          "Isaac nació en Orleans, Francia, y entró en los jesuitas a los diecisiete años. En 1636 partió hacia América del Norte, donde trabajó con comunidades indígenas y aprendió la lengua de los wendat, también conocidos como hurones. Viajaba por ríos y bosques.",
+          "Fue capturado en 1642, en un contexto de guerra entre pueblos indígenas y alianzas coloniales, y sufrió graves heridas. Tras escapar y regresar a Francia, volvió a la misión. Murió asesinado en 1646 y fue canonizado con los mártires norteamericanos en 1930."
+        ],
+        "question": "¿Qué paso para acercarte a alguien te pide valentía?"
+      },
+      "fr": {
+        "name": "Isaac Jogues",
+        "theme": "Repartir avec courage",
+        "biography": [
+          "Isaac est né à Orléans et est entré chez les jésuites à dix-sept ans. Parti en Amérique du Nord en 1636, il a travaillé auprès de communautés autochtones et appris la langue des Wendats, aussi appelés Hurons. Les voyages traversaient rivières et forêts.",
+          "Capturé en 1642 dans un contexte de guerre entre peuples autochtones et d’alliances coloniales, il a subi de graves blessures. Après s’être échappé et être rentré en France, il est retourné en mission. Tué en 1646, il a été canonisé avec les martyrs nord-américains en 1930."
+        ],
+        "question": "Quel pas vers quelqu’un te demande du courage ?"
+      },
+      "en": {
+        "name": "Isaac Jogues",
+        "theme": "Beginning again with courage",
+        "biography": [
+          "Isaac was born in Orléans, France, and joined the Jesuits at seventeen. He left for North America in 1636, working with Indigenous communities and learning the language of the Wendat, also known as the Huron. Journeys took him along rivers and through forests.",
+          "Captured in 1642 amid warfare between Indigenous peoples and colonial alliances, he suffered serious injuries. After escaping and returning to France, he went back to the mission. He was killed in 1646 and canonised with the North American Martyrs in 1930."
+        ],
+        "question": "What step towards another person asks you to be courageous?"
+      },
+      "ko": {
+        "name": "이사악 조그",
+        "theme": "용기 있게 다시 시작하기",
+        "biography": [
+          "이사악은 프랑스 오를레앙에서 태어나 열일곱 살에 예수회에 입회했습니다. 1636년 북아메리카로 떠나 원주민 공동체와 함께 생활하며, 휴런이라고도 불리는 웬다트족의 언어를 배웠습니다. 강과 숲을 지나며 선교지를 오갔습니다.",
+          "원주민 집단 사이의 전쟁과 식민 세력의 동맹이 얽힌 상황에서 1642년 포로가 되어 큰 부상을 입었습니다. 탈출하여 프랑스로 돌아갔다가 다시 선교지로 향했습니다. 1646년 살해되었고, 1930년 북아메리카 순교자들과 함께 시성되었습니다."
+        ],
+        "question": "누군가에게 다가가기 위해 어떤 용기 있는 한 걸음이 필요한가요?"
+      }
+    }
+  },
+  "joao-brebeuf": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/saint-john-de-brebeuf/",
+      "https://www.vaticannews.va/en/saints/10/19/sts--john-de-brebeuf-and-isaac-jogues--priests-and-companions--j.html",
+      "https://mission.lmu.edu/stainedglass/saints/johndebrebeuf/"
+    ],
+    "locales": {
+      "pt": {
+        "name": "João de Brébeuf",
+        "theme": "Aprender com o encontro",
+        "biography": [
+          "João nasceu na Normandia, em França, e entrou na Companhia de Jesus em 1617. Chegou ao atual Canadá em 1625. Entre os Wendat, também conhecidos como Hurões, dedicou tempo a aprender a língua e os costumes, preparando textos para comunicar a fé.",
+          "A sua missão atravessou epidemias e conflitos entre povos indígenas e potências europeias. Em 1649 foi capturado e morto, juntamente com Gabriel Lalemant. Canonizado em 1930, é recordado pela perseverança e pelo esforço de conhecer a língua das pessoas com quem vivia."
+        ],
+        "question": "O que gostarias de aprender com alguém que vive de maneira diferente da tua?"
+      },
+      "es": {
+        "name": "Juan de Brébeuf",
+        "theme": "Aprender del encuentro",
+        "biography": [
+          "Juan nació en Normandía, Francia, e ingresó en la Compañía de Jesús en 1617. Llegó al actual Canadá en 1625. Entre los wendat, también conocidos como hurones, dedicó tiempo a aprender su lengua y sus costumbres, preparando textos para comunicar la fe.",
+          "Su misión atravesó epidemias y conflictos entre pueblos indígenas y potencias europeas. En 1649 fue capturado y asesinado junto con Gabriel Lalemant. Canonizado en 1930, es recordado por su perseverancia y por su esfuerzo por conocer la lengua de las personas con quienes vivía."
+        ],
+        "question": "¿Qué te gustaría aprender de alguien que vive de manera diferente a la tuya?"
+      },
+      "fr": {
+        "name": "Jean de Brébeuf",
+        "theme": "Apprendre de la rencontre",
+        "biography": [
+          "Jean est né en Normandie et est entré dans la Compagnie de Jésus en 1617. Il est arrivé dans l’actuel Canada en 1625. Parmi les Wendat, également appelés Hurons, il a appris la langue et les coutumes, préparant des textes pour transmettre la foi.",
+          "Sa mission a traversé des épidémies et des conflits entre peuples autochtones et puissances européennes. En 1649, il a été capturé et tué avec Gabriel Lalemant. Canonisé en 1930, il est connu pour sa persévérance et son effort pour apprendre la langue de ses interlocuteurs."
+        ],
+        "question": "Qu’aimerais-tu apprendre de quelqu’un qui vit autrement que toi ?"
+      },
+      "en": {
+        "name": "John de Brébeuf",
+        "theme": "Learning through encounter",
+        "biography": [
+          "John was born in Normandy, France, and joined the Society of Jesus in 1617. He reached present-day Canada in 1625. Living among the Wendat, also known as the Huron, he studied their language and customs and prepared texts to communicate the Christian faith.",
+          "His mission unfolded amid epidemics and conflicts involving Indigenous peoples and European powers. In 1649 he was captured and killed alongside Gabriel Lalemant. Canonized in 1930, he is remembered for his perseverance and his efforts to learn the language of the people around him."
+        ],
+        "question": "What would you like to learn from someone whose way of life differs from yours?"
+      },
+      "ko": {
+        "name": "요한 드 브레뵈프",
+        "theme": "만남을 통해 배우기",
+        "biography": [
+          "요한은 프랑스 노르망디에서 태어나 1617년 예수회에 입회했습니다. 1625년에는 오늘날의 캐나다에 도착했습니다. 그는 휴런이라고도 불리는 웬다트 사람들과 살며 그들의 언어와 관습을 배우는 데 시간을 들였고, 신앙을 전하기 위한 글을 준비했습니다.",
+          "그의 선교는 전염병과 원주민 공동체 및 유럽 세력이 얽힌 갈등 속에서 이루어졌습니다. 1649년 가브리엘 랄르망과 함께 붙잡혀 죽임을 당했습니다. 1930년 시성되었으며, 끈기와 함께 살던 이들의 언어를 배우려는 노력으로 기억됩니다."
+        ],
+        "question": "나와 다른 방식으로 살아가는 사람에게서 무엇을 배우고 싶나요?"
+      }
+    }
+  },
+  "roque-gonzalez": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/saint-roque-gonzalez/",
+      "https://www.vatican.va/content/john-paul-ii/es/homilies/1988/documents/hf_jp-ii_hom_19880516_asuncion.html"
+    ],
+    "locales": {
+      "pt": {
+        "name": "Roque González de Santa Cruz",
+        "theme": "Construir comunidade",
+        "biography": [
+          "Roque nasceu em Assunção, no atual Paraguai, em 1576. Tornou-se sacerdote e depois jesuíta. Trabalhou com comunidades guaranis na região dos rios Paraná e Uruguai, participando na criação de missões onde a vida cristã se articulava com a organização comunitária.",
+          "Nessas comunidades, a oração acompanhava o trabalho, a educação e os cuidados com quem precisava de ajuda. Roque foi morto em Caaró em 1628, num contexto de oposição à missão. Foi canonizado em 1988, juntamente com os jesuítas Afonso Rodríguez e João del Castillo."
+        ],
+        "question": "Que talento teu poderia ajudar a construir uma comunidade mais acolhedora?"
+      },
+      "es": {
+        "name": "Roque González de Santa Cruz",
+        "theme": "Construir comunidad",
+        "biography": [
+          "Roque nació en Asunción, en el actual Paraguay, en 1576. Fue sacerdote y después jesuita. Trabajó con comunidades guaraníes en la región de los ríos Paraná y Uruguay, participando en la creación de misiones que unían vida cristiana y organización comunitaria.",
+          "En aquellas comunidades, la oración acompañaba el trabajo, la educación y la atención a quienes necesitaban ayuda. Roque fue asesinado en Caaró en 1628, en un contexto de oposición a la misión. Fue canonizado en 1988 junto con los jesuitas Alfonso Rodríguez y Juan del Castillo."
+        ],
+        "question": "¿Qué talento tuyo podría ayudar a construir una comunidad más acogedora?"
+      },
+      "fr": {
+        "name": "Roque González de Santa Cruz",
+        "theme": "Construire une communauté",
+        "biography": [
+          "Roque est né à Asunción, dans l’actuel Paraguay, en 1576. Devenu prêtre puis jésuite, il a travaillé avec des communautés guaranies dans la région des fleuves Paraná et Uruguay. Il a participé à la création de missions associant vie chrétienne et organisation communautaire.",
+          "Dans ces communautés, la prière accompagnait le travail, l’éducation et l’attention aux personnes dans le besoin. Roque a été tué à Caaró en 1628, dans un contexte d’opposition à la mission. Il a été canonisé en 1988 avec les jésuites Alphonse Rodríguez et Jean del Castillo."
+        ],
+        "question": "Quel talent pourrais-tu mettre au service d’une communauté plus accueillante ?"
+      },
+      "en": {
+        "name": "Roque González de Santa Cruz",
+        "theme": "Building community",
+        "biography": [
+          "Roque was born in Asunción, in present-day Paraguay, in 1576. He became a priest and later a Jesuit. Working with Guaraní communities around the Paraná and Uruguay rivers, he helped establish missions that brought together Christian worship and the organization of community life.",
+          "Prayer in these communities accompanied work, education and care for people in need. Roque was killed at Caaró in 1628 amid opposition to the mission. He was canonized in 1988 together with fellow Jesuits Alfonso Rodríguez and Juan del Castillo, who were also killed that year."
+        ],
+        "question": "Which of your talents could help build a more welcoming community?"
+      },
+      "ko": {
+        "name": "로케 곤살레스 데 산타크루스",
+        "theme": "공동체 세우기",
+        "biography": [
+          "로케는 1576년 오늘날 파라과이의 아순시온에서 태어났습니다. 사제가 된 뒤 예수회에 입회했습니다. 파라나강과 우루과이강 주변의 과라니 공동체들과 함께 일하며, 그리스도교 신앙생활과 공동체 생활이 이어지는 선교 공동체들을 세우는 데 참여했습니다.",
+          "이 공동체들에서는 기도가 노동, 교육, 어려운 이웃을 돌보는 일과 함께 이루어졌습니다. 로케는 선교에 대한 반대가 있던 상황에서 1628년 카아로에서 죽임을 당했습니다. 1988년 예수회원 알폰소 로드리게스, 후안 델 카스티요와 함께 시성되었습니다."
+        ],
+        "question": "더 따뜻하게 맞아들이는 공동체를 만들기 위해 어떤 재능을 나눌 수 있을까요?"
+      }
+    }
+  },
+  "alberto-hurtado": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/saint-alberto-hurtado-cruchaga/",
+      "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20051023_cruchaga_en.html",
+      "https://www.jesuits.org/stories/society-of-jesus-celebrates-feast-of-st-alberto-hurtado-sj/"
+    ],
+    "locales": {
+      "pt": {
+        "name": "Alberto Hurtado",
+        "theme": "Dar lugar a quem fica de fora",
+        "biography": [
+          "Alberto nasceu no Chile e conheceu a insegurança económica depois da morte do pai. Estudou Direito enquanto ajudava a família e entrou na Companhia de Jesus em 1923. Como sacerdote, foi professor e acompanhou jovens, ligando a oração à atenção aos problemas sociais.",
+          "Em 1944 lançou o Hogar de Cristo para acolher pessoas sem casa, mobilizando a colaboração de muitos leigos. Também promoveu a dignidade dos trabalhadores e fundou a revista Mensaje. A sua fé traduziu-se em respostas concretas à pobreza e à exclusão."
+        ],
+        "question": "Quem está a ficar de fora à tua volta e como lhe podes abrir espaço?"
+      },
+      "es": {
+        "name": "Alberto Hurtado",
+        "theme": "Hacer sitio a quienes quedan fuera",
+        "biography": [
+          "Alberto nació en Chile y conoció la inseguridad económica tras la muerte de su padre. Estudió Derecho mientras ayudaba a su familia e ingresó en la Compañía de Jesús en 1923. Como sacerdote, enseñó y acompañó a jóvenes, vinculando la oración con las cuestiones sociales.",
+          "En 1944 inició el Hogar de Cristo para acoger a personas sin hogar, contando con la colaboración de numerosos laicos. También promovió la dignidad de los trabajadores y fundó la revista Mensaje. Su fe se expresó en respuestas concretas a la pobreza y la exclusión."
+        ],
+        "question": "¿Quién está quedando fuera a tu alrededor y cómo puedes hacerle sitio?"
+      },
+      "fr": {
+        "name": "Alberto Hurtado",
+        "theme": "Faire place aux personnes exclues",
+        "biography": [
+          "Né au Chili, Alberto a connu l’insécurité matérielle après la mort de son père. Il a étudié le droit tout en aidant sa famille, puis est entré chez les jésuites en 1923. Prêtre et enseignant, il accompagnait des jeunes en reliant prière et attention aux questions sociales.",
+          "En 1944, il a lancé le Hogar de Cristo pour accueillir les personnes sans domicile, avec le soutien de nombreux laïcs. Il a aussi défendu la dignité des travailleurs et fondé la revue Mensaje. Sa foi l’a conduit à répondre concrètement à la pauvreté et à l’exclusion."
+        ],
+        "question": "Qui reste à l’écart autour de toi, et comment pourrais-tu lui faire une place ?"
+      },
+      "en": {
+        "name": "Alberto Hurtado",
+        "theme": "Making room for others",
+        "biography": [
+          "Born in Chile, Alberto experienced financial insecurity after his father died. He studied law while supporting his family and entered the Society of Jesus in 1923. As a priest, he taught and accompanied young people, connecting prayer with close attention to the needs of society.",
+          "In 1944 he started Hogar de Cristo to welcome people without homes, drawing on the help of many lay collaborators. He also worked for the dignity of workers and founded the journal Mensaje. His faith inspired practical responses to poverty and social exclusion."
+        ],
+        "question": "Who is being left out around you, and how could you make room for them?"
+      },
+      "ko": {
+        "name": "알베르토 우르타도",
+        "theme": "소외된 이들에게 자리 내어 주기",
+        "biography": [
+          "칠레에서 태어난 알베르토는 아버지가 세상을 떠난 뒤 경제적 어려움을 겪었습니다. 가족을 도우며 법학을 공부했고, 1923년 예수회에 입회했습니다. 사제가 되어 학생들을 가르치고 청년들과 동행하며, 기도를 사회의 어려움에 대한 관심과 연결했습니다.",
+          "1944년에는 많은 평신도와 힘을 모아 집 없는 사람들을 맞아들이는 ‘오가르 데 크리스토’를 시작했습니다. 노동자의 존엄을 위해서도 힘썼으며 잡지 『멘사헤』를 창간했습니다. 그의 신앙은 가난과 소외에 응답하는 구체적인 실천으로 이어졌습니다."
+        ],
+        "question": "내 주변에서 소외되는 사람은 누구이며, 그 사람에게 어떻게 자리를 내어 줄 수 있을까요?"
+      }
+    }
+  },
+  "jose-maria-rubio": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/saint-jose-maria-rubio/",
+      "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20030504_rubio-peralta_en.html"
+    ],
+    "locales": {
+      "pt": {
+        "name": "José Maria Rubio",
+        "theme": "Estar disponível",
+        "biography": [
+          "José Maria nasceu na Andaluzia e foi ordenado sacerdote em 1887. Desejava ser jesuíta, mas o cuidado de um sacerdote idoso adiou esse projeto. Entrou na Companhia de Jesus em 1906 e dedicou grande parte do seu ministério às pessoas de Madrid.",
+          "Ficou conhecido pela pregação simples, pela escuta na confissão e pelo acompanhamento espiritual. Ajudou pessoas em situação de pobreza e envolveu leigos na criação de escolas gratuitas e noutras iniciativas de apoio. A sua disponibilidade ligava a vida de oração às necessidades concretas da cidade."
+        ],
+        "question": "A quem poderias oferecer um pouco mais do teu tempo e da tua atenção?"
+      },
+      "es": {
+        "name": "José María Rubio",
+        "theme": "Estar disponible",
+        "biography": [
+          "José María nació en Andalucía y fue ordenado sacerdote en 1887. Quería ser jesuita, pero el cuidado de un sacerdote anciano retrasó ese proyecto. Entró en la Compañía de Jesús en 1906 y dedicó gran parte de su ministerio a las personas de Madrid.",
+          "Fue conocido por su predicación sencilla, la escucha en la confesión y el acompañamiento espiritual. Ayudó a personas pobres e implicó a laicos en la creación de escuelas gratuitas y otras iniciativas de apoyo. Su disponibilidad unía la oración con las necesidades concretas de la ciudad."
+        ],
+        "question": "¿A quién podrías ofrecer un poco más de tu tiempo y de tu atención?"
+      },
+      "fr": {
+        "name": "José María Rubio",
+        "theme": "Se rendre disponible",
+        "biography": [
+          "Né en Andalousie, José María a été ordonné prêtre en 1887. Il désirait devenir jésuite, mais le soin d’un prêtre âgé a retardé ce projet. Entré dans la Compagnie de Jésus en 1906, il a consacré une grande partie de son ministère aux habitants de Madrid.",
+          "Il était connu pour sa prédication simple, son écoute en confession et son accompagnement spirituel. Il aidait les personnes pauvres et mobilisait des laïcs pour ouvrir des écoles gratuites et d’autres initiatives de soutien. Sa disponibilité reliait la prière aux besoins concrets de la ville."
+        ],
+        "question": "À qui pourrais-tu offrir un peu plus de ton temps et de ton attention ?"
+      },
+      "en": {
+        "name": "José María Rubio",
+        "theme": "Being available",
+        "biography": [
+          "José María was born in Andalusia and ordained a priest in 1887. He wanted to become a Jesuit, but caring for an elderly priest delayed that hope. He joined the Society of Jesus in 1906 and devoted much of his ministry to the people of Madrid.",
+          "He became known for clear preaching, attentive listening in confession and spiritual guidance. He helped people experiencing poverty and encouraged lay people to establish free schools and other forms of support. His availability connected a deep life of prayer with the practical needs of the city."
+        ],
+        "question": "Who could you offer a little more of your time and attention to?"
+      },
+      "ko": {
+        "name": "호세 마리아 루비오",
+        "theme": "기꺼이 곁에 있기",
+        "biography": [
+          "호세 마리아는 스페인 안달루시아에서 태어나 1887년 사제가 되었습니다. 예수회원이 되고 싶었지만 연로한 사제를 돌보느라 그 뜻을 미뤘습니다. 1906년 예수회에 입회한 뒤 사목 생활의 많은 시간을 마드리드 사람들을 위해 바쳤습니다.",
+          "그는 알기 쉬운 강론과 고해성사에서의 경청, 영적 동반으로 알려졌습니다. 가난한 이들을 돕고, 평신도들과 함께 무료 학교와 여러 지원 활동을 마련했습니다. 기꺼이 이웃 곁에 머무르며 깊은 기도 생활을 도시의 구체적인 필요와 연결했습니다."
+        ],
+        "question": "누구에게 내 시간과 관심을 조금 더 내어 줄 수 있을까요?"
+      }
+    }
+  },
+  "inacio-azevedo": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/blessed-ignatius-de-azevedo/",
+      "https://mail.liturgia.pt/santos/santo_v.php?cod_santo=110"
+    ],
+    "locales": {
+      "pt": {
+        "name": "Inácio de Azevedo",
+        "theme": "Reunir forças para servir",
+        "biography": [
+          "Inácio nasceu no Porto e entrou na Companhia de Jesus em 1548. Trabalhou na educação em Portugal e foi enviado ao Brasil como visitador em 1566. Percorreu escolas e missões, procurando conhecer o trabalho e as necessidades das comunidades jesuítas.",
+          "Regressou à Europa para reunir companheiros que colaborassem na missão do Brasil. Em 1570, durante a viagem, o seu navio foi atacado por corsários ao largo das Canárias. Inácio e trinta e nove companheiros foram mortos; são conhecidos como os Mártires do Brasil."
+        ],
+        "question": "Para que causa gostarias de reunir amigos e pôr mãos à obra?"
+      },
+      "es": {
+        "name": "Ignacio de Azevedo",
+        "theme": "Unir fuerzas para servir",
+        "biography": [
+          "Ignacio nació en Oporto e ingresó en la Compañía de Jesús en 1548. Trabajó en la educación en Portugal y fue enviado a Brasil como visitador en 1566. Recorrió colegios y misiones para conocer el trabajo y las necesidades de las comunidades jesuitas.",
+          "Regresó a Europa para reunir compañeros que colaboraran en la misión de Brasil. En 1570, durante el viaje, su barco fue atacado por corsarios cerca de las Canarias. Ignacio y treinta y nueve compañeros fueron asesinados; son conocidos como los Mártires de Brasil."
+        ],
+        "question": "¿Por qué causa te gustaría reunir a tus amigos y ponerte manos a la obra?"
+      },
+      "fr": {
+        "name": "Ignace de Azevedo",
+        "theme": "Unir ses forces pour servir",
+        "biography": [
+          "Ignace est né à Porto et est entré chez les jésuites en 1548. Après un travail dans l’éducation au Portugal, il a été envoyé au Brésil comme visiteur en 1566. Il a parcouru collèges et missions pour connaître le travail et les besoins des communautés jésuites.",
+          "Revenu en Europe, il a réuni des compagnons pour collaborer à la mission du Brésil. En 1570, pendant la traversée, des corsaires ont attaqué son navire au large des Canaries. Ignace et trente-neuf compagnons ont été tués ; ils sont connus comme les Martyrs du Brésil."
+        ],
+        "question": "Pour quelle cause aimerais-tu rassembler des amis et passer à l’action ?"
+      },
+      "en": {
+        "name": "Ignatius de Azevedo",
+        "theme": "Joining forces to serve",
+        "biography": [
+          "Ignatius was born in Porto and joined the Society of Jesus in 1548. After working in education in Portugal, he was sent to Brazil as a visitor in 1566. He travelled through schools and missions to understand the work and needs of the Jesuit communities.",
+          "He returned to Europe to gather companions for the mission in Brazil. In 1570, during the voyage, corsairs attacked his ship off the Canary Islands. Ignatius and thirty-nine companions were killed. The group is remembered as the Martyrs of Brazil, the destination they had hoped to reach."
+        ],
+        "question": "What cause would you like to bring friends together for and put into action?"
+      },
+      "ko": {
+        "name": "이냐시오 데 아제베두",
+        "theme": "함께 힘을 모아 섬기기",
+        "biography": [
+          "이냐시오는 포르투에서 태어나 1548년 예수회에 입회했습니다. 포르투갈에서 교육 활동을 한 뒤, 1566년 브라질의 예수회 활동을 살피는 방문자로 파견되었습니다. 학교와 선교지를 돌아보며 공동체들이 하는 일과 필요한 도움을 알아보았습니다.",
+          "그는 브라질 선교에 함께할 동료들을 모으기 위해 유럽으로 돌아왔습니다. 1570년 다시 항해하던 중 카나리아 제도 앞바다에서 해적의 공격을 받았습니다. 이냐시오와 서른아홉 동료는 죽임을 당했으며, 이들은 ‘브라질의 순교자들’로 기억됩니다."
+        ],
+        "question": "어떤 일을 위해 친구들과 힘을 모아 직접 행동해 보고 싶나요?"
+      }
+    }
+  },
+  "francisco-garate": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/blessed-francisco-garate/",
+      "https://www.deusto.es/es/inicio/somos-deusto/la-universidad/beato-garate"
+    ],
+    "locales": {
+      "pt": {
+        "name": "Francisco Gárate",
+        "theme": "Acolher nos pequenos gestos",
+        "biography": [
+          "Francisco nasceu perto de Loyola, no País Basco, e trabalhou num colégio jesuíta desde a adolescência. Entrou na Companhia de Jesus como irmão e cuidou durante dez anos de alunos doentes num colégio de A Guarda, perto da fronteira com Portugal.",
+          "Em 1888 foi para Deusto, em Bilbau, onde serviu como porteiro até morrer, em 1929. Acolhia estudantes e visitantes com a mesma atenção, independentemente da sua condição social. Beatificado em 1985, mostra como o serviço quotidiano pode tornar-se um caminho de santidade."
+        ],
+        "question": "Que pequeno gesto pode fazer alguém sentir-se bem-vindo hoje?"
+      },
+      "es": {
+        "name": "Francisco Gárate",
+        "theme": "Acoger con pequeños gestos",
+        "biography": [
+          "Francisco nació cerca de Loyola, en el País Vasco, y trabajó en un colegio jesuita desde la adolescencia. Entró en la Compañía de Jesús como hermano y cuidó durante diez años a alumnos enfermos en un colegio de A Guarda, cerca de la frontera portuguesa.",
+          "En 1888 fue destinado a Deusto, en Bilbao, donde sirvió como portero hasta su muerte en 1929. Recibía a estudiantes y visitantes con igual atención, cualquiera que fuera su condición social. Beatificado en 1985, muestra cómo el servicio cotidiano puede convertirse en camino de santidad."
+        ],
+        "question": "¿Qué pequeño gesto puede hacer que alguien se sienta bienvenido hoy?"
+      },
+      "fr": {
+        "name": "François Gárate",
+        "theme": "Accueillir par de petits gestes",
+        "biography": [
+          "François est né près de Loyola, au Pays basque, et a travaillé dans un collège jésuite dès l’adolescence. Devenu frère dans la Compagnie de Jésus, il a soigné pendant dix ans des élèves malades à A Guarda, près de la frontière portugaise.",
+          "En 1888, il a rejoint Deusto, à Bilbao, où il a été portier jusqu’à sa mort en 1929. Il accueillait étudiants et visiteurs avec la même attention, quelle que soit leur condition sociale. Béatifié en 1985, il témoigne d’une sainteté vécue dans le service quotidien."
+        ],
+        "question": "Quel petit geste pourrait aider quelqu’un à se sentir accueilli aujourd’hui ?"
+      },
+      "en": {
+        "name": "Francisco Gárate",
+        "theme": "Welcoming through small gestures",
+        "biography": [
+          "Francisco was born near Loyola in the Basque Country and worked in a Jesuit school from his teenage years. He entered the Society of Jesus as a brother and spent ten years caring for sick students at a school in A Guarda, near the Portuguese border.",
+          "In 1888 he moved to Deusto in Bilbao, serving as doorkeeper until his death in 1929. He welcomed students and visitors with equal attention, whatever their social standing. Beatified in 1985, his life shows how everyday service can become a path to holiness."
+        ],
+        "question": "What small gesture could help someone feel welcome today?"
+      },
+      "ko": {
+        "name": "프란치스코 가라테",
+        "theme": "작은 몸짓으로 맞아들이기",
+        "biography": [
+          "프란치스코는 바스크 지방의 로욜라 근처에서 태어나 청소년 때부터 예수회 학교에서 일했습니다. 예수회에 수사로 입회한 뒤, 포르투갈 국경과 가까운 아과르다의 학교에서 십 년 동안 아픈 학생들을 정성껏 돌보았습니다.",
+          "1888년 빌바오의 데우스토로 옮겨 1929년 세상을 떠날 때까지 문지기로 봉사했습니다. 학생과 방문객이 어떤 형편에 있든 같은 관심으로 맞이했습니다. 1985년 시복된 그의 삶은 일상의 봉사가 거룩함으로 향하는 길이 될 수 있음을 보여 줍니다."
+        ],
+        "question": "오늘 누군가가 환영받는다고 느끼도록 어떤 작은 행동을 할 수 있을까요?"
+      }
+    }
+  },
+  "miguel-pro": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/blessed-miguel-agustin-pro/",
+      "https://www.belenjesuit.org/sacred-art-blessed-miguel-pro"
+    ],
+    "locales": {
+      "pt": {
+        "name": "Miguel Agostinho Pro",
+        "theme": "Servir com coragem e alegria",
+        "biography": [
+          "Miguel nasceu no México e entrou na Companhia de Jesus numa época de forte conflito religioso. Prosseguiu a formação fora do país e foi ordenado sacerdote na Bélgica em 1925. Regressou ao México em 1926, quando o exercício público do ministério se tornava perigoso.",
+          "Celebrava os sacramentos em segredo e acompanhava famílias, usando disfarces para conseguir chegar às pessoas. Foi detido após uma acusação falsa e executado sem julgamento em 1927. Beatificado em 1988, é recordado pela coragem, pelo humor e pela fidelidade ao serviço dos outros."
+        ],
+        "question": "Que gesto de coragem e alegria podes oferecer a alguém que atravessa uma dificuldade?"
+      },
+      "es": {
+        "name": "Miguel Agustín Pro",
+        "theme": "Servir con valor y alegría",
+        "biography": [
+          "Miguel nació en México y entró en la Compañía de Jesús en una época de fuerte conflicto religioso. Continuó su formación fuera del país y fue ordenado sacerdote en Bélgica en 1925. Regresó a México en 1926, cuando ejercer públicamente el ministerio se volvía peligroso.",
+          "Celebraba los sacramentos en secreto y acompañaba a las familias, usando disfraces para llegar a las personas. Fue detenido tras una acusación falsa y ejecutado sin juicio en 1927. Beatificado en 1988, es recordado por su valentía, su humor y su fidelidad al servicio de los demás."
+        ],
+        "question": "¿Qué gesto de valor y alegría puedes ofrecer a alguien que atraviesa una dificultad?"
+      },
+      "fr": {
+        "name": "Miguel Agustín Pro",
+        "theme": "Servir avec courage et joie",
+        "biography": [
+          "Miguel est né au Mexique et est entré chez les jésuites pendant une période de forts conflits religieux. Il a poursuivi sa formation à l’étranger et a été ordonné prêtre en Belgique en 1925. Revenu au Mexique en 1926, il y exerçait un ministère devenu dangereux.",
+          "Il célébrait les sacrements en secret et accompagnait les familles, utilisant des déguisements pour rejoindre les personnes. Arrêté à la suite d’une fausse accusation, il a été exécuté sans procès en 1927. Béatifié en 1988, il est connu pour son courage, son humour et sa fidélité au service."
+        ],
+        "question": "Quel geste de courage et de joie peux-tu offrir à quelqu’un qui traverse une difficulté ?"
+      },
+      "en": {
+        "name": "Miguel Agustín Pro",
+        "theme": "Serving with courage and joy",
+        "biography": [
+          "Miguel was born in Mexico and entered the Society of Jesus during a time of intense religious conflict. He continued his training abroad and was ordained in Belgium in 1925. Returning to Mexico in 1926, he found that publicly exercising his ministry had become dangerous.",
+          "He celebrated the sacraments secretly and accompanied families, using disguises to reach people. Arrested after a false accusation, he was executed without trial in 1927. Beatified in 1988, he is remembered for his courage, sense of humour and faithful commitment to serving others in difficult circumstances."
+        ],
+        "question": "What act of courage and joy could you offer someone going through a difficult time?"
+      },
+      "ko": {
+        "name": "미겔 아구스틴 프로",
+        "theme": "용기와 기쁨으로 섬기기",
+        "biography": [
+          "미겔은 멕시코에서 태어나 종교적 갈등이 심하던 시기에 예수회에 입회했습니다. 해외에서 양성을 이어 가고 1925년 벨기에에서 사제가 되었습니다. 1926년 멕시코로 돌아왔을 때에는 공개적으로 사목 활동을 하는 것이 위험해지고 있었습니다.",
+          "그는 비밀리에 성사를 거행하고 가정들을 방문했으며, 사람들에게 다가가기 위해 변장하기도 했습니다. 거짓 혐의로 체포된 뒤 1927년 재판 없이 처형되었습니다. 1988년 시복되었으며, 용기와 유머, 어려움 속에서도 이웃을 섬기는 충실함으로 기억됩니다."
+        ],
+        "question": "어려움을 겪는 누군가에게 용기와 기쁨을 전하는 어떤 행동을 할 수 있을까요?"
+      }
+    }
+  },
+  "jose-anchieta": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/saint-jose-de-anchieta/",
+      "https://www.vatican.va/content/francesco/en/homilies/2014/documents/papa-francesco_20140424_omelia-san-jose-de-anchieta.html"
+    ],
+    "locales": {
+      "pt": {
+        "name": "José de Anchieta",
+        "theme": "Aprender a língua do outro",
+        "biography": [
+          "José nasceu em Tenerife, estudou em Coimbra e entrou na Companhia de Jesus em 1551. Partiu para o Brasil em 1553, onde foi missionário e professor, aprendeu tupi e usou a escrita e o teatro na transmissão da fé.",
+          "Apesar da saúde frágil, percorreu comunidades durante décadas. A sua missão convida a aprender a língua e a conhecer a cultura de quem se acompanha. Morreu em 1597 e foi canonizado pelo Papa Francisco em 2014."
+        ],
+        "question": "Que língua ou forma de comunicar gostarias de aprender para te aproximares de alguém?"
+      },
+      "es": {
+        "name": "José de Anchieta",
+        "theme": "Aprender la lengua del otro",
+        "biography": [
+          "José nació en Tenerife, estudió en Coimbra e ingresó en la Compañía de Jesús en 1551. Partió hacia Brasil en 1553, donde fue misionero y profesor, aprendió tupí y utilizó la escritura y el teatro para transmitir la fe.",
+          "A pesar de su salud frágil, recorrió comunidades durante décadas. Su misión invita a aprender la lengua y conocer la cultura de quienes acompañamos. Murió en 1597 y fue canonizado por el papa Francisco en 2014."
+        ],
+        "question": "¿Qué lengua o forma de comunicar te gustaría aprender para acercarte a alguien?"
+      },
+      "fr": {
+        "name": "José de Anchieta",
+        "theme": "Apprendre la langue de l’autre",
+        "biography": [
+          "Né à Tenerife, José a étudié à Coimbra et est entré dans la Compagnie de Jésus en 1551. Parti au Brésil en 1553, il y a été missionnaire et enseignant, a appris le tupi et a utilisé l’écriture et le théâtre pour transmettre la foi.",
+          "Malgré une santé fragile, il a parcouru les communautés pendant des décennies. Sa mission invite à apprendre la langue et à connaître la culture des personnes accompagnées. Mort en 1597, il a été canonisé par le pape François en 2014."
+        ],
+        "question": "Quelle langue ou manière de communiquer aimerais-tu apprendre pour te rapprocher de quelqu’un ?"
+      },
+      "en": {
+        "name": "José de Anchieta",
+        "theme": "Learning another person’s language",
+        "biography": [
+          "Born in Tenerife, José studied in Coimbra and entered the Society of Jesus in 1551. He left for Brazil in 1553, becoming a missionary and teacher, learning Tupi and using writing and theatre to share the faith.",
+          "Despite fragile health, he travelled between communities for decades. His mission invites us to learn the language and understand the culture of those we accompany. He died in 1597 and was canonised by Pope Francis in 2014."
+        ],
+        "question": "What language or way of communicating would you like to learn to grow closer to someone?"
+      },
+      "ko": {
+        "name": "호세 데 안치에타",
+        "theme": "다른 사람의 언어 배우기",
+        "biography": [
+          "테네리페에서 태어난 호세는 코임브라에서 공부하고 1551년 예수회에 입회했습니다. 1553년 브라질로 떠나 선교사이자 교사로 활동했으며, 투피어를 배우고 글과 연극을 통해 신앙을 전했습니다.",
+          "몸이 약했지만 수십 년 동안 여러 공동체를 찾아다녔습니다. 그의 선교는 함께하는 사람들의 언어와 문화를 배울 것을 우리에게 권합니다. 1597년에 세상을 떠났으며, 2014년 프란치스코 교황에 의해 시성되었습니다."
+        ],
+        "question": "누군가에게 더 가까이 다가가기 위해 어떤 언어나 소통 방식을 배우고 싶은가요?"
+      }
+    }
+  },
+  "jacques-berthieu": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/saint-jacques-berthieu/",
+      "https://www.vatican.va/content/benedict-xvi/fr/homilies/2012/documents/hf_ben-xvi_hom_20121021_canonizzazioni.html"
+    ],
+    "locales": {
+      "pt": {
+        "name": "Jacques Berthieu",
+        "theme": "Permanecer junto de quem precisa",
+        "biography": [
+          "Jacques já era padre diocesano em França quando entrou na Companhia de Jesus em 1873. Enviado para a região de Madagáscar, aprendeu malgaxe e dedicou-se à evangelização, ao ensino e ao cuidado dos pobres e dos doentes.",
+          "Acompanhou as comunidades em tempos de conflito e procurou protegê-las. Foi morto em 1896, depois de se recusar a renunciar à fé. Bento XVI canonizou-o em 2012; a sua vida recorda a força de uma presença fiel."
+        ],
+        "question": "Junto de quem gostarias de permanecer, mesmo quando acompanhar se torna difícil?"
+      },
+      "es": {
+        "name": "Santiago Berthieu",
+        "theme": "Permanecer junto a quien lo necesita",
+        "biography": [
+          "Santiago ya era sacerdote diocesano en Francia cuando ingresó en la Compañía de Jesús en 1873. Enviado a la región de Madagascar, aprendió malgache y se dedicó a la evangelización, la enseñanza y el cuidado de pobres y enfermos.",
+          "Acompañó a las comunidades en tiempos de conflicto y procuró protegerlas. Fue asesinado en 1896 tras negarse a renunciar a la fe. Benedicto XVI lo canonizó en 2012; su vida recuerda la fuerza de una presencia fiel."
+        ],
+        "question": "¿Junto a quién te gustaría permanecer, incluso cuando acompañar se vuelve difícil?"
+      },
+      "fr": {
+        "name": "Jacques Berthieu",
+        "theme": "Rester auprès de ceux qui en ont besoin",
+        "biography": [
+          "Jacques était déjà prêtre diocésain en France lorsqu’il est entré dans la Compagnie de Jésus en 1873. Envoyé dans la région de Madagascar, il a appris le malgache et s’est consacré à l’évangélisation, à l’enseignement et au soin des pauvres et des malades.",
+          "Il a accompagné les communautés dans les conflits et cherché à les protéger. Tué en 1896 après avoir refusé de renier sa foi, il a été canonisé par Benoît XVI en 2012. Sa vie rappelle la force d’une présence fidèle."
+        ],
+        "question": "Auprès de qui aimerais-tu rester, même quand l’accompagnement devient difficile ?"
+      },
+      "en": {
+        "name": "Jacques Berthieu",
+        "theme": "Staying beside those in need",
+        "biography": [
+          "Jacques was already a diocesan priest in France when he entered the Society of Jesus in 1873. Sent to the Madagascar region, he learned Malagasy and devoted himself to evangelisation, teaching and caring for people who were poor or ill.",
+          "He accompanied communities during conflict and sought to protect them. Killed in 1896 after refusing to renounce his faith, he was canonised by Benedict XVI in 2012. His life recalls the strength of a faithful presence."
+        ],
+        "question": "Whom would you like to stay beside, even when accompanying them becomes difficult?"
+      },
+      "ko": {
+        "name": "자크 베르티외",
+        "theme": "도움이 필요한 이들 곁에 머물기",
+        "biography": [
+          "자크는 프랑스에서 교구 사제로 지내다가 1873년 예수회에 입회했습니다. 마다가스카르 지역에 파견되어 말라가시어를 배웠으며, 복음 선포와 교육, 가난한 이들과 병든 이들을 돌보는 일에 헌신했습니다.",
+          "분쟁 속에서도 공동체와 함께하며 사람들을 보호하려고 애썼습니다. 신앙을 버리라는 요구를 거부한 뒤 1896년 살해되었으며, 2012년 베네딕토 16세 교황에 의해 시성되었습니다. 그의 삶은 충실하게 곁에 머무는 힘을 일깨워 줍니다."
+        ],
+        "question": "함께하는 일이 어려워져도 누구의 곁에 머물고 싶은가요?"
+      }
+    }
+  },
+  "rutilio-grande": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/blessed-rutilio-grande/",
+      "https://www.jesuits.global/2022/01/19/fr-rutilio-grande-together-with-two-lay-companions-is-beatified-in-el-salvador/",
+      "https://www.vatican.va/content/francesco/en/angelus/2022/documents/20220123-angelus.html"
+    ],
+    "locales": {
+      "pt": {
+        "name": "Rutilio Grande",
+        "theme": "Dar voz a quem não é ouvido",
+        "biography": [
+          "Rutilio nasceu em El Salvador e entrou na Companhia de Jesus em 1945. Como pároco de Aguilares, acompanhou comunidades camponesas, formou responsáveis leigos e ligou o anúncio do Evangelho à defesa da dignidade humana.",
+          "Foi assassinado em 12 de março de 1977 com os leigos Manuel Solórzano e Nelson Rutilio Lemus. O seu testemunho marcou o amigo Óscar Romero. Beatificado em 22 de janeiro de 2022, convida a unir fé, proximidade e justiça."
+        ],
+        "question": "Quem precisa que escutes a sua história e ajudes a fazer ouvir a sua voz?"
+      },
+      "es": {
+        "name": "Rutilio Grande",
+        "theme": "Dar voz a quienes no son escuchados",
+        "biography": [
+          "Rutilio nació en El Salvador e ingresó en la Compañía de Jesús en 1945. Como párroco de Aguilares, acompañó a comunidades campesinas, formó a responsables laicos y unió el anuncio del Evangelio a la defensa de la dignidad humana.",
+          "Fue asesinado el 12 de marzo de 1977 junto a los laicos Manuel Solórzano y Nelson Rutilio Lemus. Su testimonio marcó a su amigo Óscar Romero. Beatificado el 22 de enero de 2022, invita a unir fe, cercanía y justicia."
+        ],
+        "question": "¿Quién necesita que escuches su historia y le ayudes a hacer oír su voz?"
+      },
+      "fr": {
+        "name": "Rutilio Grande",
+        "theme": "Faire entendre ceux qu’on n’écoute pas",
+        "biography": [
+          "Né au Salvador, Rutilio est entré dans la Compagnie de Jésus en 1945. Curé d’Aguilares, il a accompagné les communautés paysannes, formé des responsables laïcs et lié l’annonce de l’Évangile à la défense de la dignité humaine.",
+          "Il a été assassiné le 12 mars 1977 avec les laïcs Manuel Solórzano et Nelson Rutilio Lemus. Son témoignage a marqué son ami Óscar Romero. Béatifié le 22 janvier 2022, il invite à unir foi, proximité et justice."
+        ],
+        "question": "Qui a besoin que tu écoutes son histoire et l’aides à faire entendre sa voix ?"
+      },
+      "en": {
+        "name": "Rutilio Grande",
+        "theme": "Helping unheard voices be heard",
+        "biography": [
+          "Born in El Salvador, Rutilio entered the Society of Jesus in 1945. As parish priest of Aguilares, he accompanied farming communities, trained lay leaders and connected the proclamation of the Gospel with defending human dignity.",
+          "He was murdered on 12 March 1977 with lay companions Manuel Solórzano and Nelson Rutilio Lemus. His witness deeply influenced his friend Óscar Romero. Beatified on 22 January 2022, he invites us to bring faith, closeness and justice together."
+        ],
+        "question": "Who needs you to listen to their story and help their voice be heard?"
+      },
+      "ko": {
+        "name": "루틸리오 그란데",
+        "theme": "들리지 않는 목소리를 전하기",
+        "biography": [
+          "엘살바도르에서 태어난 루틸리오는 1945년 예수회에 입회했습니다. 아길라레스 본당의 사제로서 농민 공동체와 함께하고 평신도 지도자들을 양성했으며, 복음 선포를 인간 존엄성의 수호와 연결했습니다.",
+          "1977년 3월 12일 평신도 마누엘 솔로르사노, 넬손 루틸리오 레무스와 함께 살해되었습니다. 그의 증언은 친구인 오스카르 로메로에게 큰 영향을 주었습니다. 2022년 1월 22일 시복되었으며, 신앙과 친밀함, 정의를 함께 살아가도록 초대합니다."
+        ],
+        "question": "당신이 이야기를 들어 주고 그 목소리가 전해지도록 도와야 할 사람은 누구인가요?"
+      }
+    }
+  },
+  "joao-beyzym": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/blessed-john-beyzym/",
+      "https://www.vatican.va/content/john-paul-ii/fr/homilies/2002/documents/hf_jp-ii_hom_20020818_beatification-krakow.html"
+    ],
+    "locales": {
+      "pt": {
+        "name": "João Beyzym",
+        "theme": "Cuidar sem excluir",
+        "biography": [
+          "João, também conhecido como Jan Beyzym, foi um jesuíta polaco nascido em 1850. Chegou a Madagáscar em 1898 e escolheu viver junto de pessoas com lepra, que enfrentavam a doença, a fome e a exclusão social.",
+          "Procurou alimentos, prestou cuidados e mobilizou apoios para construir um hospital em Marana. Morreu em 1912 e foi beatificado por João Paulo II em 18 de agosto de 2002. A sua história lembra que cuidar também é devolver dignidade."
+        ],
+        "question": "Que pessoa esquecida poderias ajudar a sentir-se acolhida e cuidada?"
+      },
+      "es": {
+        "name": "Jan Beyzym",
+        "theme": "Cuidar sin excluir",
+        "biography": [
+          "Jan Beyzym fue un jesuita polaco nacido en 1850. Llegó a Madagascar en 1898 y eligió vivir junto a personas con lepra, que afrontaban la enfermedad, el hambre y la exclusión social.",
+          "Buscó alimentos, prestó cuidados y reunió apoyos para construir un hospital en Marana. Murió en 1912 y fue beatificado por Juan Pablo II el 18 de agosto de 2002. Su historia recuerda que cuidar también significa devolver dignidad."
+        ],
+        "question": "¿A qué persona olvidada podrías ayudar a sentirse acogida y cuidada?"
+      },
+      "fr": {
+        "name": "Jan Beyzym",
+        "theme": "Prendre soin sans exclure",
+        "biography": [
+          "Jan Beyzym était un jésuite polonais né en 1850. Arrivé à Madagascar en 1898, il a choisi de vivre auprès de personnes atteintes de la lèpre, confrontées à la maladie, à la faim et à l’exclusion sociale.",
+          "Il a cherché de la nourriture, donné des soins et réuni des soutiens pour construire un hôpital à Marana. Mort en 1912, il a été béatifié par Jean-Paul II le 18 août 2002. Son histoire rappelle que soigner, c’est aussi rendre leur dignité aux personnes."
+        ],
+        "question": "Quelle personne oubliée pourrais-tu aider à se sentir accueillie et entourée de soins ?"
+      },
+      "en": {
+        "name": "John Beyzym",
+        "theme": "Caring without excluding",
+        "biography": [
+          "John, also known as Jan Beyzym, was a Polish Jesuit born in 1850. He arrived in Madagascar in 1898 and chose to live alongside people with leprosy who faced illness, hunger and social exclusion.",
+          "He found food, provided care and raised support to build a hospital in Marana. He died in 1912 and was beatified by John Paul II on 18 August 2002. His story reminds us that caring also means restoring dignity."
+        ],
+        "question": "What forgotten person could you help feel welcomed and cared for?"
+      },
+      "ko": {
+        "name": "얀 베이짐",
+        "theme": "소외시키지 않고 돌보기",
+        "biography": [
+          "얀 베이짐은 1850년에 태어난 폴란드 출신 예수회원입니다. 1898년 마다가스카르에 도착한 뒤, 질병과 굶주림, 사회적 배제에 시달리던 한센병 환자들 곁에서 살기로 했습니다.",
+          "먹을 것을 구하고 환자들을 돌보았으며, 마라나에 병원을 짓기 위한 후원을 모았습니다. 1912년에 세상을 떠났고, 2002년 8월 18일 요한 바오로 2세 교황에 의해 시복되었습니다. 그의 삶은 돌봄이 존엄성을 되찾아 주는 일임을 일깨워 줍니다."
+        ],
+        "question": "잊힌 누군가가 환대와 돌봄을 느끼도록 어떻게 도울 수 있을까요?"
+      }
+    }
+  },
+  "tiburcio-arnaiz": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/blessed-tiburcio-arnaiz-munoz/",
+      "https://www.vatican.va/content/francesco/en/angelus/2018/documents/papa-francesco_angelus_20181021.html",
+      "https://www.jesuits.global/2019/11/27/seek-not-your-own-interests-but-those-of-jesus-christ-tiburcio-arnaiz-sj/"
+    ],
+    "locales": {
+      "pt": {
+        "name": "Tibúrcio Arnáiz Muñoz",
+        "theme": "Levar esperança a lugares esquecidos",
+        "biography": [
+          "Tibúrcio nasceu em Valladolid em 1865 e entrou na Companhia de Jesus em 1902, depois de ser padre diocesano. Em Málaga e nas zonas rurais da Andaluzia, promoveu missões populares, educação e acompanhamento espiritual.",
+          "Visitava doentes e presos e mobilizava colaboradores para apoiar famílias pobres. Morreu em 1926 e foi beatificado em Málaga em 20 de outubro de 2018. A sua vida mostra como a oração pode levar a responder a necessidades concretas."
+        ],
+        "question": "Que necessidade concreta do teu bairro te convida a pôr mãos à obra com outras pessoas?"
+      },
+      "es": {
+        "name": "Tiburcio Arnáiz Muñoz",
+        "theme": "Llevar esperanza a lugares olvidados",
+        "biography": [
+          "Tiburcio nació en Valladolid en 1865 e ingresó en la Compañía de Jesús en 1902, después de ser sacerdote diocesano. En Málaga y en las zonas rurales de Andalucía promovió misiones populares, educación y acompañamiento espiritual.",
+          "Visitaba a enfermos y presos y reunía a colaboradores para apoyar a familias pobres. Murió en 1926 y fue beatificado en Málaga el 20 de octubre de 2018. Su vida muestra cómo la oración puede llevar a responder a necesidades concretas."
+        ],
+        "question": "¿Qué necesidad concreta de tu barrio te invita a ponerte manos a la obra con otras personas?"
+      },
+      "fr": {
+        "name": "Tiburcio Arnáiz Muñoz",
+        "theme": "Porter l’espérance dans les lieux oubliés",
+        "biography": [
+          "Né à Valladolid en 1865, Tiburcio est entré dans la Compagnie de Jésus en 1902 après avoir été prêtre diocésain. À Malaga et dans les campagnes d’Andalousie, il a développé les missions populaires, l’éducation et l’accompagnement spirituel.",
+          "Il visitait les malades et les prisonniers et réunissait des collaborateurs pour soutenir les familles pauvres. Mort en 1926, il a été béatifié à Malaga le 20 octobre 2018. Sa vie montre comment la prière peut conduire à répondre à des besoins concrets."
+        ],
+        "question": "Quel besoin concret de ton quartier t’invite à agir avec d’autres personnes ?"
+      },
+      "en": {
+        "name": "Tiburcio Arnáiz Muñoz",
+        "theme": "Bringing hope to forgotten places",
+        "biography": [
+          "Born in Valladolid in 1865, Tiburcio entered the Society of Jesus in 1902 after serving as a diocesan priest. In Málaga and rural Andalusia, he promoted popular missions, education and spiritual accompaniment.",
+          "He visited sick people and prisoners and brought collaborators together to support poor families. He died in 1926 and was beatified in Málaga on 20 October 2018. His life shows how prayer can lead us to meet concrete needs."
+        ],
+        "question": "What concrete need in your neighbourhood invites you to take action with others?"
+      },
+      "ko": {
+        "name": "티부르시오 아르나이스 무뇨스",
+        "theme": "잊힌 곳에 희망 전하기",
+        "biography": [
+          "티부르시오는 1865년 바야돌리드에서 태어나 교구 사제로 지낸 뒤 1902년 예수회에 입회했습니다. 말라가와 안달루시아의 농촌 지역에서 대중 선교와 교육, 영적 동반에 힘썼습니다.",
+          "환자와 수감자들을 찾아가고 협력자들을 모아 가난한 가정들을 도왔습니다. 1926년에 세상을 떠났으며, 2018년 10월 20일 말라가에서 시복되었습니다. 그의 삶은 기도가 구체적인 필요에 응답하는 행동으로 이어질 수 있음을 보여 줍니다."
+        ],
+        "question": "이웃들과 함께 행동하도록 당신을 초대하는 동네의 구체적인 필요는 무엇인가요?"
+      }
+    }
+  }
+}

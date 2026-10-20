@@ -73,8 +73,8 @@ async function main() {
   global.fetch = async url => ({ ok: true, async json() { return JSON.parse(fs.readFileSync(path.join(root, String(url).replace(/^\.\//, '')), 'utf8')); } });
   await import(pathToFileURL(path.join(root, 'app.js')));
   for (let i = 0; i < 5; i++) await new Promise(resolve => setImmediate(resolve));
-  assert.equal(gallery.length, 30);
-  assert.equal((byId('gallery-grid').innerHTML.match(/class="saint-card"/g) || []).length, 30);
+  assert.equal(gallery.length, 40);
+  assert.equal((byId('gallery-grid').innerHTML.match(/class="saint-card"/g) || []).length, 40);
   assert(byId('gallery-grid').innerHTML.includes('Inácio de Loyola'));
   const { translate } = await import(pathToFileURL(path.join(root, 'translations.js')));
   for (const code of ['pt','es','fr','en','ko']) {

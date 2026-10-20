@@ -1,14 +1,14 @@
 # O jesuíta sou eu
 
-Experiência de semelhança entre uma fotografia e uma galeria de 30 santos e beatos jesuítas, pensada para tablet e telemóvel. Interface disponível em português de Portugal, espanhol, francês, inglês e coreano.
+Experiência de semelhança entre uma fotografia e uma galeria de 40 santos e beatos jesuítas, pensada para tablet e telemóvel. Interface disponível em português de Portugal, espanhol, francês, inglês e coreano.
 
 ## Descarregar a aplicação
 
-- [Instalador para Windows 10/11 x64 (.exe)](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases/latest/download/O-jesuita-sou-eu-Setup-0.6.0.exe)
-- [Aplicação para Android 6 ou superior (.apk)](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases/latest/download/O-jesuita-sou-eu-Android-0.6.0.apk)
+- [Instalador para Windows 10/11 x64 (.exe)](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases/latest/download/O-jesuita-sou-eu-Setup-0.7.0.exe)
+- [APK Android 0.6.0, galeria anterior de 30 figuras](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases/download/v0.6.0/O-jesuita-sou-eu-Android-0.6.0.apk)
 - [Versões publicadas e instruções de instalação](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases)
 
-Os instaladores incluem os 30 retratos e os modelos para funcionamento sem Internet. A versão Windows usa o Edge ou o Chrome instalado no computador e ainda não tem certificado comercial de editor. O APK tem assinatura própria do projeto. A instalação e a câmara devem ser ensaiadas nos aparelhos reais.
+A aplicação web e o instalador Windows 0.7.0 incluem as 40 figuras e os modelos para funcionamento sem Internet. O APK 0.6.0 mantém 30 figuras. No Android, instala a PWA para utilizar a galeria atual. A atualização direta do APK exige a chave de assinatura original, que não foi recuperada neste ambiente; não foi gerada uma chave substituta. A versão Windows usa o Edge ou o Chrome instalado no computador e ainda não tem certificado comercial de editor. O APK tem assinatura própria do projeto. A instalação e a câmara devem ser ensaiadas nos aparelhos reais.
 
 ## Instalar e publicar no GitHub
 
@@ -30,7 +30,7 @@ A mudança de língua funciona sem rede depois da preparação, não repete a co
 
 - Abertura da câmara frontal com autorização explícita, enquadramento e contagem decrescente.
 - Alternativa para carregar uma fotografia.
-- Deteção de um único rosto, descritor de 128 dimensões e ordenação dos 30 retratos por distância euclidiana.
+- Deteção de um único rosto, descritor de 128 dimensões e ordenação dos 40 retratos por distância euclidiana.
 - Três resultados, biografia breve, pergunta original para conversar e créditos da imagem.
 - Reinício com eliminação da fotografia; limpeza após 90 segundos de inatividade e quando se sai da página de resultado.
 - Todos os modelos, imagens, textos, estilos e scripts servidos pelo próprio site.
@@ -39,7 +39,7 @@ A mudança de língua funciona sem rede depois da preparação, não repete a co
 
 ## Rapidez da comparação
 
-O motor começa a carregar antes de se abrir a câmara. Usa o Tiny Face Detector a 320 píxeis para localizar o rosto e calcula os pontos faciais e o descritor apenas quando encontra um único rosto com tamanho suficiente. Conserva o modelo de reconhecimento e os 30 descritores da galeria. Uma segunda passagem a 416 píxeis e o detetor SSD ficam disponíveis para fotografias difíceis; o teste com retratos pintados usa SSD.
+O motor começa a carregar antes de se abrir a câmara. Usa o Tiny Face Detector a 320 píxeis para localizar o rosto e calcula os pontos faciais e o descritor apenas quando encontra um único rosto com tamanho suficiente. Conserva o modelo de reconhecimento e os 40 descritores da galeria. Uma segunda passagem a 416 píxeis e o detetor SSD ficam disponíveis para fotografias difíceis; o teste com retratos pintados usa SSD.
 
 A fotografia apresentada e analisada tem no máximo 640 píxeis no lado maior. Em WebGL, a preparação executa os três modelos com um tensor vazio, antes da fotografia, para compilar os shaders; esse tensor é eliminado. Se a preparação gráfica falhar, o motor usa CPU. Os modelos continuam na memória entre participantes, sem conservar as suas fotografias. A preparação offline completa começa depois dos modelos essenciais, para dar prioridade à primeira comparação.
 
@@ -86,7 +86,7 @@ A primeira abertura precisa de Internet para obter os recursos. Adicionar ao ecr
 
 ## Fontes e licenças
 
-A galeria inclui 24 santos e 6 beatos. Afonso Rodrigues (o irmão de Maiorca) é uma pessoa distinta de Afonso Rodríguez, companheiro de Roque González. O retrato de Francisco Gárate é uma representação escultórica identificada no Wikimedia Commons; a imagem de um futebolista homónimo encontrada na recolha inicial foi rejeitada e não faz parte do site.
+A galeria inclui 28 santos e 12 beatos. Afonso Rodrigues (o irmão de Maiorca) é uma pessoa distinta de Afonso Rodríguez, companheiro de Roque González. O retrato de Francisco Gárate é uma representação escultórica identificada no Wikimedia Commons; a imagem de um futebolista homónimo encontrada na recolha inicial foi rejeitada e não faz parte do site.
 
 Os créditos de cada retrato estão em `dist/gallery.json` e nas fichas visíveis do site. Os originais preservados encontram-se em `source-portraits/`; os retratos apresentados têm recorte e redimensionamento para dar destaque ao rosto.
 
@@ -98,8 +98,12 @@ A biblioteca face-api.js 0.22.2 e os modelos são do projeto de Vincent Mühler 
 
 ## Verificação
 
-`npm test` verifica os recursos offline, os modelos, os vetores, a sintaxe, as cinco traduções, os 300 parágrafos biográficos e a preservação das perguntas portuguesas. O teste de integração em Node verifica a troca de língua com a câmara e um resultado em curso, sem repetir inferência, bem como a eliminação da fotografia ao reiniciar. Não substitui um ensaio de câmara e disposição visual no aparelho real.
+`npm test` verifica os recursos offline, os modelos, os vetores, a sintaxe, as cinco traduções, os 400 parágrafos biográficos e a preservação das perguntas portuguesas. O teste de integração em Node verifica a troca de língua com a câmara e um resultado em curso, sem repetir inferência, bem como a eliminação da fotografia ao reiniciar. Não substitui um ensaio de câmara e disposição visual no aparelho real.
 
 A inferência de referência pode ser repetida com `scripts/portrait-inference.cjs` e `scripts/prepare-gallery.cjs`; estes utilitários precisam de `sharp` num ambiente de desenvolvimento. O site publicado não precisa dessa dependência.
 
 Não há recolha de fotografias, nomes, contactos ou analítica de visitantes.
+
+## Galeria 0.7.0
+
+Acrescenta Paulo Miki, Nicolau Owen, Edmundo Campion, Roberto Southwell, Rupert Mayer, John Sullivan, Diogo Carvalho, Francisco Pacheco, Miguel de Carvalho, Julien Maunoir. São 28 santos e 12 beatos, com 400 parágrafos biográficos nas cinco línguas. A fotografia do santuário de John Sullivan é conservada completa; o desenho do painel não é redistribuído isoladamente.

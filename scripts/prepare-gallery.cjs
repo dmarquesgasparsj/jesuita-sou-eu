@@ -4,6 +4,14 @@ const sharp=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES ? path.join(p
 const {init,infer}=require('./portrait-inference.cjs');
 const root=path.resolve(__dirname,'..');
 const source=process.argv[2];
+async function preparedReference(person) {
+ const o=person.referencePreparation;if(!o)return person.imagePath;
+ let image=sharp(person.imagePath);if(o.crop)image=image.extract(o.crop);
+ if(o.resize)image=image.resize(o.resize[0],o.resize[1],{fit:o.fit||'contain',background:'white'});
+ let buffer=await image.png().toBuffer();
+ if(o.rotate)buffer=await sharp(buffer).rotate(o.rotate,{background:'white'}).resize({width:400,height:500,fit:'inside'}).png().toBuffer();
+ return buffer;
+}
 async function main(){
  const people=JSON.parse(fs.readFileSync(source,'utf8'));
  for(const p of people) if(!path.isAbsolute(p.imagePath)) p.imagePath=path.resolve(path.dirname(source),p.imagePath);
@@ -18,22 +26,24 @@ async function main(){
   let reference;
   if(fs.existsSync(checkpoint))reference=JSON.parse(fs.readFileSync(checkpoint,'utf8'));
   else{
+   const referenceInput=await preparedReference(p);
+   if(!fs.existsSync(file) && p.imageFit==='contain')await sharp(p.imagePath).resize({width:1200,height:1200,fit:'inside'}).jpeg({quality:88,mozjpeg:true}).toFile(file);
    if(!fs.existsSync(file)){
-    const found=await infer(p.imagePath);
+    const found=await infer(referenceInput);
     if(!found.length)throw new Error('No face in '+p.id);
-    const face=found[0];const info=await sharp(p.imagePath).metadata();const box=face.box;
+    const face=found[0];const info=await sharp(referenceInput).metadata();const box=face.box;
     const centerX=(box.x+box.width/2)*info.width;const centerY=(box.y+box.height*.60)*info.height;
     let width=Math.min(info.width,box.width*info.width*2.0);let height=width*1.25;
     if(height>info.height){height=info.height;width=Math.min(info.width,height*.8);}
     width=Math.round(width);height=Math.round(height);
     const left=Math.max(0,Math.min(info.width-width,Math.round(centerX-width/2)));
     const top=Math.max(0,Math.min(info.height-height,Math.round(centerY-height*.48)));
-    await sharp(p.imagePath).extract({left,top,width,height}).resize(600,750).jpeg({quality:88,mozjpeg:true}).toFile(file);
+    await sharp(referenceInput).extract({left,top,width,height}).resize(600,750).jpeg({quality:88,mozjpeg:true}).toFile(file);
    }
-   const cropped=await infer(file);
+   const cropped=await infer(p.imageFit==='contain'?referenceInput:file);
    // A recognisable original can be the reference when a close crop causes
    // the detector to miss an angled painted face. Both depict the same work.
-   reference=cropped[0] || (await infer(p.imagePath))[0];
+   reference=cropped[0] || (await infer(referenceInput))[0];
    if(!reference)throw new Error('No reference face '+p.id);
    fs.writeFileSync(checkpoint,JSON.stringify(reference)+'\n');
   }

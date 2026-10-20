@@ -1,4 +1,4 @@
-# Galeria de 30 santos e beatos — imagens e fontes
+# Galeria de 40 santos e beatos — imagens e fontes
 
 Recolha: 18 de outubro de 2026. Os dez ficheiros iniciais são reproduções de retratos artísticos em domínio público. A ampliação inclui fotografias e uma representação escultórica; a licença de cada novo retrato é indicada abaixo e na respetiva ficha. As perguntas são propostas originais e não citações históricas.
 
@@ -323,3 +323,93 @@ Verificação: 19 de outubro de 2026. Estes cinco jesuítas foram canonizados ou
   - https://www.jesuits.global/saint-blessed/blessed-tiburcio-arnaiz-munoz/
   - https://www.vatican.va/content/francesco/en/angelus/2018/documents/papa-francesco_angelus_20181021.html
   - https://www.jesuits.global/2019/11/27/seek-not-your-own-interests-but-those-of-jesus-christ-tiburcio-arnaiz-sj/
+
+## Paulo Miki (1564–1597)
+
+- Estatuto: Santo
+- Autor: Jl FilpoC; escultura de Juan de Mesa
+- Fonte: https://commons.wikimedia.org/wiki/File:San_Pablo_Miki%2C_Museo_de_Bellas_Artes_de_Sevilla.jpg
+- Licença: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+- Biografia: https://www.jesuits.global/saint-blessed/saint-paul-miki/
+- Transformações: Recorte e redimensionamento, sem geração por IA.
+
+## Nicolau Owen (c. 1550–1606)
+
+- Estatuto: Santo
+- Autor: Gaspar Bouttats
+- Fonte: https://commons.wikimedia.org/wiki/File:Edward_Oldcorne%3B_Nicholas_Owen_by_Gaspar_Bouttats.jpg
+- Licença: Domínio público (Wikimedia Commons) — https://creativecommons.org/publicdomain/mark/1.0/
+- Biografia: https://www.jesuits.global/saint-blessed/saint-nicholas-owen/
+- Transformações: Recorte e redimensionamento, sem geração por IA. Recorte rodado para orientar o rosto.
+
+## Edmundo Campion (1540–1581)
+
+- Estatuto: Santo
+- Autor: Johann Martin Lerch
+- Fonte: https://commons.wikimedia.org/wiki/File:Edmund_Campion.jpg
+- Licença: Domínio público (Wikimedia Commons) — https://creativecommons.org/publicdomain/mark/1.0/
+- Biografia: https://www.jesuits.global/saint-blessed/saint-edmund-campion/
+- Transformações: Recorte e redimensionamento, sem geração por IA.
+
+## Roberto Southwell (1561–1595)
+
+- Estatuto: Santo
+- Autor: Autor não identificado
+- Fonte: https://commons.wikimedia.org/wiki/File:RobertSouthwell.jpg
+- Licença: Domínio público (Wikimedia Commons) — https://creativecommons.org/publicdomain/mark/1.0/
+- Biografia: https://www.jesuits.global/saint-blessed/saint-robert-southwell/
+- Transformações: Recorte e redimensionamento, sem geração por IA.
+
+## Rupert Mayer (1876–1945)
+
+- Estatuto: Beato
+- Autor: Autor não identificado
+- Fonte: https://commons.wikimedia.org/wiki/File:RupertMayer.jpg
+- Licença: Domínio público (Wikimedia Commons) — https://creativecommons.org/publicdomain/mark/1.0/
+- Biografia: https://www.jesuits.global/saint-blessed/blessed-rupert-mayer/
+- Transformações: Recorte e redimensionamento, sem geração por IA.
+
+## John Sullivan (1861–1933)
+
+- Estatuto: Beato
+- Autor: Cograng
+- Fonte: https://commons.wikimedia.org/wiki/File:Saint_Francis%E2%80%99_Church_of_Gardiner_Street-John_Sullivan_shrine.jpg
+- Licença: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+- Biografia: https://www.jesuits.global/saint-blessed/blessed-john-sullivan/
+- Transformações: Fotografia completa, apenas redimensionada.
+
+## Diogo Carvalho (1578–1624)
+
+- Estatuto: Beato
+- Autor: Melchior Küsel, segundo Karel Škréta
+- Fonte: https://commons.wikimedia.org/wiki/File:Melchior_k%C3%BCsel-diego_carvalho.jpg
+- Licença: Domínio público (Wikimedia Commons) — https://creativecommons.org/publicdomain/mark/1.0/
+- Biografia: https://www.jesuits.global/saint-blessed/blessed-diogo-carvalho/
+- Transformações: Recorte e redimensionamento, sem geração por IA.
+
+## Francisco Pacheco (1566–1626)
+
+- Estatuto: Beato
+- Autor: Joseolgon
+- Fonte: https://commons.wikimedia.org/wiki/File:Francisco_Pacheco_Capela_de_Nossa_Senhora_do_Pilar.jpg
+- Licença: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+- Biografia: https://www.jesuits.global/saint-blessed/blessed-francisco-pacheco/
+- Transformações: Recorte e redimensionamento, sem geração por IA.
+
+## Miguel de Carvalho (1579–1624)
+
+- Estatuto: Beato
+- Autor: Autor não identificado
+- Fonte: https://commons.wikimedia.org/wiki/File:Beato_Miguel_de_Carvalho.png
+- Licença: Domínio público (Wikimedia Commons) — https://creativecommons.org/publicdomain/mark/1.0/
+- Biografia: https://www.jesuits.global/saint-blessed/blessed-miguel-carvalho/
+- Transformações: Recorte e redimensionamento, sem geração por IA.
+
+## Julien Maunoir (1606–1683)
+
+- Estatuto: Beato
+- Autor: Autor não identificado
+- Fonte: https://commons.wikimedia.org/wiki/File:Julien_Maunoir.jpg
+- Licença: Domínio público (Wikimedia Commons) — https://creativecommons.org/publicdomain/mark/1.0/
+- Biografia: https://www.jesuits.global/es/saint-blessed/beato-julian-maunoir/
+- Transformações: Recorte e redimensionamento, sem geração por IA.

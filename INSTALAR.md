@@ -2,9 +2,9 @@
 
 ## Ficheiros de instalação
 
-A versão 0.6.0 tem dois pacotes com a galeria, as biografias e os modelos incluídos:
+A aplicação web e o instalador Windows 0.7.0 têm 40 figuras. O APK Android 0.6.0 mantém 30 figuras e a atualização direta exige a chave original. No Android, instala a PWA para usar a galeria atual.
 
-- `O-jesuita-sou-eu-Setup-0.6.0.exe`: instalador para Windows 10/11, 64 bits. Executa-o e segue os passos. Cria atalhos e uma opção de desinstalação. Precisa de Edge ou Chrome instalado; a comparação corre no computador.
+- `O-jesuita-sou-eu-Setup-0.7.0.exe`: instalador para Windows 10/11, 64 bits. Executa-o e segue os passos. Cria atalhos e uma opção de desinstalação. Precisa de Edge ou Chrome instalado; a comparação corre no computador.
 - `O-jesuita-sou-eu-Android-0.6.0.apk`: aplicação para Android 6 ou superior com WebView atualizado. Abre o APK no Android e autoriza a instalação a partir da aplicação que o descarregou, quando o sistema o pedir. A autorização da câmara é pedida quando tocas no botão da fotografia.
 
 O instalador Windows não possui certificado comercial de assinatura. O APK tem assinatura própria do projeto; não é uma publicação na Play Store. Os pacotes ainda precisam de ensaio real da câmara nos aparelhos. O código de compilação e as notas de assinatura estão em [native/README.md](native/README.md).

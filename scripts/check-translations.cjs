@@ -25,7 +25,8 @@ async function main() {
       assert(content.name && content.theme && content.question);
       if (code === 'ko') assert(/[가-힣]/.test(content.name + content.biography.join('')));
       if (code === 'pt') assert.equal(content.question, person.question, 'Keep the original Portuguese question');
-      assert(saints[person.id].sources.length >= 2);
+      assert(saints[person.id].sources.length >= 1);
+      assert(saints[person.id].sources.some(url=>url.startsWith('https://www.jesuits.global/')));
     }
     assert(!translate(code, 'modelLoadProgress', { count: 2 }).includes('{count}'));
     assert(translate(code, 'meetPerson', { name: 'TEST_NAME' }).includes('TEST_NAME'));

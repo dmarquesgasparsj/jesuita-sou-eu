@@ -1,6 +1,6 @@
 # Aplicações para Windows e Android
 
-As duas aplicações incluem os 30 retratos, as biografias nas cinco línguas e os modelos. A comparação funciona com os ficheiros incluídos no pacote, mesmo sem Internet. As fotografias continuam apenas na memória do aparelho.
+A versão Windows 0.7.0 inclui 40 figuras e os modelos. O APK 0.6.0 mantém 30 figuras; a sua atualização direta exige a chave original. A PWA Android já tem 40 figuras. A comparação funciona com os ficheiros incluídos no pacote, mesmo sem Internet. As fotografias continuam apenas na memória do aparelho.
 
 - Windows 10/11, 64 bits: o instalador cria atalhos e uma opção de desinstalação. A janela usa o Edge ou o Chrome instalado no computador. O serviço local está limitado a `127.0.0.1`, serve apenas os ficheiros incluídos e termina depois de se fechar a janela.
 - Android 6 ou superior, com Android System WebView atualizado: o APK inclui o conteúdo e pede autorização de câmara quando se toca no botão. O seletor do sistema permite escolher uma fotografia. As ligações biográficas externas abrem no navegador.

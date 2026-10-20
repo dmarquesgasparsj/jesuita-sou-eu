@@ -20,6 +20,7 @@ function message(key, isError = false) { setStatus('station-message', key, isErr
 function personText(person) { return { ...person, ...(state.texts[person.id]?.locales[currentLanguage()] || state.texts[person.id]?.locales.pt || {}) }; }
 function biographyHtml(person, className = '') { return person.biography.map(paragraph => `<p${className ? ` class="${className}"` : ''}>${escape(paragraph)}</p>`).join(''); }
 function jesuitTitle(person) { return t(person.title === 'Beato' ? 'jesuitBlessed' : 'jesuitSaint'); }
+const imageFit = person => person.imageFit === 'contain' ? 'contain' : 'cover';
 function imageLicense(person) {
   const label = person.licenseKind === 'cc' ? person.license : t('publicDomain');
   return sourceLink(person.licenseUrl, label, '');
@@ -50,16 +51,16 @@ function updateReadiness() {
 function renderGallery() {
   $('gallery-grid').innerHTML = state.gallery.map((raw, i) => {
     const p = personText(raw);
-    return `<button type="button" class="saint-card" data-person="${escape(p.id)}" aria-label="${escape(t('meetPerson', { name: p.name }))}"><span class="saint-image" style="display:block"><img src="${escape(p.image)}" alt="${escape(t('portraitOf', { name: p.name }))}" loading="lazy" decoding="async" style="object-position:${escape(p.position || '50% 35%')}"><span class="saint-number">${String(i + 1).padStart(2, '0')}</span></span><span class="card-name">${escape(p.name)}</span><span class="card-theme"><span>${escape(p.theme)}</span><span aria-hidden="true">↗</span></span></button>`;
+    return `<button type="button" class="saint-card" data-person="${escape(p.id)}" aria-label="${escape(t('meetPerson', { name: p.name }))}"><span class="saint-image" style="display:block"><img src="${escape(p.image)}" alt="${escape(t('portraitOf', { name: p.name }))}" loading="lazy" decoding="async" style="object-fit:${imageFit(p)};object-position:${escape(p.position || '50% 35%')}"><span class="saint-number">${String(i + 1).padStart(2, '0')}</span></span><span class="card-name">${escape(p.name)}</span><span class="card-theme"><span>${escape(p.theme)}</span><span aria-hidden="true">↗</span></span></button>`;
   }).join('');
   const collage = [state.gallery[0], state.gallery[4], state.gallery[1]].filter(Boolean);
-  $('portrait-collage').innerHTML = collage.map(p => `<img class="collage-portrait" src="${escape(p.image)}" style="object-position:${escape(p.position || '50% 35%')}" alt="">`).join('');
+  $('portrait-collage').innerHTML = collage.map(p => `<img class="collage-portrait" src="${escape(p.image)}" style="object-fit:${imageFit(p)};object-position:${escape(p.position || '50% 35%')}" alt="">`).join('');
 }
 
 function renderBiography(id) {
   const raw = state.gallery.find(x => x.id === id); if (!raw) return;
   const p = personText(raw);
-  $('biography-content').innerHTML = `<img class="biography-hero" src="${escape(p.image)}" alt="${escape(t('portraitOf', { name: p.name }))}" style="object-position:${escape(p.position || '50% 30%')}"><div class="biography-text"><p class="eyebrow">${escape(p.theme)}</p><h2>${escape(p.name)}</h2><p class="life-dates">${escape(p.dates)} · ${escape(jesuitTitle(p))}</p>${biographyHtml(p)}<div class="question-card"><span>${escape(t('conversationQuestion'))}</span><p>${escape(p.question)}</p></div>${sourceLink(p.biographyUrl, t('knowStory'))}<p class="image-credits">${escape(t('portraitCredit'))}: ${escape(imageAuthor(p))}. ${imageLicense(p)}. ${escape(t('portraitChanges'))} ${sourceLink(p.imageSource, t('sourceCredits'), '')}</p></div>`;
+  $('biography-content').innerHTML = `<img class="biography-hero" src="${escape(p.image)}" alt="${escape(t('portraitOf', { name: p.name }))}" style="object-fit:${imageFit(p)};object-position:${escape(p.position || '50% 30%')}"><div class="biography-text"><p class="eyebrow">${escape(p.theme)}</p><h2>${escape(p.name)}</h2><p class="life-dates">${escape(p.dates)} · ${escape(jesuitTitle(p))}</p>${biographyHtml(p)}<div class="question-card"><span>${escape(t('conversationQuestion'))}</span><p>${escape(p.question)}</p></div>${sourceLink(p.biographyUrl, t('knowStory'))}<p class="image-credits">${escape(t('portraitCredit'))}: ${escape(imageAuthor(p))}. ${imageLicense(p)}. ${escape(t(p.imageFit === 'contain' ? 'portraitResizedOnly' : 'portraitChanges'))}${p.imageNote ? ' ' + escape(p.imageNote) : ''} ${sourceLink(p.imageSource, t('sourceCredits'), '')}</p></div>`;
 }
 function openBiography(id) { state.biographyId = id; renderBiography(id); if (!$('biography-dialog').open) showDialog('biography-dialog'); }
 
@@ -261,7 +262,7 @@ function renderResultCopy(matches) {
   $('result-story').innerHTML = `<p class="eyebrow">${escape(p.theme)}</p><h3>${escape(p.name)}</h3><p class="life-dates">${escape(p.dates)} · ${escape(jesuitTitle(p))}</p>${biographyHtml(p, 'biography')}<div class="question-card"><span>${escape(t('conversationQuestion'))}</span><p>${escape(p.question)}</p></div><button type="button" class="text-button" data-person="${escape(p.id)}">${escape(t('knowStoryPortrait'))} ↗</button>`;
   $('other-matches').innerHTML = matches.slice(1).map((m, i) => {
     const other = personText(m.person);
-    return `<button type="button" class="other-match" data-person="${escape(other.id)}"><img src="${escape(other.image)}" alt="" style="object-position:${escape(other.position || '50% 35%')}"><span><strong>${escape(other.name)}</strong><small>${escape(t('rankedPortrait', { rank: i + 2 }))}</small></span></button>`;
+    return `<button type="button" class="other-match" data-person="${escape(other.id)}"><img src="${escape(other.image)}" alt="" style="object-fit:${imageFit(other)};object-position:${escape(other.position || '50% 35%')}"><span><strong>${escape(other.name)}</strong><small>${escape(t('rankedPortrait', { rank: i + 2 }))}</small></span></button>`;
   }).join('');
 }
 function showResults(matches, dataUrl) {
@@ -270,6 +271,7 @@ function showResults(matches, dataUrl) {
   state.phase = 'result'; $('experiencia').hidden = true; $('results').hidden = false;
   $('result-selfie').src = dataUrl; $('result-portrait').src = p.image;
   $('result-portrait').style.objectPosition = p.position || '50% 35%';
+  $('result-portrait').style.objectFit = imageFit(p);
   renderResultCopy(matches);
   $('result-title').focus({ preventScroll: true }); $('results').scrollIntoView({ behavior: 'smooth', block: 'start' });
   armResetTimer();

@@ -7,8 +7,8 @@ const root = path.resolve(__dirname, '..');
 const dist = path.join(root, 'dist');
 async function main() {
   const people = JSON.parse(fs.readFileSync(path.join(dist, 'gallery.json'), 'utf8'));
-  assert.equal(people.length, 30, 'Devem existir 30 retratos.');
-  assert.equal(new Set(people.map(p => p.id)).size, 30);
+  assert.equal(people.length, 40, 'Devem existir 40 retratos.');
+  assert.equal(new Set(people.map(p => p.id)).size, 40);
   const { rankPortraits, euclideanDistance } = await import(pathToFileURL(path.join(dist, 'matching.js')));
   for (const p of people) {
     assert.equal(p.descriptor.length, 128, `Descritor de ${p.id}`);

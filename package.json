@@ -1,9 +1,9 @@
 {
   "name": "o-jesuita-sou-eu",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "private": true,
   "type": "module",
-  "description": "Experiência de semelhança visual com 30 retratos de santos e beatos jesuítas, processada no navegador.",
+  "description": "Experiência de semelhança visual com 40 retratos de santos e beatos jesuítas, processada no navegador.",
   "scripts": {
     "build": "node scripts/check-site.cjs",
     "test": "node scripts/check-site.cjs && node scripts/check-face-engine.cjs && node scripts/check-camera-access.cjs && node scripts/check-translations.cjs && node scripts/check-language-flow.cjs && node scripts/check-offline.cjs && node scripts/check-offline.cjs /jesuita-sou-eu/"

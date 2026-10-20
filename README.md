@@ -2,6 +2,14 @@
 
 Experiência de semelhança entre uma fotografia e uma galeria de 30 santos e beatos jesuítas, pensada para tablet e telemóvel. Interface disponível em português de Portugal, espanhol, francês, inglês e coreano.
 
+## Descarregar a aplicação
+
+- [Instalador para Windows 10/11 x64 (.exe)](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases/latest/download/O-jesuita-sou-eu-Setup-0.6.0.exe)
+- [Aplicação para Android 6 ou superior (.apk)](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases/latest/download/O-jesuita-sou-eu-Android-0.6.0.apk)
+- [Versões publicadas e instruções de instalação](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases)
+
+Os instaladores incluem os 30 retratos e os modelos para funcionamento sem Internet. A versão Windows usa o Edge ou o Chrome instalado no computador e ainda não tem certificado comercial de editor. O APK tem assinatura própria do projeto. A instalação e a câmara devem ser ensaiadas nos aparelhos reais.
+
 ## Instalar e publicar no GitHub
 
 A pasta `native/` contém as aplicações com os recursos incluídos: instalador Windows x64 (`.exe`) e APK Android. O guia [native/README.md](native/README.md) descreve a compilação, a assinatura e os requisitos. As aplicações incluem a galeria e os modelos para uso sem Internet.

@@ -9,6 +9,17 @@ export const languages = [
 ];
 // Column order: Português, Español, Français, English, 한국어.
 const rows = {
+  comparisonPortrait: ["{name} — retrato usado na comparação", "{name} — retrato utilizado en la comparación", "{name} — portrait utilisé pour la comparaison", "{name} — portrait used for comparison", "{name} — 얼굴 비교에 사용하는 초상"],
+  previousPhoto: ["Imagem anterior", "Imagen anterior", "Image précédente", "Previous image", "이전 이미지"],
+  nextPhoto: ["Imagem seguinte", "Imagen siguiente", "Image suivante", "Next image", "다음 이미지"],
+  enlargePhoto: ["Ampliar imagem", "Ampliar imagen", "Agrandir l’image", "Enlarge image", "이미지 확대"],
+  photoGallery: ["Imagens de {name}", "Imágenes de {name}", "Images de {name}", "Images of {name}", "{name} 이미지"],
+  photoCounter: ["{index} de {total}", "{index} de {total}", "{index} sur {total}", "{index} of {total}", "{total}장 중 {index}장"],
+  photoCredit: ["Imagem", "Imagen", "Image", "Image", "이미지"],
+  photoResized: ["Imagem redimensionada, sem recorte.", "Imagen redimensionada, sin recortar.", "Image redimensionnée, sans recadrage.", "Image resized without cropping.", "자르지 않고 크기만 조정한 이미지."],
+  enlargedPhoto: ["Imagem ampliada", "Imagen ampliada", "Image agrandie", "Enlarged image", "확대 이미지"],
+  closePhoto: ["Fechar imagem", "Cerrar imagen", "Fermer l’image", "Close image", "이미지 닫기"],
+
   title: ['O jesuíta sou eu — descobre o teu sósia','El jesuita soy yo — descubre a quién te pareces','Le jésuite, c’est moi — découvre ton sosie','The Jesuit is me — discover your lookalike','예수회원, 바로 나 — 나를 닮은 성인 찾기'],
   description: ["Uma fotografia, 40 histórias para descobrir. Encontra o teu sósia entre santos e beatos jesuítas e conhece a sua vida.", "Una fotografía, 40 historias por descubrir. Encuentra a quién te pareces entre santos y beatos jesuitas y conoce su vida.", "Une photo, 40 histoires à découvrir. Trouve ton sosie parmi les saints et bienheureux jésuites et découvre sa vie.", "One photo, 40 stories to discover. Find your lookalike among Jesuit saints and blessed and learn about his life.", "사진 한 장으로 예수회 성인과 복자 40명의 삶을 만나 보세요. 나와 닮은 얼굴을 찾고 그 삶을 알아보세요."],
   brand: ['O jesuíta sou eu.','El jesuita soy yo.','Le jésuite, c’est moi.','The Jesuit is me.','예수회원, 바로 나.'],

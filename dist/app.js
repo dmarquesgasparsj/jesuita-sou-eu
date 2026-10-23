@@ -1,10 +1,11 @@
+import { mountPhotoGallery } from './photo-gallery.js';
 import { rankPortraits } from './matching.js';
 import { t, currentLanguage, translateElements, setLanguage } from './i18n.js';
 import { detectFacesForComparison, minimumFaceSize, warmFaceModels } from './face-engine.js';
 import { cameraSupportError, cameraErrorKey, requestCameraStream, playCameraVideo } from './camera-access.js';
 
 const $ = id => document.getElementById(id);
-const state = { gallery: [], texts: {}, resultMatches: null, biographyId: null, stream: null, phase: 'welcome', front: true, enginePromise: null, fallbackPromise: null, engineReady: false, registrationPromise: null, offlineReady: false, cameraTested: false, busy: false, operation: 0, resetTimer: null };
+const state = { gallery: [], texts: {}, resultMatches: null, biographyId: null, biographyPhoto: 0, photos: {}, stream: null, phase: 'welcome', front: true, enginePromise: null, fallbackPromise: null, engineReady: false, registrationPromise: null, offlineReady: false, cameraTested: false, busy: false, operation: 0, resetTimer: null };
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 const escape = text => String(text ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const sourceLink = (url, label, className = 'source-link') => `<a class="${className}" href="${escape(url)}" target="_blank" rel="noopener noreferrer">${escape(label)} ↗</a>`;
@@ -57,18 +58,30 @@ function renderGallery() {
   $('portrait-collage').innerHTML = collage.map(p => `<img class="collage-portrait" src="${escape(p.image)}" style="object-fit:${imageFit(p)};object-position:${escape(p.position || '50% 35%')}" alt="">`).join('');
 }
 
+let biographyGallery;
 function renderBiography(id) {
   const raw = state.gallery.find(x => x.id === id); if (!raw) return;
   const p = personText(raw);
-  $('biography-content').innerHTML = `<img class="biography-hero" src="${escape(p.image)}" alt="${escape(t('portraitOf', { name: p.name }))}" style="object-fit:${imageFit(p)};object-position:${escape(p.position || '50% 30%')}"><div class="biography-text"><p class="eyebrow">${escape(p.theme)}</p><h2>${escape(p.name)}</h2><p class="life-dates">${escape(p.dates)} · ${escape(jesuitTitle(p))}</p>${biographyHtml(p)}<div class="question-card"><span>${escape(t('conversationQuestion'))}</span><p>${escape(p.question)}</p></div>${sourceLink(p.biographyUrl, t('knowStory'))}<p class="image-credits">${escape(t('portraitCredit'))}: ${escape(imageAuthor(p))}. ${imageLicense(p)}. ${escape(t(p.imageFit === 'contain' ? 'portraitResizedOnly' : 'portraitChanges'))}${p.imageNote ? ' ' + escape(p.imageNote) : ''} ${sourceLink(p.imageSource, t('sourceCredits'), '')}</p></div>`;
+  const photos = [{ image: p.image, caption: t('comparisonPortrait', { name: p.name }), author: imageAuthor(p), license: p.licenseKind === 'cc' ? p.license : t('publicDomain'), licenseUrl: p.licenseUrl, sourceUrl: p.imageSource, note: t(p.imageFit === 'contain' ? 'portraitResizedOnly' : 'portraitChanges') + (p.imageNote ? ' ' + p.imageNote : '') }, ...(state.photos[id] || []).map(photo => ({ ...photo, caption: photo.captions?.[currentLanguage()] || photo.captions?.pt || t('portraitOf', { name: p.name }), note: t('photoResized') }))];
+  $('biography-content').innerHTML = `<div class="biography-photos"></div><div class="biography-text"><p class="eyebrow">${escape(p.theme)}</p><h2>${escape(p.name)}</h2><p class="life-dates">${escape(p.dates)} · ${escape(jesuitTitle(p))}</p>${biographyHtml(p)}<div class="question-card"><span>${escape(t('conversationQuestion'))}</span><p>${escape(p.question)}</p></div>${sourceLink(p.biographyUrl, t('knowStory'))}</div>`;
+  biographyGallery?.destroy();
+  biographyGallery = mountPhotoGallery($('biography-content').querySelector('.biography-photos'), photos, { previous: t('previousPhoto'), next: t('nextPhoto'), enlarge: t('enlargePhoto'), gallery: t('photoGallery', { name: p.name }), counter: (index, total) => t('photoCounter', { index, total }), credit: t('photoCredit'), source: t('sourceCredits') }, {
+    index: state.biographyPhoto,
+    onChange: index => { state.biographyPhoto = index; },
+    onEnlarge: photo => {
+      $('photo-content').innerHTML = `<img src="${escape(photo.image)}" alt="${escape(photo.caption)}"><p>${escape(photo.caption)}</p>`;
+      showDialog('photo-dialog');
+    }
+  });
 }
-function openBiography(id) { state.biographyId = id; renderBiography(id); if (!$('biography-dialog').open) showDialog('biography-dialog'); }
+function openBiography(id) { state.biographyPhoto = 0; state.biographyId = id; renderBiography(id); if (!$('biography-dialog').open) showDialog('biography-dialog'); }
 
 async function loadGallery() {
   try {
-    const [response, textsResponse] = await Promise.all([fetch('./gallery.json'), fetch('./saints-text.json')]);
-    if (!response.ok || !textsResponse.ok) throw new Error('gallery');
-    const [data, texts] = await Promise.all([response.json(), textsResponse.json()]);
+    const [response, textsResponse, photosResponse] = await Promise.all([fetch('./gallery.json'), fetch('./saints-text.json'), fetch('./biography-photos.json')]);
+    if (!response.ok || !textsResponse.ok || !photosResponse.ok) throw new Error('gallery');
+    const [data, texts, photos] = await Promise.all([response.json(), textsResponse.json(), photosResponse.json()]);
+    state.photos = photos;
     if (data.some(p => !texts[p.id]?.locales.pt?.biography || texts[p.id].locales.pt.biography.length !== 2)) throw new Error('biographies');
     state.texts = texts;
     if (!Array.isArray(data) || data.length < 3 || new Set(data.map(p => p.id)).size !== data.length || data.some(p => !Array.isArray(p.descriptor) || p.descriptor.length !== 128 || p.descriptor.some(n => !Number.isFinite(n)))) throw new Error('gallery');
@@ -353,7 +366,7 @@ document.addEventListener('languagechange', () => {
   if (state.biographyId && $('biography-dialog').open) renderBiography(state.biographyId);
   updateReadiness();
 });
-$('biography-dialog').addEventListener('close', () => { state.biographyId = null; });
+$('biography-dialog').addEventListener('close', () => { state.biographyId = null; biographyGallery?.destroy(); biographyGallery = null; });
 $('camera-start').addEventListener('click', startCamera);
 $('capture').addEventListener('click', capturePhoto);
 $('camera-flip').addEventListener('click', () => { state.front = !state.front; startCamera(); });

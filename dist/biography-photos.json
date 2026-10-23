@@ -1,0 +1,866 @@
+{
+  "inacio-loyola": [
+    {
+      "image": "./assets/biography/inacio-loyola-1.jpg",
+      "captions": {
+        "pt": "O triunfo de Inácio de Loyola, fresco de Andrea Pozzo.",
+        "es": "El triunfo de Ignacio de Loyola, fresco de Andrea Pozzo.",
+        "fr": "Le triomphe d’Ignace de Loyola, fresque d’Andrea Pozzo.",
+        "en": "The Triumph of Ignatius of Loyola, a fresco by Andrea Pozzo.",
+        "ko": "안드레아 포초의 프레스코화, 이냐시오 데 로욜라의 영광."
+      },
+      "author": "Wilfredor",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Triumph_of_St._Ignatius_of_Loyola,_ceiling_fresco_by_Andrea_Pozzo.jpg",
+      "commonsTitle": "File:Triumph of St. Ignatius of Loyola, ceiling fresco by Andrea Pozzo.jpg",
+      "verifiedOn": "2026-10-23"
+    },
+    {
+      "image": "./assets/biography/inacio-loyola-2.jpg",
+      "captions": {
+        "pt": "Estátua de Inácio de Loyola.",
+        "es": "Estatua de Ignacio de Loyola.",
+        "fr": "Statue de Ignace de Loyola.",
+        "en": "Statue of Ignatius of Loyola.",
+        "ko": "로욜라의 이냐시오의 조각상."
+      },
+      "author": "Livioandronico2013",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Statue_of_Saint_Ignatius_of_Loyola_on_Chiesa_del_Ges%C3%B9_(Frascati).jpg",
+      "commonsTitle": "File:Statue of Saint Ignatius of Loyola on Chiesa del Gesù (Frascati).jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "francisco-xavier": [
+    {
+      "image": "./assets/biography/francisco-xavier-1.jpg",
+      "captions": {
+        "pt": "Outro retrato de Francisco Xavier.",
+        "es": "Otro retrato de Francisco Javier.",
+        "fr": "Un autre portrait de François Xavier.",
+        "en": "Another portrait of Francis Xavier.",
+        "ko": "프란치스코 하비에르의 또 다른 초상."
+      },
+      "author": "Autor desconhecido",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_St._Francis_Xavier_from_18th_century_Realism_School.png",
+      "commonsTitle": "File:Portrait of St. Francis Xavier from 18th century Realism School.png",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "pedro-fabro": [
+    {
+      "image": "./assets/biography/pedro-fabro-1.jpg",
+      "captions": {
+        "pt": "Gravura de Pedro Fabro.",
+        "es": "Grabado de Pedro Fabro.",
+        "fr": "Gravure représentant Pierre Favre.",
+        "en": "Engraving of Peter Faber.",
+        "ko": "베드로 파브르의 판화."
+      },
+      "author": "Grentidez",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pierre_Favre_(1506-1546).jpg",
+      "commonsTitle": "File:Pierre Favre (1506-1546).jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "francisco-borja": [
+    {
+      "image": "./assets/biography/francisco-borja-1.jpg",
+      "captions": {
+        "pt": "Pintura que representa Francisco de Borja.",
+        "es": "Pintura que representa a Francisco de Borja.",
+        "fr": "Peinture représentant François de Borgia.",
+        "en": "Painting depicting Francis Borgia.",
+        "ko": "프란치스코 보르지아를 그린 회화."
+      },
+      "author": "Francisco Goya",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:St._Francis_Borgia_Helping_a_Dying_Impenitent_by_Goya.jpg",
+      "commonsTitle": "File:St. Francis Borgia Helping a Dying Impenitent by Goya.jpg",
+      "verifiedOn": "2026-10-23"
+    },
+    {
+      "image": "./assets/biography/francisco-borja-2.jpg",
+      "captions": {
+        "pt": "Busto-relicário de Francisco de Borja, no Museu de Arte de Filadélfia.",
+        "es": "Busto relicario de Francisco de Borja, en el Museo de Arte de Filadelfia.",
+        "fr": "Buste-reliquaire de François de Borgia, au musée d’art de Philadelphie.",
+        "en": "Reliquary bust of Francis Borgia, Philadelphia Museum of Art.",
+        "ko": "필라델피아 미술관에 있는 프란치스코 보르자의 성유물 흉상."
+      },
+      "author": "JJonahJackalope",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reliquary_Bust_of_Saint_Francis_Borgia,_Philadelphia_Museum_of_Art.jpg",
+      "commonsTitle": "File:Reliquary Bust of Saint Francis Borgia, Philadelphia Museum of Art.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "luis-gonzaga": [
+    {
+      "image": "./assets/biography/luis-gonzaga-1.jpg",
+      "captions": {
+        "pt": "Pintura que representa Luís Gonzaga.",
+        "es": "Pintura que representa a Luis Gonzaga.",
+        "fr": "Peinture représentant Louis de Gonzague.",
+        "en": "Painting depicting Aloysius Gonzaga.",
+        "ko": "알로이시오 곤자가를 그린 회화."
+      },
+      "author": "Guercino",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Vocation_of_Saint_Aloysius_Gonzaga.PNG",
+      "commonsTitle": "File:The Vocation of Saint Aloysius Gonzaga.PNG",
+      "verifiedOn": "2026-10-23"
+    },
+    {
+      "image": "./assets/biography/luis-gonzaga-2.jpg",
+      "captions": {
+        "pt": "Luís Gonzaga numa estampa de Jean-Baptiste Bethune.",
+        "es": "Luis Gonzaga en una estampa de Jean-Baptiste Bethune.",
+        "fr": "Louis de Gonzague sur une image de Jean-Baptiste Bethune.",
+        "en": "Aloysius Gonzaga in a holy card by Jean-Baptiste Bethune.",
+        "ko": "장바티스트 베튄의 성화 카드 속 알로이시오 곤자가."
+      },
+      "author": "Jean-Baptiste Bethune",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint_Aloysius_Gonzaga_Illustrated_Holy_Card_-_by_Jean-Baptiste_Bethune_-_High_Resolution_1200_DPI.png",
+      "commonsTitle": "File:Saint Aloysius Gonzaga Illustrated Holy Card - by Jean-Baptiste Bethune - High Resolution 1200 DPI.png",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "estanislao-kostka": [
+    {
+      "image": "./assets/biography/estanislao-kostka-1.jpg",
+      "captions": {
+        "pt": "Representação escultórica de Estanislau Kostka.",
+        "es": "Representación escultórica de Estanislao de Kostka.",
+        "fr": "Représentation sculptée de Stanislas Kostka.",
+        "en": "Sculptural representation of Stanislaus Kostka.",
+        "ko": "스타니슬라오 코스트카의 조각 작품."
+      },
+      "author": "Pierre Le Gros the Younger",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stanislaus_Kostka_Legros_n1.jpg",
+      "commonsTitle": "File:Stanislaus Kostka Legros n1.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "joao-berchmans": [
+    {
+      "image": "./assets/biography/joao-berchmans-1.jpg",
+      "captions": {
+        "pt": "Estátua de João Berchmans.",
+        "es": "Estatua de Juan Berchmans.",
+        "fr": "Statue de Jean Berchmans.",
+        "en": "Statue of John Berchmans.",
+        "ko": "요한 베르크만스의 조각상."
+      },
+      "author": "FakirNL",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beeld_van_Sint_Jan_Berchmans,_Berchmanianum,_Nijmegen.jpg",
+      "commonsTitle": "File:Beeld van Sint Jan Berchmans, Berchmanianum, Nijmegen.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "joao-brito": [
+    {
+      "image": "./assets/biography/joao-brito-1.jpg",
+      "captions": {
+        "pt": "Carta de João de Brito a pedir para partir em missão para a Índia.",
+        "es": "Carta de Juan de Brito pidiendo partir en misión a la India.",
+        "fr": "Lettre de Jean de Britto demandant à partir en mission en Inde.",
+        "en": "John de Britto’s letter requesting to go on mission to India.",
+        "ko": "인도 선교 파견을 청하는 요한 데 브리토의 편지."
+      },
+      "author": "Grentidez",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:John_de_Britto_(indipetens).JPG",
+      "commonsTitle": "File:John de Britto (indipetens).JPG",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "pedro-claver": [
+    {
+      "image": "./assets/biography/pedro-claver-1.jpg",
+      "captions": {
+        "pt": "Gravura de Pedro Claver.",
+        "es": "Grabado de Pedro Claver.",
+        "fr": "Gravure représentant Pierre Claver.",
+        "en": "Engraving of Peter Claver.",
+        "ko": "베드로 클라베르의 판화."
+      },
+      "author": "J. Vitta, segundo P. Gagliardi; Wellcome Collection",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint_Peter_Claver._Engraving_by_J._Vitta_after_P._Gagliardi_Wellcome_V0032875.jpg",
+      "commonsTitle": "File:Saint Peter Claver. Engraving by J. Vitta after P. Gagliardi Wellcome V0032875.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "roberto-belarmino": [
+    {
+      "image": "./assets/biography/roberto-belarmino-1.jpg",
+      "captions": {
+        "pt": "Outro retrato de Roberto Belarmino.",
+        "es": "Otro retrato de Roberto Belarmino.",
+        "fr": "Un autre portrait de Robert Bellarmin.",
+        "en": "Another portrait of Robert Bellarmine.",
+        "ko": "로베르토 벨라르미노의 또 다른 초상."
+      },
+      "author": "Autor desconhecido",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portret_van_kardinaal_Robertus_Bellarminus,_onbekend,_schilderij,_Museum_Plantin-Moretus_(Antwerpen)_-_MPM_V_IV_110_(cropped).jpg",
+      "commonsTitle": "File:Portret van kardinaal Robertus Bellarminus, onbekend, schilderij, Museum Plantin-Moretus (Antwerpen) - MPM V IV 110 (cropped).jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "pedro-canisio": [
+    {
+      "image": "./assets/biography/pedro-canisio-1.jpg",
+      "captions": {
+        "pt": "Estátua de Pedro Canísio.",
+        "es": "Estatua de Pedro Canisio.",
+        "fr": "Statue de Pierre Canisius.",
+        "en": "Statue of Peter Canisius.",
+        "ko": "베드로 가니시오의 조각상."
+      },
+      "author": "Conceptuel",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint_Petrus_Canisius_Saint_Pierre_Canisius_in_Fribourg_Switzerland_by_Robbie_Conceptuel.png",
+      "commonsTitle": "File:Saint Petrus Canisius Saint Pierre Canisius in Fribourg Switzerland by Robbie Conceptuel.png",
+      "verifiedOn": "2026-10-23"
+    },
+    {
+      "image": "./assets/biography/pedro-canisio-2.jpg",
+      "captions": {
+        "pt": "Uma edição do catecismo de Pedro Canísio em bielorrusso.",
+        "es": "Una edición del catecismo de Pedro Canisio en bielorruso.",
+        "fr": "Une édition du catéchisme de Pierre Canisius en biélorusse.",
+        "en": "An edition of Peter Canisius’s catechism in Belarusian.",
+        "ko": "벨라루스어로 출판된 베드로 가니시오의 교리서."
+      },
+      "author": "Peter Canisius",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catechism_by_Peter_Canisius_in_Belarusian.jpg",
+      "commonsTitle": "File:Catechism by Peter Canisius in Belarusian.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "afonso-rodrigues": [
+    {
+      "image": "./assets/biography/afonso-rodrigues-1.jpg",
+      "captions": {
+        "pt": "Estátua de Afonso Rodrigues.",
+        "es": "Estatua de Alonso Rodríguez.",
+        "fr": "Statue de Alphonse Rodriguez.",
+        "en": "Statue of Alphonsus Rodriguez.",
+        "ko": "알폰소 로드리게스의 조각상."
+      },
+      "author": "Medelam",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patung_Santo_Alfonsus_Rodriguez_di_Paroki_Pademangan_(2024).jpg",
+      "commonsTitle": "File:Patung Santo Alfonsus Rodriguez di Paroki Pademangan (2024).jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "joao-francisco-regis": [
+    {
+      "image": "./assets/biography/joao-francisco-regis-1.jpg",
+      "captions": {
+        "pt": "Estátua de João Francisco Régis.",
+        "es": "Estatua de Juan Francisco Régis.",
+        "fr": "Statue de Jean-François Régis.",
+        "en": "Statue of John Francis Regis.",
+        "ko": "장 프랑수아 레지스의 조각상."
+      },
+      "author": "Nheyob",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint_John_Francis_Regis_Catholic_Church_(Grafton,_New_York)_-_statue_of_St._John_Francis_Regis_by_Megan_Gagnon.jpg",
+      "commonsTitle": "File:Saint John Francis Regis Catholic Church (Grafton, New York) - statue of St. John Francis Regis by Megan Gagnon.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "francisco-jeronimo": [
+    {
+      "image": "./assets/biography/francisco-jeronimo-1.jpg",
+      "captions": {
+        "pt": "Representação escultórica de Francisco de Jerónimo.",
+        "es": "Representación escultórica de Francisco de Jerónimo.",
+        "fr": "Représentation sculptée de François de Jérôme.",
+        "en": "Sculptural representation of Francis Jerome.",
+        "ko": "프란치스코 데 제로니모의 조각 작품."
+      },
+      "author": "MICHI abba",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Francesco_De_Geronimo_gruppo_scultoreo.jpg",
+      "commonsTitle": "File:San Francesco De Geronimo gruppo scultoreo.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "claudio-colombiere": [
+    {
+      "image": "./assets/biography/claudio-colombiere-1.jpg",
+      "captions": {
+        "pt": "Gravura de Cláudio de la Colombière.",
+        "es": "Grabado de Claudio de la Colombière.",
+        "fr": "Gravure représentant Claude La Colombière.",
+        "en": "Engraving of Claude La Colombière.",
+        "ko": "클로드 라 콜롱비에르의 판화."
+      },
+      "author": "Lindner, Johann (German printmaker, 1839-1906) (artist) (graphic artist)",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:R.P._Claudius_de_la_Colombi%C3%A8re,_PA01377.jpg",
+      "commonsTitle": "File:R.P. Claudius de la Colombière, PA01377.jpg",
+      "verifiedOn": "2026-10-23"
+    },
+    {
+      "image": "./assets/biography/claudio-colombiere-2.jpg",
+      "captions": {
+        "pt": "Capela de São Cláudio de la Colombière em Paray-le-Monial.",
+        "es": "Capilla de San Claudio de la Colombière en Paray-le-Monial.",
+        "fr": "Chapelle Saint-Claude-la-Colombière à Paray-le-Monial.",
+        "en": "Saint Claude de la Colombière chapel in Paray-le-Monial.",
+        "ko": "파레르모니알의 성 클로드 드 라 콜롱비에르 경당."
+      },
+      "author": "Benjamin Smith",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paray-le-Monial_-_Chapelle_Saint-Claude-la-Colombi%C3%A8re_-_1.jpg",
+      "commonsTitle": "File:Paray-le-Monial - Chapelle Saint-Claude-la-Colombière - 1.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "jose-pignatelli": [
+    {
+      "image": "./assets/biography/jose-pignatelli-1.jpg",
+      "captions": {
+        "pt": "Gravura de José Pignatelli.",
+        "es": "Grabado de José Pignatelli.",
+        "fr": "Gravure représentant Joseph Pignatelli.",
+        "en": "Engraving of Joseph Pignatelli.",
+        "ko": "요셉 피냐텔리의 판화."
+      },
+      "author": "Agricola, Filippo (Italian painter, 1776-1857) (artist) (designer)",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:P._Josephus_Pignatelli,_PA01865.jpg",
+      "commonsTitle": "File:P. Josephus Pignatelli, PA01865.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "andre-bobola": [
+    {
+      "image": "./assets/biography/andre-bobola-1.jpg",
+      "captions": {
+        "pt": "Outra representação de André Bobola.",
+        "es": "Otra representación de Andrés Bobola.",
+        "fr": "Une autre représentation de André Bobola.",
+        "en": "Another representation of Andrew Bobola.",
+        "ko": "안드레아 보볼라의 또 다른 모습."
+      },
+      "author": "Andrzej O",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Krakow_Bazylika_Mariacka_Bobola.jpg",
+      "commonsTitle": "File:Krakow Bazylika Mariacka Bobola.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "isaac-jogues": [
+    {
+      "image": "./assets/biography/isaac-jogues-1.jpg",
+      "captions": {
+        "pt": "Estátua de Isaac Jogues.",
+        "es": "Estatua de Isaac Jogues.",
+        "fr": "Statue de Isaac Jogues.",
+        "en": "Statue of Isaac Jogues.",
+        "ko": "이사악 조그의 조각상."
+      },
+      "author": "LotR at en.wikipedia",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:St_Isaac_Jogues_Martyrs_Shrine.jpg",
+      "commonsTitle": "File:St Isaac Jogues Martyrs Shrine.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "joao-brebeuf": [
+    {
+      "image": "./assets/biography/joao-brebeuf-1.jpg",
+      "captions": {
+        "pt": "Estátua de João de Brébeuf.",
+        "es": "Estatua de Juan de Brébeuf.",
+        "fr": "Statue de Jean de Brébeuf.",
+        "en": "Statue of John de Brébeuf.",
+        "ko": "요한 드 브레뵈프의 조각상."
+      },
+      "author": "Tango7174",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ON_Midland4_tango7174.jpg",
+      "commonsTitle": "File:ON Midland4 tango7174.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "roque-gonzalez": [
+    {
+      "image": "./assets/biography/roque-gonzalez-1.jpg",
+      "captions": {
+        "pt": "Representação de Roque González de Santa Cruz e dos seus companheiros mártires.",
+        "es": "Representación de Roque González de Santa Cruz y sus compañeros mártires.",
+        "fr": "Représentation de Roque González de Santa Cruz et de ses compagnons martyrs.",
+        "en": "Representation of Roque González de Santa Cruz and his fellow martyrs.",
+        "ko": "로케 곤살레스 데 산타크루스와 동료 순교자들을 그린 작품."
+      },
+      "author": "Autor desconhecido",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Martirscaaro29.jpg",
+      "commonsTitle": "File:Martirscaaro29.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "alberto-hurtado": [
+    {
+      "image": "./assets/biography/alberto-hurtado-1.jpg",
+      "captions": {
+        "pt": "Estátua de Alberto Hurtado.",
+        "es": "Estatua de Alberto Hurtado.",
+        "fr": "Statue de Alberto Hurtado.",
+        "en": "Statue of Alberto Hurtado.",
+        "ko": "알베르토 우르타도의 조각상."
+      },
+      "author": "José Joaquín Cortes",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cerro_San_Cristobal_-_San_Alberto_Hurtado.jpg",
+      "commonsTitle": "File:Cerro San Cristobal - San Alberto Hurtado.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "jose-maria-rubio": [
+    {
+      "image": "./assets/biography/jose-maria-rubio-1.jpg",
+      "captions": {
+        "pt": "Outra representação de José Maria Rubio.",
+        "es": "Otra representación de José María Rubio.",
+        "fr": "Une autre représentation de José María Rubio.",
+        "en": "Another representation of José María Rubio.",
+        "ko": "호세 마리아 루비오의 또 다른 모습."
+      },
+      "author": "Fran Hernández",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Jos%C3%A9_Mar%C3%ADa_Rubio_S.J.jpg",
+      "commonsTitle": "File:San José María Rubio S.J.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "inacio-azevedo": [
+    {
+      "image": "./assets/biography/inacio-azevedo-1.jpg",
+      "captions": {
+        "pt": "Representação de Inácio de Azevedo e dos seus companheiros mártires.",
+        "es": "Representación de Ignacio de Azevedo y sus compañeros mártires.",
+        "fr": "Représentation de Ignace de Azevedo et de ses compagnons martyrs.",
+        "en": "Representation of Ignatius de Azevedo and his fellow martyrs.",
+        "ko": "이냐시오 데 아제베두와 동료 순교자들을 그린 작품."
+      },
+      "author": "Jgqa56",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beato_In%C3%A1cio_de_Azevedo_e_seus_39_companheiros_m%C3%A1rtires_-_%C3%93leo_sobre_tela,_escola_portuguesa,_s%C3%A9culo_XVII_-_Museu_Pio_XII,_Braga,_Portugal.jpg",
+      "commonsTitle": "File:Beato Inácio de Azevedo e seus 39 companheiros mártires - Óleo sobre tela, escola portuguesa, século XVII - Museu Pio XII, Braga, Portugal.jpg",
+      "verifiedOn": "2026-10-23"
+    },
+    {
+      "image": "./assets/biography/inacio-azevedo-2.jpg",
+      "captions": {
+        "pt": "Representação de Inácio de Azevedo e dos seus companheiros mártires.",
+        "es": "Representación de Ignacio de Azevedo y sus compañeros mártires.",
+        "fr": "Représentation de Ignace de Azevedo et de ses compagnons martyrs.",
+        "en": "Representation of Ignatius de Azevedo and his fellow martyrs.",
+        "ko": "이냐시오 데 아제베두와 동료 순교자들을 그린 작품."
+      },
+      "author": "Luigi Banzo",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bem-Aventurado_In%C3%A1cio_de_Azevedo_e_seus_39_Companheiros,_M%C3%A1rtires_do_Brasil.png",
+      "commonsTitle": "File:Bem-Aventurado Inácio de Azevedo e seus 39 Companheiros, Mártires do Brasil.png",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "francisco-garate": [
+    {
+      "image": "./assets/biography/francisco-garate-1.jpg",
+      "captions": {
+        "pt": "Obra completa de onde foi retirado o retrato de Francisco Gárate.",
+        "es": "Obra completa de la que se extrajo el retrato de Francisco Gárate.",
+        "fr": "Œuvre complète dont est tiré le portrait de François Gárate.",
+        "en": "Complete artwork from which the portrait of Francisco Gárate was taken.",
+        "ko": "프란치스코 가라테의 초상을 발췌한 원본 작품 전체."
+      },
+      "author": "Zarateman",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bilbao_-_Sagrado_Corazon_27.jpg",
+      "commonsTitle": "File:Bilbao - Sagrado Corazon 27.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "miguel-pro": [
+    {
+      "image": "./assets/biography/miguel-pro-1.jpg",
+      "captions": {
+        "pt": "Miguel Pro na Bélgica, em dezembro de 1925.",
+        "es": "Miguel Pro en Bélgica, en diciembre de 1925.",
+        "fr": "Miguel Pro en Belgique, en décembre 1925.",
+        "en": "Miguel Pro in Belgium, December 1925.",
+        "ko": "1925년 12월 벨기에에서 촬영한 미겔 프로."
+      },
+      "author": "John J. Druhan",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Miguel_Agust%C3%ADn_Pro_(Belgium,_December_1925).jpg",
+      "commonsTitle": "File:Miguel Agustín Pro (Belgium, December 1925).jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "jose-anchieta": [
+    {
+      "image": "./assets/biography/jose-anchieta-1.jpg",
+      "captions": {
+        "pt": "Monumento dedicado a José de Anchieta.",
+        "es": "Monumento dedicado a José de Anchieta.",
+        "fr": "Monument dédié à José de Anchieta.",
+        "en": "Monument dedicated to José de Anchieta.",
+        "ko": "호세 데 안치에타 기념비."
+      },
+      "author": "Marinelson Almeida - Traveling through Brazil from Niteroi, Brasil",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monumento_a_Padre_Jos%C3%A9_de_Anchieta._(8235538027).jpg",
+      "commonsTitle": "File:Monumento a Padre José de Anchieta. (8235538027).jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "jacques-berthieu": [
+    {
+      "image": "./assets/biography/jacques-berthieu-1.jpg",
+      "captions": {
+        "pt": "Monumento dedicado a Jacques Berthieu.",
+        "es": "Monumento dedicado a Santiago Berthieu.",
+        "fr": "Monument dédié à Jacques Berthieu.",
+        "en": "Monument dedicated to Jacques Berthieu.",
+        "ko": "자크 베르티외 기념비."
+      },
+      "author": "Grentidez",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jacques_Berthieu_(Monument_of_Ambiatibe).jpg",
+      "commonsTitle": "File:Jacques Berthieu (Monument of Ambiatibe).jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "rutilio-grande": [
+    {
+      "image": "./assets/biography/rutilio-grande-1.jpg",
+      "captions": {
+        "pt": "Óscar Romero ao centro e Rutilio Grande à direita, cerca de 1977.",
+        "es": "Óscar Romero en el centro y Rutilio Grande a la derecha, hacia 1977.",
+        "fr": "Óscar Romero au centre et Rutilio Grande à droite, vers 1977.",
+        "en": "Óscar Romero in the centre and Rutilio Grande on the right, around 1977.",
+        "ko": "1977년경, 가운데 오스카르 로메로와 오른쪽 루틸리오 그란데."
+      },
+      "author": "Tenquique503",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%93scar_Romero_(al_centro)_y_Rutilio_Grande_(al_lado_derecho)_c._1977.jpg",
+      "commonsTitle": "File:Óscar Romero (al centro) y Rutilio Grande (al lado derecho) c. 1977.jpg",
+      "verifiedOn": "2026-10-23"
+    },
+    {
+      "image": "./assets/biography/rutilio-grande-2.jpg",
+      "captions": {
+        "pt": "Mural dedicado a Rutilio Grande.",
+        "es": "Mural dedicado a Rutilio Grande.",
+        "fr": "Fresque dédiée à Rutilio Grande.",
+        "en": "Mural dedicated to Rutilio Grande.",
+        "ko": "루틸리오 그란데를 기리는 벽화."
+      },
+      "author": "Arzobispado de San Salvador",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Un_mural_del_padre_Rutilio_Grande.jpg",
+      "commonsTitle": "File:Un mural del padre Rutilio Grande.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "joao-beyzym": [
+    {
+      "image": "./assets/biography/joao-beyzym-1.jpg",
+      "captions": {
+        "pt": "João Beyzym a acompanhar um funeral em Madagáscar, em 1912.",
+        "es": "Juan Beyzym acompañando un funeral en Madagascar, en 1912.",
+        "fr": "Jean Beyzym accompagnant des funérailles à Madagascar, en 1912.",
+        "en": "Jan Beyzym accompanying a funeral in Madagascar, 1912.",
+        "ko": "1912년 마다가스카르에서 장례 행렬을 인도하는 얀 베이짐."
+      },
+      "author": "Autor desconhecido",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jan_Beyzym_guiding_the_funeral_in_Madagascar_(1912).jpg",
+      "commonsTitle": "File:Jan Beyzym guiding the funeral in Madagascar (1912).jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "tiburcio-arnaiz": [
+    {
+      "image": "./assets/biography/tiburcio-arnaiz-1.jpg",
+      "captions": {
+        "pt": "Monumento dedicado a Tibúrcio Arnáiz Muñoz.",
+        "es": "Monumento dedicado a Tiburcio Arnáiz Muñoz.",
+        "fr": "Monument dédié à Tiburcio Arnáiz Muñoz.",
+        "en": "Monument dedicated to Tiburcio Arnáiz Muñoz.",
+        "ko": "티부르시오 아르나이스 무뇨스 기념비."
+      },
+      "author": "Dguendel",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monumento_a_Tiburcio_Arnaiz.jpg",
+      "commonsTitle": "File:Monumento a Tiburcio Arnaiz.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "paulo-miki": [
+    {
+      "image": "./assets/biography/paulo-miki-1.jpg",
+      "captions": {
+        "pt": "Estátua de Paulo Miki.",
+        "es": "Estatua de Pablo Miki.",
+        "fr": "Statue de Paul Miki.",
+        "en": "Statue of Paul Miki.",
+        "ko": "바오로 미키의 조각상."
+      },
+      "author": "Photo: Andreas Praefcke",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bamberg_St_Martin_Figur_Paul_Miki.jpg",
+      "commonsTitle": "File:Bamberg St Martin Figur Paul Miki.jpg",
+      "verifiedOn": "2026-10-23"
+    },
+    {
+      "image": "./assets/biography/paulo-miki-2.jpg",
+      "captions": {
+        "pt": "Representação de Paulo Miki e dos seus companheiros mártires.",
+        "es": "Representación de Pablo Miki y sus compañeros mártires.",
+        "fr": "Représentation de Paul Miki et de ses compagnons martyrs.",
+        "en": "Representation of Paul Miki and his fellow martyrs.",
+        "ko": "바오로 미키와 동료 순교자들을 그린 작품."
+      },
+      "author": "Anonymous Japanese Master (painter)",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Martyrdom-of-Paul-Miki-and-Companions-in-Nagasaki-(made-c1635).png",
+      "commonsTitle": "File:Martyrdom-of-Paul-Miki-and-Companions-in-Nagasaki-(made-c1635).png",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "nicolau-owen": [
+    {
+      "image": "./assets/biography/nicolau-owen-1.jpg",
+      "captions": {
+        "pt": "Nicolau Owen e Edward Oldcorne, numa gravura de Gaspar Bouttats.",
+        "es": "Nicolás Owen y Edward Oldcorne, en un grabado de Gaspar Bouttats.",
+        "fr": "Nicolas Owen et Edward Oldcorne, sur une gravure de Gaspar Bouttats.",
+        "en": "Nicholas Owen and Edward Oldcorne in an engraving by Gaspar Bouttats.",
+        "ko": "가스파르 부타츠의 판화에 묘사된 니콜라스 오언과 에드워드 올드콘."
+      },
+      "author": "Gaspar Bouttats",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edward_Oldcorne%3B_Nicholas_Owen_by_Gaspar_Bouttats.jpg",
+      "commonsTitle": "File:Edward Oldcorne; Nicholas Owen by Gaspar Bouttats.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "edmundo-campion": [
+    {
+      "image": "./assets/biography/edmundo-campion-1.jpg",
+      "captions": {
+        "pt": "Gravura de Edmundo Campion.",
+        "es": "Grabado de Edmundo Campion.",
+        "fr": "Gravure représentant Edmond Campion.",
+        "en": "Engraving of Edmund Campion.",
+        "ko": "에드먼드 캠피언의 판화."
+      },
+      "author": "J.M. Lerch; Antwerp",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Campion.jpg",
+      "commonsTitle": "File:Campion.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "roberto-southwell": [
+    {
+      "image": "./assets/biography/roberto-southwell-1.jpg",
+      "captions": {
+        "pt": "Gravura de Roberto Southwell.",
+        "es": "Grabado de Roberto Southwell.",
+        "fr": "Gravure représentant Robert Southwell.",
+        "en": "Engraving of Robert Southwell.",
+        "ko": "로버트 사우스웰의 판화."
+      },
+      "author": "Autor desconhecido",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Robert_Southwell.JPG",
+      "commonsTitle": "File:Robert Southwell.JPG",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "rupert-mayer": [
+    {
+      "image": "./assets/biography/rupert-mayer-1.jpg",
+      "captions": {
+        "pt": "Memorial dedicado a Rupert Mayer em Kostelek.",
+        "es": "Memorial dedicado a Rupert Mayer en Kostelek.",
+        "fr": "Mémorial dédié à Rupert Mayer à Kostelek.",
+        "en": "Memorial to Rupert Mayer in Kostelek.",
+        "ko": "코스텔레크의 루페르트 마이어 기념비."
+      },
+      "author": "Gecző Lajos",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rupert_Mayer_Kostelek.jpg",
+      "commonsTitle": "File:Rupert Mayer Kostelek.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "john-sullivan": [
+    {
+      "image": "./assets/biography/john-sullivan-1.jpg",
+      "captions": {
+        "pt": "Placa que assinala uma casa onde viveu John Sullivan.",
+        "es": "Placa que señala una casa donde vivió John Sullivan.",
+        "fr": "Plaque signalant une maison où vécut John Sullivan.",
+        "en": "Plaque marking a house where John Sullivan lived.",
+        "ko": "존 설리번이 살았던 집을 표시하는 명판."
+      },
+      "author": "Kinsie84",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fr._John_Sullivan_(here-lived_plaque).jpg",
+      "commonsTitle": "File:Fr. John Sullivan (here-lived plaque).jpg",
+      "verifiedOn": "2026-10-23"
+    },
+    {
+      "image": "./assets/biography/john-sullivan-2.jpg",
+      "captions": {
+        "pt": "Túmulo de John Sullivan na igreja de São Francisco Xavier, em Dublin.",
+        "es": "Tumba de John Sullivan en la iglesia de San Francisco Javier, Dublín.",
+        "fr": "Tombe de John Sullivan dans l’église Saint-François-Xavier, à Dublin.",
+        "en": "John Sullivan’s tomb in Saint Francis Xavier Church, Dublin.",
+        "ko": "더블린 성 프란치스코 하비에르 성당에 있는 존 설리번의 묘."
+      },
+      "author": "Sheila1988",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:St.Francis_Xavier_Church,_Dublin_-_Sullivan_tomb.jpg",
+      "commonsTitle": "File:St.Francis Xavier Church, Dublin - Sullivan tomb.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "diogo-carvalho": [
+    {
+      "image": "./assets/biography/diogo-carvalho-1.jpg",
+      "captions": {
+        "pt": "Obra completa de onde foi retirado o retrato de Diogo Carvalho.",
+        "es": "Obra completa de la que se extrajo el retrato de Diogo Carvalho.",
+        "fr": "Œuvre complète dont est tiré le portrait de Diogo Carvalho.",
+        "en": "Complete artwork from which the portrait of Diogo Carvalho was taken.",
+        "ko": "디오구 카르발류의 초상을 발췌한 원본 작품 전체."
+      },
+      "author": "Melchior Küsel, segundo Karel Škréta",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melchior_k%C3%BCsel-diego_carvalho.jpg",
+      "commonsTitle": "File:Melchior küsel-diego carvalho.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "francisco-pacheco": [
+    {
+      "image": "./assets/biography/francisco-pacheco-1.jpg",
+      "captions": {
+        "pt": "Obra completa de onde foi retirado o retrato de Francisco Pacheco.",
+        "es": "Obra completa de la que se extrajo el retrato de Francisco Pacheco.",
+        "fr": "Œuvre complète dont est tiré le portrait de François Pacheco.",
+        "en": "Complete artwork from which the portrait of Francisco Pacheco was taken.",
+        "ko": "프란시스쿠 파셰쿠의 초상을 발췌한 원본 작품 전체."
+      },
+      "author": "Joseolgon",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Francisco_Pacheco_Capela_de_Nossa_Senhora_do_Pilar.jpg",
+      "commonsTitle": "File:Francisco Pacheco Capela de Nossa Senhora do Pilar.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "miguel-carvalho": [
+    {
+      "image": "./assets/biography/miguel-carvalho-1.jpg",
+      "captions": {
+        "pt": "Gravura de Miguel de Carvalho.",
+        "es": "Grabado de Miguel de Carvalho.",
+        "fr": "Gravure représentant Miguel de Carvalho.",
+        "en": "Engraving of Miguel de Carvalho.",
+        "ko": "미겔 드 카르발류의 판화."
+      },
+      "author": "Melchior Küsel (grabado)-Karel Škréta (dibujo)",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melchior_k%C3%BCsel-miguel_carvalho.jpg",
+      "commonsTitle": "File:Melchior küsel-miguel carvalho.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ],
+  "julien-maunoir": [
+    {
+      "image": "./assets/biography/julien-maunoir-1.jpg",
+      "captions": {
+        "pt": "Pintura na catedral de Quimper: o Padre Maunoir recebe o dom da língua bretã.",
+        "es": "Pintura en la catedral de Quimper: el Padre Maunoir recibe el don de la lengua bretona.",
+        "fr": "Peinture dans la cathédrale de Quimper : le Père Maunoir reçoit le don de la langue bretonne.",
+        "en": "Painting in Quimper Cathedral: Father Maunoir receives the gift of the Breton language.",
+        "ko": "캥페르 대성당의 회화: 브르타뉴어의 은사를 받는 모누아르 신부."
+      },
+      "author": "Moreau.henri",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quimper_16_Cath%C3%A9drale_Le_P%C3%A8re_Maunoir_obtient_le_don_de_la_langue_bretonne.jpg",
+      "commonsTitle": "File:Quimper 16 Cathédrale Le Père Maunoir obtient le don de la langue bretonne.jpg",
+      "verifiedOn": "2026-10-23"
+    }
+  ]
+}

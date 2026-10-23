@@ -41,7 +41,7 @@ async function main() {
   function walk(dir) { return fs.readdirSync(dir, { withFileTypes: true }).flatMap(e => e.isDirectory() ? walk(path.join(dir, e.name)) : [path.relative(dist, path.join(dir, e.name)).replaceAll(path.sep, '/')]); }
   for (const file of walk(dist)) if (file !== 'sw.js') assert(cached.has(file), 'Falta no modo offline: ' + file);
   for (const file of manifest.assets) assert(fs.existsSync(path.join(dist, file)), 'Recurso offline inexistente: ' + file);
-  for (const file of ['app.js', 'camera-access.js', 'face-engine.js', 'matching.js', 'i18n.js', 'translations.js', 'sw.js']) execFileSync(process.execPath, ['--check', path.join(dist, file)], { stdio: 'pipe' });
+  for (const file of ['app.js', 'camera-access.js', 'face-engine.js', 'matching.js', 'i18n.js', 'translations.js', 'photo-gallery.js', 'sw.js']) execFileSync(process.execPath, ['--check', path.join(dist, file)], { stdio: 'pipe' });
   assert(!/Math\.random|localStorage|sessionStorage|indexedDB|sendBeacon/.test(app), 'A aplicação não deve gerar resultados aleatórios nem persistir fotografias.');
   assert(!/fetch\([^)]*method\s*:\s*['"]POST/.test(app));
   const bytes = walk(dist).reduce((n, f) => n + fs.statSync(path.join(dist, f)).size, 0);

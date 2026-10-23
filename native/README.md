@@ -1,5 +1,9 @@
 # Aplicações para Windows e Android
 
+## Galerias de imagens — 0.8.0
+
+As 40 fichas incluem duas ou três imagens, com setas, teclado, deslize no telemóvel e ampliação. As 49 imagens adicionais têm legendas nas cinco línguas, créditos individuais e funcionamento offline. O inventário encontra-se em `BIOGRAPHY-PHOTO-SOURCES.md` e os dados em `dist/biography-photos.json`. O APK 0.6.0 mantém o conteúdo anterior.
+
 A versão Windows 0.7.0 inclui 40 figuras e os modelos. O APK 0.6.0 mantém 30 figuras; a sua atualização direta exige a chave original. A PWA Android já tem 40 figuras. A comparação funciona com os ficheiros incluídos no pacote, mesmo sem Internet. As fotografias continuam apenas na memória do aparelho.
 
 - Windows 10/11, 64 bits: o instalador cria atalhos e uma opção de desinstalação. A janela usa o Edge ou o Chrome instalado no computador. O serviço local está limitado a `127.0.0.1`, serve apenas os ficheiros incluídos e termina depois de se fechar a janela.

@@ -18,6 +18,12 @@ class Element {
   removeAttribute(name) { delete this.attrs[name]; if (name === 'src') delete this.src; if (name === 'open') this.open = false; }
   addEventListener(type, listener) { (this.listeners[type] ||= []).push(listener); }
   async fire(type, event = {}) { for (const listener of this.listeners[type] || []) await listener({ target: this, ...event }); }
+  querySelector(selector) {
+    if (selector !== '.biography-photos') return null;
+    const child = new Element('div', {}), parent = this;
+    Object.defineProperty(child, 'innerHTML', { set(value) { parent.innerHTML = parent.innerHTML.replace('<div class="biography-photos"></div>', '<div class="biography-photos">' + value + '</div>'); } });
+    return child;
+  }
   focus() {} scrollIntoView() {} click() {}
   showModal() { this.open = true; }
   close() { this.open = false; this.fire('close'); }

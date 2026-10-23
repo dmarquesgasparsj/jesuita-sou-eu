@@ -31,3 +31,22 @@
 @media(max-width:710px){.site-header{grid-template-columns:1fr auto;row-gap:14px}.site-header .brand{grid-column:1;grid-row:1}.site-header .language-switch{grid-column:2;grid-row:1}.site-header nav{grid-column:1/-1;grid-row:2;width:100%;justify-content:space-between;gap:14px}.site-header nav>a{display:inline}.language-switch select{max-width:115px;font-size:12px}.hero{padding-top:29px}.hero-copy>.eyebrow{max-width:none}:lang(fr) h1{font-size:81px;letter-spacing:-4.8px}:lang(ko) h1{font-size:74px;letter-spacing:-4px}:lang(ko) h2{font-size:30px;line-height:1.3}:lang(ko) .result-story h3{font-size:30px;line-height:1.3}:lang(ko) .card-name{font-size:17px}.hero-description{max-width:360px}.biography-text .question-card p{line-height:1.45}.station-topline{letter-spacing:.45px}}
 @media(max-width:370px){:lang(fr) h1{font-size:73px}:lang(ko) h1{font-size:65px}.site-header nav{font-size:10px}.journey{gap:13px}.journey li{font-size:9px}.station-topline{font-size:7px}}
 .camera-help{margin-top:13px;padding:12px;border:1px solid #d8c9ac;background:#f6efdf;border-radius:7px}.camera-help p{font-size:12px;margin:0;line-height:1.6}.camera-help-actions{display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin-top:7px}.camera-help-actions a{font-size:11px;text-underline-offset:3px}.camera-help input{width:100%;min-width:0;margin-top:6px;border:1px solid #d5cdbd;border-radius:4px;background:var(--paper);color:var(--muted);font-size:11px;padding:8px}
+/* Biography photo galleries: contain the complete artwork and retain its credits. */
+.photo-gallery{margin:0;background:var(--paper)}
+.photo-viewport{position:relative;background:#e9e6dc;touch-action:pan-y pinch-zoom}
+.photo-enlarge{display:block;width:100%;padding:0;border:0;background:transparent;position:relative;cursor:zoom-in}
+.photo-gallery .biography-hero{display:block;width:100%;height:320px;object-fit:contain;object-position:center;background:#e9e6dc}
+.photo-enlarge-hint{position:absolute;bottom:12px;right:15px;display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:#f7f4edec;color:var(--ink);font-size:23px}
+.photo-navigation{display:flex;align-items:center;justify-content:center;gap:18px;padding:12px 24px 0}
+.photo-navigation[hidden]{display:none}
+.photo-navigation button{width:44px;height:44px;border:1px solid var(--line);border-radius:50%;background:var(--paper);color:var(--ink);font-size:23px}
+.photo-navigation button:hover{background:#e8eadd}
+.photo-navigation span{font-size:12px;color:var(--muted);min-width:55px;text-align:center;font-variant-numeric:tabular-nums}
+.photo-gallery figcaption{padding:0 34px 15px;border-bottom:1px solid var(--line)}
+.photo-gallery .photo-caption{color:var(--ink);font-size:12px;line-height:1.5;margin:12px 0 7px}
+.photo-gallery .photo-credits{font-size:10px;line-height:1.65;margin:0;overflow-wrap:anywhere}
+.photo-credits a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+.photo-dialog{padding:45px 18px 18px;max-width:min(1000px,calc(100% - 24px))}
+.photo-dialog img{display:block;width:100%;height:auto;max-height:72dvh;object-fit:contain}
+.photo-dialog p{margin:12px 8px 0;font-size:12px;text-align:center}
+@media(max-width:710px){.photo-gallery .biography-hero{height:280px}.photo-gallery figcaption{padding-inline:26px}.photo-dialog{padding:46px 10px 16px}.photo-gallery .photo-credits{font-size:10px}}

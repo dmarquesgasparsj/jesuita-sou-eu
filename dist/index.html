@@ -91,5 +91,9 @@
   <dialog id="about-dialog" class="about-dialog"><button type="button" class="dialog-close" data-i18n-aria="closeAbout" aria-label="Fechar informação">×</button><p class="eyebrow"><span data-i18n="about">Sobre a experiência</span></p><h2><span data-i18n="aboutTitle">Um rosto é um começo.</span></h2><p><span data-i18n="aboutOne">Esta experiência compara a tua fotografia com 40 retratos de santos e beatos jesuítas. É uma proposta de descoberta e de conversa sobre as suas vidas.</span></p><p><span data-i18n="aboutTwo">O resultado depende dos traços representados em cada pintura, gravura, escultura ou fotografia histórica. Não é uma identificação da pessoa nem uma avaliação da sua personalidade, fé ou vocação.</span></p><p><span data-i18n="aboutThree">A fotografia é processada neste aparelho, não é enviada para um servidor e é apagada ao recomeçar ou após 90 segundos de inatividade no resultado. Não são pedidos nomes, contactos ou contas.</span></p><p><span data-i18n="aboutFour">O funcionamento no tablet do stand deve ser verificado antes do evento.</span></p><a class="source-link" href="https://www.jesuits.global/about-us/saints-and-blessed/" target="_blank" rel="noopener noreferrer"><span data-i18n="saintsLink">Conhecer os santos e beatos da Companhia de Jesus</span> ↗</a></dialog>
   <canvas id="capture-canvas" hidden></canvas>
   <noscript><p class="noscript"><span data-i18n="noScript">Ativa o JavaScript no navegador para usar a câmara e a comparação de rostos.</span></p></noscript>
+  <dialog id="photo-dialog" class="photo-dialog" aria-label="Imagem ampliada" data-i18n-aria="enlargedPhoto">
+    <button type="button" class="dialog-close" aria-label="Fechar imagem" data-i18n-aria="closePhoto">×</button>
+    <div id="photo-content"></div>
+  </dialog>
 </body>
 </html>

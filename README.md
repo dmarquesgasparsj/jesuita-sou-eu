@@ -1,5 +1,9 @@
 # O jesuíta sou eu
 
+## Galerias de imagens — 0.8.0
+
+As 40 fichas incluem duas ou três imagens, com setas, teclado, deslize no telemóvel e ampliação. As 49 imagens adicionais têm legendas nas cinco línguas, créditos individuais e funcionamento offline. O inventário encontra-se em `BIOGRAPHY-PHOTO-SOURCES.md` e os dados em `dist/biography-photos.json`. O APK 0.6.0 mantém o conteúdo anterior.
+
 Experiência de semelhança entre uma fotografia e uma galeria de 40 santos e beatos jesuítas, pensada para tablet e telemóvel. Interface disponível em português de Portugal, espanhol, francês, inglês e coreano.
 
 ## Descarregar a aplicação

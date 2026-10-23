@@ -28,6 +28,7 @@ function imageLicense(person) {
 }
 function imageAuthor(person) {
   if (person.authorUnknown) return t('authorUnknown');
+  if (person.id === 'francisco-jeronimo') return `${t('engraverUnknown')} · Wellcome Collection`;
   if (['luis-gonzaga','pedro-claver'].includes(person.id)) return t('authorUnknown');
   if (person.id === 'francisco-xavier') return t('authorUnknownJapanese');
   if (person.id === 'roberto-belarmino') return t('authorUnknownItalian');

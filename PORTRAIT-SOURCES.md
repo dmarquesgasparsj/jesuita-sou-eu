@@ -413,3 +413,8 @@ Verificação: 19 de outubro de 2026. Estes cinco jesuítas foram canonizados ou
 - Licença: Domínio público (Wikimedia Commons) — https://creativecommons.org/publicdomain/mark/1.0/
 - Biografia: https://www.jesuits.global/es/saint-blessed/beato-julian-maunoir/
 - Transformações: Recorte e redimensionamento, sem geração por IA.
+
+
+## Revisão de 23 de outubro de 2026
+
+Na ficha de Francisco de Jerónimo, os créditos passam a identificar explicitamente a Wellcome Collection (CC BY 4.0). A data de nascimento de Nicolau Owen foi deixada em aberto (`?–1606`), de acordo com a incerteza indicada pelo Jesuits Global e pelo catálogo da National Portrait Gallery. Ver `CONTENT-AUDIT-2026-10-23.md`.

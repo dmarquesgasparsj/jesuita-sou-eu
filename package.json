@@ -1,6 +1,6 @@
 {
   "name": "o-jesuita-sou-eu",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "private": true,
   "type": "module",
   "description": "Experiência de semelhança visual com 40 retratos de santos e beatos jesuítas, processada no navegador.",

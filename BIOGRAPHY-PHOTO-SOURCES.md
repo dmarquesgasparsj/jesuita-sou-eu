@@ -286,7 +286,7 @@ Cada entrada de `dist/biography-photos.json` contém as legendas nas cinco líng
   - Autor: Photo: Andreas Praefcke
   - Licença: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0)
   - Fonte: [File:Bamberg St Martin Figur Paul Miki.jpg](https://commons.wikimedia.org/wiki/File:Bamberg_St_Martin_Figur_Paul_Miki.jpg)
-- Representação de Paulo Miki e dos seus companheiros mártires.
+- Pintura do século XVII sobre os mártires do Japão, na igreja do Gesù, em Roma.
   - Ficheiro: `assets/biography/paulo-miki-2.jpg`
   - Autor: Anonymous Japanese Master (painter)
   - Licença: [Domínio público (Wikimedia Commons)](https://creativecommons.org/publicdomain/mark/1.0/)

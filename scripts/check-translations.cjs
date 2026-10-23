@@ -23,6 +23,8 @@ async function main() {
       assert.equal(content.biography.length, 2, 'Two paragraphs per biography');
       assert(content.biography.every(p => typeof p === 'string' && p.trim().length > 45));
       assert(content.name && content.theme && content.question);
+      const years = locale => [...new Set(locale.biography.join(' ').match(/(?<![0-9])[0-9]{4}(?![0-9])/g) || [])].sort();
+      assert.deepEqual(years(content), years(saints[person.id].locales.pt), person.id + ':' + code + ': consistent years');
       if (code === 'ko') assert(/[가-힣]/.test(content.name + content.biography.join('')));
       if (code === 'pt') assert.equal(content.question, person.question, 'Keep the original Portuguese question');
       assert(saints[person.id].sources.length >= 1);

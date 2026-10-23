@@ -17,7 +17,7 @@
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
     "portraitNote": "Gravura de 1873 segundo o retrato de Alonso Sánchez Coello. A comparação é feita com esta representação artística histórica.",
-    "verifiedOn": "2026-10-18",
+    "verifiedOn": "2026-10-23",
     "imageChanges": "Ficheiro descarregado no tamanho 500 px, a partir de recorte publicado no Wikimedia Commons; sem geração ou alteração por IA.",
     "image": "./assets/portraits/inacio-loyola.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Detail_from_Retrato_de_San_Ignacio_de_Loyola_por_B._Maura_%28S%C3%A1nchez_Coello%29_%28cropped%29.jpg",
@@ -172,7 +172,7 @@
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
     "portraitNote": "Retrato artístico histórico. A comparação é feita com esta imagem, sem garantir a aparência histórica da pessoa.",
-    "verifiedOn": "2026-10-18",
+    "verifiedOn": "2026-10-23",
     "image": "./assets/portraits/francisco-xavier.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Xabier_face.jpg",
     "imageCollection": "Kobe City Museum; reprodução em Wikimedia Commons",
@@ -326,7 +326,7 @@
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
     "portraitNote": "Retrato artístico histórico. A comparação é feita com esta imagem, sem garantir a aparência histórica da pessoa.",
-    "verifiedOn": "2026-10-18",
+    "verifiedOn": "2026-10-23",
     "image": "./assets/portraits/pedro-fabro.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Pierre_Favre%281%29.jpg",
     "imageCollection": "Heiligenlexikon; Wikimedia Commons",
@@ -480,7 +480,7 @@
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
     "portraitNote": "Retrato artístico histórico. A comparação é feita com esta imagem, sem garantir a aparência histórica da pessoa.",
-    "verifiedOn": "2026-10-18",
+    "verifiedOn": "2026-10-23",
     "image": "./assets/portraits/francisco-borja.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:San_Francisco_de_Borja.jpg",
     "imageCollection": "Museo de Bellas Artes de Sevilla; Wikimedia Commons",
@@ -634,7 +634,7 @@
     "license": "Domínio público (Wikimedia Commons)",
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
-    "verifiedOn": "2026-10-18",
+    "verifiedOn": "2026-10-23",
     "image": "./assets/portraits/luis-gonzaga.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Aloysius_Gonzaga_child.jpg",
     "imageCollection": "Theologika; reprodução em Wikimedia Commons",
@@ -788,7 +788,7 @@
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
     "portraitNote": "Recorte do rosto de Estanislau Kostka na pintura Virgem e Menino com Santo Estanislau Kostka. A comparação é feita com esta representação artística histórica.",
-    "verifiedOn": "2026-10-18",
+    "verifiedOn": "2026-10-23",
     "imageChanges": "Recorte do rosto do santo, a partir de reprodução em domínio público; sem geração ou alteração por IA.",
     "image": "./assets/portraits/estanislao-kostka.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Strobel_Virgin_and_Child_with_Saint_Stanislaus_Kostka_%28detail%29_02.jpg",
@@ -943,7 +943,7 @@
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
     "portraitNote": "Retrato artístico histórico. A comparação é feita com esta imagem, sem garantir a aparência histórica da pessoa.",
-    "verifiedOn": "2026-10-18",
+    "verifiedOn": "2026-10-23",
     "image": "./assets/portraits/joao-berchmans.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Jean_Berchmans_%281599-1621%29.jpg",
     "imageCollection": "Alfred Hamy, Galerie illustrée de portraits S.J. (1893); Wikimedia Commons",
@@ -1097,7 +1097,7 @@
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
     "portraitNote": "Retrato artístico histórico. A comparação é feita com esta imagem, sem garantir a aparência histórica da pessoa.",
-    "verifiedOn": "2026-10-18",
+    "verifiedOn": "2026-10-23",
     "image": "./assets/portraits/joao-brito.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Jean_de_Brito_%281647-1693%29_2.jpg",
     "imageCollection": "Wikimedia Commons; reprodução disponibilizada por Grentidez",
@@ -1109,7 +1109,7 @@
       -0.12115907669067383,
       -0.12276908755302429,
       0.003387563629075885,
-      -0.00006157065945444629,
+      -6.157065945444629e-05,
       -0.0926094725728035,
       0.15976646542549133,
       -0.09553593397140503,
@@ -1251,7 +1251,7 @@
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
     "portraitNote": "Retrato artístico histórico. A comparação é feita com esta imagem, sem garantir a aparência histórica da pessoa.",
-    "verifiedOn": "2026-10-18",
+    "verifiedOn": "2026-10-23",
     "image": "./assets/portraits/pedro-claver.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D0%B9_%D0%9F%D1%91%D1%82%D1%80_%D0%9A%D0%BB%D0%B0%D0%B2%D0%B5%D1%80.jpg",
     "imageCollection": "Catholic Harbor of Faith and Morals; Wikimedia Commons",
@@ -1405,7 +1405,7 @@
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
     "portraitNote": "Retrato artístico histórico. A comparação é feita com esta imagem, sem garantir a aparência histórica da pessoa.",
-    "verifiedOn": "2026-10-18",
+    "verifiedOn": "2026-10-23",
     "image": "./assets/portraits/roberto-belarmino.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Saint_Robert_Bellarmine.png",
     "imageCollection": "Istituto Aveta; Wikimedia Commons",
@@ -1695,7 +1695,7 @@
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação.",
     "portraitNote": "Representação histórica; a comparação usa este retrato.",
     "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis.",
-    "verifiedOn": "2026-10-18"
+    "verifiedOn": "2026-10-23"
   },
   {
     "id": "afonso-rodrigues",
@@ -1851,7 +1851,7 @@
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação.",
     "portraitNote": "Representação histórica; a comparação usa este retrato.",
     "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis.",
-    "verifiedOn": "2026-10-18"
+    "verifiedOn": "2026-10-23"
   },
   {
     "id": "joao-francisco-regis",
@@ -2007,7 +2007,7 @@
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação.",
     "portraitNote": "Representação histórica; a comparação usa este retrato.",
     "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis.",
-    "verifiedOn": "2026-10-18"
+    "verifiedOn": "2026-10-23"
   },
   {
     "id": "francisco-jeronimo",
@@ -2020,8 +2020,8 @@
     "theme": "Servir a cidade",
     "image": "./assets/portraits/francisco-jeronimo.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:The_Blessed_(subsequently_Saint)_Francisco_Geronimo_y_Gravin_Wellcome_V0032009.jpg",
-    "imageCollection": "https://wellcomeimages.org/indexplus/obf_images/24/48/b1fd6028eb5d23032c04140626a3.jpg \n \n  Gallery:  https://wellcomeimages.org/indexplus/image/V0032009.html  \n Wellcome Collection gallery (2018-04-03):  https://wellcomecollection.org/works/zdrdfqum   CC-BY-4.0",
-    "imageAuthor": "Autor não identificado",
+    "imageCollection": "Wellcome Collection",
+    "imageAuthor": "Gravador não identificado; Wellcome Collection",
     "authorUnknown": false,
     "license": "CC BY 4.0",
     "licenseKind": "cc",
@@ -2163,7 +2163,8 @@
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação.",
     "portraitNote": "Representação histórica; a comparação usa este retrato.",
     "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis.",
-    "verifiedOn": "2026-10-18"
+    "verifiedOn": "2026-10-23",
+    "imageCollectionUrl": "https://wellcomecollection.org/works/zdrdfqum"
   },
   {
     "id": "claudio-colombiere",
@@ -2319,7 +2320,7 @@
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação.",
     "portraitNote": "Representação histórica; a comparação usa este retrato.",
     "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis.",
-    "verifiedOn": "2026-10-18"
+    "verifiedOn": "2026-10-23"
   },
   {
     "id": "jose-pignatelli",
@@ -2475,7 +2476,7 @@
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação.",
     "portraitNote": "Representação histórica; a comparação usa este retrato.",
     "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis.",
-    "verifiedOn": "2026-10-18"
+    "verifiedOn": "2026-10-23"
   },
   {
     "id": "andre-bobola",
@@ -2516,7 +2517,7 @@
       -0.09734545648097992,
       -0.13827498257160187,
       -0.12696810066699982,
-      -0.00005880646494915709,
+      -5.880646494915709e-05,
       0.04332716390490532,
       0.030152903869748116,
       0.008577828295528889,
@@ -2535,7 +2536,7 @@
       -0.0511917844414711,
       -0.10774334520101547,
       0.14356541633605957,
-      0.000005200138275540667,
+      5.200138275540667e-06,
       -0.1270897537469864,
       0.07498528063297272,
       0.10446628928184509,
@@ -2631,7 +2632,7 @@
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação.",
     "portraitNote": "Representação histórica; a comparação usa este retrato.",
     "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis.",
-    "verifiedOn": "2026-10-18"
+    "verifiedOn": "2026-10-23"
   },
   {
     "id": "isaac-jogues",
@@ -2787,7 +2788,7 @@
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação.",
     "portraitNote": "Representação histórica; a comparação usa este retrato.",
     "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis.",
-    "verifiedOn": "2026-10-18"
+    "verifiedOn": "2026-10-23"
   },
   {
     "id": "joao-brebeuf",
@@ -2943,7 +2944,7 @@
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação.",
     "portraitNote": "Representação histórica; a comparação usa este retrato.",
     "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis.",
-    "verifiedOn": "2026-10-18"
+    "verifiedOn": "2026-10-23"
   },
   {
     "id": "roque-gonzalez",
@@ -3099,7 +3100,7 @@
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação.",
     "portraitNote": "Representação histórica; a comparação usa este retrato.",
     "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis.",
-    "verifiedOn": "2026-10-18"
+    "verifiedOn": "2026-10-23"
   },
   {
     "id": "alberto-hurtado",
@@ -3255,7 +3256,7 @@
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação.",
     "portraitNote": "Representação histórica; a comparação usa este retrato.",
     "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis.",
-    "verifiedOn": "2026-10-18"
+    "verifiedOn": "2026-10-23"
   },
   {
     "id": "jose-maria-rubio",
@@ -3411,7 +3412,7 @@
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação.",
     "portraitNote": "Representação histórica; a comparação usa este retrato.",
     "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis.",
-    "verifiedOn": "2026-10-18"
+    "verifiedOn": "2026-10-23"
   },
   {
     "id": "inacio-azevedo",
@@ -3567,7 +3568,7 @@
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação.",
     "portraitNote": "Representação histórica; a comparação usa este retrato.",
     "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis.",
-    "verifiedOn": "2026-10-18"
+    "verifiedOn": "2026-10-23"
   },
   {
     "id": "francisco-garate",
@@ -3723,7 +3724,7 @@
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação.",
     "portraitNote": "Representação escultórica de Francisco Gárate, na Igreja do Sagrado Coração em Bilbau.",
     "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis.",
-    "verifiedOn": "2026-10-18"
+    "verifiedOn": "2026-10-23"
   },
   {
     "id": "miguel-pro",
@@ -3779,7 +3780,7 @@
       -0.16134968400001526,
       -0.007918590679764748,
       -0.014216841198503971,
-      0.00007971445302246138,
+      7.971445302246138e-05,
       -0.0037835147231817245,
       -0.044862132519483566,
       0.1786401867866516,
@@ -3879,7 +3880,7 @@
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação.",
     "portraitNote": "Representação histórica; a comparação usa este retrato.",
     "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis.",
-    "verifiedOn": "2026-10-18"
+    "verifiedOn": "2026-10-23"
   },
   {
     "id": "jose-anchieta",
@@ -3907,7 +3908,7 @@
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação.",
     "portraitNote": "Pintura de Oscar Pereira da Silva, de 1920. A comparação usa esta representação artística histórica.",
     "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis.",
-    "verifiedOn": "2026-10-19",
+    "verifiedOn": "2026-10-23",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jose_de_Anchieta_(cropped).jpg",
     "image": "./assets/portraits/jose-anchieta.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Jose_de_Anchieta_(cropped).jpg",
@@ -4068,7 +4069,7 @@
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação.",
     "portraitNote": "Reprodução de uma fotografia histórica de Jacques Berthieu.",
     "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis.",
-    "verifiedOn": "2026-10-19",
+    "verifiedOn": "2026-10-23",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jacques_Berthieu_(1838-1896).jpg",
     "image": "./assets/portraits/jacques-berthieu.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Jacques_Berthieu_(1838-1896).jpg",
@@ -4229,7 +4230,7 @@
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação.",
     "portraitNote": "Fotografia de um retrato emoldurado de Rutilio Grande. O recorte apresentado destaca o rosto.",
     "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis.",
-    "verifiedOn": "2026-10-19",
+    "verifiedOn": "2026-10-23",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Un_Retrato_del_padre_Rutilio_Grande.jpg",
     "image": "./assets/portraits/rutilio-grande.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Un_Retrato_del_padre_Rutilio_Grande.jpg",
@@ -4390,7 +4391,7 @@
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação.",
     "portraitNote": "Fotografia histórica de Jan Beyzym, também conhecido como João Beyzym.",
     "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis.",
-    "verifiedOn": "2026-10-19",
+    "verifiedOn": "2026-10-23",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beyzym.jpg",
     "image": "./assets/portraits/joao-beyzym.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Beyzym.jpg",
@@ -4460,7 +4461,7 @@
       0.030674703419208527,
       -0.020222658291459084,
       0.10103584080934525,
-      0.00007288740016520023,
+      7.288740016520023e-05,
       -0.057919058948755264,
       -0.0485001839697361,
       0.09154917299747467,
@@ -4551,7 +4552,7 @@
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação.",
     "portraitNote": "Fotografia histórica de Tibúrcio Arnáiz Muñoz.",
     "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis.",
-    "verifiedOn": "2026-10-19",
+    "verifiedOn": "2026-10-23",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tiburcio_Arnaiz.jpg",
     "image": "./assets/portraits/tiburcio-arnaiz.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Tiburcio_Arnaiz.jpg",
@@ -4704,7 +4705,7 @@
     "licenseKind": "cc",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
-    "verifiedOn": "2026-10-20",
+    "verifiedOn": "2026-10-23",
     "imageChanges": "Recorte e redimensionamento, sem geração por IA.",
     "image": "./assets/portraits/paulo-miki.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:San_Pablo_Miki%2C_Museo_de_Bellas_Artes_de_Sevilla.jpg",
@@ -4844,7 +4845,7 @@
   {
     "id": "nicolau-owen",
     "name": "Nicolau Owen",
-    "dates": "c. 1550–1606",
+    "dates": "?–1606",
     "title": "Santo",
     "commonsFilename": "Edward Oldcorne; Nicholas Owen by Gaspar Bouttats.jpg",
     "imageAuthor": "Gaspar Bouttats",
@@ -4859,7 +4860,7 @@
     "licenseKind": "pd",
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
-    "verifiedOn": "2026-10-20",
+    "verifiedOn": "2026-10-23",
     "imageChanges": "Recorte e redimensionamento, sem geração por IA. Recorte rodado para orientar o rosto.",
     "image": "./assets/portraits/nicolau-owen.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Edward_Oldcorne%3B_Nicholas_Owen_by_Gaspar_Bouttats.jpg",
@@ -5005,7 +5006,7 @@
     "imageAuthor": "Johann Martin Lerch",
     "authorUnknown": false,
     "biographyUrl": "https://www.jesuits.global/saint-blessed/saint-edmund-campion/",
-    "biography": "Edmundo Campion destacou-se como professor e orador em Oxford. Deixou uma carreira promissora e partiu para o continente, onde se tornou sacerdote e entrou na Companhia de Jesus. Regressou a Inglaterra para acompanhar comunidades católicas, deslocando-se entre casas e escrevendo sobre a fé. Foi preso e executado em 1581. A sua vida convida a pensar no preço e no sentido das escolhas.",
+    "biography": "Edmundo Campion destacou-se como professor e orador em Oxford. Deixou uma carreira promissora e partiu para o continente, onde entrou na Companhia de Jesus e foi depois ordenado sacerdote. Regressou a Inglaterra para acompanhar comunidades católicas, deslocando-se entre casas e escrevendo sobre a fé. Foi preso e executado em 1581. A sua vida convida a pensar no preço e no sentido das escolhas.",
     "question": "Que escolha importante gostarias de fazer com maior liberdade?",
     "theme": "Escolher com liberdade",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edmund_Campion.jpg",
@@ -5014,7 +5015,7 @@
     "licenseKind": "pd",
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
-    "verifiedOn": "2026-10-20",
+    "verifiedOn": "2026-10-23",
     "imageChanges": "Recorte e redimensionamento, sem geração por IA.",
     "image": "./assets/portraits/edmundo-campion.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Edmund_Campion.jpg",
@@ -5169,7 +5170,7 @@
     "licenseKind": "pd",
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
-    "verifiedOn": "2026-10-20",
+    "verifiedOn": "2026-10-23",
     "imageChanges": "Recorte e redimensionamento, sem geração por IA.",
     "image": "./assets/portraits/roberto-southwell.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:RobertSouthwell.jpg",
@@ -5324,7 +5325,7 @@
     "licenseKind": "pd",
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
-    "verifiedOn": "2026-10-20",
+    "verifiedOn": "2026-10-23",
     "imageChanges": "Recorte e redimensionamento, sem geração por IA.",
     "image": "./assets/portraits/rupert-mayer.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:RupertMayer.jpg",
@@ -5479,7 +5480,7 @@
     "licenseKind": "cc",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
-    "verifiedOn": "2026-10-20",
+    "verifiedOn": "2026-10-23",
     "imageChanges": "Fotografia completa, apenas redimensionada.",
     "image": "./assets/portraits/john-sullivan.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Saint_Francis%E2%80%99_Church_of_Gardiner_Street-John_Sullivan_shrine.jpg",
@@ -5635,7 +5636,7 @@
     "licenseKind": "pd",
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
-    "verifiedOn": "2026-10-20",
+    "verifiedOn": "2026-10-23",
     "imageChanges": "Recorte e redimensionamento, sem geração por IA.",
     "image": "./assets/portraits/diogo-carvalho.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Melchior_k%C3%BCsel-diego_carvalho.jpg",
@@ -5790,7 +5791,7 @@
     "licenseKind": "cc",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
-    "verifiedOn": "2026-10-20",
+    "verifiedOn": "2026-10-23",
     "imageChanges": "Recorte e redimensionamento, sem geração por IA.",
     "image": "./assets/portraits/francisco-pacheco.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Francisco_Pacheco_Capela_de_Nossa_Senhora_do_Pilar.jpg",
@@ -5945,7 +5946,7 @@
     "licenseKind": "pd",
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
-    "verifiedOn": "2026-10-20",
+    "verifiedOn": "2026-10-23",
     "imageChanges": "Recorte e redimensionamento, sem geração por IA.",
     "image": "./assets/portraits/miguel-carvalho.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Beato_Miguel_de_Carvalho.png",
@@ -6100,7 +6101,7 @@
     "licenseKind": "pd",
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
-    "verifiedOn": "2026-10-20",
+    "verifiedOn": "2026-10-23",
     "imageChanges": "Recorte e redimensionamento, sem geração por IA.",
     "image": "./assets/portraits/julien-maunoir.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Julien_Maunoir.jpg",

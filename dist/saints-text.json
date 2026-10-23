@@ -645,7 +645,8 @@
     "sources": [
       "https://www.jesuits.global/saint-blessed/saint-john-francis-regis/",
       "https://www.jesuits.org/stories/society-of-jesus-celebrates-feast-of-st-john-francis-regis-sj/",
-      "https://www.jesuites.com/saint-jean-francois-regis/"
+      "https://www.jesuites.com/saint-jean-francois-regis/",
+      "https://www.americamagazine.org/faith/2023/06/16/feast-john-francis-regis-jesuit-245505/"
     ],
     "locales": {
       "pt": {
@@ -859,7 +860,8 @@
     "sources": [
       "https://www.jesuits.global/saint-blessed/saint-andrew-bobola/",
       "https://jezuici.pl/2014/05/jutro-uroczystosc-sw-andrzeja-boboli-sj/",
-      "https://www.rakowiecka.jezuici.pl/sanktuarium-11413/sanktuarium-11413/historia-statut-daty-11436"
+      "https://www.rakowiecka.jezuici.pl/sanktuarium-11413/sanktuarium-11413/historia-statut-daty-11436",
+      "https://nominis.cef.fr/contenus/saint/1165/Saint-Andr%C3%A9-Bobola.html"
     ],
     "locales": {
       "pt": {
@@ -1656,7 +1658,8 @@
   },
   "nicolau-owen": {
     "sources": [
-      "https://www.jesuits.global/saint-blessed/saint-nicholas-owen/"
+      "https://www.jesuits.global/saint-blessed/saint-nicholas-owen/",
+      "https://www.npg.org.uk/collections/search/portrait/mw83496/Edward-Oldcorne-Nicholas-Owen"
     ],
     "locales": {
       "pt": {
@@ -1715,7 +1718,7 @@
         "name": "Edmundo Campion",
         "theme": "Escolher com liberdade",
         "biography": [
-          "Edmundo Campion destacou-se como professor e orador em Oxford. Deixou uma carreira promissora e partiu para o continente, onde se tornou sacerdote e entrou na Companhia de Jesus.",
+          "Edmundo Campion destacou-se como professor e orador em Oxford. Deixou uma carreira promissora e partiu para o continente, onde entrou na Companhia de Jesus e foi depois ordenado sacerdote.",
           "Regressou a Inglaterra para acompanhar comunidades católicas, deslocando-se entre casas e escrevendo sobre a fé. Foi preso e executado em 1581. A sua vida convida a pensar no preço e no sentido das escolhas."
         ],
         "question": "Que escolha importante gostarias de fazer com maior liberdade?"
@@ -1724,7 +1727,7 @@
         "name": "Edmundo Campion",
         "theme": "Elegir con libertad",
         "biography": [
-          "Edmundo Campion destacó como profesor y orador en Oxford. Dejó una carrera prometedora y marchó al continente, donde se hizo sacerdote y entró en la Compañía de Jesús.",
+          "Edmundo Campion destacó como profesor y orador en Oxford. Dejó una carrera prometedora y marchó al continente, donde entró en la Compañía de Jesús y fue ordenado sacerdote más tarde.",
           "Regresó a Inglaterra para acompañar a las comunidades católicas, viajando entre casas y escribiendo sobre la fe. Fue detenido y ejecutado en 1581. Su vida invita a pensar en el sentido de nuestras decisiones."
         ],
         "question": "¿Qué decisión importante te gustaría tomar con mayor libertad?"
@@ -1733,7 +1736,7 @@
         "name": "Edmond Campion",
         "theme": "Choisir librement",
         "biography": [
-          "Edmond Campion se distingua comme enseignant et orateur à Oxford. Il quitta une carrière prometteuse pour le continent, où il devint prêtre et entra dans la Compagnie de Jésus.",
+          "Edmond Campion se distingua comme enseignant et orateur à Oxford. Il quitta une carrière prometteuse pour le continent, où il entra dans la Compagnie de Jésus avant d’être ordonné prêtre.",
           "De retour en Angleterre, il accompagna les communautés catholiques en allant de maison en maison et écrivit sur la foi. Il fut arrêté et exécuté en 1581. Sa vie interroge le sens de nos choix."
         ],
         "question": "Quelle décision importante aimerais-tu prendre avec davantage de liberté ?"
@@ -1742,7 +1745,7 @@
         "name": "Edmund Campion",
         "theme": "Choose freely",
         "biography": [
-          "Edmund Campion became known as a teacher and speaker at Oxford. He left a promising career for continental Europe, where he became a priest and joined the Society of Jesus.",
+          "Edmund Campion became known as a teacher and speaker at Oxford. He left a promising career for continental Europe, where he joined the Society of Jesus and was later ordained a priest.",
           "Returning to England, he supported Catholic communities by moving between homes and writing about faith. He was arrested and executed in 1581. His life raises questions about the meaning and cost of our choices."
         ],
         "question": "Which important decision would you like to make more freely?"
@@ -1751,7 +1754,7 @@
         "name": "에드먼드 캠피언",
         "theme": "자유롭게 선택하기",
         "biography": [
-          "에드먼드 캠피언은 옥스퍼드에서 교사이자 뛰어난 연설가로 알려졌습니다. 그는 촉망받던 진로를 떠나 유럽 대륙으로 건너갔고, 사제가 되어 예수회에 들어갔습니다.",
+          "에드먼드 캠피언은 옥스퍼드에서 교사이자 뛰어난 연설가로 알려졌습니다. 그는 촉망받던 진로를 떠나 유럽 대륙으로 건너갔고, 예수회에 입회한 뒤 사제로 서품되었습니다.",
           "영국으로 돌아온 그는 여러 가정을 찾아가 가톨릭 공동체를 돌보고 신앙에 관한 글을 썼습니다. 1581년에 체포되어 처형되었으며, 그의 삶은 선택의 의미와 대가를 생각하게 합니다."
         ],
         "question": "어떤 중요한 결정을 더 자유롭게 내리고 싶나요?"
@@ -1812,7 +1815,8 @@
   },
   "rupert-mayer": {
     "sources": [
-      "https://www.jesuits.global/saint-blessed/blessed-rupert-mayer/"
+      "https://www.jesuits.global/saint-blessed/blessed-rupert-mayer/",
+      "https://www.jesuiten.org/heilige-und-selige-jesuiten/rupert-mayer-apostel-muenchens"
     ],
     "locales": {
       "pt": {

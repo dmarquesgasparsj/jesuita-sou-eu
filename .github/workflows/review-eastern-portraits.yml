@@ -1,0 +1,28 @@
+name: Rever retratos orientais
+on:
+  push:
+    branches: [eastern-portraits-45]
+    paths:
+      - 'scripts/review-eastern-portraits.cjs'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  review:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - run: npm install --no-save --package-lock=false sharp
+      - run: node scripts/review-eastern-portraits.cjs
+      - name: Guardar candidatos para revisão visual
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .review/eastern
+          git diff --cached --quiet || git commit -m 'Preparar imagens e identificação para revisão editorial'
+          git push origin HEAD:eastern-portraits-45

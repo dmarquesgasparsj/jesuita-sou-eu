@@ -40,7 +40,7 @@ async function main() {
   const byId = id => elements.find(e => e.id === id);
   const docListeners = {};
   global.document = {
-    documentElement: {}, hidden: false,
+    documentElement: { dataset: {} }, hidden: false,
     getElementById: byId,
     querySelectorAll(selector) {
       if (selector === 'dialog[open]') return elements.filter(e => e.tagName === 'DIALOG' && e.open);
@@ -113,6 +113,13 @@ async function main() {
   await byId('camera-start').fire('click');
   assert.equal(byId('camera').hidden, false);
   assert.equal(byId('camera-help').hidden,true);
+  const requestsBeforeTheme=requestCount;
+  for(const theme of ['magis','portugal','original']){
+    const radio=byId('appearance-'+theme);radio.checked=true;await radio.fire('change');
+    assert.equal(document.documentElement.dataset.theme,theme);
+    assert.equal(byId('camera').hidden,false,'Changing colours must preserve the live camera');
+    assert.equal(tracksStopped,0);assert.equal(requestCount,requestsBeforeTheme);
+  }
   for (const code of ['es','fr','en','ko','pt']) {
     byId('language-select').value = code; await byId('language-select').fire('change');
     assert.equal(byId('camera').hidden, false, 'Language switch must preserve a live camera');
@@ -128,6 +135,10 @@ async function main() {
   assert.deepEqual(modelLoads.sort(), ['landmarks','recognition','tiny']);
   assert(byId('capture-canvas').width <= 640 && byId('capture-canvas').height <= 640);
   const photo = byId('result-selfie').src;
+  byId('appearance-portugal').checked=true;await byId('appearance-portugal').fire('change');
+  assert.equal(byId('result-selfie').src,photo,'Changing colours must preserve the current result');
+  assert.equal(comparisons,1,'Changing colours must not repeat face comparison');
+
   for (const code of ['es','fr','en','ko','pt']) {
     byId('language-select').value = code; await byId('language-select').fire('change');
     const localized = text[gallery[0].id].locales[code];
@@ -144,6 +155,7 @@ async function main() {
   assert.equal(byId('result-selfie').src, undefined);
   assert.equal(byId('photo-preview').src, undefined);
   assert.equal(byId('results').hidden, true);
+  assert.equal(document.documentElement.dataset.theme,'portugal','Resetting the visitor must preserve the device palette');
   assert.equal(byId('result-story').innerHTML, '');
   await byId('demo-test').fire('click');
   assert.equal(byId('results').hidden, false);

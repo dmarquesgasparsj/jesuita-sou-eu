@@ -9,6 +9,13 @@ export const languages = [
 ];
 // Column order: Português, Español, Français, English, 한국어.
 const rows = {
+  appearanceSettings: ["Definições de cores","Ajustes de colores","Réglages des couleurs","Colour settings","색상 설정"],
+  appearanceTitle: ["Cores da aplicação","Colores de la aplicación","Couleurs de l’application","App colours","앱 색상"],
+  appearanceChoose: ["Escolhe as cores","Elige los colores","Choisis les couleurs","Choose the colours","색상을 선택하세요"],
+  closeAppearance: ["Fechar definições","Cerrar ajustes","Fermer les réglages","Close settings","설정 닫기"],
+  themeOriginal: ["Original","Original","Original","Original","기본"],
+  themeMagis: ["MAGIS 2027","MAGIS 2027","MAGIS 2027","MAGIS 2027","마지스 2027"],
+  themePortugal: ["Jesuítas em Portugal","Jesuitas en Portugal","Jésuites au Portugal","Jesuits in Portugal","포르투갈 예수회"],
   comparisonPortrait: ["{name} — retrato usado na comparação", "{name} — retrato utilizado en la comparación", "{name} — portrait utilisé pour la comparaison", "{name} — portrait used for comparison", "{name} — 얼굴 비교에 사용하는 초상"],
   previousPhoto: ["Imagem anterior", "Imagen anterior", "Image précédente", "Previous image", "이전 이미지"],
   nextPhoto: ["Imagem seguinte", "Imagen siguiente", "Image suivante", "Next image", "다음 이미지"],

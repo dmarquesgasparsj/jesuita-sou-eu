@@ -1,3 +1,4 @@
+import { initAppearance } from './appearance.js';
 import { mountPhotoGallery } from './photo-gallery.js';
 import { rankPortraits } from './matching.js';
 import { t, currentLanguage, translateElements, setLanguage } from './i18n.js';
@@ -359,6 +360,7 @@ async function demoTest() {
 }
 
 translateElements();
+initAppearance();
 $('language-select').addEventListener('change', event => setLanguage(event.target.value));
 document.addEventListener('languagechange', () => {
   updateCameraLink();

@@ -1,0 +1,25 @@
+name: Rever imagens das fichas
+on:
+  push:
+    branches: [gallery-refinement-20261027]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  prepare:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - run: npm install --no-save --package-lock=false sharp
+      - run: node scripts/review-gallery-refinement.cjs
+      - name: Guardar imagens para revisão
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .review
+          git commit -m 'Preparar imagens para revisão visual'
+          git push origin HEAD:gallery-refinement-20261027

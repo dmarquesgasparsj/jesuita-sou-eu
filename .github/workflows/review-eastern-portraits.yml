@@ -5,6 +5,7 @@ on:
     paths:
       - 'scripts/review-eastern-portraits.cjs'
       - 'scripts/render-eastern-portraits.cjs'
+      - 'scripts/render-verified-face-regions.cjs'
   workflow_dispatch:
 permissions:
   contents: write
@@ -19,7 +20,7 @@ jobs:
           package-manager-cache: false
       - run: npm install --no-save --package-lock=false sharp
       - run: node scripts/review-eastern-portraits.cjs
-      - run: node scripts/render-eastern-portraits.cjs
+      - run: node scripts/render-verified-face-regions.cjs
       - name: Guardar candidatos para revisão visual
         if: always()
         run: |

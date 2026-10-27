@@ -1,4 +1,4 @@
-name: Rever imagens das fichas
+name: Verificar imagens revistas
 on:
   push:
     branches: [gallery-refinement-20261027]
@@ -15,12 +15,16 @@ jobs:
           node-version: '24'
           package-manager-cache: false
       - run: npm install --no-save --package-lock=false sharp
-      - run: node scripts/review-gallery-refinement.cjs
-      - name: Guardar imagens para revisão
-        if: always()
+      - name: Preparar imagens verificadas
+        run: node scripts/apply-gallery-refinement.cjs
+      - name: Atualizar recursos offline
+        run: node scripts/build-offline-manifest.cjs
+      - name: Verificar aplicação completa
+        run: npm test
+      - name: Guardar imagens verificadas
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add .review
-          git commit -m 'Preparar imagens para revisão visual'
+          git add dist
+          git commit -m 'Destacar Sullivan e acrescentar quatro obras nas fichas japonesas'
           git push origin HEAD:gallery-refinement-20261027

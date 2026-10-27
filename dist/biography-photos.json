@@ -880,6 +880,22 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catedral_Bas%C3%ADlica_de_Salvador_Sacristy_Ceiling_S%C3%A3o_Jo%C3%A3o_Soan_de_Goto-0716.jpg",
       "commonsTitle": "File:Catedral Basílica de Salvador Sacristy Ceiling São João Soan de Goto-0716.jpg",
       "verifiedOn": "2026-10-27"
+    },
+    {
+      "author": "Pedro García Ferrer (pintura, 1628); Francesco Bini / Sailko (fotografia)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "captions": {
+        "pt": "Paulo Miki, João de Gotō e Diogo Kisai numa pintura de Pedro García Ferrer, de 1628, conservada no Museu de Belas-Artes de Valência.",
+        "es": "Pablo Miki, Juan de Gotō y Diego Kisai en una pintura de Pedro García Ferrer de 1628, conservada en el Museo de Bellas Artes de Valencia.",
+        "fr": "Paul Miki, Jean de Gotō et Jacques Kisai dans une peinture de Pedro García Ferrer de 1628, conservée au musée des Beaux-Arts de Valence.",
+        "en": "Paul Miki, John of Gotō and James Kisai in a 1628 painting by Pedro García Ferrer, held at the Museum of Fine Arts of Valencia.",
+        "ko": "발렌시아 미술관에 소장된 페드로 가르시아 페레르의 1628년 그림 속 바오로 미키, 요한 고토, 야고보 기사이."
+      },
+      "image": "./assets/biography/joao-goto-2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pedro_garc%C3%ACa_ferrer%2C_martirio_dei_santi_gesuiti_pablo_miki%2C_juan_got%C3%B2_e_diego_kisai_in_giappone%2C_1628%2C_dalla_casa_professa_dei_gesuiti_a_valencia.jpg",
+      "commonsTitle": "File:Pedro garcìa ferrer, martirio dei santi gesuiti pablo miki, juan gotò e diego kisai in giappone, 1628, dalla casa professa dei gesuiti a valencia.jpg",
+      "verifiedOn": "2026-10-27"
     }
   ],
   "diogo-kisai": [
@@ -897,6 +913,22 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catedral_Bas%C3%ADlica_de_Salvador_Sacristy_Ceiling_Jacob_Kisai-0715.jpg",
       "commonsTitle": "File:Catedral Basílica de Salvador Sacristy Ceiling Jacob Kisai-0715.jpg",
+      "verifiedOn": "2026-10-27"
+    },
+    {
+      "author": "Guido Cagnacci (pintura, século XVII); JoJan (fotografia)",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "captions": {
+        "pt": "Paulo Miki, João de Gotō e Diogo Kisai numa pintura de Guido Cagnacci, do século XVII.",
+        "es": "Pablo Miki, Juan de Gotō y Diego Kisai en una pintura de Guido Cagnacci del siglo XVII.",
+        "fr": "Paul Miki, Jean de Gotō et Jacques Kisai dans une peinture de Guido Cagnacci du XVIIe siècle.",
+        "en": "Paul Miki, John of Gotō and James Kisai in a 17th-century painting by Guido Cagnacci.",
+        "ko": "귀도 카냐치의 17세기 그림 속 바오로 미키, 요한 고토, 야고보 기사이."
+      },
+      "image": "./assets/biography/diogo-kisai-2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guido_Cagnaccio_-_Three_Jesuit_martyrs_in_Japan.jpg",
+      "commonsTitle": "File:Guido Cagnaccio - Three Jesuit martyrs in Japan.jpg",
       "verifiedOn": "2026-10-27"
     }
   ],
@@ -916,6 +948,22 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E6%B5%A6%E3%82%B8%E3%83%A5%E3%83%AA%E3%82%A2%E3%83%B3%E8%82%96%E5%83%8F%E7%94%BB_%E3%82%A2%E3%83%B3%E3%83%96%E3%83%AD%E3%82%B8%E3%82%A2%E3%83%BC%E3%83%8A%E5%9B%B3%E6%9B%B8%E9%A4%A8%E8%94%B5.jpg",
       "commonsTitle": "File:中浦ジュリアン肖像画 アンブロジアーナ図書館蔵.jpg",
       "verifiedOn": "2026-10-27"
+    },
+    {
+      "author": "小佐佐學 (fotografia)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "captions": {
+        "pt": "Escultura de Julião Nakaura de braços abertos.",
+        "es": "Escultura de Julián Nakaura con los brazos abiertos.",
+        "fr": "Sculpture de Julien Nakaura, les bras ouverts.",
+        "en": "Sculpture of Julian Nakaura with outstretched arms.",
+        "ko": "두 팔을 벌리고 서 있는 줄리앙 나카우라의 조각상."
+      },
+      "image": "./assets/biography/juliao-nakaura-2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%81%E5%AD%97%E6%9E%B6%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB%E6%89%8B%E3%82%92%E5%BA%83%E3%81%92%E3%81%A6%E7%AB%8B%E3%81%A4%E4%B8%AD%E6%B5%A6%E3%82%B8%E3%83%A5%E3%83%AA%E3%82%A2%E3%83%B3%E5%83%8F.jpg",
+      "commonsTitle": "File:十字架のように手を広げて立つ中浦ジュリアン像.jpg",
+      "verifiedOn": "2026-10-27"
     }
   ],
   "sebastiao-kimura": [
@@ -933,6 +981,22 @@
       "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sebasti%C3%A3o_Kimura.jpg",
       "commonsTitle": "File:Sebastião Kimura.jpg",
+      "verifiedOn": "2026-10-27"
+    },
+    {
+      "author": "Maki Ando (relevo); Viatores2019 (fotografia)",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "captions": {
+        "pt": "Relevo de Sebastião Kimura e dos seus companheiros mártires, em Nishizaka, Nagasaki, fotografado em 2026.",
+        "es": "Relieve de Sebastián Kimura y sus compañeros mártires en Nishizaka, Nagasaki, fotografiado en 2026.",
+        "fr": "Relief de Sébastien Kimura et de ses compagnons martyrs à Nishizaka, Nagasaki, photographié en 2026.",
+        "en": "Relief of Sebastian Kimura and his fellow martyrs in Nishizaka, Nagasaki, photographed in 2026.",
+        "ko": "2026년에 촬영한 나가사키 니시자카의 세바스티아노 기무라와 동료 순교자들의 부조."
+      },
+      "image": "./assets/biography/sebastiao-kimura-2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blessed_Sebastian_Kimura%2C_Priest%2C_and_the_204_Martyrs_2.jpg",
+      "commonsTitle": "File:Blessed Sebastian Kimura, Priest, and the 204 Martyrs 2.jpg",
       "verifiedOn": "2026-10-27"
     }
   ],

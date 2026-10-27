@@ -341,6 +341,8 @@ Atualizada em 27 de outubro de 2026. As perguntas são propostas editoriais orig
 
 ## John Sullivan (1861–1933)
 
+Na versão 0.9.3, apresenta-se o recorte do retrato no painel (x=3270, y=760, largura=830, altura=770 no original), sem a vista geral da igreja. Mantém-se o original e a referência facial já calculada a partir do mesmo retrato. Fotografia de Cograng, CC BY-SA 4.0; recorte e redimensionamento identificados na ficha.
+
 - Ficheiro: `assets/portraits/john-sullivan.jpg`
 - Autor/créditos: Cograng
 - Coleção: Wikimedia Commons

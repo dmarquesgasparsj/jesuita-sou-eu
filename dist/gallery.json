@@ -5483,12 +5483,12 @@
     "licenseKind": "cc",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
-    "verifiedOn": "2026-10-23",
-    "imageChanges": "Fotografia completa, apenas redimensionada.",
+    "verifiedOn": "2026-10-27",
+    "imageChanges": "Recorte do retrato no painel, excluindo a vista geral da igreja, e redimensionamento; sem geração ou alteração por IA.",
     "image": "./assets/portraits/john-sullivan.jpg",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Saint_Francis%E2%80%99_Church_of_Gardiner_Street-John_Sullivan_shrine.jpg",
     "imageCollection": "Wikimedia Commons",
-    "position": "50% 50%",
+    "position": "50% 38%",
     "descriptor": [
       -0.1287708282470703,
       0.141311913728714,
@@ -5619,7 +5619,7 @@
       0.016618600115180016,
       0.028698662295937538
     ],
-    "imageFit": "contain"
+    "imageFit": "cover"
   },
   {
     "id": "diogo-carvalho",

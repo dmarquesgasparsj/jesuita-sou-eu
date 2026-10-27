@@ -1,6 +1,6 @@
-# Imagens adicionais das fichas — versão 0.9.0
+# Imagens adicionais das fichas — versão 0.9.3
 
-As 54 imagens adicionais estão incluídas no funcionamento sem Internet. As imagens completas foram redimensionadas; o pormenor de Kostka é um recorte identificado. A comparação usa o retrato de gallery.json.
+As 58 imagens adicionais estão incluídas no funcionamento sem Internet. As imagens completas foram redimensionadas; o pormenor de Kostka é um recorte identificado. A comparação usa o retrato de gallery.json.
 
 ## Inácio de Loyola
 
@@ -384,6 +384,12 @@ As 54 imagens adicionais estão incluídas no funcionamento sem Internet. As ima
   - Licença: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
   - Fonte: [File:Catedral Basílica de Salvador Sacristy Ceiling São João Soan de Goto-0716.jpg](https://commons.wikimedia.org/wiki/File:Catedral_Bas%C3%ADlica_de_Salvador_Sacristy_Ceiling_S%C3%A3o_Jo%C3%A3o_Soan_de_Goto-0716.jpg)
 
+- Paulo Miki, João de Gotō e Diogo Kisai numa pintura de Pedro García Ferrer, de 1628, conservada no Museu de Belas-Artes de Valência.
+  - Ficheiro: `assets/biography/joao-goto-2.jpg`
+  - Autor/créditos: Pedro García Ferrer (pintura, 1628); Francesco Bini / Sailko (fotografia)
+  - Licença: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+  - Fonte: [File:Pedro garcìa ferrer, martirio dei santi gesuiti pablo miki, juan gotò e diego kisai in giappone, 1628, dalla casa professa dei gesuiti a valencia.jpg](https://commons.wikimedia.org/wiki/File:Pedro_garc%C3%ACa_ferrer%2C_martirio_dei_santi_gesuiti_pablo_miki%2C_juan_got%C3%B2_e_diego_kisai_in_giappone%2C_1628%2C_dalla_casa_professa_dei_gesuiti_a_valencia.jpg)
+
 ## Diogo Kisai
 
 - Diogo Kisai na pintura do forro da sacristia da Catedral de Salvador.
@@ -391,6 +397,12 @@ As 54 imagens adicionais estão incluídas no funcionamento sem Internet. As ima
   - Autor/créditos: Paul R. Burley (fotografia); pintor não identificado
   - Licença: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
   - Fonte: [File:Catedral Basílica de Salvador Sacristy Ceiling Jacob Kisai-0715.jpg](https://commons.wikimedia.org/wiki/File:Catedral_Bas%C3%ADlica_de_Salvador_Sacristy_Ceiling_Jacob_Kisai-0715.jpg)
+
+- Paulo Miki, João de Gotō e Diogo Kisai numa pintura de Guido Cagnacci, do século XVII.
+  - Ficheiro: `assets/biography/diogo-kisai-2.jpg`
+  - Autor/créditos: Guido Cagnacci (pintura, século XVII); JoJan (fotografia)
+  - Licença: [Domínio público (Wikimedia Commons)](https://creativecommons.org/publicdomain/mark/1.0/)
+  - Fonte: [File:Guido Cagnaccio - Three Jesuit martyrs in Japan.jpg](https://commons.wikimedia.org/wiki/File:Guido_Cagnaccio_-_Three_Jesuit_martyrs_in_Japan.jpg)
 
 ## Julião Nakaura
 
@@ -400,6 +412,12 @@ As 54 imagens adicionais estão incluídas no funcionamento sem Internet. As ima
   - Licença: [Domínio público (Wikimedia Commons)](https://creativecommons.org/publicdomain/mark/1.0/)
   - Fonte: [File:中浦ジュリアン肖像画 アンブロジアーナ図書館蔵.jpg](https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E6%B5%A6%E3%82%B8%E3%83%A5%E3%83%AA%E3%82%A2%E3%83%B3%E8%82%96%E5%83%8F%E7%94%BB_%E3%82%A2%E3%83%B3%E3%83%96%E3%83%AD%E3%82%B8%E3%82%A2%E3%83%BC%E3%83%8A%E5%9B%B3%E6%9B%B8%E9%A4%A8%E8%94%B5.jpg)
 
+- Escultura de Julião Nakaura de braços abertos.
+  - Ficheiro: `assets/biography/juliao-nakaura-2.jpg`
+  - Autor/créditos: 小佐佐學 (fotografia)
+  - Licença: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+  - Fonte: [File:十字架のように手を広げて立つ中浦ジュリアン像.jpg](https://commons.wikimedia.org/wiki/File:%E5%8D%81%E5%AD%97%E6%9E%B6%E3%81%AE%E3%82%88%E3%81%86%E3%81%AB%E6%89%8B%E3%82%92%E5%BA%83%E3%81%92%E3%81%A6%E7%AB%8B%E3%81%A4%E4%B8%AD%E6%B5%A6%E3%82%B8%E3%83%A5%E3%83%AA%E3%82%A2%E3%83%B3%E5%83%8F.jpg)
+
 ## Sebastião Kimura
 
 - Sebastião Kimura numa gravura publicada por António Francisco Cardim em 1646.
@@ -408,6 +426,12 @@ As 54 imagens adicionais estão incluídas no funcionamento sem Internet. As ima
   - Licença: [Domínio público (Wikimedia Commons)](https://creativecommons.org/publicdomain/mark/1.0/)
   - Fonte: [File:Sebastião Kimura.jpg](https://commons.wikimedia.org/wiki/File:Sebasti%C3%A3o_Kimura.jpg)
 
+- Relevo de Sebastião Kimura e dos seus companheiros mártires, em Nishizaka, Nagasaki, fotografado em 2026.
+  - Ficheiro: `assets/biography/sebastiao-kimura-2.jpg`
+  - Autor/créditos: Maki Ando (relevo); Viatores2019 (fotografia)
+  - Licença: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+  - Fonte: [File:Blessed Sebastian Kimura, Priest, and the 204 Martyrs 2.jpg](https://commons.wikimedia.org/wiki/File:Blessed_Sebastian_Kimura%2C_Priest%2C_and_the_204_Martyrs_2.jpg)
+
 ## Pedro Kasui Kibe
 
 - Estátua de Pedro Kasui Kibe, no Japão.
@@ -415,4 +439,3 @@ As 54 imagens adicionais estão incluídas no funcionamento sem Internet. As ima
   - Autor/créditos: Alexander William Azevedo
   - Licença: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
   - Fonte: [File:Pedro Kasui Kibe.jpg](https://commons.wikimedia.org/wiki/File:Pedro_Kasui_Kibe.jpg)
-

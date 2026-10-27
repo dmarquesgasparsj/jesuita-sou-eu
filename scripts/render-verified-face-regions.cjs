@@ -1,4 +1,5 @@
 const fs=require('node:fs'),sharp=require('sharp');const {init,inferFaceRegion}=require('./portrait-inference.cjs');
+process.on('unhandledRejection',e=>{console.error('REJECTION',e.message);process.exit(1)});
 const specs=[['kostka-new',[.03,.14,.94,.81]],['diogo-kisai',[.445,.435,.075,.085]],['sebastiao-kimura',[.42,.135,.16,.125]],['pedro-kibe',[.425,.035,.14,.08]]];
 (async()=>{await init();for(const[id,f]of specs){
 const file='.review/eastern/'+id,bytes=fs.readFileSync(file+'.source'),m=await sharp(bytes).metadata();
@@ -13,4 +14,4 @@ fs.writeFileSync(file+'.portrait.jpg',out);const face=await inferFaceRegion(out,
 const preview=await sharp(out).resize(300,375).jpeg({quality:82}).toBuffer();
 fs.writeFileSync(file+'.rendered.json',JSON.stringify({id,crop,referencePreparation:{crop,resize:[600,750],fit:'fill',rotate:0,face:faceBox},face,preview:preview.toString('base64')}));
 console.log('VERIFIED REGION',id,'descriptor norm',Math.hypot(...face.descriptor),'crop',JSON.stringify(crop));
-}})().catch(e=>{console.error(e);process.exitCode=1});
+}})().catch(e=>{console.error(e.message);process.exitCode=1});

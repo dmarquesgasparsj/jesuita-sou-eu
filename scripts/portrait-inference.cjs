@@ -41,7 +41,7 @@ async function inferFaceRegion(file, box) {
   // Landmarks and the 128 features are computed by the same models as the app.
   // The internal detection score is a placeholder, not detector confidence.
   const detection=new faceapi.FaceDetection(1,new faceapi.Rect(box.x,box.y,box.width,box.height),{width:info.width,height:info.height});
-  const results=await new faceapi.DetectAllFaceLandmarksTask(Promise.resolve([detection]),tensor,false).withFaceDescriptors();
+  const results=await new faceapi.DetectAllFaceLandmarksTask(Promise.resolve([{detection}]),tensor,false).withFaceDescriptors();
   const r=results[0];if(!r)throw new Error('No features for annotated face');
   return {descriptor:Array.from(r.descriptor),box,score:null,method:'human-verified-face-region',landmarks:r.landmarks.positions.map(p=>[p.x/info.width,p.y/info.height])};
  }finally{tensor.dispose();}

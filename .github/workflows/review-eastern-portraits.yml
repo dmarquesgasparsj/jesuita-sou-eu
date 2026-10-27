@@ -6,6 +6,7 @@ on:
       - 'scripts/review-eastern-portraits.cjs'
       - 'scripts/render-eastern-portraits.cjs'
       - 'scripts/render-verified-face-regions.cjs'
+      - 'scripts/apply-eastern-gallery.cjs'
   workflow_dispatch:
 permissions:
   contents: write
@@ -20,12 +21,14 @@ jobs:
           package-manager-cache: false
       - run: npm install --no-save --package-lock=false sharp
       - run: node scripts/review-eastern-portraits.cjs
-      - run: node scripts/render-verified-face-regions.cjs
+      - run: node scripts/apply-eastern-gallery.cjs
+      - run: node scripts/build-offline-manifest.cjs
+      - run: npm test
       - name: Guardar candidatos para revisão visual
         if: always()
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add .review/eastern
+          git add .review/eastern dist scripts source-portraits package.json README.md INSTALAR.md PORTRAIT-SOURCES.md BIOGRAPHY-PHOTO-SOURCES.md CONTENT-UPDATE-2026-10-27.md native/README.md
           git diff --cached --quiet || git commit -m 'Preparar imagens e identificação para revisão editorial'
           git push origin HEAD:eastern-portraits-45

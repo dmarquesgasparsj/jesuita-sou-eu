@@ -1,7 +1,7 @@
 const fs=require('node:fs');
 const path=require('node:path');
 const sharp=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES ? path.join(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES, 'sharp') : 'sharp');
-const {init,infer}=require('./portrait-inference.cjs');
+const {init,infer,inferFaceRegion}=require('./portrait-inference.cjs');
 const root=path.resolve(__dirname,'..');
 const source=process.argv[2];
 async function preparedReference(person) {
@@ -25,6 +25,12 @@ async function main(){
   const checkpoint=path.join(checkpoints,p.id+'.json');
   let reference;
   if(fs.existsSync(checkpoint))reference=JSON.parse(fs.readFileSync(checkpoint,'utf8'));
+  else if(p.referencePreparation?.face){
+   const referenceInput=await preparedReference(p);
+   await sharp(referenceInput).jpeg({quality:88,mozjpeg:true}).toFile(file);
+   reference=await inferFaceRegion(file,p.referencePreparation.face);
+   fs.writeFileSync(checkpoint,JSON.stringify(reference)+'\n');
+  }
   else{
    const referenceInput=await preparedReference(p);
    if(!fs.existsSync(file) && p.imageFit==='contain')await sharp(p.imagePath).resize({width:1200,height:1200,fit:'inside'}).jpeg({quality:88,mozjpeg:true}).toFile(file);
@@ -50,7 +56,7 @@ async function main(){
   fs.copyFileSync(p.imagePath,path.join(originals,p.id+path.extname(p.imagePath)));
   const {imagePath,imageFilename,imageUrl,imageSource,...metadata}=p;
   gallery.push({...metadata,image:'./assets/portraits/'+p.id+'.jpg',imageSource:p.sourceUrl,imageCollection:imageSource,position:'50% 38%',descriptor:reference.descriptor});
-  console.log(p.id,'face',reference.score.toFixed(3));
+  console.log(p.id,'face',typeof reference.score==='number'?reference.score.toFixed(3):'human-verified region');
  }
  fs.writeFileSync(path.join(root,'dist/gallery.json'),JSON.stringify(gallery,null,2)+'\n');
  const reproducible=people.map(p=>({...p,imagePath:'../source-portraits/'+p.id+path.extname(p.imagePath)}));

@@ -1,18 +1,20 @@
 # O jesuíta sou eu
 
-## Galerias de imagens — 0.8.0
+## Galerias de imagens e cinco jesuítas japoneses — 0.9.0
 
-As 40 fichas incluem duas ou três imagens, com setas, teclado, deslize no telemóvel e ampliação. As 49 imagens adicionais têm legendas nas cinco línguas, créditos individuais e funcionamento offline. O inventário encontra-se em `BIOGRAPHY-PHOTO-SOURCES.md` e os dados em `dist/biography-photos.json`. O APK 0.6.0 mantém o conteúdo anterior.
+As 45 fichas incluem duas ou três imagens, com setas, teclado, deslize no telemóvel e ampliação. As 54 imagens adicionais têm legendas nas cinco línguas, créditos individuais e funcionamento offline. O inventário encontra-se em `BIOGRAPHY-PHOTO-SOURCES.md` e os dados em `dist/biography-photos.json`. O APK 0.6.0 mantém o conteúdo anterior.
 
-Experiência de semelhança entre uma fotografia e uma galeria de 40 santos e beatos jesuítas, pensada para tablet e telemóvel. Interface disponível em português de Portugal, espanhol, francês, inglês e coreano.
+Experiência de semelhança entre uma fotografia e uma galeria de 45 santos e beatos jesuítas, pensada para tablet e telemóvel. Interface disponível em português de Portugal, espanhol, francês, inglês e coreano.
+
+Os cinco novos nomes são João Soan de Gotō, Diogo Kisai, Julião Nakaura, Sebastião Kimura e Pedro Kasui Kibe. As imagens de Kostka foram revistas e Paulo Miki passa a ter um retrato pintado. A revisão está em `CONTENT-UPDATE-2026-10-27.md`.
 
 ## Descarregar a aplicação
 
-- [Instalador para Windows 10/11 x64 (.exe)](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases/latest/download/O-jesuita-sou-eu-Setup-0.7.0.exe)
+- [Instalador para Windows 10/11 x64 (.exe)](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases/latest/download/O-jesuita-sou-eu-Setup-0.9.0.exe)
 - [APK Android 0.6.0, galeria anterior de 30 figuras](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases/download/v0.6.0/O-jesuita-sou-eu-Android-0.6.0.apk)
 - [Versões publicadas e instruções de instalação](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases)
 
-A aplicação web e o instalador Windows 0.7.0 incluem as 40 figuras e os modelos para funcionamento sem Internet. O APK 0.6.0 mantém 30 figuras. No Android, instala a PWA para utilizar a galeria atual. A atualização direta do APK exige a chave de assinatura original, que não foi recuperada neste ambiente; não foi gerada uma chave substituta. A versão Windows usa o Edge ou o Chrome instalado no computador e ainda não tem certificado comercial de editor. O APK tem assinatura própria do projeto. A instalação e a câmara devem ser ensaiadas nos aparelhos reais.
+A aplicação web e o instalador Windows 0.9.0 incluem as 45 figuras e os modelos para funcionamento sem Internet. O APK 0.6.0 mantém 30 figuras. No Android, instala a PWA para utilizar a galeria atual. A atualização direta do APK exige a chave de assinatura original, que não foi recuperada neste ambiente; não foi gerada uma chave substituta. A versão Windows usa o Edge ou o Chrome instalado no computador e ainda não tem certificado comercial de editor. O APK tem assinatura própria do projeto. A instalação e a câmara devem ser ensaiadas nos aparelhos reais.
 
 ## Instalar e publicar no GitHub
 
@@ -34,7 +36,7 @@ A mudança de língua funciona sem rede depois da preparação, não repete a co
 
 - Abertura da câmara frontal com autorização explícita, enquadramento e contagem decrescente.
 - Alternativa para carregar uma fotografia.
-- Deteção de um único rosto, descritor de 128 dimensões e ordenação dos 40 retratos por distância euclidiana.
+- Deteção de um único rosto, descritor de 128 dimensões e ordenação dos 45 retratos por distância euclidiana.
 - Três resultados, biografia breve, pergunta original para conversar e créditos da imagem.
 - Reinício com eliminação da fotografia; limpeza após 90 segundos de inatividade e quando se sai da página de resultado.
 - Todos os modelos, imagens, textos, estilos e scripts servidos pelo próprio site.
@@ -43,7 +45,7 @@ A mudança de língua funciona sem rede depois da preparação, não repete a co
 
 ## Rapidez da comparação
 
-O motor começa a carregar antes de se abrir a câmara. Usa o Tiny Face Detector a 320 píxeis para localizar o rosto e calcula os pontos faciais e o descritor apenas quando encontra um único rosto com tamanho suficiente. Conserva o modelo de reconhecimento e os 40 descritores da galeria. Uma segunda passagem a 416 píxeis e o detetor SSD ficam disponíveis para fotografias difíceis; o teste com retratos pintados usa SSD.
+O motor começa a carregar antes de se abrir a câmara. Usa o Tiny Face Detector a 320 píxeis para localizar o rosto e calcula os pontos faciais e o descritor apenas quando encontra um único rosto com tamanho suficiente. Conserva o modelo de reconhecimento e os 45 descritores da galeria. Uma segunda passagem a 416 píxeis e o detetor SSD ficam disponíveis para fotografias difíceis; o teste com retratos pintados usa SSD.
 
 A fotografia apresentada e analisada tem no máximo 640 píxeis no lado maior. Em WebGL, a preparação executa os três modelos com um tensor vazio, antes da fotografia, para compilar os shaders; esse tensor é eliminado. Se a preparação gráfica falhar, o motor usa CPU. Os modelos continuam na memória entre participantes, sem conservar as suas fotografias. A preparação offline completa começa depois dos modelos essenciais, para dar prioridade à primeira comparação.
 
@@ -90,7 +92,7 @@ A primeira abertura precisa de Internet para obter os recursos. Adicionar ao ecr
 
 ## Fontes e licenças
 
-A galeria inclui 28 santos e 12 beatos. Afonso Rodrigues (o irmão de Maiorca) é uma pessoa distinta de Afonso Rodríguez, companheiro de Roque González. O retrato de Francisco Gárate é uma representação escultórica identificada no Wikimedia Commons; a imagem de um futebolista homónimo encontrada na recolha inicial foi rejeitada e não faz parte do site.
+A galeria inclui 30 santos e 15 beatos. Afonso Rodrigues (o irmão de Maiorca) é uma pessoa distinta de Afonso Rodríguez, companheiro de Roque González. O retrato de Francisco Gárate é uma representação escultórica identificada no Wikimedia Commons; a imagem de um futebolista homónimo encontrada na recolha inicial foi rejeitada e não faz parte do site.
 
 Os créditos de cada retrato estão em `dist/gallery.json` e nas fichas visíveis do site. Os originais preservados encontram-se em `source-portraits/`; os retratos apresentados têm recorte e redimensionamento para dar destaque ao rosto.
 

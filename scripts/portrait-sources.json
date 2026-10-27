@@ -125,25 +125,47 @@
     "name": "Estanislau Kostka",
     "dates": "1550–1568",
     "title": "Santo",
-    "imageFilename": "estanislao-kostka-strobel.jpg",
-    "commonsFilename": "Strobel Virgin and Child with Saint Stanislaus Kostka (detail) 02.jpg",
-    "imageAuthor": "Bartłomiej Strobel (1591–1647)",
-    "imageDate": "1634–1635",
-    "imageSource": "Catedral de São João Baptista e São João Evangelista, Toruń; Wikimedia Commons",
+    "commonsFilename": "StanislausKostka.jpg",
+    "imageAuthor": "Autor não identificado",
     "biographyUrl": "https://www.jesuits.global/saint-blessed/saint-stanislaus-kostka/",
     "biography": "Jovem polaco, atravessou a Europa para entrar na Companhia de Jesus e morreu em Roma durante o noviciado.",
     "question": "Que desejo bom merece que lhe dês uma oportunidade?",
     "theme": "Dar espaço ao desejo",
-    "imagePath": "../source-portraits/estanislao-kostka.jpg",
-    "imageUrl": "/portraits/estanislao-kostka-strobel.jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Strobel_Virgin_and_Child_with_Saint_Stanislaus_Kostka_%28detail%29_02.jpg",
-    "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Strobel_Virgin_and_Child_with_Saint_Stanislaus_Kostka_%28detail%29_02.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:StanislausKostka.jpg",
+    "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/StanislausKostka.jpg",
     "license": "Domínio público (Wikimedia Commons)",
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
-    "portraitNote": "Recorte do rosto de Estanislau Kostka na pintura Virgem e Menino com Santo Estanislau Kostka. A comparação é feita com esta representação artística histórica.",
-    "verifiedOn": "2026-10-23",
-    "imageChanges": "Recorte do rosto do santo, a partir de reprodução em domínio público; sem geração ou alteração por IA."
+    "portraitNote": "Representação artística identificada na fonte. Não é uma autenticação da aparência física da pessoa.",
+    "verifiedOn": "2026-10-27",
+    "imageChanges": "Recorte e redimensionamento do rosto identificado na obra completa; sem geração ou alteração por IA.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:StanislausKostka.jpg",
+    "imageCollection": "Wikimedia Commons",
+    "position": "50% 38%",
+    "authorUnknown": true,
+    "licenseKind": "pd",
+    "imagePath": "../source-portraits/estanislao-kostka.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b1/StanislausKostka.jpg",
+    "referencePreparation": {
+      "crop": {
+        "left": 0,
+        "top": 8,
+        "width": 568,
+        "height": 710
+      },
+      "resize": [
+        600,
+        750
+      ],
+      "fit": "fill",
+      "rotate": 0,
+      "face": {
+        "x": 0.03,
+        "y": 0.1303098591549296,
+        "width": 0.94,
+        "height": 0.8191267605633803
+      }
+    }
   },
   {
     "id": "joao-berchmans",
@@ -827,30 +849,39 @@
     "name": "Paulo Miki",
     "dates": "1564–1597",
     "title": "Santo",
-    "commonsFilename": "San Pablo Miki, Museo de Bellas Artes de Sevilla.jpg",
-    "imageAuthor": "Jl FilpoC; escultura de Juan de Mesa",
+    "commonsFilename": "Catedral Basílica de Salvador Sacristy Ceiling-0702.jpg",
+    "imageAuthor": "Paul R. Burley (fotografia); pintor não identificado",
     "authorUnknown": false,
     "biographyUrl": "https://www.jesuits.global/saint-blessed/saint-paul-miki/",
     "biography": "Paulo Miki nasceu no Japão e entrou na Companhia de Jesus depois de estudar num seminário jesuíta. A sua capacidade de falar em público ajudou-o a comunicar a fé aos seus contemporâneos. Ainda era estudante de Teologia quando foi preso com outros cristãos. Em Nagasaki, em 1597, manteve a sua fé até à morte. A sua história mostra uma Companhia que também criou raízes entre os japoneses.",
     "question": "Como podes pôr a tua maneira de comunicar ao serviço dos outros?",
     "theme": "Comunicar com coragem",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Pablo_Miki%2C_Museo_de_Bellas_Artes_de_Sevilla.jpg",
-    "originalImageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/San_Pablo_Miki%2C_Museo_de_Bellas_Artes_de_Sevilla.jpg/960px-San_Pablo_Miki%2C_Museo_de_Bellas_Artes_de_Sevilla.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catedral_Bas%C3%ADlica_de_Salvador_Sacristy_Ceiling-0702.jpg",
+    "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Catedral_Bas%C3%ADlica_de_Salvador_Sacristy_Ceiling-0702.jpg",
     "license": "CC BY-SA 4.0",
     "licenseKind": "cc",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
-    "verifiedOn": "2026-10-23",
-    "imageChanges": "Recorte e redimensionamento, sem geração por IA.",
-    "imageSource": "https://commons.wikimedia.org/wiki/File:San_Pablo_Miki%2C_Museo_de_Bellas_Artes_de_Sevilla.jpg",
-    "imageCollection": "Wikimedia Commons",
+    "verifiedOn": "2026-10-27",
+    "imageChanges": "Recorte e redimensionamento do rosto identificado na obra completa; sem geração ou alteração por IA.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Catedral_Bas%C3%ADlica_de_Salvador_Sacristy_Ceiling-0702.jpg",
+    "imageCollection": "Catedral Basílica de Salvador, Bahia; Wikimedia Commons",
     "position": "50% 38%",
+    "portraitNote": "Representação artística identificada na fonte. Não é uma autenticação da aparência física da pessoa.",
     "imagePath": "../source-portraits/paulo-miki.jpg",
-    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/San_Pablo_Miki%2C_Museo_de_Bellas_Artes_de_Sevilla.jpg/960px-San_Pablo_Miki%2C_Museo_de_Bellas_Artes_de_Sevilla.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Catedral_Bas%C3%ADlica_de_Salvador_Sacristy_Ceiling-0702.jpg",
     "referencePreparation": {
-      "crop": null,
-      "resize": null,
-      "fit": "contain",
+      "crop": {
+        "left": 1235,
+        "top": 1586,
+        "width": 902,
+        "height": 1044
+      },
+      "resize": [
+        700,
+        900
+      ],
+      "fit": "inside",
       "rotate": 0
     }
   },
@@ -1190,6 +1221,224 @@
       ],
       "fit": "inside",
       "rotate": 0
+    }
+  },
+  {
+    "id": "joao-goto",
+    "name": "João Soan de Gotō",
+    "dates": "1578–1597",
+    "title": "Santo",
+    "commonsFilename": "Catedral Basílica de Salvador Sacristy Ceiling São João Soan de Goto-0716.jpg",
+    "imageAuthor": "Paul R. Burley (fotografia); pintor não identificado",
+    "authorUnknown": false,
+    "biographyUrl": "https://www.jesuits.global/saint-blessed/saint-john-de-goto/",
+    "biography": "João nasceu no Japão e trabalhou como catequista numa comunidade jesuíta de Osaka. Era ainda muito jovem quando foi preso com Paulo Miki e Diogo Kisai. Foi admitido na Companhia de Jesus antes de morrer em Nagasaki, em 1597. A sua história convida a conversar sobre os primeiros passos de um compromisso.",
+    "question": "Que primeiro passo podes dar por algo em que acreditas?",
+    "theme": "Dar o primeiro passo",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catedral_Bas%C3%ADlica_de_Salvador_Sacristy_Ceiling_S%C3%A3o_Jo%C3%A3o_Soan_de_Goto-0716.jpg",
+    "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Catedral_Bas%C3%ADlica_de_Salvador_Sacristy_Ceiling_S%C3%A3o_Jo%C3%A3o_Soan_de_Goto-0716.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseKind": "cc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
+    "verifiedOn": "2026-10-27",
+    "imageChanges": "Recorte e redimensionamento do rosto identificado na obra completa; sem geração ou alteração por IA.",
+    "portraitNote": "Representação artística identificada na fonte. Não é uma autenticação da aparência física da pessoa.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Catedral_Bas%C3%ADlica_de_Salvador_Sacristy_Ceiling_S%C3%A3o_Jo%C3%A3o_Soan_de_Goto-0716.jpg",
+    "imageCollection": "Catedral Basílica de Salvador, Bahia; Wikimedia Commons",
+    "position": "50% 38%",
+    "imagePath": "../source-portraits/joao-goto.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Catedral_Bas%C3%ADlica_de_Salvador_Sacristy_Ceiling_S%C3%A3o_Jo%C3%A3o_Soan_de_Goto-0716.jpg",
+    "referencePreparation": {
+      "crop": {
+        "left": 1235,
+        "top": 1543,
+        "width": 901,
+        "height": 1126
+      },
+      "resize": [
+        700,
+        900
+      ],
+      "fit": "inside",
+      "rotate": 0
+    }
+  },
+  {
+    "id": "diogo-kisai",
+    "name": "Diogo Kisai",
+    "dates": "1533–1597",
+    "title": "Santo",
+    "commonsFilename": "Catedral Basílica de Salvador Sacristy Ceiling Jacob Kisai-0715.jpg",
+    "imageAuthor": "Paul R. Burley (fotografia); pintor não identificado",
+    "authorUnknown": false,
+    "biographyUrl": "https://www.jesuits.global/saint-blessed/saint-james-kisai/",
+    "biography": "Diogo Kisai, também conhecido como Tiago Kisai, era japonês. Foi casado e teve um filho. Mais tarde, trabalhou com os jesuítas em Osaka e tornou-se catequista e irmão da Companhia. Morreu em Nagasaki, em 1597, com Paulo Miki e João de Gotō. O seu percurso ajuda a reconhecer o valor de servir nas tarefas de cada dia.",
+    "question": "Que tarefa discreta tua faz diferença na vida de alguém?",
+    "theme": "Servir no quotidiano",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catedral_Bas%C3%ADlica_de_Salvador_Sacristy_Ceiling_Jacob_Kisai-0715.jpg",
+    "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Catedral_Bas%C3%ADlica_de_Salvador_Sacristy_Ceiling_Jacob_Kisai-0715.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseKind": "cc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
+    "verifiedOn": "2026-10-27",
+    "imageChanges": "Recorte e redimensionamento do rosto identificado na obra completa; sem geração ou alteração por IA.",
+    "portraitNote": "Representação artística identificada na fonte. Não é uma autenticação da aparência física da pessoa.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Catedral_Bas%C3%ADlica_de_Salvador_Sacristy_Ceiling_Jacob_Kisai-0715.jpg",
+    "imageCollection": "Catedral Basílica de Salvador, Bahia; Wikimedia Commons",
+    "position": "50% 38%",
+    "imagePath": "../source-portraits/diogo-kisai.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Catedral_Bas%C3%ADlica_de_Salvador_Sacristy_Ceiling_Jacob_Kisai-0715.jpg",
+    "referencePreparation": {
+      "crop": {
+        "left": 1354,
+        "top": 1721,
+        "width": 528,
+        "height": 660
+      },
+      "resize": [
+        600,
+        750
+      ],
+      "fit": "fill",
+      "rotate": 0,
+      "face": {
+        "x": 0.2623674242424242,
+        "y": 0.15599242424242413,
+        "width": 0.4764204545454545,
+        "height": 0.5400075757575759
+      }
+    }
+  },
+  {
+    "id": "juliao-nakaura",
+    "name": "Julião Nakaura",
+    "dates": "1568–1633",
+    "title": "Beato",
+    "commonsFilename": "中浦ジュリアン肖像画 アンブロジアーナ図書館蔵.jpg",
+    "imageAuthor": "Autor não identificado; reprodução: 小佐々學",
+    "authorUnknown": false,
+    "biographyUrl": "https://www.jesuits.global/saint-blessed/blessed-julian-nakaura/",
+    "biography": "Julião Nakaura era japonês. Ainda adolescente, participou numa embaixada que visitou a Europa. De regresso ao Japão, entrou na Companhia de Jesus e tornou-se sacerdote. Durante a perseguição, continuou a acompanhar comunidades cristãs em segredo. Morreu em Nagasaki, em 1633. O seu percurso convida a pensar no encontro entre pessoas de culturas diferentes.",
+    "question": "O que gostarias de aprender com alguém de outra cultura?",
+    "theme": "Construir pontes entre culturas",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E6%B5%A6%E3%82%B8%E3%83%A5%E3%83%AA%E3%82%A2%E3%83%B3%E8%82%96%E5%83%8F%E7%94%BB_%E3%82%A2%E3%83%B3%E3%83%96%E3%83%AD%E3%82%B8%E3%82%A2%E3%83%BC%E3%83%8A%E5%9B%B3%E6%9B%B8%E9%A4%A8%E8%94%B5.jpg",
+    "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/%E4%B8%AD%E6%B5%A6%E3%82%B8%E3%83%A5%E3%83%AA%E3%82%A2%E3%83%B3%E8%82%96%E5%83%8F%E7%94%BB_%E3%82%A2%E3%83%B3%E3%83%96%E3%83%AD%E3%82%B8%E3%82%A2%E3%83%BC%E3%83%8A%E5%9B%B3%E6%9B%B8%E9%A4%A8%E8%94%B5.jpg",
+    "license": "Domínio público (Wikimedia Commons)",
+    "licenseKind": "pd",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
+    "verifiedOn": "2026-10-27",
+    "imageChanges": "Recorte e redimensionamento do rosto identificado na obra completa; sem geração ou alteração por IA.",
+    "portraitNote": "Representação artística identificada na fonte. Não é uma autenticação da aparência física da pessoa.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E6%B5%A6%E3%82%B8%E3%83%A5%E3%83%AA%E3%82%A2%E3%83%B3%E8%82%96%E5%83%8F%E7%94%BB_%E3%82%A2%E3%83%B3%E3%83%96%E3%83%AD%E3%82%B8%E3%82%A2%E3%83%BC%E3%83%8A%E5%9B%B3%E6%9B%B8%E9%A4%A8%E8%94%B5.jpg",
+    "imageCollection": "Biblioteca Ambrosiana, Milão; Wikimedia Commons",
+    "position": "50% 38%",
+    "imagePath": "../source-portraits/juliao-nakaura.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/%E4%B8%AD%E6%B5%A6%E3%82%B8%E3%83%A5%E3%83%AA%E3%82%A2%E3%83%B3%E8%82%96%E5%83%8F%E7%94%BB_%E3%82%A2%E3%83%B3%E3%83%96%E3%83%AD%E3%82%B8%E3%82%A2%E3%83%BC%E3%83%8A%E5%9B%B3%E6%9B%B8%E9%A4%A8%E8%94%B5.jpg",
+    "referencePreparation": {
+      "crop": null,
+      "resize": [
+        700,
+        900
+      ],
+      "fit": "inside",
+      "rotate": 0
+    }
+  },
+  {
+    "id": "sebastiao-kimura",
+    "name": "Sebastião Kimura",
+    "dates": "1565–1622",
+    "title": "Beato",
+    "commonsFilename": "Sebastião Kimura.jpg",
+    "imageAuthor": "Gravura publicada por António Francisco Cardim, 1646",
+    "authorUnknown": false,
+    "biographyUrl": "https://www.jesuits.global/saint-blessed/blessed-sebastian-kimura/",
+    "biography": "Sebastião Kimura nasceu no Japão e entrou na Companhia de Jesus. Estudou Teologia em Macau e foi um dos primeiros japoneses ordenados sacerdotes. Durante a perseguição, usava disfarces para visitar famílias e pessoas presas. Morreu em Nagasaki, em 1622. O seu percurso convida a procurar maneiras criativas de estar próximo de quem precisa.",
+    "question": "Que caminho novo podes encontrar para chegar a alguém que precisa de ti?",
+    "theme": "Encontrar caminhos para estar perto",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sebasti%C3%A3o_Kimura.jpg",
+    "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Sebasti%C3%A3o_Kimura.jpg",
+    "license": "Domínio público (Wikimedia Commons)",
+    "licenseKind": "pd",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
+    "verifiedOn": "2026-10-27",
+    "imageChanges": "Recorte e redimensionamento do rosto identificado na obra completa; sem geração ou alteração por IA.",
+    "portraitNote": "Representação artística identificada na fonte. Não é uma autenticação da aparência física da pessoa.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Sebasti%C3%A3o_Kimura.jpg",
+    "imageCollection": "Biblioteca da Universidade de Quioto; Wikimedia Commons",
+    "position": "50% 38%",
+    "imagePath": "../source-portraits/sebastiao-kimura.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Sebasti%C3%A3o_Kimura.jpg",
+    "referencePreparation": {
+      "crop": {
+        "left": 522,
+        "top": 177,
+        "width": 529,
+        "height": 661
+      },
+      "resize": [
+        600,
+        750
+      ],
+      "fit": "fill",
+      "rotate": 0,
+      "face": {
+        "x": 0.26211720226843094,
+        "y": 0.21279122541603634,
+        "width": 0.475765595463138,
+        "height": 0.4449697428139183
+      }
+    }
+  },
+  {
+    "id": "pedro-kibe",
+    "name": "Pedro Kasui Kibe",
+    "dates": "1587–1639",
+    "title": "Beato",
+    "commonsFilename": "Pedro Kasui Kibe.jpg",
+    "imageAuthor": "Alexander William Azevedo",
+    "authorUnknown": false,
+    "biographyUrl": "https://www.jesuits.global/saint-blessed/blessed-peter-kasui-kibe/",
+    "biography": "Pedro Kasui Kibe era japonês e desejava ser jesuíta. Depois de sair do Japão, viajou por Macau, Índia e Jerusalém até chegar a Roma, onde foi ordenado sacerdote e entrou na Companhia de Jesus. Regressou ao Japão para acompanhar cristãos perseguidos. Morreu em Edo, atual Tóquio, em 1639. A sua vida permite conversar sobre perseverança, caminhos difíceis e vontade de servir.",
+    "question": "Que desejo bom te ajuda a continuar quando o caminho se torna difícil?",
+    "theme": "Perseverar num desejo bom",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pedro_Kasui_Kibe.jpg",
+    "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Pedro_Kasui_Kibe.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseKind": "cc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
+    "verifiedOn": "2026-10-27",
+    "imageChanges": "Recorte e redimensionamento do rosto identificado na obra completa; sem geração ou alteração por IA.",
+    "portraitNote": "Representação artística identificada na fonte. Não é uma autenticação da aparência física da pessoa.",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Pedro_Kasui_Kibe.jpg",
+    "imageCollection": "Japão; Wikimedia Commons",
+    "position": "50% 38%",
+    "imagePath": "../source-portraits/pedro-kibe.jpg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Pedro_Kasui_Kibe.jpg",
+    "referencePreparation": {
+      "crop": {
+        "left": 125,
+        "top": 0,
+        "width": 106,
+        "height": 133
+      },
+      "resize": [
+        600,
+        750
+      ],
+      "fit": "fill",
+      "rotate": 0,
+      "face": {
+        "x": 0.2641509433962264,
+        "y": 0.16842105263157897,
+        "width": 0.4754716981132076,
+        "height": 0.3849624060150376
+      }
     }
   }
 ]

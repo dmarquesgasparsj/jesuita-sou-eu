@@ -141,18 +141,19 @@
     {
       "image": "./assets/biography/estanislao-kostka-1.jpg",
       "captions": {
-        "pt": "Representação escultórica de Estanislau Kostka.",
-        "es": "Representación escultórica de Estanislao de Kostka.",
-        "fr": "Représentation sculptée de Stanislas Kostka.",
-        "en": "Sculptural representation of Stanislaus Kostka.",
-        "ko": "스타니슬라오 코스트카의 조각 작품."
+        "pt": "Estanislau Kostka, pormenor de uma pintura de Bartłomiej Strobel.",
+        "es": "Estanislao de Kostka, detalle de una pintura de Bartłomiej Strobel.",
+        "fr": "Stanislas Kostka, détail d’une peinture de Bartłomiej Strobel.",
+        "en": "Stanislaus Kostka, detail from a painting by Bartłomiej Strobel.",
+        "ko": "바르트워미에이 스트로벨의 회화 속 스타니슬라오 코스트카의 세부 모습."
       },
-      "author": "Pierre Le Gros the Younger",
+      "author": "Bartłomiej Strobel (1591–1647)",
       "license": "Domínio público (Wikimedia Commons)",
       "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stanislaus_Kostka_Legros_n1.jpg",
-      "commonsTitle": "File:Stanislaus Kostka Legros n1.jpg",
-      "verifiedOn": "2026-10-23"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Strobel_Virgin_and_Child_with_Saint_Stanislaus_Kostka_%28detail%29_02.jpg",
+      "commonsTitle": "File:Strobel Virgin and Child with Saint Stanislaus Kostka (detail) 02.jpg",
+      "verifiedOn": "2026-10-27",
+      "cropped": true
     }
   ],
   "joao-berchmans": [
@@ -861,6 +862,96 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quimper_16_Cath%C3%A9drale_Le_P%C3%A8re_Maunoir_obtient_le_don_de_la_langue_bretonne.jpg",
       "commonsTitle": "File:Quimper 16 Cathédrale Le Père Maunoir obtient le don de la langue bretonne.jpg",
       "verifiedOn": "2026-10-23"
+    }
+  ],
+  "joao-goto": [
+    {
+      "image": "./assets/biography/joao-goto-1.jpg",
+      "captions": {
+        "pt": "João Soan de Gotō na pintura do forro da sacristia da Catedral de Salvador.",
+        "es": "Juan Soan de Gotō en una pintura del techo de la sacristía de la Catedral de Salvador.",
+        "fr": "Jean Soan de Gotō sur une peinture du plafond de la sacristie de la cathédrale de Salvador.",
+        "en": "John Soan de Gotō in a painting on the sacristy ceiling of Salvador Cathedral.",
+        "ko": "사우바도르 대성당 제의실 천장화에 그려진 요한 소안 고토."
+      },
+      "author": "Paul R. Burley (fotografia); pintor não identificado",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catedral_Bas%C3%ADlica_de_Salvador_Sacristy_Ceiling_S%C3%A3o_Jo%C3%A3o_Soan_de_Goto-0716.jpg",
+      "commonsTitle": "File:Catedral Basílica de Salvador Sacristy Ceiling São João Soan de Goto-0716.jpg",
+      "verifiedOn": "2026-10-27"
+    }
+  ],
+  "diogo-kisai": [
+    {
+      "image": "./assets/biography/diogo-kisai-1.jpg",
+      "captions": {
+        "pt": "Diogo Kisai na pintura do forro da sacristia da Catedral de Salvador.",
+        "es": "Diego Kisai en una pintura del techo de la sacristía de la Catedral de Salvador.",
+        "fr": "Jacques Kisai sur une peinture du plafond de la sacristie de la cathédrale de Salvador.",
+        "en": "James Kisai in a painting on the sacristy ceiling of Salvador Cathedral.",
+        "ko": "사우바도르 대성당 제의실 천장화에 그려진 야고보 기사이."
+      },
+      "author": "Paul R. Burley (fotografia); pintor não identificado",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catedral_Bas%C3%ADlica_de_Salvador_Sacristy_Ceiling_Jacob_Kisai-0715.jpg",
+      "commonsTitle": "File:Catedral Basílica de Salvador Sacristy Ceiling Jacob Kisai-0715.jpg",
+      "verifiedOn": "2026-10-27"
+    }
+  ],
+  "juliao-nakaura": [
+    {
+      "image": "./assets/biography/juliao-nakaura-1.jpg",
+      "captions": {
+        "pt": "Retrato de Julião Nakaura jovem, conservado na Biblioteca Ambrosiana.",
+        "es": "Retrato de Julián Nakaura joven, conservado en la Biblioteca Ambrosiana.",
+        "fr": "Portrait du jeune Julien Nakaura conservé à la bibliothèque Ambrosienne.",
+        "en": "Portrait of the young Julian Nakaura, held by the Ambrosian Library.",
+        "ko": "암브로시아나 도서관에 소장된 젊은 줄리앙 나카우라의 초상."
+      },
+      "author": "Autor não identificado; reprodução: 小佐々學",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E6%B5%A6%E3%82%B8%E3%83%A5%E3%83%AA%E3%82%A2%E3%83%B3%E8%82%96%E5%83%8F%E7%94%BB_%E3%82%A2%E3%83%B3%E3%83%96%E3%83%AD%E3%82%B8%E3%82%A2%E3%83%BC%E3%83%8A%E5%9B%B3%E6%9B%B8%E9%A4%A8%E8%94%B5.jpg",
+      "commonsTitle": "File:中浦ジュリアン肖像画 アンブロジアーナ図書館蔵.jpg",
+      "verifiedOn": "2026-10-27"
+    }
+  ],
+  "sebastiao-kimura": [
+    {
+      "image": "./assets/biography/sebastiao-kimura-1.jpg",
+      "captions": {
+        "pt": "Sebastião Kimura numa gravura publicada por António Francisco Cardim em 1646.",
+        "es": "Sebastián Kimura en un grabado publicado por António Francisco Cardim en 1646.",
+        "fr": "Sébastien Kimura sur une gravure publiée par António Francisco Cardim en 1646.",
+        "en": "Sebastian Kimura in an engraving published by António Francisco Cardim in 1646.",
+        "ko": "안토니우 프란시스쿠 카르딤이 1646년에 출판한 판화 속 세바스티아노 기무라."
+      },
+      "author": "Gravura publicada por António Francisco Cardim, 1646",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sebasti%C3%A3o_Kimura.jpg",
+      "commonsTitle": "File:Sebastião Kimura.jpg",
+      "verifiedOn": "2026-10-27"
+    }
+  ],
+  "pedro-kibe": [
+    {
+      "image": "./assets/biography/pedro-kibe-1.jpg",
+      "captions": {
+        "pt": "Estátua de Pedro Kasui Kibe, no Japão.",
+        "es": "Estatua de Pedro Kasui Kibe, en Japón.",
+        "fr": "Statue de Pierre Kasui Kibe au Japon.",
+        "en": "Statue of Peter Kasui Kibe in Japan.",
+        "ko": "일본에 있는 베드로 가스이 기베의 조각상."
+      },
+      "author": "Alexander William Azevedo",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pedro_Kasui_Kibe.jpg",
+      "commonsTitle": "File:Pedro Kasui Kibe.jpg",
+      "verifiedOn": "2026-10-27"
     }
   ]
 }

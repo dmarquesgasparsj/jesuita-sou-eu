@@ -7,7 +7,7 @@ const titles=[
 '十字架のように手を広げて立つ中浦ジュリアン像.jpg',
 'Blessed Sebastian Kimura, Priest, and the 204 Martyrs 2.jpg'
 ];
-async function get(url){for(let i=0;i<3;i++){try{const r=await fetch(url,{headers:{'User-Agent':'JesuitaSouEu/0.9.3 (educational image verification; github.com/dmarquesgasparsj/jesuita-sou-eu)'},signal:AbortSignal.timeout(60000)});if(!r.ok)throw Error(r.status+' '+url);return Buffer.from(await r.arrayBuffer());}catch(e){if(i===2)throw e;}}}
+async function get(url){for(let i=0;i<3;i++){try{const r=await fetch(url+(i>0?(url.includes('?')?'&':'?')+'download='+i:''),{headers:{'User-Agent':'JesuitaSouEu/0.9.3 (educational image verification; github.com/dmarquesgasparsj/jesuita-sou-eu)'},signal:AbortSignal.timeout(60000)});if(!r.ok)throw Error(r.status+' '+url);return Buffer.from(await r.arrayBuffer());}catch(e){if(i===2)throw e;await new Promise(r=>setTimeout(r,10000));}}}
 (async()=>{
 const results=[];
 for(let i=0;i<titles.length;i++){

@@ -11,6 +11,7 @@ async function get(url){for(let i=0;i<3;i++){try{const r=await fetch(url+(i>0?(u
 (async()=>{
 const results=[];
 for(let i=0;i<titles.length;i++){
+ if(fs.existsSync(out+'/candidate-'+i+'.jpg'))continue;
  const t=titles[i],name=t.replaceAll(' ','_'),hash=crypto.createHash('md5').update(name).digest('hex');
  const url='https://upload.wikimedia.org/wikipedia/commons/'+hash[0]+'/'+hash.slice(0,2)+'/'+encodeURIComponent(name);
  await new Promise(r=>setTimeout(r,2000));const b=await get(url);await sharp(b).rotate().resize({width:1200,height:1400,fit:'inside',withoutEnlargement:true}).jpeg({quality:86,mozjpeg:true}).toFile(out+'/candidate-'+i+'.jpg');
@@ -18,10 +19,11 @@ for(let i=0;i<titles.length;i++){
  fs.writeFileSync(out+'/candidate-'+i+'.json',JSON.stringify({title:t,url,image_url:'data:image/jpeg;base64,'+preview.toString('base64')}));
  results.push({title:t,url,metadata:await sharp(b).metadata()});
 }
-const john=await sharp('source-portraits/john-sullivan.jpg').extract({left:3180,top:580,width:1000,height:1150}).resize(600,690).jpeg({quality:88,mozjpeg:true}).toBuffer();
+const john=await sharp('source-portraits/john-sullivan.jpg').extract({left:3270,top:760,width:830,height:770}).resize(600,557).jpeg({quality:88,mozjpeg:true}).toBuffer();
 fs.writeFileSync(out+'/john-sullivan.jpg',john);
 fs.writeFileSync(out+'/john-sullivan.json',JSON.stringify({image_url:'data:image/jpeg;base64,'+john.toString('base64')}));
 try{
+ if(fs.existsSync(out+'/kibe-source.json'))return;
  const query=new URLSearchParams({action:'query',format:'json',prop:'imageinfo',iiprop:'url|extmetadata',titles:'File:Petro Kasui Kibe statue.jpg'});
  const b=await get('https://ja.wikipedia.org/w/api.php?'+query);
  fs.writeFileSync(out+'/kibe-source.json',b);

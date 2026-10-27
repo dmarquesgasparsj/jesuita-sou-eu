@@ -38,6 +38,6 @@ jobs:
           cd native/output
           sha256sum "O-jesuita-sou-eu-Setup-$VERSION.exe" > SHA256SUMS.txt
           if ! gh release view "v$VERSION" >/dev/null 2>&1; then
-            gh release create "v$VERSION" --target "$GITHUB_SHA" --title "O jesuíta sou eu $VERSION — 45 santos e beatos" --notes-file ../../RELEASE-0.9.2.md
+            gh release create "v$VERSION" --target "$GITHUB_SHA" --title "O jesuíta sou eu $VERSION — 45 santos e beatos" --notes-file ../../RELEASE-0.9.3.md
           fi
           gh release upload "v$VERSION" "O-jesuita-sou-eu-Setup-$VERSION.exe" SHA256SUMS.txt

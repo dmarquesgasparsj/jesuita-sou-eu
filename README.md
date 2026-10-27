@@ -1,12 +1,16 @@
 # O jesuíta sou eu
 
+## Imagens revistas — 0.9.3
+
+O retrato de John Sullivan passa a aparecer em primeiro plano. As fichas de João de Gotō, Diogo Kisai, Julião Nakaura e Sebastião Kimura ganham uma obra diferente, com créditos e legendas nas cinco línguas. As 58 imagens adicionais funcionam sem Internet. A pesquisa sobre Pedro Kasui Kibe está documentada em `IMAGE-REVIEW-2026-10-27.md`.
+
 ## Definições de cores — 0.9.2
 
 A roda dentada discreta no canto inferior direito permite escolher Original, MAGIS 2027 ou Jesuítas em Portugal. A preferência de cores fica neste aparelho e funciona offline. As fontes e adaptações estão em `APPEARANCE-SOURCES.md`.
 
 ## Galerias de imagens e cinco jesuítas japoneses — 0.9.0
 
-As 45 fichas incluem duas ou três imagens, com setas, teclado, deslize no telemóvel e ampliação. As 54 imagens adicionais têm legendas nas cinco línguas, créditos individuais e funcionamento offline. O inventário encontra-se em `BIOGRAPHY-PHOTO-SOURCES.md` e os dados em `dist/biography-photos.json`. O APK 0.6.0 mantém o conteúdo anterior.
+As 45 fichas incluem duas ou três imagens, com setas, teclado, deslize no telemóvel e ampliação. As 58 imagens adicionais têm legendas nas cinco línguas, créditos individuais e funcionamento offline. O inventário encontra-se em `BIOGRAPHY-PHOTO-SOURCES.md` e os dados em `dist/biography-photos.json`. O APK 0.6.0 mantém o conteúdo anterior.
 
 Experiência de semelhança entre uma fotografia e uma galeria de 45 santos e beatos jesuítas, pensada para tablet e telemóvel. Interface disponível em português de Portugal, espanhol, francês, inglês e coreano.
 
@@ -14,11 +18,11 @@ Os cinco novos nomes são João Soan de Gotō, Diogo Kisai, Julião Nakaura, Seb
 
 ## Descarregar a aplicação
 
-- [Instalador para Windows 10/11 x64 (.exe)](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases/latest/download/O-jesuita-sou-eu-Setup-0.9.2.exe)
+- [Instalador para Windows 10/11 x64 (.exe)](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases/latest/download/O-jesuita-sou-eu-Setup-0.9.3.exe)
 - [APK Android 0.6.0, galeria anterior de 30 figuras](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases/download/v0.6.0/O-jesuita-sou-eu-Android-0.6.0.apk)
 - [Versões publicadas e instruções de instalação](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases)
 
-A aplicação web e o instalador Windows 0.9.2 incluem as 45 figuras e os modelos para funcionamento sem Internet. O APK 0.6.0 mantém 30 figuras. No Android, instala a PWA para utilizar a galeria atual. A atualização direta do APK exige a chave de assinatura original, que não foi recuperada neste ambiente; não foi gerada uma chave substituta. A versão Windows usa o Edge ou o Chrome instalado no computador e ainda não tem certificado comercial de editor. O APK tem assinatura própria do projeto. A instalação e a câmara devem ser ensaiadas nos aparelhos reais.
+A aplicação web e o instalador Windows 0.9.3 incluem as 45 figuras e os modelos para funcionamento sem Internet. O APK 0.6.0 mantém 30 figuras. No Android, instala a PWA para utilizar a galeria atual. A atualização direta do APK exige a chave de assinatura original, que não foi recuperada neste ambiente; não foi gerada uma chave substituta. A versão Windows usa o Edge ou o Chrome instalado no computador e ainda não tem certificado comercial de editor. O APK tem assinatura própria do projeto. A instalação e a câmara devem ser ensaiadas nos aparelhos reais.
 
 ## Instalar e publicar no GitHub
 
@@ -108,7 +112,7 @@ A biblioteca face-api.js 0.22.2 e os modelos são do projeto de Vincent Mühler 
 
 ## Verificação
 
-`npm test` verifica os recursos offline, os modelos, os vetores, a sintaxe, as cinco traduções, os 400 parágrafos biográficos e a preservação das perguntas portuguesas. O teste de integração em Node verifica a troca de língua com a câmara e um resultado em curso, sem repetir inferência, bem como a eliminação da fotografia ao reiniciar. Não substitui um ensaio de câmara e disposição visual no aparelho real.
+`npm test` verifica os recursos offline, os modelos, os vetores, a sintaxe, as cinco traduções, os 450 parágrafos biográficos e a preservação das perguntas portuguesas. O teste de integração em Node verifica a troca de língua com a câmara e um resultado em curso, sem repetir inferência, bem como a eliminação da fotografia ao reiniciar. Não substitui um ensaio de câmara e disposição visual no aparelho real.
 
 A inferência de referência pode ser repetida com `scripts/portrait-inference.cjs` e `scripts/prepare-gallery.cjs`; estes utilitários precisam de `sharp` num ambiente de desenvolvimento. O site publicado não precisa dessa dependência.
 
@@ -116,4 +120,4 @@ Não há recolha de fotografias, nomes, contactos ou analítica de visitantes.
 
 ## Galeria 0.7.0
 
-Acrescenta Paulo Miki, Nicolau Owen, Edmundo Campion, Roberto Southwell, Rupert Mayer, John Sullivan, Diogo Carvalho, Francisco Pacheco, Miguel de Carvalho, Julien Maunoir. São 28 santos e 12 beatos, com 400 parágrafos biográficos nas cinco línguas. A fotografia do santuário de John Sullivan é conservada completa; o desenho do painel não é redistribuído isoladamente.
+Acrescenta Paulo Miki, Nicolau Owen, Edmundo Campion, Roberto Southwell, Rupert Mayer, John Sullivan, Diogo Carvalho, Francisco Pacheco, Miguel de Carvalho, Julien Maunoir. São 28 santos e 12 beatos, com 400 parágrafos biográficos nas cinco línguas. Na versão 0.7.0, a fotografia do santuário de John Sullivan era apresentada completa; a 0.9.3 passa a destacar o retrato no painel através de um recorte.

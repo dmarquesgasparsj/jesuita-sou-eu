@@ -1,6 +1,6 @@
 # O jesuíta sou eu
 
-## Definições de cores — 0.9.1
+## Definições de cores — 0.9.2
 
 A roda dentada discreta no canto inferior direito permite escolher Original, MAGIS 2027 ou Jesuítas em Portugal. A preferência de cores fica neste aparelho e funciona offline. As fontes e adaptações estão em `APPEARANCE-SOURCES.md`.
 
@@ -14,11 +14,11 @@ Os cinco novos nomes são João Soan de Gotō, Diogo Kisai, Julião Nakaura, Seb
 
 ## Descarregar a aplicação
 
-- [Instalador para Windows 10/11 x64 (.exe)](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases/latest/download/O-jesuita-sou-eu-Setup-0.9.1.exe)
+- [Instalador para Windows 10/11 x64 (.exe)](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases/latest/download/O-jesuita-sou-eu-Setup-0.9.2.exe)
 - [APK Android 0.6.0, galeria anterior de 30 figuras](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases/download/v0.6.0/O-jesuita-sou-eu-Android-0.6.0.apk)
 - [Versões publicadas e instruções de instalação](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases)
 
-A aplicação web e o instalador Windows 0.9.1 incluem as 45 figuras e os modelos para funcionamento sem Internet. O APK 0.6.0 mantém 30 figuras. No Android, instala a PWA para utilizar a galeria atual. A atualização direta do APK exige a chave de assinatura original, que não foi recuperada neste ambiente; não foi gerada uma chave substituta. A versão Windows usa o Edge ou o Chrome instalado no computador e ainda não tem certificado comercial de editor. O APK tem assinatura própria do projeto. A instalação e a câmara devem ser ensaiadas nos aparelhos reais.
+A aplicação web e o instalador Windows 0.9.2 incluem as 45 figuras e os modelos para funcionamento sem Internet. O APK 0.6.0 mantém 30 figuras. No Android, instala a PWA para utilizar a galeria atual. A atualização direta do APK exige a chave de assinatura original, que não foi recuperada neste ambiente; não foi gerada uma chave substituta. A versão Windows usa o Edge ou o Chrome instalado no computador e ainda não tem certificado comercial de editor. O APK tem assinatura própria do projeto. A instalação e a câmara devem ser ensaiadas nos aparelhos reais.
 
 ## Instalar e publicar no GitHub
 

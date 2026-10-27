@@ -1,6 +1,6 @@
 export const THEME_KEY = 'jesuita-sou-eu-theme';
 export const THEME_IDS = Object.freeze(['original', 'magis', 'portugal']);
-export const THEME_BROWSER_COLORS = Object.freeze({ original: '#263d32', magis: '#77b09e', portugal: '#c41230' });
+export const THEME_BROWSER_COLORS = Object.freeze({ original: '#263d32', magis: '#77b09e', portugal: '#bf2f37' });
 
 export function initAppearance(doc = globalThis.document, storage) {
   const toggle = doc.getElementById('appearance-open');

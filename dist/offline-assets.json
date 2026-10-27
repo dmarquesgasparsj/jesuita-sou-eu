@@ -1,7 +1,8 @@
 {
-  "version": "20261027-v13",
+  "version": "20261027-v14",
   "assets": [
     "app.js",
+    "appearance.js",
     "assets/biography/afonso-rodrigues-1.jpg",
     "assets/biography/alberto-hurtado-1.jpg",
     "assets/biography/andre-bobola-1.jpg",

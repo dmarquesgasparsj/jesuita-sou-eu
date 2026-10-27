@@ -1,1 +1,32 @@
-{"id":"./","name":"O jesuíta sou eu","short_name":"O jesuíta sou eu","description":"Uma fotografia, 40 histórias de santos e beatos jesuítas para descobrir.","start_url":"./","scope":"./","display":"standalone","background_color":"#f7f4ed","theme_color":"#263d32","lang":"pt-PT","icons":[{"src":"assets/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},{"src":"assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any"},{"src":"assets/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}]}
+{
+  "id": "./",
+  "name": "O jesuíta sou eu",
+  "short_name": "O jesuíta sou eu",
+  "description": "Uma fotografia, 45 histórias de santos e beatos jesuítas para descobrir.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f4ed",
+  "theme_color": "#263d32",
+  "lang": "pt-PT",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

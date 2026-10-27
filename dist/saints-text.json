@@ -2130,5 +2130,270 @@
         "question": "여러분 가까이에서 어떤 사명을 발견할 수 있을까요?"
       }
     }
+  },
+  "joao-goto": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/saint-john-de-goto/",
+      "https://www.jesuit.org.sg/feb-6th-paul-miki-john-de-goto-james-kasai-sj/"
+    ],
+    "locales": {
+      "pt": {
+        "name": "João Soan de Gotō",
+        "theme": "Dar o primeiro passo",
+        "biography": [
+          "João nasceu no Japão e trabalhou como catequista numa comunidade jesuíta de Osaka. Era ainda muito jovem quando foi preso com Paulo Miki e Diogo Kisai.",
+          "Foi admitido na Companhia de Jesus antes de morrer em Nagasaki, em 1597. A sua história convida a conversar sobre os primeiros passos de um compromisso."
+        ],
+        "question": "Que primeiro passo podes dar por algo em que acreditas?"
+      },
+      "es": {
+        "name": "Juan Soan de Gotō",
+        "theme": "Dar el primer paso",
+        "biography": [
+          "Juan nació en Japón y trabajó como catequista en una comunidad jesuita de Osaka. Era todavía muy joven cuando fue detenido con Pablo Miki y Diego Kisai.",
+          "Fue admitido en la Compañía de Jesús antes de morir en Nagasaki, en 1597. Su historia invita a conversar sobre los primeros pasos de un compromiso."
+        ],
+        "question": "¿Qué primer paso puedes dar por algo en lo que crees?"
+      },
+      "fr": {
+        "name": "Jean Soan de Gotō",
+        "theme": "Faire le premier pas",
+        "biography": [
+          "Né au Japon, Jean travailla comme catéchiste dans une communauté jésuite à Osaka. Il était encore très jeune lorsqu’il fut arrêté avec Paul Miki et Jacques Kisai.",
+          "Il fut admis dans la Compagnie de Jésus avant de mourir à Nagasaki, en 1597. Son histoire invite à parler des premiers pas d’un engagement."
+        ],
+        "question": "Quel premier pas peux-tu faire pour quelque chose en quoi tu crois ?"
+      },
+      "en": {
+        "name": "John Soan de Gotō",
+        "theme": "Take the first step",
+        "biography": [
+          "Born in Japan, John worked as a catechist in a Jesuit community in Osaka. He was still very young when he was arrested with Paul Miki and James Kisai.",
+          "He was admitted to the Society of Jesus before his death in Nagasaki in 1597. His story invites a conversation about the first steps of a commitment."
+        ],
+        "question": "What first step could you take for something you believe in?"
+      },
+      "ko": {
+        "name": "요한 소안 고토",
+        "theme": "첫걸음 내딛기",
+        "biography": [
+          "일본에서 태어난 요한은 오사카의 예수회 공동체에서 교리교사로 일했습니다. 그는 아직 젊은 나이에 바오로 미키, 야고보 기사이와 함께 체포되었습니다.",
+          "1597년 나가사키에서 순교하기 전에 예수회에 받아들여졌습니다. 그의 이야기는 소중하게 여기는 일에 헌신하려면 어떤 첫걸음이 필요한지 함께 생각하게 합니다."
+        ],
+        "question": "여러분이 믿는 것을 위해 어떤 첫걸음을 내디딜 수 있을까요?"
+      }
+    }
+  },
+  "diogo-kisai": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/saint-james-kisai/",
+      "https://mission.lmu.edu/stainedglass/windows/loyolacollegebaltimore/"
+    ],
+    "locales": {
+      "pt": {
+        "name": "Diogo Kisai",
+        "theme": "Servir no quotidiano",
+        "biography": [
+          "Diogo Kisai, também conhecido como Tiago Kisai, era japonês. Foi casado e teve um filho. Mais tarde, trabalhou com os jesuítas em Osaka e tornou-se catequista e irmão da Companhia.",
+          "Morreu em Nagasaki, em 1597, com Paulo Miki e João de Gotō. O seu percurso ajuda a reconhecer o valor de servir nas tarefas de cada dia."
+        ],
+        "question": "Que tarefa discreta tua faz diferença na vida de alguém?"
+      },
+      "es": {
+        "name": "Diego Kisai",
+        "theme": "Servir cada día",
+        "biography": [
+          "Diego Kisai, también conocido como Santiago Kisai, era japonés. Estuvo casado y tuvo un hijo. Más tarde trabajó con los jesuitas en Osaka y se convirtió en catequista y hermano de la Compañía.",
+          "Murió en Nagasaki, en 1597, con Pablo Miki y Juan de Gotō. Su camino ayuda a reconocer el valor de servir en las tareas de cada día."
+        ],
+        "question": "¿Qué tarea discreta tuya cambia la vida de alguien?"
+      },
+      "fr": {
+        "name": "Jacques Kisai",
+        "theme": "Servir au quotidien",
+        "biography": [
+          "Jacques Kisai, aussi appelé Diego Kisai, était japonais. Il fut marié et eut un fils. Plus tard, il travailla avec les jésuites à Osaka et devint catéchiste et frère de la Compagnie.",
+          "Il mourut à Nagasaki, en 1597, avec Paul Miki et Jean de Gotō. Son parcours aide à reconnaître la valeur du service dans les tâches quotidiennes."
+        ],
+        "question": "Quelle tâche discrète accomplis-tu qui compte pour quelqu’un ?"
+      },
+      "en": {
+        "name": "James Kisai",
+        "theme": "Serve in everyday life",
+        "biography": [
+          "James Kisai, also known as Diego Kisai, was Japanese. He married and had a son. Later he worked with the Jesuits in Osaka and became a catechist and a Jesuit brother.",
+          "He died in Nagasaki in 1597 with Paul Miki and John de Gotō. His journey helps us recognise the value of serving through everyday tasks."
+        ],
+        "question": "What quiet task of yours makes a difference to someone?"
+      },
+      "ko": {
+        "name": "야고보 기사이",
+        "theme": "일상에서 섬기기",
+        "biography": [
+          "디에고 기사이라고도 불리는 야고보 기사이는 일본인이었습니다. 그는 결혼하여 아들을 두었습니다. 이후 오사카의 예수회원들과 일하며 교리교사가 되었고 예수회 수사가 되었습니다.",
+          "1597년 나가사키에서 바오로 미키, 요한 고토와 함께 순교했습니다. 그의 삶은 매일의 작은 일로 다른 사람을 섬기는 일이 얼마나 소중한지 생각하게 합니다."
+        ],
+        "question": "여러분이 조용히 하는 일 가운데 누군가에게 힘이 되는 일은 무엇인가요?"
+      }
+    }
+  },
+  "juliao-nakaura": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/blessed-julian-nakaura/",
+      "https://arsi.jesuits.global/wp-content/uploads/2025/06/AHSI-2024-II-Bibliography.pdf"
+    ],
+    "locales": {
+      "pt": {
+        "name": "Julião Nakaura",
+        "theme": "Construir pontes entre culturas",
+        "biography": [
+          "Julião Nakaura era japonês. Ainda adolescente, participou numa embaixada que visitou a Europa. De regresso ao Japão, entrou na Companhia de Jesus e tornou-se sacerdote.",
+          "Durante a perseguição, continuou a acompanhar comunidades cristãs em segredo. Morreu em Nagasaki, em 1633. O seu percurso convida a pensar no encontro entre pessoas de culturas diferentes."
+        ],
+        "question": "O que gostarias de aprender com alguém de outra cultura?"
+      },
+      "es": {
+        "name": "Julián Nakaura",
+        "theme": "Tender puentes entre culturas",
+        "biography": [
+          "Julián Nakaura era japonés. Siendo adolescente, participó en una embajada que visitó Europa. De regreso a Japón, entró en la Compañía de Jesús y se hizo sacerdote.",
+          "Durante la persecución siguió acompañando en secreto a comunidades cristianas. Murió en Nagasaki, en 1633. Su camino invita a pensar en el encuentro entre personas de culturas diferentes."
+        ],
+        "question": "¿Qué te gustaría aprender de alguien de otra cultura?"
+      },
+      "fr": {
+        "name": "Julien Nakaura",
+        "theme": "Créer des ponts entre les cultures",
+        "biography": [
+          "Julien Nakaura était japonais. Adolescent, il participa à une ambassade qui visita l’Europe. Revenu au Japon, il entra dans la Compagnie de Jésus et devint prêtre.",
+          "Pendant la persécution, il continua à accompagner des communautés chrétiennes en secret. Il mourut à Nagasaki, en 1633. Son parcours invite à réfléchir à la rencontre entre des personnes de cultures différentes."
+        ],
+        "question": "Qu’aimerais-tu apprendre de quelqu’un d’une autre culture ?"
+      },
+      "en": {
+        "name": "Julian Nakaura",
+        "theme": "Build bridges between cultures",
+        "biography": [
+          "Julian Nakaura was Japanese. As a teenager, he took part in an embassy that visited Europe. Back in Japan, he entered the Society of Jesus and became a priest.",
+          "During the persecution, he continued to support Christian communities in secret. He died in Nagasaki in 1633. His journey invites us to think about encounters between people from different cultures."
+        ],
+        "question": "What would you like to learn from someone from another culture?"
+      },
+      "ko": {
+        "name": "줄리앙 나카우라",
+        "theme": "문화 사이에 다리 놓기",
+        "biography": [
+          "일본인 줄리앙 나카우라는 청소년 시절 유럽을 방문한 사절단에 참여했습니다. 일본으로 돌아온 뒤 예수회에 입회하여 사제가 되었습니다.",
+          "박해 속에서도 숨어 있는 그리스도인 공동체를 계속 돌보았습니다. 1633년 나가사키에서 순교한 그의 삶은 서로 다른 문화를 가진 사람들이 만나는 의미를 생각하게 합니다."
+        ],
+        "question": "다른 문화에서 온 사람에게 무엇을 배우고 싶나요?"
+      }
+    }
+  },
+  "sebastiao-kimura": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/blessed-sebastian-kimura/",
+      "https://www.jesuit.org.sg/sept-charles-spinola-sebastian-kimura-companions-sj/"
+    ],
+    "locales": {
+      "pt": {
+        "name": "Sebastião Kimura",
+        "theme": "Encontrar caminhos para estar perto",
+        "biography": [
+          "Sebastião Kimura nasceu no Japão e entrou na Companhia de Jesus. Estudou Teologia em Macau e foi um dos primeiros japoneses ordenados sacerdotes.",
+          "Durante a perseguição, usava disfarces para visitar famílias e pessoas presas. Morreu em Nagasaki, em 1622. O seu percurso convida a procurar maneiras criativas de estar próximo de quem precisa."
+        ],
+        "question": "Que caminho novo podes encontrar para chegar a alguém que precisa de ti?"
+      },
+      "es": {
+        "name": "Sebastián Kimura",
+        "theme": "Encontrar caminos para estar cerca",
+        "biography": [
+          "Sebastián Kimura nació en Japón y entró en la Compañía de Jesús. Estudió Teología en Macao y fue uno de los primeros japoneses ordenados sacerdotes.",
+          "Durante la persecución usaba disfraces para visitar a familias y personas presas. Murió en Nagasaki, en 1622. Su camino invita a buscar formas creativas de estar cerca de quien lo necesita."
+        ],
+        "question": "¿Qué camino nuevo puedes encontrar para llegar a alguien que te necesita?"
+      },
+      "fr": {
+        "name": "Sébastien Kimura",
+        "theme": "Trouver des chemins de proximité",
+        "biography": [
+          "Sébastien Kimura naquit au Japon et entra dans la Compagnie de Jésus. Il étudia la théologie à Macao et fut parmi les premiers Japonais ordonnés prêtres.",
+          "Pendant la persécution, il se déguisait pour visiter des familles et des prisonniers. Il mourut à Nagasaki, en 1622. Son parcours invite à chercher des moyens créatifs de rester proche de ceux qui en ont besoin."
+        ],
+        "question": "Quel nouveau chemin peux-tu trouver pour rejoindre quelqu’un qui a besoin de toi ?"
+      },
+      "en": {
+        "name": "Sebastian Kimura",
+        "theme": "Find ways to stay close",
+        "biography": [
+          "Sebastian Kimura was born in Japan and entered the Society of Jesus. He studied theology in Macao and was among the first Japanese men ordained as priests.",
+          "During the persecution, he used disguises to visit families and prisoners. He died in Nagasaki in 1622. His journey invites us to find creative ways to stay close to people who need support."
+        ],
+        "question": "What new way could you find to reach someone who needs you?"
+      },
+      "ko": {
+        "name": "세바스티아노 기무라",
+        "theme": "이웃에게 다가갈 길 찾기",
+        "biography": [
+          "세바스티아노 기무라는 일본에서 태어나 예수회에 입회했습니다. 마카오에서 신학을 공부했으며, 일본인으로서 초기에 사제품을 받은 이들 가운데 한 사람이었습니다.",
+          "박해 중에는 변장을 하고 가정과 감옥에 있는 이들을 찾아갔습니다. 1622년 나가사키에서 순교한 그의 삶은 도움이 필요한 이웃에게 다가갈 새로운 방법을 생각하게 합니다."
+        ],
+        "question": "여러분을 필요로 하는 사람에게 다가가기 위해 어떤 새로운 길을 찾을 수 있을까요?"
+      }
+    }
+  },
+  "pedro-kibe": {
+    "sources": [
+      "https://www.jesuits.global/saint-blessed/blessed-peter-kasui-kibe/",
+      "https://www.jesuiten.org/heilige-und-selige-jesuiten/peter-kibe"
+    ],
+    "locales": {
+      "pt": {
+        "name": "Pedro Kasui Kibe",
+        "theme": "Perseverar num desejo bom",
+        "biography": [
+          "Pedro Kasui Kibe era japonês e desejava ser jesuíta. Depois de sair do Japão, viajou por Macau, Índia e Jerusalém até chegar a Roma, onde foi ordenado sacerdote e entrou na Companhia de Jesus.",
+          "Regressou ao Japão para acompanhar cristãos perseguidos. Morreu em Edo, atual Tóquio, em 1639. A sua vida permite conversar sobre perseverança, caminhos difíceis e vontade de servir."
+        ],
+        "question": "Que desejo bom te ajuda a continuar quando o caminho se torna difícil?"
+      },
+      "es": {
+        "name": "Pedro Kasui Kibe",
+        "theme": "Perseverar en un buen deseo",
+        "biography": [
+          "Pedro Kasui Kibe era japonés y deseaba ser jesuita. Tras salir de Japón, viajó por Macao, India y Jerusalén hasta llegar a Roma, donde fue ordenado sacerdote y entró en la Compañía de Jesús.",
+          "Regresó a Japón para acompañar a cristianos perseguidos. Murió en Edo, hoy Tokio, en 1639. Su vida permite conversar sobre perseverancia, caminos difíciles y deseo de servir."
+        ],
+        "question": "¿Qué buen deseo te ayuda a seguir cuando el camino se hace difícil?"
+      },
+      "fr": {
+        "name": "Pierre Kasui Kibe",
+        "theme": "Persévérer dans un désir bon",
+        "biography": [
+          "Pierre Kasui Kibe était japonais et désirait devenir jésuite. Après avoir quitté le Japon, il passa par Macao, l’Inde et Jérusalem pour rejoindre Rome, où il fut ordonné prêtre et entra dans la Compagnie de Jésus.",
+          "Il retourna au Japon pour accompagner des chrétiens persécutés. Il mourut à Edo, aujourd’hui Tokyo, en 1639. Sa vie permet de parler de persévérance, de chemins difficiles et du désir de servir."
+        ],
+        "question": "Quel désir bon t’aide à continuer quand le chemin devient difficile ?"
+      },
+      "en": {
+        "name": "Peter Kasui Kibe",
+        "theme": "Persevere in a good desire",
+        "biography": [
+          "Peter Kasui Kibe was Japanese and wanted to become a Jesuit. After leaving Japan, he travelled through Macao, India and Jerusalem to Rome, where he was ordained a priest and entered the Society of Jesus.",
+          "He returned to Japan to support persecuted Christians. He died in Edo, now Tokyo, in 1639. His life opens a conversation about perseverance, difficult journeys and the desire to serve."
+        ],
+        "question": "What good desire helps you keep going when the journey becomes difficult?"
+      },
+      "ko": {
+        "name": "베드로 가스이 기베",
+        "theme": "좋은 소망을 끝까지 품기",
+        "biography": [
+          "일본인 베드로 가스이 기베는 예수회원이 되기를 바랐습니다. 일본을 떠나 마카오와 인도, 예루살렘을 거쳐 로마에 도착했고, 그곳에서 사제품을 받고 예수회에 입회했습니다.",
+          "박해받는 그리스도인들을 돌보기 위해 일본으로 돌아왔습니다. 1639년 오늘날 도쿄인 에도에서 순교한 그의 삶은 인내와 어려운 여정, 봉사하려는 소망에 관해 이야기하게 합니다."
+        ],
+        "question": "길이 어려워질 때에도 여러분이 계속 나아가도록 돕는 좋은 소망은 무엇인가요?"
+      }
+    }
   }
 }

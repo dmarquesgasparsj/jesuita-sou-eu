@@ -30,7 +30,24 @@ async function infer(file){
   return result.map(r=>({descriptor:Array.from(r.descriptor),box:{x:r.detection.box.x/info.width,y:r.detection.box.y/info.height,width:r.detection.box.width/info.width,height:r.detection.box.height/info.height},score:r.detection.score,landmarks:r.landmarks.positions.map(p=>[p.x/info.width,p.y/info.height])}));
  }finally{tensor.dispose();}
 }
-module.exports={init,infer,faceapi};
+
+async function inferFaceRegion(file, box) {
+ const {data,info}=await sharp(file).rotate().removeAlpha().toColourspace('srgb').raw().toBuffer({resolveWithObject:true});
+ for(const k of ['x','y','width','height'])if(!Number.isFinite(box[k])||box[k]<0)throw new Error('Invalid annotated face region');
+ if(box.width<=0||box.height<=0||box.x+box.width>1.02||box.y+box.height>1.02)throw new Error('Annotated face region exceeds image');
+ const tensor=faceapi.tf.tensor3d(new Uint8Array(data),[info.height,info.width,info.channels]);
+ try{
+  // The region identifies the face after human inspection of the complete work.
+  // Landmarks and the 128 features are computed by the same models as the app.
+  // The internal detection score is a placeholder, not detector confidence.
+  const detection=new faceapi.FaceDetection(1,new faceapi.Rect(box.x,box.y,box.width,box.height),{width:info.width,height:info.height});
+  const results=await new faceapi.DetectAllFaceLandmarksTask(Promise.resolve([{detection}]),tensor,false).withFaceDescriptors();
+  const r=results[0];if(!r)throw new Error('No features for annotated face');
+  return {descriptor:Array.from(r.descriptor),box,score:null,method:'human-verified-face-region',landmarks:r.landmarks.positions.map(p=>[p.x/info.width,p.y/info.height])};
+ }finally{tensor.dispose();}
+}
+
+module.exports={init,infer,inferFaceRegion,faceapi};
 if(require.main===module){
  (async()=>{await init(); for(const file of process.argv.slice(2)){const r=await infer(file);console.log(JSON.stringify({file,faces:r.length,results:r}));}})().catch(e=>{console.error(e);process.exit(1);});
 }

@@ -1,5 +1,9 @@
 # O jesuíta sou eu
 
+## Seis retratos revistos — 0.9.5
+
+A galeria usa novos enquadramentos para Nicolau Owen, Rutilio Grande e Julião Nakaura, a escultura de Juan de Mesa para Paulo Miki, a escultura de Dalías para José Maria Rubio e um retrato pintado para José Pignatelli. Os créditos estão em `PORTRAIT-SOURCES.md`.
+
 ## Comparação e modo stand — 0.9.4
 
 A aplicação compara em luminância normalizada: a cor não entra diretamente nos descritores. A câmara pára na captura, os dados temporários são descartados e o resultado mostra apenas os retratos da galeria. Em «Preparar o stand», abre o modo stand para desativar o carregamento de ficheiros e voltar ao início após 45 segundos de inatividade. O botão «Nova pessoa» permite avançar imediatamente.
@@ -22,11 +26,11 @@ Os cinco novos nomes são João Soan de Gotō, Diogo Kisai, Julião Nakaura, Seb
 
 ## Descarregar a aplicação
 
-- [Instalador para Windows 10/11 x64 (.exe)](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases/latest/download/O-jesuita-sou-eu-Setup-0.9.4.exe)
+- [Instalador para Windows 10/11 x64 (.exe)](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases/latest/download/O-jesuita-sou-eu-Setup-0.9.5.exe)
 - [APK Android 0.6.0, galeria anterior de 30 figuras](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases/download/v0.6.0/O-jesuita-sou-eu-Android-0.6.0.apk)
 - [Versões publicadas e instruções de instalação](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases)
 
-A aplicação web e o instalador Windows 0.9.4 incluem as 45 figuras e os modelos para funcionamento sem Internet. O APK 0.6.0 mantém 30 figuras. No Android, instala a PWA para utilizar a galeria atual. A atualização direta do APK exige a chave de assinatura original, que não foi recuperada neste ambiente; não foi gerada uma chave substituta. A versão Windows usa o Edge ou o Chrome instalado no computador e ainda não tem certificado comercial de editor. O APK tem assinatura própria do projeto. A instalação e a câmara devem ser ensaiadas nos aparelhos reais.
+A aplicação web e o instalador Windows 0.9.5 incluem as 45 figuras e os modelos para funcionamento sem Internet. O APK 0.6.0 mantém 30 figuras. No Android, instala a PWA para utilizar a galeria atual. A atualização direta do APK exige a chave de assinatura original, que não foi recuperada neste ambiente; não foi gerada uma chave substituta. A versão Windows usa o Edge ou o Chrome instalado no computador e ainda não tem certificado comercial de editor. O APK tem assinatura própria do projeto. A instalação e a câmara devem ser ensaiadas nos aparelhos reais.
 
 ## Instalar e publicar no GitHub
 

@@ -13,11 +13,10 @@ jobs:
         with:
           node-version: '24'
           package-manager-cache: false
-      - run: npm install --no-save --package-lock=false sharp
-      - run: node scripts/apply-six-portraits.cjs
+      - run: node scripts/build-offline-manifest.cjs && npm test
       - run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add dist scripts/descriptors scripts/portrait-sources.json source-portraits .review/six
-          git commit -m 'Atualizar seis retratos e referências'
+          git add dist/offline-assets.json
+          git commit -m 'Regenerar manifesto offline e verificar a galeria'
           git push origin HEAD:review-six-portraits-20261112

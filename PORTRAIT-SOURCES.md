@@ -140,10 +140,12 @@ Atualizada em 27 de outubro de 2026. As perguntas são propostas editoriais orig
 ## José Pignatelli (1737–1811)
 
 - Ficheiro: `assets/portraits/jose-pignatelli.jpg`
-- Autor/créditos: Reprodução: Grentidez
-- Coleção: Gravure tirée du livre de Alfred HAMY:  Galerie illustrée de la Compagnie de Jésus , 1893.
-- Fonte: undefined
-- Licença: Domínio público (Wikimedia Commons) — https://creativecommons.org/publicdomain/mark/1.0/
+- Autor/créditos: Pintor não identificado; Gllenns (fotografia)
+- Coleção: Wikimedia Commons
+- Fonte: https://commons.wikimedia.org/wiki/File:%D0%98%D0%BE%D1%81%D0%B8%D1%84_%D0%9F%D0%B8%D0%BD%D1%8C%D1%8F%D1%82%D0%B5%D0%BB%D0%BB%D0%B8.jpg
+- Licença: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+- Alteração: Recorte e redimensionamento para 600 × 750 píxeis, sem alterar as feições.
+- Nota: Representação artística da pessoa identificada na fonte.
 - Biografia: https://www.jesuits.global/saint-blessed/saint-joseph-pignatelli/
 
 ## André Bobola (1591–1657)
@@ -194,10 +196,12 @@ Atualizada em 27 de outubro de 2026. As perguntas são propostas editoriais orig
 ## José Maria Rubio (1864–1929)
 
 - Ficheiro: `assets/portraits/jose-maria-rubio.jpg`
-- Autor/créditos: Reprodução: Grentidez
-- Coleção: Own work
-- Fonte: undefined
-- Licença: Domínio público (Wikimedia Commons) — https://creativecommons.org/publicdomain/mark/1.0/
+- Autor/créditos: Fran Hernández (fotografia)
+- Coleção: Paróquia de Santa Maria de Ambróx, Dalías
+- Fonte: https://commons.wikimedia.org/wiki/File:San_Jos%C3%A9_Mar%C3%ADa_Rubio_S.J.jpg
+- Licença: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
+- Alteração: Recorte e redimensionamento para 600 × 750 píxeis, sem alterar as feições.
+- Nota: Representação artística da pessoa identificada na fonte.
 - Biografia: https://www.jesuits.global/saint-blessed/saint-jose-maria-rubio/
 
 ## Inácio de Azevedo (1526–1570)
@@ -276,6 +280,8 @@ Atualizada em 27 de outubro de 2026. As perguntas são propostas editoriais orig
 - Coleção: Fotografia de um retrato de Rutilio Grande; Wikimedia Commons
 - Fonte: https://commons.wikimedia.org/wiki/File:Un_Retrato_del_padre_Rutilio_Grande.jpg
 - Licença: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+- Alteração: Recorte e redimensionamento para 600 × 750 píxeis, sem alterar as feições.
+- Nota: Fotografia de um retrato emoldurado de Rutilio Grande. O recorte apresentado destaca o rosto.
 - Biografia: https://www.jesuits.global/saint-blessed/blessed-rutilio-grande/
 
 ## João Beyzym (1850–1912)
@@ -299,10 +305,12 @@ Atualizada em 27 de outubro de 2026. As perguntas são propostas editoriais orig
 ## Paulo Miki (1564–1597)
 
 - Ficheiro: `assets/portraits/paulo-miki.jpg`
-- Autor/créditos: Paul R. Burley (fotografia); pintor não identificado
-- Coleção: Catedral Basílica de Salvador, Bahia; Wikimedia Commons
-- Fonte: https://commons.wikimedia.org/wiki/File:Catedral_Bas%C3%ADlica_de_Salvador_Sacristy_Ceiling-0702.jpg
-- Licença: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+- Autor/créditos: Juan de Mesa (escultura); Jl FilpoC (fotografia)
+- Coleção: Museu de Belas-Artes de Sevilha
+- Fonte: https://commons.wikimedia.org/wiki/File:San_Pablo_Miki%2C_Museo_de_Bellas_Artes_de_Sevilla.jpg
+- Licença: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+- Alteração: Recorte e redimensionamento para 600 × 750 píxeis, sem alterar as feições.
+- Nota: Representação artística da pessoa identificada na fonte.
 - Biografia: https://www.jesuits.global/saint-blessed/saint-paul-miki/
 
 ## Nicolau Owen (?–1606)
@@ -312,6 +320,8 @@ Atualizada em 27 de outubro de 2026. As perguntas são propostas editoriais orig
 - Coleção: Wikimedia Commons
 - Fonte: https://commons.wikimedia.org/wiki/File:Edward_Oldcorne%3B_Nicholas_Owen_by_Gaspar_Bouttats.jpg
 - Licença: Domínio público (Wikimedia Commons) — https://creativecommons.org/publicdomain/mark/1.0/
+- Alteração: Recorte e redimensionamento para 600 × 750 píxeis, sem alterar as feições.
+- Nota: Pormenor da figura suspensa, comparado com a gravura de Melchior Küsel que identifica Nicolau Owen.
 - Biografia: https://www.jesuits.global/saint-blessed/saint-nicholas-owen/
 
 ## Edmundo Campion (1540–1581)
@@ -413,6 +423,8 @@ Na versão 0.9.3, apresenta-se o recorte do retrato no painel (x=3270, y=760, la
 - Coleção: Biblioteca Ambrosiana, Milão; Wikimedia Commons
 - Fonte: https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E6%B5%A6%E3%82%B8%E3%83%A5%E3%83%AA%E3%82%A2%E3%83%B3%E8%82%96%E5%83%8F%E7%94%BB_%E3%82%A2%E3%83%B3%E3%83%96%E3%83%AD%E3%82%B8%E3%82%A2%E3%83%BC%E3%83%8A%E5%9B%B3%E6%9B%B8%E9%A4%A8%E8%94%B5.jpg
 - Licença: Domínio público (Wikimedia Commons) — https://creativecommons.org/publicdomain/mark/1.0/
+- Alteração: Recorte e redimensionamento para 600 × 750 píxeis, sem alterar as feições.
+- Nota: Representação artística identificada na fonte. Não é uma autenticação da aparência física da pessoa.
 - Biografia: https://www.jesuits.global/saint-blessed/blessed-julian-nakaura/
 
 ## Sebastião Kimura (1565–1622)

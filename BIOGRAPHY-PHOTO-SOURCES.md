@@ -1,6 +1,6 @@
-# Imagens adicionais das fichas — versão 0.9.3
+# Imagens adicionais das fichas — versão 0.9.5
 
-As 58 imagens adicionais estão incluídas no funcionamento sem Internet. As imagens completas foram redimensionadas; o pormenor de Kostka é um recorte identificado. A comparação usa o retrato de gallery.json.
+As 60 imagens adicionais estão incluídas no modo offline. Cada ficheiro conserva os créditos e a ligação para a licença. A comparação usa apenas as referências de `gallery.json`.
 
 ## Inácio de Loyola
 
@@ -67,6 +67,7 @@ As 58 imagens adicionais estão incluídas no funcionamento sem Internet. As ima
   - Autor/créditos: Bartłomiej Strobel (1591–1647)
   - Licença: [Domínio público (Wikimedia Commons)](https://creativecommons.org/publicdomain/mark/1.0/)
   - Fonte: [File:Strobel Virgin and Child with Saint Stanislaus Kostka (detail) 02.jpg](https://commons.wikimedia.org/wiki/File:Strobel_Virgin_and_Child_with_Saint_Stanislaus_Kostka_%28detail%29_02.jpg)
+  - Alteração: recorte e redimensionamento.
 
 ## João Berchmans
 
@@ -160,6 +161,13 @@ As 58 imagens adicionais estão incluídas no funcionamento sem Internet. As ima
   - Licença: [Domínio público (Wikimedia Commons)](https://creativecommons.org/publicdomain/mark/1.0/)
   - Fonte: [File:P. Josephus Pignatelli, PA01865.jpg](https://commons.wikimedia.org/wiki/File:P._Josephus_Pignatelli,_PA01865.jpg)
 
+- José Pignatelli na gravura publicada por Alfred Hamy em 1893.
+  - Ficheiro: `assets/biography/jose-pignatelli-2.jpg`
+  - Autor/créditos: Reprodução: Grentidez
+  - Licença: [Domínio público (Wikimedia Commons)](https://creativecommons.org/publicdomain/mark/1.0/)
+  - Fonte: [File:Joseph Pignatelli (1737-1811).jpg](https://commons.wikimedia.org/wiki/File:Joseph_Pignatelli_(1737-1811).jpg)
+  - Alteração: recorte e redimensionamento.
+
 ## André Bobola
 
 - Outra representação de André Bobola.
@@ -202,11 +210,12 @@ As 58 imagens adicionais estão incluídas no funcionamento sem Internet. As ima
 
 ## José Maria Rubio
 
-- Outra representação de José Maria Rubio.
+- Fotografia histórica de José Maria Rubio.
   - Ficheiro: `assets/biography/jose-maria-rubio-1.jpg`
-  - Autor/créditos: Fran Hernández
-  - Licença: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0)
-  - Fonte: [File:San José María Rubio S.J.jpg](https://commons.wikimedia.org/wiki/File:San_Jos%C3%A9_Mar%C3%ADa_Rubio_S.J.jpg)
+  - Autor/créditos: Reprodução: Grentidez
+  - Licença: [Domínio público (Wikimedia Commons)](https://creativecommons.org/publicdomain/mark/1.0/)
+  - Fonte: [File:José Rubio (1864-1929).jpg](https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Rubio_(1864-1929).jpg)
+  - Alteração: recorte e redimensionamento.
 
 ## Inácio de Azevedo
 
@@ -216,11 +225,12 @@ As 58 imagens adicionais estão incluídas no funcionamento sem Internet. As ima
   - Licença: [Domínio público (Wikimedia Commons)](https://creativecommons.org/publicdomain/mark/1.0/)
   - Fonte: [File:Beato Inácio de Azevedo e seus 39 companheiros mártires - Óleo sobre tela, escola portuguesa, século XVII - Museu Pio XII, Braga, Portugal.jpg](https://commons.wikimedia.org/wiki/File:Beato_In%C3%A1cio_de_Azevedo_e_seus_39_companheiros_m%C3%A1rtires_-_%C3%93leo_sobre_tela,_escola_portuguesa,_s%C3%A9culo_XVII_-_Museu_Pio_XII,_Braga,_Portugal.jpg)
 
-- Representação de Inácio de Azevedo e dos seus companheiros mártires.
+- Inácio de Azevedo numa gravura de 1675.
   - Ficheiro: `assets/biography/inacio-azevedo-2.jpg`
-  - Autor/créditos: Luigi Banzo
+  - Autor/créditos: Karel Skréta (delineavit), Melchoir Küsel (fecit)
   - Licença: [Domínio público (Wikimedia Commons)](https://creativecommons.org/publicdomain/mark/1.0/)
-  - Fonte: [File:Bem-Aventurado Inácio de Azevedo e seus 39 Companheiros, Mártires do Brasil.png](https://commons.wikimedia.org/wiki/File:Bem-Aventurado_In%C3%A1cio_de_Azevedo_e_seus_39_Companheiros,_M%C3%A1rtires_do_Brasil.png)
+  - Fonte: [File:P. Ignatius Azevedius S. I. Illustrissimâ Lusitaniae familiâ oriundus, in itinere Brasilo à Calvinistis pro Catholica Religione mari demers (1675, Karel Skréta delineavit, Melchoir Küsel fecit) - John Carter Brown Library.png](https://commons.wikimedia.org/wiki/File:P._Ignatius_Azevedius_S._I._Illustrissim%C3%A2_Lusitaniae_famili%C3%A2_oriundus,_in_itinere_Brasilo_%C3%A0_Calvinistis_pro_Catholica_Religione_mari_demers_(1675,_Karel_Skr%C3%A9ta_delineavit,_Melchoir_K%C3%BCsel_fecit)_-_John_Carter_Brown_Library.png)
+  - Alteração: recorte e redimensionamento.
 
 ## Francisco Gárate
 
@@ -286,11 +296,12 @@ As 58 imagens adicionais estão incluídas no funcionamento sem Internet. As ima
 
 ## Paulo Miki
 
-- Estátua de Paulo Miki.
+- Paulo Miki na pintura da Catedral de Salvador.
   - Ficheiro: `assets/biography/paulo-miki-1.jpg`
-  - Autor/créditos: Photo: Andreas Praefcke
-  - Licença: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0)
-  - Fonte: [File:Bamberg St Martin Figur Paul Miki.jpg](https://commons.wikimedia.org/wiki/File:Bamberg_St_Martin_Figur_Paul_Miki.jpg)
+  - Autor/créditos: Paul R. Burley (fotografia); pintor não identificado
+  - Licença: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
+  - Fonte: [File:Catedral Basílica de Salvador Sacristy Ceiling-0702.jpg](https://commons.wikimedia.org/wiki/File:Catedral_Bas%C3%ADlica_de_Salvador_Sacristy_Ceiling-0702.jpg)
+  - Alteração: recorte e redimensionamento.
 
 - Pintura do século XVII sobre os mártires do Japão, na igreja do Gesù, em Roma.
   - Ficheiro: `assets/biography/paulo-miki-2.jpg`
@@ -305,6 +316,12 @@ As 58 imagens adicionais estão incluídas no funcionamento sem Internet. As ima
   - Autor/créditos: Gaspar Bouttats
   - Licença: [Domínio público (Wikimedia Commons)](https://creativecommons.org/publicdomain/mark/1.0/)
   - Fonte: [File:Edward Oldcorne; Nicholas Owen by Gaspar Bouttats.jpg](https://commons.wikimedia.org/wiki/File:Edward_Oldcorne%3B_Nicholas_Owen_by_Gaspar_Bouttats.jpg)
+
+- Nicolau Owen numa gravura publicada por Mathias Tanner em 1675.
+  - Ficheiro: `assets/biography/nicolau-owen-2.jpg`
+  - Autor/créditos: Melchior Küsel, em Mathias Tanner (1675)
+  - Licença: [Domínio público (Wikimedia Commons)](https://creativecommons.org/publicdomain/mark/1.0/)
+  - Fonte: [File:Nicholas Owen in the manacles.jpg](https://commons.wikimedia.org/wiki/File:Nicholas_Owen_in_the_manacles.jpg)
 
 ## Edmundo Campion
 
@@ -406,11 +423,11 @@ As 58 imagens adicionais estão incluídas no funcionamento sem Internet. As ima
 
 ## Julião Nakaura
 
-- Retrato de Julião Nakaura jovem, conservado na Biblioteca Ambrosiana.
+- A embaixada japonesa na Europa em 1586, com Julião Nakaura no canto superior esquerdo.
   - Ficheiro: `assets/biography/juliao-nakaura-1.jpg`
-  - Autor/créditos: Autor não identificado; reprodução: 小佐々學
+  - Autor/créditos: Newe Zeyttung, Augsburgo, 1586; Universidade de Quioto
   - Licença: [Domínio público (Wikimedia Commons)](https://creativecommons.org/publicdomain/mark/1.0/)
-  - Fonte: [File:中浦ジュリアン肖像画 アンブロジアーナ図書館蔵.jpg](https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E6%B5%A6%E3%82%B8%E3%83%A5%E3%83%AA%E3%82%A2%E3%83%B3%E8%82%96%E5%83%8F%E7%94%BB_%E3%82%A2%E3%83%B3%E3%83%96%E3%83%AD%E3%82%B8%E3%82%A2%E3%83%BC%E3%83%8A%E5%9B%B3%E6%9B%B8%E9%A4%A8%E8%94%B5.jpg)
+  - Fonte: [File:First Japanese Embassy to Europe 1586.png](https://commons.wikimedia.org/wiki/File:First_Japanese_Embassy_to_Europe_1586.png)
 
 - Escultura de Julião Nakaura de braços abertos.
   - Ficheiro: `assets/biography/juliao-nakaura-2.jpg`

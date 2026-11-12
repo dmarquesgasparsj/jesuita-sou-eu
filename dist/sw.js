@@ -1,4 +1,4 @@
-const CACHE_NAME = 'jesuita-sou-eu-20261112-v17';
+const CACHE_NAME = 'jesuita-sou-eu-20261112-v18';
 const CACHE_PREFIX = 'jesuita-sou-eu-';
 let requiredAssets;
 const absolute = path => new URL(path, self.registration.scope).href;

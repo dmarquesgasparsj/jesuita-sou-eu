@@ -6,7 +6,7 @@ export function minimumFaceSize(input) {
   return Math.max(width, height) * 70 / 960;
 }
 
-export async function detectFacesForComparison(faceapi, input, { isDemo = false, loadFallback = async () => {} } = {}) {
+export async function detectFacesForComparison(faceapi, input, { isDemo = false, loadFallback = async () => {}, recognitionInput } = {}) {
   let detections;
   if (!isDemo) {
     detections = await faceapi.detectAllFaces(input, new faceapi.TinyFaceDetectorOptions({ inputSize: 320, scoreThreshold: .4 }));
@@ -24,7 +24,12 @@ export async function detectFacesForComparison(faceapi, input, { isDemo = false,
   if (!isDemo && (box.width < minimumFaceSize(input) || box.height < minimumFaceSize(input))) return faces;
   // Reuse the completed detection instead of running the detector a second
   // time through a fresh detectAllFaces(...).withFaceLandmarks() chain.
-  return new faceapi.DetectAllFaceLandmarksTask(Promise.resolve(faces), input, false).withFaceDescriptors();
+  const prepared = recognitionInput?.(input, box);
+  try {
+    return await new faceapi.DetectAllFaceLandmarksTask(Promise.resolve(faces), prepared || input, false).withFaceDescriptors();
+  } finally {
+    prepared?.dispose();
+  }
 }
 
 export async function warmFaceModels(faceapi) {

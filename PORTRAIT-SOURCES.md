@@ -203,11 +203,13 @@ Atualizada em 27 de outubro de 2026. As perguntas são propostas editoriais orig
 ## Inácio de Azevedo (1526–1570)
 
 - Ficheiro: `assets/portraits/inacio-azevedo.jpg`
-- Autor/créditos: Karel Skréta (delineavit), Melchoir Küsel (fecit)
-- Coleção: The John Carter Brown Library
-- Fonte: undefined
+- Autor/créditos: pintor não identificado; fotografia de Jgqa56
+- Coleção: Museu Pio XII, Braga
+- Fonte: https://commons.wikimedia.org/wiki/File:Beato_In%C3%A1cio_de_Azevedo_e_seus_39_companheiros_m%C3%A1rtires_-_%C3%93leo_sobre_tela,_escola_portuguesa,_s%C3%A9culo_XVII_-_Museu_Pio_XII,_Braga,_Portugal.jpg
 - Licença: Domínio público (Wikimedia Commons) — https://creativecommons.org/publicdomain/mark/1.0/
+- Alteração: recorte da figura central do óleo sobre tela e redimensionamento para 600 × 750 píxeis.
 - Biografia: https://www.jesuits.global/saint-blessed/blessed-ignatius-de-azevedo/
+
 
 ## Francisco Gárate (1857–1929)
 

@@ -1,5 +1,5 @@
 {
-  "version": "20261027-v16",
+  "version": "20261112-v17",
   "assets": [
     "app.js",
     "appearance.js",
@@ -112,6 +112,7 @@
     "biography-photos.json",
     "camera-access.js",
     "face-engine.js",
+    "face-tone.js",
     "gallery.json",
     "i18n.js",
     "index.html",

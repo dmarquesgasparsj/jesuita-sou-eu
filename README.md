@@ -1,5 +1,9 @@
 # O jesuíta sou eu
 
+## Comparação e modo stand — 0.9.4
+
+A aplicação compara em luminância normalizada: a cor não entra diretamente nos descritores. A câmara pára na captura, os dados temporários são descartados e o resultado mostra apenas os retratos da galeria. Em «Preparar o stand», abre o modo stand para desativar o carregamento de ficheiros e voltar ao início após 45 segundos de inatividade. O botão «Nova pessoa» permite avançar imediatamente.
+
 ## Imagens revistas — 0.9.3
 
 O retrato de John Sullivan passa a aparecer em primeiro plano. As fichas de João de Gotō, Diogo Kisai, Julião Nakaura e Sebastião Kimura ganham uma obra diferente, com créditos e legendas nas cinco línguas. As 58 imagens adicionais funcionam sem Internet. A pesquisa sobre Pedro Kasui Kibe está documentada em `IMAGE-REVIEW-2026-10-27.md`.
@@ -18,11 +22,11 @@ Os cinco novos nomes são João Soan de Gotō, Diogo Kisai, Julião Nakaura, Seb
 
 ## Descarregar a aplicação
 
-- [Instalador para Windows 10/11 x64 (.exe)](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases/latest/download/O-jesuita-sou-eu-Setup-0.9.3.exe)
+- [Instalador para Windows 10/11 x64 (.exe)](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases/latest/download/O-jesuita-sou-eu-Setup-0.9.4.exe)
 - [APK Android 0.6.0, galeria anterior de 30 figuras](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases/download/v0.6.0/O-jesuita-sou-eu-Android-0.6.0.apk)
 - [Versões publicadas e instruções de instalação](https://github.com/dmarquesgasparsj/jesuita-sou-eu/releases)
 
-A aplicação web e o instalador Windows 0.9.3 incluem as 45 figuras e os modelos para funcionamento sem Internet. O APK 0.6.0 mantém 30 figuras. No Android, instala a PWA para utilizar a galeria atual. A atualização direta do APK exige a chave de assinatura original, que não foi recuperada neste ambiente; não foi gerada uma chave substituta. A versão Windows usa o Edge ou o Chrome instalado no computador e ainda não tem certificado comercial de editor. O APK tem assinatura própria do projeto. A instalação e a câmara devem ser ensaiadas nos aparelhos reais.
+A aplicação web e o instalador Windows 0.9.4 incluem as 45 figuras e os modelos para funcionamento sem Internet. O APK 0.6.0 mantém 30 figuras. No Android, instala a PWA para utilizar a galeria atual. A atualização direta do APK exige a chave de assinatura original, que não foi recuperada neste ambiente; não foi gerada uma chave substituta. A versão Windows usa o Edge ou o Chrome instalado no computador e ainda não tem certificado comercial de editor. O APK tem assinatura própria do projeto. A instalação e a câmara devem ser ensaiadas nos aparelhos reais.
 
 ## Instalar e publicar no GitHub
 
@@ -46,7 +50,7 @@ A mudança de língua funciona sem rede depois da preparação, não repete a co
 - Alternativa para carregar uma fotografia.
 - Deteção de um único rosto, descritor de 128 dimensões e ordenação dos 45 retratos por distância euclidiana.
 - Três resultados, biografia breve, pergunta original para conversar e créditos da imagem.
-- Reinício com eliminação da fotografia; limpeza após 90 segundos de inatividade e quando se sai da página de resultado.
+- Fotografia analisada no aparelho e descartada no fim da comparação, sem apresentação no resultado. O resultado fecha após 90 segundos de inatividade (45 no modo stand).
 - Todos os modelos, imagens, textos, estilos e scripts servidos pelo próprio site.
 - Service worker que guarda os recursos necessários para funcionamento sem rede; indicador de preparação no aparelho.
 - Teste interno acessível em «Preparar o stand», com um retrato da galeria.

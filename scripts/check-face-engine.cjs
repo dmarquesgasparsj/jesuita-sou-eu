@@ -45,6 +45,21 @@ async function main() {
   m = mock([], 'webgl');
   m.f.nets.faceRecognitionNet.computeFaceDescriptor = async () => { throw new Error('GPU failure'); };
   await assert.rejects(warmFaceModels(m.f),/GPU failure/); assert.equal(m.calls.disposed,1);
+  const { neutralFacePixels } = await import(pathToFileURL(path.resolve(__dirname,'../dist/face-tone.js')));
+  const gradient = (scale, offset) => Uint8Array.from({length:12*12*3},(_,i)=>Math.round(scale*(24+Math.floor(i/3)*1.2)+offset));
+  const crop = { x:0, y:0, width:12, height:12 };
+  const lit = neutralFacePixels(gradient(1,0),12,12,3,crop);
+  const dim = neutralFacePixels(gradient(.7,15),12,12,3,crop);
+  assert(lit.every((v,i)=>v===lit[i-i%3]),'Recognition input has no chroma');
+  assert(lit.reduce((sum,v,i)=>sum+Math.abs(v-dim[i]),0)/lit.length < 1,'Keep the same features when exposure changes moderately');
+  let released=0;
+  m=mock([[face]]);
+  await detectFacesForComparison(m.f,input,{...m.options,recognitionInput:()=>({dispose(){released++;}})});
+  assert.equal(released,1);
+  m=mock([[face]]);
+  m.f.DetectAllFaceLandmarksTask.prototype.withFaceDescriptors = async () => { throw Error('Descriptor failed'); };
+  await assert.rejects(detectFacesForComparison(m.f,input,{...m.options,recognitionInput:()=>({dispose(){released++;}})}),/Descriptor failed/);
+  assert.equal(released,2,'Release temporary image tensors even if recognition fails');
   console.log(JSON.stringify({status:'passed',single_detection_on_normal_capture:true,no_descriptors_for_invalid_or_multiple_faces:true,fallback_and_demo:true,warmup_disposes_tensor:true}));
 }
 main().catch(error => { console.error(error.stack); process.exit(1); });

@@ -28,7 +28,7 @@ async function main(){
   else if(p.referencePreparation?.face){
    const referenceInput=await preparedReference(p);
    await sharp(referenceInput).jpeg({quality:88,mozjpeg:true}).toFile(file);
-   reference=await inferFaceRegion(file,p.referencePreparation.face);
+   reference=await inferFaceRegion(file,p.referencePreparation.face,{neutral:true});
    fs.writeFileSync(checkpoint,JSON.stringify(reference)+'\n');
   }
   else{
@@ -46,10 +46,10 @@ async function main(){
     const top=Math.max(0,Math.min(info.height-height,Math.round(centerY-height*.48)));
     await sharp(referenceInput).extract({left,top,width,height}).resize(600,750).jpeg({quality:88,mozjpeg:true}).toFile(file);
    }
-   const cropped=await infer(p.imageFit==='contain'?referenceInput:file);
+   const cropped=await infer(p.imageFit==='contain'?referenceInput:file,{neutral:true});
    // A recognisable original can be the reference when a close crop causes
    // the detector to miss an angled painted face. Both depict the same work.
-   reference=cropped[0] || (await infer(referenceInput))[0];
+   reference=cropped[0] || (await infer(referenceInput,{neutral:true}))[0];
    if(!reference)throw new Error('No reference face '+p.id);
    fs.writeFileSync(checkpoint,JSON.stringify(reference)+'\n');
   }

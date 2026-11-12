@@ -1,0 +1,33 @@
+{
+  "pign": {
+    "title": "Иосиф Пиньятелли.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/%D0%98%D0%BE%D1%81%D0%B8%D1%84_%D0%9F%D0%B8%D0%BD%D1%8C%D1%8F%D1%82%D0%B5%D0%BB%D0%BB%D0%B8.jpg",
+    "Artist": "<bdi><a href=\"//commons.wikimedia.org/wiki/Category:17th-century_paintings,_artist,_location_and_year_missing\" title=\"Category:17th-century paintings, artist, location and year missing\">Unidentified painter</a></bdi>",
+    "ImageDescription": "Портрет Иосифа Пиньятелли",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "naka": {
+    "title": "First Japanese Embassy to Europe 1586.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/First_Japanese_Embassy_to_Europe_1586.png",
+    "Artist": "<div class=\"fn value\">\nGerman 'newspaper' Newe Zeyttung</div>",
+    "ImageDescription": "German leaflet (Flugblatt) 'newspaper' (Newe Zeyttung) describing a Japanese \"embassy\" organized by the Society of Jesus. Title: 'Newe Zeyttung auss der Insel Japonien'. The Japanese members were carefully selected sons of Japanese noblemen: (top, from left to right) Julião Nakaura, Father Diogo de Mesquita, Mancio Ito, (bottom) Martinão Hara, Miguel Chijiwa. This leaflet was printed in Augsburg (Germany) in 1586 shortly after the 'embassy' stayed in Milan. The highlight of their journey through catholic Europe was an audience in Rome.  This copy is kept by Kyōto University (Kyōto, Japan).",
+    "LicenseShortName": "Public domain"
+  },
+  "rubio": {
+    "title": "Madrid - Iglesia de San Francisco de Borja 10.jpg",
+    "error": "429 https://upload.wikimedia.org/wikipedia/commons/9/95/Madrid_-_Iglesia_de_San_Francisco_de_Borja_10.jpg"
+  },
+  "miki": {
+    "title": "San Pablo Miki, Museo de Bellas Artes de Sevilla.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/San_Pablo_Miki%2C_Museo_de_Bellas_Artes_de_Sevilla.jpg",
+    "ImageDescription": "Busto de la imagen del mártir <a href=\"https://es.wikipedia.org/wiki/Pablo_Miki\" class=\"extiw\" title=\"es:Pablo Miki\">San Pablo Miki</a>, fragmento de una obra para vestir, madera policromada. Contratada con Juan de Mesa por la <a href=\"https://es.wikipedia.org/wiki/Casa_Profesa\" class=\"extiw\" title=\"es:Casa Profesa\">Casa Profesa (Sevilla)</a> con motivo de su beatificación en 1627.",
+    "Artist": "<a href=\"//commons.wikimedia.org/wiki/User:Jl_FilpoC\" title=\"User:Jl FilpoC\">Jl FilpoC</a>",
+    "LicenseShortName": "CC BY-SA 4.0",
+    "LicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "grande": {
+    "title": "Óscar Romero (al centro) y Rutilio Grande (al lado derecho) c. 1977.jpg",
+    "error": "429 https://upload.wikimedia.org/wikipedia/commons/3/37/%C3%93scar_Romero_(al_centro)_y_Rutilio_Grande_(al_lado_derecho)_c._1977.jpg"
+  }
+}

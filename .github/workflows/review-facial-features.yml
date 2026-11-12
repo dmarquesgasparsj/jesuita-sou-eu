@@ -1,0 +1,23 @@
+name: Rever retratos e comparação
+on:
+  push:
+    branches: [review-facial-features-20261112]
+permissions:
+  contents: write
+jobs:
+  review:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - run: npm install --no-save --package-lock=false sharp
+      - run: node scripts/review-azevedo.cjs
+      - run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .review/azevedo
+          git commit -m 'Preparar opções do retrato de Inácio de Azevedo'
+          git push origin HEAD:review-facial-features-20261112

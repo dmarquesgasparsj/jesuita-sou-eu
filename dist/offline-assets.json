@@ -1,5 +1,5 @@
 {
-  "version": "20261112-v17",
+  "version": "20261112-v18",
   "assets": [
     "app.js",
     "appearance.js",
@@ -37,6 +37,7 @@
     "assets/biography/jose-anchieta-1.jpg",
     "assets/biography/jose-maria-rubio-1.jpg",
     "assets/biography/jose-pignatelli-1.jpg",
+    "assets/biography/jose-pignatelli-2.jpg",
     "assets/biography/juliao-nakaura-1.jpg",
     "assets/biography/juliao-nakaura-2.jpg",
     "assets/biography/julien-maunoir-1.jpg",
@@ -45,6 +46,7 @@
     "assets/biography/miguel-carvalho-1.jpg",
     "assets/biography/miguel-pro-1.jpg",
     "assets/biography/nicolau-owen-1.jpg",
+    "assets/biography/nicolau-owen-2.jpg",
     "assets/biography/paulo-miki-1.jpg",
     "assets/biography/paulo-miki-2.jpg",
     "assets/biography/pedro-canisio-1.jpg",

@@ -28,7 +28,7 @@ class Element {
   showModal() { this.open = true; }
   close() { this.open = false; this.fire('close'); }
   play() { assert.equal(this.hidden, false, 'The camera must be visible before playback'); assert.equal(this.muted, true); return Promise.resolve(); }
-  getContext() { return { drawImage() {} }; }
+  getContext() { return { drawImage() {}, getImageData() { return { data: new Uint8ClampedArray(this.width * this.height * 4) }; } }; }
   toDataURL() { return 'data:image/jpeg;base64,TEST_PHOTO'; }
 }
 async function main() {
@@ -61,10 +61,10 @@ async function main() {
   const gallery = JSON.parse(fs.readFileSync(path.join(root, 'gallery.json'), 'utf8'));
   const text = JSON.parse(fs.readFileSync(path.join(root, 'saints-text.json'), 'utf8'));
   const net = name => ({ async loadFromUri() { modelLoads.push(name); } });
-  const detection = { box: { width: 150, height: 180 } };
+  const detection = { box: { x: 120, y: 80, width: 150, height: 180 } };
   const windowListeners = {};
   global.window = { isSecureContext: true, addEventListener(type, listener) { (windowListeners[type] ||= []).push(listener); }, faceapi: {
-    tf: { async setBackend() { return true; }, getBackend() { return 'cpu'; } },
+    tf: { async setBackend() { return true; }, getBackend() { return 'cpu'; }, tensor3d() { return { dispose() {} }; } },
     nets: { tinyFaceDetector: net('tiny'), ssdMobilenetv1: net('ssd'), faceLandmark68Net: net('landmarks'), faceRecognitionNet: net('recognition') },
     SsdMobilenetv1Options: class {},
     TinyFaceDetectorOptions: class {},
@@ -134,9 +134,11 @@ async function main() {
   assert.equal(detectionCalls, 1, 'A normal capture must detect only once');
   assert.deepEqual(modelLoads.sort(), ['landmarks','recognition','tiny']);
   assert(byId('capture-canvas').width <= 640 && byId('capture-canvas').height <= 640);
-  const photo = byId('result-selfie').src;
+  assert.equal(byId('capture-canvas').width, 1, 'Clear the capture before leaving the result on screen');
+  assert.equal(byId('capture-canvas').height, 1);
+  assert.equal(byId('camera').srcObject, null);
+  assert.equal(byId('result-selfie'), undefined, 'Participant image must not appear in results');
   byId('appearance-portugal').checked=true;await byId('appearance-portugal').fire('change');
-  assert.equal(byId('result-selfie').src,photo,'Changing colours must preserve the current result');
   assert.equal(comparisons,1,'Changing colours must not repeat face comparison');
 
   for (const code of ['es','fr','en','ko','pt']) {
@@ -144,7 +146,6 @@ async function main() {
     const localized = text[gallery[0].id].locales[code];
     assert(byId('result-story').innerHTML.includes(localized.name));
     assert.equal((byId('result-story').innerHTML.match(/class="biography"/g) || []).length, 2);
-    assert.equal(byId('result-selfie').src, photo);
     assert.equal(comparisons, 1, 'Switching language must not repeat inference');
     document.dispatchEvent({ type: 'click', target: { closest: () => ({ dataset: { person: gallery[0].id } }) } });
     assert(byId('biography-content').innerHTML.includes(localized.biography[0]));
@@ -152,8 +153,6 @@ async function main() {
     assert.equal(byId('biography-dialog').open, true);
   }
   await byId('new-person').fire('click');
-  assert.equal(byId('result-selfie').src, undefined);
-  assert.equal(byId('photo-preview').src, undefined);
   assert.equal(byId('results').hidden, true);
   assert.equal(document.documentElement.dataset.theme,'portugal','Resetting the visitor must preserve the device palette');
   assert.equal(byId('result-story').innerHTML, '');
@@ -175,7 +174,6 @@ async function main() {
   for (const listener of windowListeners['jesuita-native-pause']) listener();
   assert(tracksStopped > stopsBeforePause,'Leaving the native app must stop the camera');
   assert.equal(byId('camera').srcObject,null);
-  assert.equal(byId('photo-preview').src,undefined);
-  console.log(JSON.stringify({ status: 'passed', languages: 5, camera_preserved_on_language_switch: true, photo_preserved_on_language_switch: true, capture_uses_lightweight_detector: true, ssd_loaded_only_for_demo: true, biography_paragraphs_per_result: 2, reset_deletes_photo: true, native_bundled_assets: true, native_pause_stops_camera: true }));
+  console.log(JSON.stringify({ status: 'passed', languages: 5, camera_preserved_on_language_switch: true, photo_discarded_on_result: true, capture_uses_lightweight_detector: true, ssd_loaded_only_for_demo: true, biography_paragraphs_per_result: 2, reset_deletes_photo: true, native_bundled_assets: true, native_pause_stops_camera: true }));
 }
 main().catch(error => { console.error(error.stack); process.exit(1); });

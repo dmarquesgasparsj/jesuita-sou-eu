@@ -84,3 +84,5 @@
 @media(prefers-reduced-motion:no-preference){body,.appearance-panel,.appearance-choice,.welcome-art{transition:background-color .18s,color .18s,border-color .18s}}
 
 :root[data-theme="magis"] .primary-button{border-color:var(--gold)}
+
+.result-image{width:min(100%,340px);margin-inline:auto}.result-image figure{margin:0}.result-image img{width:100%;aspect-ratio:4/5;max-height:420px;object-fit:cover;background:var(--cream);border-radius:5px}.result-image figcaption{text-align:center;color:var(--muted);font-size:12px;margin-top:8px}.alternative-actions button{min-height:44px}

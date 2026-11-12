@@ -1,12 +1,15 @@
 import { initAppearance } from './appearance.js';
 import { mountPhotoGallery } from './photo-gallery.js';
+import { neutralFacePixels } from './face-tone.js';
 import { rankPortraits } from './matching.js';
 import { t, currentLanguage, translateElements, setLanguage } from './i18n.js';
 import { detectFacesForComparison, minimumFaceSize, warmFaceModels } from './face-engine.js';
 import { cameraSupportError, cameraErrorKey, requestCameraStream, playCameraVideo } from './camera-access.js';
 
 const $ = id => document.getElementById(id);
-const state = { gallery: [], texts: {}, resultMatches: null, biographyId: null, biographyPhoto: 0, photos: {}, stream: null, phase: 'welcome', front: true, enginePromise: null, fallbackPromise: null, engineReady: false, registrationPromise: null, offlineReady: false, cameraTested: false, busy: false, operation: 0, resetTimer: null };
+const standMode = new URL(location.href).searchParams.get('stand') === '1';
+const resetDelay = standMode ? 45000 : 90000;
+const state = { analysisActive: false,  gallery: [], texts: {}, resultMatches: null, biographyId: null, biographyPhoto: 0, photos: {}, stream: null, phase: 'welcome', front: true, enginePromise: null, fallbackPromise: null, engineReady: false, registrationPromise: null, offlineReady: false, cameraTested: false, busy: false, operation: 0, resetTimer: null };
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 const escape = text => String(text ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const sourceLink = (url, label, className = 'source-link') => `<a class="${className}" href="${escape(url)}" target="_blank" rel="noopener noreferrer">${escape(label)} ↗</a>`;
@@ -40,10 +43,10 @@ function imageAuthor(person) {
 }
 function showDialog(id) { const dialog = $(id); if (typeof dialog.showModal === 'function') dialog.showModal(); else dialog.setAttribute('open', ''); }
 function closeDialog(id) { const dialog = $(id); if (typeof dialog.close === 'function') dialog.close(); else dialog.removeAttribute('open'); }
-function setBusy(busy) { state.busy = busy; ['camera-start','capture','retry','upload-button','camera-flip','camera-cancel','demo-test'].forEach(id => $(id).disabled = busy); }
+function setBusy(busy) { state.busy = busy || state.analysisActive; ['camera-start','capture','retry','upload-button','camera-flip','demo-test'].forEach(id => $(id).disabled = state.busy); }
 function setProcessing(on, key = 'findingLookalike') { $('processing-cover').hidden = !on; setStatus('processing-label', key); }
-function stopStream() { if (state.stream) { state.stream.getTracks().forEach(t => t.stop()); state.stream = null; } $('camera').srcObject = null; }
-function clearPhoto() { ['photo-preview','result-selfie'].forEach(id => { $(id).removeAttribute('src'); }); const c = $('capture-canvas'); c.width = 1; c.height = 1; $('photo-file').value = ''; }
+function stopStream() { clearTimeout(state.cameraIdleTimer); if (state.stream) { state.stream.getTracks().forEach(t => t.stop()); state.stream = null; } $('camera').srcObject = null; }
+function clearPhoto() { const c = $('capture-canvas'); c.width = 1; c.height = 1; $('photo-file').value = ''; }
 
 function updateReadiness() {
   $('header-offline-dot').classList.toggle('ready', state.offlineReady);
@@ -151,7 +154,7 @@ async function copyCameraLink() {
 
 function cameraView(on) {
   $('welcome-art').hidden = on; $('camera').hidden = !on; $('face-guide').hidden = !on;
-  $('photo-preview').hidden = true; $('viewfinder-badge').hidden = on;
+  $('viewfinder-badge').hidden = on;
   $('camera-start').hidden = on; $('capture').hidden = !on;
   $('camera-flip').hidden = !on; $('camera-cancel').hidden = !on; $('retry').hidden = true;
 }
@@ -170,9 +173,10 @@ async function startCamera() {
     state.stream = stream; const video = $('camera');
     cameraView(true);
     await playCameraVideo(video, stream);
-    if (op !== state.operation) { stopStream(); return; }
+    if (op !== state.operation) { stream.getTracks().forEach(track => track.stop()); return; }
     video.classList.toggle('rear-camera', !state.front);
     state.phase = 'camera'; cameraView(true);
+    if (standMode) state.cameraIdleTimer = setTimeout(() => { resetExperience(false); message('cameraPaused'); }, 45000);
     setStatus('camera-status', 'cameraOpened');
     message('cameraInstructions');
     // Warm the local model while the visitor frames the photograph.
@@ -205,7 +209,19 @@ function drawSource(source, maxSize = 640) {
 
 async function detectPortrait(canvas, isDemo = false) {
   const f = window.faceapi;
-  const execute = () => detectFacesForComparison(f, canvas, { isDemo, loadFallback: ensureFallbackDetector });
+  const recognitionInput = (source, box) => {
+    const { width, height } = source;
+    const rgba = source.getContext('2d', { willReadFrequently: true }).getImageData(0, 0, width, height);
+    let rgb;
+    try {
+      rgb = neutralFacePixels(rgba.data, width, height, 4, box);
+      return f.tf.tensor3d(new Int32Array(rgb), [height, width, 3], 'int32');
+    } finally {
+      rgba.data.fill(0);
+      rgb?.fill(0);
+    }
+  };
+  const execute = () => detectFacesForComparison(f, canvas, { isDemo, loadFallback: ensureFallbackDetector, recognitionInput });
   try { return await execute(); }
   catch (error) {
     if (f.tf.getBackend() !== 'cpu') { await f.tf.setBackend('cpu'); return execute(); }
@@ -214,12 +230,12 @@ async function detectPortrait(canvas, isDemo = false) {
 }
 
 async function analyse(canvas, op, fromCamera = false, isDemo = false) {
+  state.analysisActive = true;
+  stopStream();
   try {
     state.phase = 'processing';
-    const dataUrl = canvas.toDataURL('image/jpeg', .88);
-    $('photo-preview').src = dataUrl; $('photo-preview').hidden = false;
     $('welcome-art').hidden = true; $('camera').hidden = true; $('face-guide').hidden = true; $('viewfinder-badge').hidden = true;
-    $('camera-start').hidden = true; $('capture').hidden = true; $('camera-cancel').hidden = true; $('camera-flip').hidden = true;
+    $('camera-start').hidden = true; $('capture').hidden = true; $('camera-cancel').hidden = false; $('camera-flip').hidden = true;
     setProcessing(true, state.engineReady ? 'findingLookalike' : 'firstComparison');
     await ensureEngine(); if (op !== state.operation) return;
     setStatus('processing-label', 'findingLookalike');
@@ -232,25 +248,26 @@ async function analyse(canvas, op, fromCamera = false, isDemo = false) {
     if (!isDemo && (box.width < minimumFaceSize(canvas) || box.height < minimumFaceSize(canvas))) throw new ExperienceError('faceTooSmall');
     const matches = rankPortraits(faces[0].descriptor, state.gallery);
     if (fromCamera) { state.cameraTested = true; setStatus('camera-status', 'cameraTested', 'ready'); updateReadiness(); }
-    stopStream(); setProcessing(false); showResults(matches, dataUrl);
+    clearPhoto(); setProcessing(false); showResults(matches);
   } catch (error) {
     if (op !== state.operation) return;
-    stopStream(); state.phase = 'error'; setProcessing(false);
-    $('retry').hidden = false; $('camera-start').hidden = false;
+    clearPhoto(); state.phase = 'error'; setProcessing(false); cameraView(false);
+    $('retry').hidden = false;
     message(error.translationKey || 'comparisonInterrupted', true);
-    clearTimeout(state.resetTimer); state.resetTimer = setTimeout(() => resetExperience(false), 90000);
-  } finally { if (op === state.operation) setBusy(false); }
+    clearTimeout(state.resetTimer); state.resetTimer = setTimeout(() => resetExperience(false), resetDelay);
+  } finally { clearPhoto(); state.analysisActive = false; setBusy(false); }
 }
 
 async function capturePhoto() {
   if (state.busy || !state.stream) return;
+  clearTimeout(state.cameraIdleTimer);
   setBusy(true); const op = ++state.operation;
   try {
     for (let n = 3; n > 0; n--) { if (op !== state.operation) return; $('countdown').hidden = false; $('countdown').textContent = n; await sleep(650); }
     $('countdown').hidden = true;
     const canvas = drawSource($('camera'));
     await analyse(canvas, op, true);
-  } catch (error) { if (op === state.operation) { message(error.translationKey || 'comparisonInterrupted', true); setBusy(false); $('countdown').hidden = true; } }
+  } catch (error) { if (op === state.operation) { resetExperience(false); message(error.translationKey || 'comparisonInterrupted', true); } }
 }
 
 async function loadImage(url) {
@@ -260,14 +277,20 @@ async function loadImage(url) {
 }
 
 async function uploadPhoto(event) {
-  const file = event.target.files?.[0]; if (!file || state.busy) return;
+  const file = event.target.files?.[0]; if (!file || state.busy || standMode) { event.target.value = ''; return; }
   if (file.size > 25 * 1024 * 1024) { message('fileTooLarge', true); event.target.value = ''; return; }
   if (file.type && !file.type.startsWith('image/')) { message('chooseImageFile', true); event.target.value = ''; return; }
   stopStream(); clearTimeout(state.resetTimer); setBusy(true); const op = ++state.operation;
   const objectUrl = URL.createObjectURL(file);
-  try { const image = await loadImage(objectUrl); if (op !== state.operation) return; await analyse(drawSource(image), op); }
-  catch (error) { if (op === state.operation) { cameraView(false); message(error.translationKey || 'comparisonInterrupted', true); setBusy(false); } }
-  finally { URL.revokeObjectURL(objectUrl); event.target.value = ''; }
+  let canvas;
+  try {
+    const image = await loadImage(objectUrl);
+    try { if (op === state.operation) canvas = drawSource(image); }
+    finally { image.removeAttribute('src'); }
+  } catch (error) {
+    if (op === state.operation) { resetExperience(false); message(error.translationKey || 'comparisonInterrupted', true); }
+  } finally { URL.revokeObjectURL(objectUrl); event.target.value = ''; }
+  if (canvas && op === state.operation) await analyse(canvas, op);
 }
 
 function renderResultCopy(matches) {
@@ -280,21 +303,22 @@ function renderResultCopy(matches) {
     return `<button type="button" class="other-match" data-person="${escape(other.id)}"><img src="${escape(other.image)}" alt="" style="object-fit:${imageFit(other)};object-position:${escape(other.position || '50% 35%')}"><span><strong>${escape(other.name)}</strong><small>${escape(t('rankedPortrait', { rank: i + 2 }))}</small></span></button>`;
   }).join('');
 }
-function showResults(matches, dataUrl) {
+function showResults(matches) {
   const p = matches[0].person;
   state.resultMatches = matches;
   state.phase = 'result'; $('experiencia').hidden = true; $('results').hidden = false;
-  $('result-selfie').src = dataUrl; $('result-portrait').src = p.image;
+  $('result-portrait').src = p.image;
   $('result-portrait').style.objectPosition = p.position || '50% 35%';
   $('result-portrait').style.objectFit = imageFit(p);
   renderResultCopy(matches);
   $('result-title').focus({ preventScroll: true }); $('results').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  setStatus('auto-reset-note', 'autoReset', 'auto-reset-note', { seconds: resetDelay / 1000 });
   armResetTimer();
 }
 
 function armResetTimer() {
   clearTimeout(state.resetTimer);
-  if (state.phase === 'result') state.resetTimer = setTimeout(() => resetExperience(false), 90000);
+  if (state.phase === 'result') state.resetTimer = setTimeout(() => resetExperience(false), resetDelay);
 }
 
 function resetExperience(scroll = true) {
@@ -361,9 +385,19 @@ async function demoTest() {
 
 translateElements();
 initAppearance();
+$('upload-button').hidden = standMode;
+function updateStandLink() {
+  const url = new URL(location.href);
+  url.hash = 'experiencia';
+  if (standMode) url.searchParams.delete('stand');
+  else url.searchParams.set('stand', '1');
+  $('stand-mode-link').href = url.href;
+  setStatus('stand-mode-link', standMode ? 'exitStandMode' : 'enterStandMode', 'source-link');
+}
+updateStandLink();
 $('language-select').addEventListener('change', event => setLanguage(event.target.value));
 document.addEventListener('languagechange', () => {
-  updateCameraLink();
+  updateCameraLink(); updateStandLink();
   if (state.gallery.length) renderGallery();
   if (state.resultMatches) renderResultCopy(state.resultMatches);
   if (state.biographyId && $('biography-dialog').open) renderBiography(state.biographyId);
@@ -388,8 +422,10 @@ document.querySelectorAll('.dialog-close').forEach(button => button.addEventList
 document.querySelectorAll('dialog').forEach(dialog => dialog.addEventListener('click', event => { if (event.target === dialog) { const r = dialog.getBoundingClientRect(); if (event.clientX < r.left || event.clientX > r.right || event.clientY < r.top || event.clientY > r.bottom) closeDialog(dialog.id); } }));
 ['pointerdown','keydown'].forEach(eventName => document.addEventListener(eventName, () => { if (state.phase === 'result') armResetTimer(); }, { passive: true }));
 document.addEventListener('visibilitychange', () => {
-  if (document.hidden && state.phase === 'result') resetExperience(false);
-  else if (document.hidden && state.phase === 'camera' && !state.busy) { stopStream(); cameraView(false); state.phase = 'welcome'; message('cameraPaused'); }
+  if (document.hidden && (state.phase !== 'welcome' || state.busy)) {
+    resetExperience(false);
+    message('cameraPaused');
+  }
 });
 window.addEventListener('pagehide', () => { state.operation++; stopStream(); clearPhoto(); });
 window.addEventListener('jesuita-native-pause', () => resetExperience(false));

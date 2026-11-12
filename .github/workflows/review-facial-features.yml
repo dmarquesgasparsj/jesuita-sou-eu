@@ -1,23 +1,43 @@
-name: Preparar referências faciais
+name: Ensaiar o stand e a comparação
 on:
   push:
-    branches: [review-facial-features-20261112]
+    branches: [verify-stand-20261112]
 permissions:
   contents: write
 jobs:
   review:
     runs-on: ubuntu-24.04
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v7
         with:
           node-version: '24'
           package-manager-cache: false
-      - run: npm install --no-save --package-lock=false sharp
-      - run: node scripts/rebuild-tone-references.cjs
-      - run: |
+      - run: npm install --no-save --package-lock=false sharp playwright
+      - run: npx playwright install --with-deps chromium
+      - name: Obter os retratos recalculados
+        run: |
+          for attempt in $(seq 1 48); do
+            git fetch -q origin review-facial-features-20261112
+            if git cat-file -e FETCH_HEAD:.review/azevedo/final-crop.json 2>/dev/null; then
+              git checkout FETCH_HEAD -- dist/assets/portraits/inacio-azevedo.jpg dist/assets/biography/inacio-azevedo-2.jpg dist/gallery.json dist/biography-photos.json scripts/descriptors scripts/portrait-sources.json source-portraits/inacio-azevedo.jpg
+              exit 0
+            fi
+            sleep 10
+          done
+          exit 1
+      - run: node scripts/build-offline-manifest.cjs && npm test
+      - run: node scripts/check-stand-session.cjs
+      - name: Guardar os resultados sem fotografias
+        if: always()
+        run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add dist/assets dist/gallery.json dist/biography-photos.json scripts/descriptors scripts/portrait-sources.json source-portraits/inacio-azevedo.jpg .review/azevedo/final-crop.json
-          git commit -m 'Preparar retrato de Azevedo e referências em luminância'
-          git push origin HEAD:review-facial-features-20261112
+          git add dist/offline-assets.json
+          if test -f .review/stand/report.json; then git add .review/stand/report.json; fi
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Registar ensaio de sessões consecutivas'
+          git push origin HEAD:verify-stand-20261112

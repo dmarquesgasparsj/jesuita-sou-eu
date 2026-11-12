@@ -413,24 +413,37 @@
     "biography": "Apoiou os companheiros no exílio e manteve viva a ligação entre jesuítas durante a supressão da Companhia.",
     "question": "Que laço gostarias de cuidar quando a vida se torna difícil?",
     "theme": "Manter os laços",
-    "imageCollection": "Gravure tirée du livre de Alfred HAMY:  Galerie illustrée de la Compagnie de Jésus , 1893.",
-    "imageAuthor": "Reprodução: Grentidez",
+    "imageCollection": "Wikimedia Commons",
+    "imageAuthor": "Pintor não identificado; Gllenns (fotografia)",
     "authorUnknown": false,
-    "license": "Domínio público (Wikimedia Commons)",
-    "licenseKind": "pd",
-    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-    "position": "50% 38%",
-    "commonsFilename": "Joseph Pignatelli (1737-1811).jpg",
-    "imageDate": "2009-10",
-    "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Joseph_Pignatelli_%281737-1811%29.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseKind": "cc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "position": "50% 40%",
+    "commonsFilename": "Иосиф Пиньятелли.jpg",
+    "imageDate": null,
+    "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/%D0%98%D0%BE%D1%81%D0%B8%D1%84_%D0%9F%D0%B8%D0%BD%D1%8C%D1%8F%D1%82%D0%B5%D0%BB%D0%BB%D0%B8.jpg",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação.",
-    "portraitNote": "Representação histórica; a comparação usa este retrato.",
-    "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis.",
-    "verifiedOn": "2026-10-23",
+    "portraitNote": "Representação artística da pessoa identificada na fonte.",
+    "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis, sem alterar as feições.",
+    "verifiedOn": "2026-11-12",
     "imagePath": "../source-portraits/jose-pignatelli.jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Pignatelli_(1737-1811).jpg",
-    "imageSource": "Gravure tirée du livre de Alfred HAMY:  Galerie illustrée de la Compagnie de Jésus , 1893.",
-    "imageFilename": "jose-pignatelli.jpg"
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%98%D0%BE%D1%81%D0%B8%D1%84_%D0%9F%D0%B8%D0%BD%D1%8C%D1%8F%D1%82%D0%B5%D0%BB%D0%BB%D0%B8.jpg",
+    "imageSource": "Wikimedia Commons",
+    "imageFilename": "jose-pignatelli.jpg",
+    "referencePreparation": {
+      "crop": {
+        "left": 118,
+        "top": 0,
+        "width": 188,
+        "height": 236
+      },
+      "resize": [
+        600,
+        750
+      ],
+      "fit": "contain"
+    }
   },
   {
     "id": "andre-bobola",
@@ -581,24 +594,37 @@
     "biography": "José Maria nasceu na Andaluzia e foi ordenado sacerdote em 1887. Desejava ser jesuíta, mas o cuidado de um sacerdote idoso adiou esse projeto. Entrou na Companhia de Jesus em 1906 e dedicou grande parte do seu ministério às pessoas de Madrid.",
     "question": "A quem poderias oferecer um pouco mais do teu tempo e da tua atenção?",
     "theme": "Estar disponível",
-    "imageCollection": "Own work",
-    "imageAuthor": "Reprodução: Grentidez",
+    "imageCollection": "Paróquia de Santa Maria de Ambróx, Dalías",
+    "imageAuthor": "Fran Hernández (fotografia)",
     "authorUnknown": false,
-    "license": "Domínio público (Wikimedia Commons)",
-    "licenseKind": "pd",
-    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-    "position": "50% 38%",
-    "commonsFilename": "José Rubio (1864-1929).jpg",
-    "imageDate": "",
-    "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Jos%C3%A9_Rubio_%281864-1929%29.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseKind": "cc",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "position": "50% 40%",
+    "commonsFilename": "San José María Rubio S.J.jpg",
+    "imageDate": null,
+    "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/San_Jos%C3%A9_Mar%C3%ADa_Rubio_S.J.jpg",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação.",
-    "portraitNote": "Representação histórica; a comparação usa este retrato.",
-    "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis.",
-    "verifiedOn": "2026-10-23",
+    "portraitNote": "Representação artística da pessoa identificada na fonte.",
+    "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis, sem alterar as feições.",
+    "verifiedOn": "2026-11-12",
     "imagePath": "../source-portraits/jose-maria-rubio.jpg",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Rubio_(1864-1929).jpg",
-    "imageSource": "Own work",
-    "imageFilename": "jose-maria-rubio.jpg"
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Jos%C3%A9_Mar%C3%ADa_Rubio_S.J.jpg",
+    "imageSource": "Paróquia de Santa Maria de Ambróx, Dalías",
+    "imageFilename": "jose-maria-rubio.jpg",
+    "referencePreparation": {
+      "crop": {
+        "left": 281,
+        "top": 2,
+        "width": 256,
+        "height": 320
+      },
+      "resize": [
+        600,
+        750
+      ],
+      "fit": "contain"
+    }
   },
   {
     "id": "inacio-azevedo",
@@ -785,18 +811,31 @@
     "license": "CC BY-SA 4.0",
     "licenseKind": "cc",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "position": "50% 38%",
+    "position": "50% 40%",
     "commonsFilename": "Un Retrato del padre Rutilio Grande.jpg",
     "imageDate": "2019",
     "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Un_Retrato_del_padre_Rutilio_Grande.jpg",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação.",
     "portraitNote": "Fotografia de um retrato emoldurado de Rutilio Grande. O recorte apresentado destaca o rosto.",
-    "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis.",
-    "verifiedOn": "2026-10-23",
+    "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis, sem alterar as feições.",
+    "verifiedOn": "2026-11-12",
     "imagePath": "../source-portraits/rutilio-grande.jpg",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Un_Retrato_del_padre_Rutilio_Grande.jpg",
     "imageSource": "Fotografia de um retrato de Rutilio Grande; Wikimedia Commons",
-    "imageFilename": "rutilio-grande.jpg"
+    "imageFilename": "rutilio-grande.jpg",
+    "referencePreparation": {
+      "crop": {
+        "left": 106,
+        "top": 152,
+        "width": 302,
+        "height": 376
+      },
+      "resize": [
+        600,
+        750
+      ],
+      "fit": "contain"
+    }
   },
   {
     "id": "joao-beyzym",
@@ -867,41 +906,41 @@
     "name": "Paulo Miki",
     "dates": "1564–1597",
     "title": "Santo",
-    "commonsFilename": "Catedral Basílica de Salvador Sacristy Ceiling-0702.jpg",
-    "imageAuthor": "Paul R. Burley (fotografia); pintor não identificado",
+    "commonsFilename": "San Pablo Miki, Museo de Bellas Artes de Sevilla.jpg",
+    "imageAuthor": "Juan de Mesa (escultura); Jl FilpoC (fotografia)",
     "authorUnknown": false,
     "biographyUrl": "https://www.jesuits.global/saint-blessed/saint-paul-miki/",
     "biography": "Paulo Miki nasceu no Japão e entrou na Companhia de Jesus depois de estudar num seminário jesuíta. A sua capacidade de falar em público ajudou-o a comunicar a fé aos seus contemporâneos. Ainda era estudante de Teologia quando foi preso com outros cristãos. Em Nagasaki, em 1597, manteve a sua fé até à morte. A sua história mostra uma Companhia que também criou raízes entre os japoneses.",
     "question": "Como podes pôr a tua maneira de comunicar ao serviço dos outros?",
     "theme": "Comunicar com coragem",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catedral_Bas%C3%ADlica_de_Salvador_Sacristy_Ceiling-0702.jpg",
-    "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Catedral_Bas%C3%ADlica_de_Salvador_Sacristy_Ceiling-0702.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Pablo_Miki%2C_Museo_de_Bellas_Artes_de_Sevilla.jpg",
+    "originalImageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/San_Pablo_Miki%2C_Museo_de_Bellas_Artes_de_Sevilla.jpg",
     "license": "CC BY-SA 4.0",
     "licenseKind": "cc",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
-    "verifiedOn": "2026-10-27",
-    "imageChanges": "Recorte e redimensionamento do rosto identificado na obra completa; sem geração ou alteração por IA.",
-    "imageSource": "https://commons.wikimedia.org/wiki/File:Catedral_Bas%C3%ADlica_de_Salvador_Sacristy_Ceiling-0702.jpg",
-    "imageCollection": "Catedral Basílica de Salvador, Bahia; Wikimedia Commons",
-    "position": "50% 38%",
-    "portraitNote": "Representação artística identificada na fonte. Não é uma autenticação da aparência física da pessoa.",
+    "verifiedOn": "2026-11-12",
+    "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis, sem alterar as feições.",
+    "imageSource": "Museu de Belas-Artes de Sevilha",
+    "imageCollection": "Museu de Belas-Artes de Sevilha",
+    "position": "50% 40%",
+    "portraitNote": "Representação artística da pessoa identificada na fonte.",
     "imagePath": "../source-portraits/paulo-miki.jpg",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Catedral_Bas%C3%ADlica_de_Salvador_Sacristy_Ceiling-0702.jpg",
     "referencePreparation": {
       "crop": {
-        "left": 1235,
-        "top": 1586,
-        "width": 902,
-        "height": 1044
+        "left": 389,
+        "top": 88,
+        "width": 1430,
+        "height": 1788
       },
       "resize": [
-        700,
-        900
+        600,
+        750
       ],
-      "fit": "inside",
-      "rotate": 0
-    }
+      "fit": "contain"
+    },
+    "imageDate": null
   },
   {
     "id": "nicolau-owen",
@@ -921,27 +960,33 @@
     "licenseKind": "pd",
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
-    "verifiedOn": "2026-10-23",
-    "imageChanges": "Recorte e redimensionamento, sem geração por IA. Recorte rodado para orientar o rosto.",
+    "verifiedOn": "2026-11-12",
+    "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis, sem alterar as feições.",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Edward_Oldcorne%3B_Nicholas_Owen_by_Gaspar_Bouttats.jpg",
     "imageCollection": "Wikimedia Commons",
-    "position": "50% 38%",
+    "position": "50% 40%",
     "imagePath": "../source-portraits/nicolau-owen.jpg",
     "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Edward_Oldcorne%3B_Nicholas_Owen_by_Gaspar_Bouttats.jpg/960px-Edward_Oldcorne%3B_Nicholas_Owen_by_Gaspar_Bouttats.jpg",
     "referencePreparation": {
       "crop": {
-        "left": 150,
-        "top": 930,
-        "width": 310,
-        "height": 300
+        "left": 583,
+        "top": 221,
+        "width": 96,
+        "height": 121
       },
       "resize": [
-        400,
-        500
+        600,
+        750
       ],
       "fit": "contain",
-      "rotate": 135
-    }
+      "face": {
+        "x": 0.18,
+        "y": 0.22,
+        "width": 0.57,
+        "height": 0.59
+      }
+    },
+    "portraitNote": "Pormenor da figura suspensa, comparado com a gravura de Melchior Küsel que identifica Nicolau Owen."
   },
   {
     "id": "edmundo-campion",
@@ -1347,22 +1392,26 @@
     "licenseKind": "pd",
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
     "questionAttribution": "Pergunta original proposta para esta experiência; não é uma citação do santo.",
-    "verifiedOn": "2026-10-27",
-    "imageChanges": "Recorte e redimensionamento do rosto identificado na obra completa; sem geração ou alteração por IA.",
+    "verifiedOn": "2026-11-12",
+    "imageChanges": "Recorte e redimensionamento para 600 × 750 píxeis, sem alterar as feições.",
     "portraitNote": "Representação artística identificada na fonte. Não é uma autenticação da aparência física da pessoa.",
     "imageSource": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E6%B5%A6%E3%82%B8%E3%83%A5%E3%83%AA%E3%82%A2%E3%83%B3%E8%82%96%E5%83%8F%E7%94%BB_%E3%82%A2%E3%83%B3%E3%83%96%E3%83%AD%E3%82%B8%E3%82%A2%E3%83%BC%E3%83%8A%E5%9B%B3%E6%9B%B8%E9%A4%A8%E8%94%B5.jpg",
     "imageCollection": "Biblioteca Ambrosiana, Milão; Wikimedia Commons",
-    "position": "50% 38%",
+    "position": "50% 40%",
     "imagePath": "../source-portraits/juliao-nakaura.jpg",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/%E4%B8%AD%E6%B5%A6%E3%82%B8%E3%83%A5%E3%83%AA%E3%82%A2%E3%83%B3%E8%82%96%E5%83%8F%E7%94%BB_%E3%82%A2%E3%83%B3%E3%83%96%E3%83%AD%E3%82%B8%E3%82%A2%E3%83%BC%E3%83%8A%E5%9B%B3%E6%9B%B8%E9%A4%A8%E8%94%B5.jpg",
     "referencePreparation": {
-      "crop": null,
+      "crop": {
+        "left": 94,
+        "top": 182,
+        "width": 432,
+        "height": 540
+      },
       "resize": [
-        700,
-        900
+        600,
+        750
       ],
-      "fit": "inside",
-      "rotate": 0
+      "fit": "contain"
     }
   },
   {

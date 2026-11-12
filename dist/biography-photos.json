@@ -366,6 +366,23 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:P._Josephus_Pignatelli,_PA01865.jpg",
       "commonsTitle": "File:P. Josephus Pignatelli, PA01865.jpg",
       "verifiedOn": "2026-10-23"
+    },
+    {
+      "image": "./assets/biography/jose-pignatelli-2.jpg",
+      "captions": {
+        "pt": "José Pignatelli na gravura publicada por Alfred Hamy em 1893.",
+        "es": "José Pignatelli en el grabado publicado por Alfred Hamy en 1893.",
+        "fr": "Joseph Pignatelli dans la gravure publiée par Alfred Hamy en 1893.",
+        "en": "Joseph Pignatelli in the engraving published by Alfred Hamy in 1893.",
+        "ko": "알프레드 아미가 1893년에 출판한 판화 속 요셉 피냐텔리."
+      },
+      "author": "Reprodução: Grentidez",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Joseph_Pignatelli_(1737-1811).jpg",
+      "commonsTitle": "File:Joseph Pignatelli (1737-1811).jpg",
+      "cropped": true,
+      "verifiedOn": "2026-11-12"
     }
   ],
   "andre-bobola": [
@@ -462,18 +479,19 @@
     {
       "image": "./assets/biography/jose-maria-rubio-1.jpg",
       "captions": {
-        "pt": "Outra representação de José Maria Rubio.",
-        "es": "Otra representación de José María Rubio.",
-        "fr": "Une autre représentation de José María Rubio.",
-        "en": "Another representation of José María Rubio.",
-        "ko": "호세 마리아 루비오의 또 다른 모습."
+        "pt": "Fotografia histórica de José Maria Rubio.",
+        "es": "Fotografía histórica de José María Rubio.",
+        "fr": "Photographie historique de José María Rubio.",
+        "en": "Historical photograph of José María Rubio.",
+        "ko": "호세 마리아 루비오의 역사적 사진."
       },
-      "author": "Fran Hernández",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Jos%C3%A9_Mar%C3%ADa_Rubio_S.J.jpg",
-      "commonsTitle": "File:San José María Rubio S.J.jpg",
-      "verifiedOn": "2026-10-23"
+      "author": "Reprodução: Grentidez",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Rubio_(1864-1929).jpg",
+      "commonsTitle": "File:José Rubio (1864-1929).jpg",
+      "cropped": true,
+      "verifiedOn": "2026-11-12"
     }
   ],
   "inacio-azevedo": [
@@ -657,18 +675,19 @@
     {
       "image": "./assets/biography/paulo-miki-1.jpg",
       "captions": {
-        "pt": "Estátua de Paulo Miki.",
-        "es": "Estatua de Pablo Miki.",
-        "fr": "Statue de Paul Miki.",
-        "en": "Statue of Paul Miki.",
-        "ko": "바오로 미키의 조각상."
+        "pt": "Paulo Miki na pintura da Catedral de Salvador.",
+        "es": "Pablo Miki en la pintura de la Catedral de Salvador.",
+        "fr": "Paul Miki dans la peinture de la cathédrale de Salvador.",
+        "en": "Paul Miki in the Salvador Cathedral painting.",
+        "ko": "사우바도르 대성당 그림 속 바오로 미키."
       },
-      "author": "Photo: Andreas Praefcke",
-      "license": "CC BY 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bamberg_St_Martin_Figur_Paul_Miki.jpg",
-      "commonsTitle": "File:Bamberg St Martin Figur Paul Miki.jpg",
-      "verifiedOn": "2026-10-23"
+      "author": "Paul R. Burley (fotografia); pintor não identificado",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catedral_Bas%C3%ADlica_de_Salvador_Sacristy_Ceiling-0702.jpg",
+      "commonsTitle": "File:Catedral Basílica de Salvador Sacristy Ceiling-0702.jpg",
+      "cropped": true,
+      "verifiedOn": "2026-11-12"
     },
     {
       "image": "./assets/biography/paulo-miki-2.jpg",
@@ -703,6 +722,22 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edward_Oldcorne%3B_Nicholas_Owen_by_Gaspar_Bouttats.jpg",
       "commonsTitle": "File:Edward Oldcorne; Nicholas Owen by Gaspar Bouttats.jpg",
       "verifiedOn": "2026-10-23"
+    },
+    {
+      "image": "./assets/biography/nicolau-owen-2.jpg",
+      "captions": {
+        "pt": "Nicolau Owen numa gravura publicada por Mathias Tanner em 1675.",
+        "es": "Nicolás Owen en un grabado publicado por Mathias Tanner en 1675.",
+        "fr": "Nicolas Owen dans une gravure publiée par Mathias Tanner en 1675.",
+        "en": "Nicholas Owen in an engraving published by Mathias Tanner in 1675.",
+        "ko": "마티아스 타너가 1675년에 출판한 판화 속 니콜라스 오언."
+      },
+      "author": "Melchior Küsel, em Mathias Tanner (1675)",
+      "license": "Domínio público (Wikimedia Commons)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nicholas_Owen_in_the_manacles.jpg",
+      "commonsTitle": "File:Nicholas Owen in the manacles.jpg",
+      "verifiedOn": "2026-11-12"
     }
   ],
   "edmundo-campion": [
@@ -937,18 +972,18 @@
     {
       "image": "./assets/biography/juliao-nakaura-1.jpg",
       "captions": {
-        "pt": "Retrato de Julião Nakaura jovem, conservado na Biblioteca Ambrosiana.",
-        "es": "Retrato de Julián Nakaura joven, conservado en la Biblioteca Ambrosiana.",
-        "fr": "Portrait du jeune Julien Nakaura conservé à la bibliothèque Ambrosienne.",
-        "en": "Portrait of the young Julian Nakaura, held by the Ambrosian Library.",
-        "ko": "암브로시아나 도서관에 소장된 젊은 줄리앙 나카우라의 초상."
+        "pt": "A embaixada japonesa na Europa em 1586, com Julião Nakaura no canto superior esquerdo.",
+        "es": "La embajada japonesa en Europa en 1586, con Julián Nakaura arriba a la izquierda.",
+        "fr": "L’ambassade japonaise en Europe en 1586, avec Julien Nakaura en haut à gauche.",
+        "en": "The Japanese embassy in Europe in 1586, with Julian Nakaura at the upper left.",
+        "ko": "1586년 유럽을 방문한 일본 사절단. 왼쪽 위는 줄리앙 나카우라."
       },
-      "author": "Autor não identificado; reprodução: 小佐々學",
+      "author": "Newe Zeyttung, Augsburgo, 1586; Universidade de Quioto",
       "license": "Domínio público (Wikimedia Commons)",
       "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E6%B5%A6%E3%82%B8%E3%83%A5%E3%83%AA%E3%82%A2%E3%83%B3%E8%82%96%E5%83%8F%E7%94%BB_%E3%82%A2%E3%83%B3%E3%83%96%E3%83%AD%E3%82%B8%E3%82%A2%E3%83%BC%E3%83%8A%E5%9B%B3%E6%9B%B8%E9%A4%A8%E8%94%B5.jpg",
-      "commonsTitle": "File:中浦ジュリアン肖像画 アンブロジアーナ図書館蔵.jpg",
-      "verifiedOn": "2026-10-27"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:First_Japanese_Embassy_to_Europe_1586.png",
+      "commonsTitle": "File:First Japanese Embassy to Europe 1586.png",
+      "verifiedOn": "2026-11-12"
     },
     {
       "author": "小佐佐學 (fotografia)",

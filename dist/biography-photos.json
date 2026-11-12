@@ -495,19 +495,20 @@
     },
     {
       "image": "./assets/biography/inacio-azevedo-2.jpg",
-      "captions": {
-        "pt": "Representação de Inácio de Azevedo e dos seus companheiros mártires.",
-        "es": "Representación de Ignacio de Azevedo y sus compañeros mártires.",
-        "fr": "Représentation de Ignace de Azevedo et de ses compagnons martyrs.",
-        "en": "Representation of Ignatius de Azevedo and his fellow martyrs.",
-        "ko": "이냐시오 데 아제베두와 동료 순교자들을 그린 작품."
-      },
-      "author": "Luigi Banzo",
+      "author": "Karel Skréta (delineavit), Melchoir Küsel (fecit)",
       "license": "Domínio público (Wikimedia Commons)",
       "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bem-Aventurado_In%C3%A1cio_de_Azevedo_e_seus_39_Companheiros,_M%C3%A1rtires_do_Brasil.png",
-      "commonsTitle": "File:Bem-Aventurado Inácio de Azevedo e seus 39 Companheiros, Mártires do Brasil.png",
-      "verifiedOn": "2026-10-23"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:P._Ignatius_Azevedius_S._I._Illustrissim%C3%A2_Lusitaniae_famili%C3%A2_oriundus,_in_itinere_Brasilo_%C3%A0_Calvinistis_pro_Catholica_Religione_mari_demers_(1675,_Karel_Skr%C3%A9ta_delineavit,_Melchoir_K%C3%BCsel_fecit)_-_John_Carter_Brown_Library.png",
+      "commonsTitle": "File:P. Ignatius Azevedius S. I. Illustrissimâ Lusitaniae familiâ oriundus, in itinere Brasilo à Calvinistis pro Catholica Religione mari demers (1675, Karel Skréta delineavit, Melchoir Küsel fecit) - John Carter Brown Library.png",
+      "cropped": true,
+      "verifiedOn": "2026-11-12",
+      "captions": {
+        "pt": "Inácio de Azevedo numa gravura de 1675.",
+        "es": "Ignacio de Azevedo en un grabado de 1675.",
+        "fr": "Ignace de Azevedo dans une gravure de 1675.",
+        "en": "Ignatius of Azevedo in a 1675 engraving.",
+        "ko": "1675년 판화 속 이냐시오 데 아제베두."
+      }
     }
   ],
   "francisco-garate": [

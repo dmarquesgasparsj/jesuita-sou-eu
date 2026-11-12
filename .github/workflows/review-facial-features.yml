@@ -1,4 +1,4 @@
-name: Rever retratos e comparação
+name: Preparar referências faciais
 on:
   push:
     branches: [review-facial-features-20261112]
@@ -14,10 +14,10 @@ jobs:
           node-version: '24'
           package-manager-cache: false
       - run: npm install --no-save --package-lock=false sharp
-      - run: node scripts/review-azevedo.cjs
+      - run: node scripts/rebuild-tone-references.cjs
       - run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add .review/azevedo
-          git commit -m 'Preparar opções do retrato de Inácio de Azevedo'
+          git add dist/assets dist/gallery.json dist/biography-photos.json scripts/descriptors scripts/portrait-sources.json source-portraits/inacio-azevedo.jpg .review/azevedo/final-crop.json
+          git commit -m 'Preparar retrato de Azevedo e referências em luminância'
           git push origin HEAD:review-facial-features-20261112

@@ -1,0 +1,259 @@
+{
+  "corpus": {
+    "source": "https://github.com/unitedstates/images",
+    "revision": "aec3e4a88af843b282c0576f420b930f6a9a46ad",
+    "inputs": [
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/C001109.jpg",
+        "sha256": "f5f00db2a101dca139c7f7b08b38edb1b65a65116037b1d0a65149a9581e9be2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/E000092.jpg",
+        "sha256": "872378fbb839b124ed1e36c59ae18f0689ae57b49e796074d536468ddc19c486"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/C001075.jpg",
+        "sha256": "cee75ff9e66525070d509cbb084e5fb56d31970f18612abf1525529673d9a513"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/D000530.jpg",
+        "sha256": "6df5e64fb16c6f5742f8bd029204a00b1f501ed28d6aa2a2dace43580dceb483"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/M001187.jpg",
+        "sha256": "c2a9d1e7aa5e861871195718ff09b58ed0ae41b2e1b9a15dd57b31ceaa750dee"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/M001217.jpg",
+        "sha256": "8b2aaabbc49e10785716468fa6f8f2a439e8f94e5f2c3fc62729f96477de9eb6"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/M001184.jpg",
+        "sha256": "544c62435ff5a5f9e8a360f7e38ac295bb9c75fc657b85765d784608f730f10e"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/S001178.jpg",
+        "sha256": "0f1d910ae8c4d37f6966913a80731c1b07545c132df5de828a7288c73aa47fb2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/D000216.jpg",
+        "sha256": "c1bb8e67679f9dfb3b3ea51a097b2793c957dfbf77c86b81f965be08fb42be14"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/C000858.jpg",
+        "sha256": "208238411896a431da105816de7249825ebee7bb7a3c49ea00f13142b1967764"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/C001087.jpg",
+        "sha256": "58d623e6aec4ca94475c84e1473160093e49bf112ad33c42690f9ae1a699a5c9"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/R000582.jpg",
+        "sha256": "0cfeeae280ac721f3300daa775f359aa71c18435536103ba947403791a635a5c"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/H001005.jpg",
+        "sha256": "e6a949ae1487cca8c33d79aafde49da46ba3b515dbaa3bbe0e6733240a58f9d4"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/L000597.jpg",
+        "sha256": "e923ef3d72f1e042f38d1ab75f367a52cfeffc2f3d1004e2f1ff334761eac989"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/B001280.jpg",
+        "sha256": "4ee0fe4383506d3e41dd4249f8343949e5b87cbdfbe9707456acde81d373559f"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/C001134.jpg",
+        "sha256": "24720e33f8531dc5977ea4cb304b96a3c8c9efa3fb4845d759b27862be418f8b"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/R000594.jpg",
+        "sha256": "ee3c60aff004d4448b6fce5bd6883ba16efbc5b8a6a9f072e4f06ec5590de515"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/K000371.jpg",
+        "sha256": "f565f9f250c752ec4f178b962921a6d82e0d2d14963b4d1d19daafecf33ce8e6"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/C001121.jpg",
+        "sha256": "5e97f6d3fd1ab3cee9cb5bb86277aa2250402c41a00b43504cafc8cc900b660b"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/P000618.jpg",
+        "sha256": "1cdbc300da2f5b35721c3d26f597e37e968fe5e2ad00c8a1a13ed7a468428eb8"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/B001257.jpg",
+        "sha256": "c46f5369e4cb27080a1094360dce93a45ff12e6e9db1040e81daefc764d4d0b6"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/C000243.jpg",
+        "sha256": "67d90307c8ab373ee8f1f3c495fcb96afb402273170090e64fec68719b2b0785"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/B001301.jpg",
+        "sha256": "caa0988847c652b2ff5dd0c79794cb8fa21bd13bff70c405fd84b3c935d89f79"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/F000446.jpg",
+        "sha256": "1425201e3dbf43d0632f374e0bff751f5ddab84d8e4c97588f684e540a64c43c"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/D000627.jpg",
+        "sha256": "813435ef3c9e1f9d036bedd40692123eedee48ff70669a80b1f63a84906e4dbb"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/T000486.jpg",
+        "sha256": "a8ef8e09adbf4646277e7352a4824099419bea731e3bbc28ccceaf645f02e9db"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/C001046.jpg",
+        "sha256": "cec1299f512964af5d6b2a690725b2d2c3d3855de8fcc2dac96da2e11b9ac85c"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/B000420.jpg",
+        "sha256": "6bcd7836605b8ddad5bea2c395d4cc8fe746fdae599c7b0febd8fee06b44178e"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/F000061.jpg",
+        "sha256": "bdc41ead98f3c48863e86020b0fd23b25f6a6e5531ae9ebf4d1a65728887c1af"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/D000136.jpg",
+        "sha256": "884c2d44646804daffc64564fdb1147e77b6925f16a58e007fb4b66882b2e1fe"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/I000056.jpg",
+        "sha256": "0c685a939fb757e63ff588b37e6ca56a3a4640445cafe0b3da6c8cc87a0562ba"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/F000471.jpg",
+        "sha256": "d51078b08988efff3376b5c9b8bfeec29f2aa1f0f3cd9a6922bdb079336474c2"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/V000133.jpg",
+        "sha256": "c92efb82fe8b9c7c1d33412d20bd4b7fdc19d3a32f96c9d21418f37e90c8af30"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/J000305.jpg",
+        "sha256": "c3a4736f7c49a46ec8c056619fd07da515fde99053510ad4dd7a4ddc6ada8831"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/U000040.jpg",
+        "sha256": "64c163542c758cbc62849ccecaa73a5c0a91e8e322d0c100a05dc0b90bb4e24b"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/A000366.jpg",
+        "sha256": "30490ed2eefb535fd58f389f692a965f804bf40205b129264580e5cdd4ae4925"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/M000355.jpg",
+        "sha256": "dc7993304e93d4f9fd345024b98560372f13668881cf1df4e02f6dbec56ff580"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/J000299.jpg",
+        "sha256": "f09dfc4fa02982a0556f67a04eb934698f02fb3bd016cee370d02dec9887b106"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/B001210.jpg",
+        "sha256": "c4df6cefce0a91b2734a5bcde39968674b46320fb1dd28fb4c5bbcc1a8edcc59"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/A000376.jpg",
+        "sha256": "c1fdbefa2a65a7c1237d23084e9602c5278f2f9eb38fccc7f94a4694d5caffdf"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/M001158.jpg",
+        "sha256": "03974a432078fca8165301441305b1545a16b5cac4629a1eef61e4743b218e52"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/S000937.jpg",
+        "sha256": "ab621019d31bf825f49f5378a05ab4907888fcf5191ee268bd0c57d063d1d30a"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/B001135.jpg",
+        "sha256": "cd6ed811d9810110d5b2470e81db771837f655c483ea884fd9dbfd31ede9f630"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/C001081.jpg",
+        "sha256": "5e4d566f9c470678a41998888366001929295cb1e171ae6ff4901e92ee39f50e"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/P000590.jpg",
+        "sha256": "a7cab75fbc79c881c94cbf33a76236d52b8aad9e81fac2ab5f74920c0772703e"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/S001163.jpg",
+        "sha256": "94b3ed14d03a0f5c8922030e647d4e7530bd78784ad53e9daf6250277c6cc805"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/D000388.jpg",
+        "sha256": "1a1086f25cf0b65165c56b7792a4983c172562428caa226003c98d11b2a2c7c8"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/L000480.jpg",
+        "sha256": "c6aaecf9dbc569589fb267c6d0d12a1969dcbeb8db43995062120c693651506a"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/T000238.jpg",
+        "sha256": "0c490da274b229e6061ec123408406ca5025b1c59747293e631a705af5b6bfee"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/unitedstates/images/aec3e4a88af843b282c0576f420b930f6a9a46ad/congress/450x550/T000481.jpg",
+        "sha256": "a07e0ee808576b9e26385f963c02752f5da6635cf332cdca980a68a2b90bbc29"
+      }
+    ],
+    "count": 50
+  },
+  "uploads": {
+    "completed": 50,
+    "rejected": 0,
+    "clean": true,
+    "backend": "webgl",
+    "distinctResults": 19,
+    "results": {
+      "Estanislau Kostka": 4,
+      "Sebastião Kimura": 9,
+      "Diogo Kisai": 1,
+      "André Bobola": 4,
+      "João Beyzym": 6,
+      "Francisco de Borja": 1,
+      "Rutilio Grande": 1,
+      "José de Anchieta": 1,
+      "Julien Maunoir": 3,
+      "Pedro Claver": 6,
+      "Inácio de Loyola": 1,
+      "João de Brito": 2,
+      "Paulo Miki": 2,
+      "John Sullivan": 1,
+      "Alberto Hurtado": 1,
+      "Francisco Gárate": 1,
+      "Cláudio de la Colombière": 4,
+      "Miguel de Carvalho": 1,
+      "Pedro Kasui Kibe": 1
+    },
+    "p50Ms": 1596,
+    "p95Ms": 2048,
+    "tensorsAfter10": 185,
+    "tensorsAfter25": 185,
+    "tensorsAfter50": 185
+  },
+  "camera": {
+    "attempted": 15,
+    "completed": 15,
+    "clean": true,
+    "tensorsFirst": 185,
+    "tensorsLast": 185
+  },
+  "lighting": {
+    "pairs": 12,
+    "baselineSameFirst": 9,
+    "newSameFirst": 10,
+    "baselineRejected": 0,
+    "newRejected": 0
+  },
+  "issues": [],
+  "outgoing": [],
+  "blankRejectedAndRecovered": true
+}
